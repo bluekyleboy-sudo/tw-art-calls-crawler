@@ -18,3 +18,5 @@ jobs:
           SHEET_ID: ${{ secrets.SHEET_ID }}
           SHEET_NAME: ${{ secrets.SHEET_NAME }}
         run: python run.py
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium   # ← 加這行（有用到 js=True 才需要）
