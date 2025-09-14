@@ -2,3 +2,8 @@ gspread
 google-auth
 pandas
 gspread-dataframe
+httpx
+playwright
+beautifulsoup4
+lxml
+dateparser
