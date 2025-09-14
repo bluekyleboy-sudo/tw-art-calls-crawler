@@ -1,12 +1,12 @@
 import asyncio
 from sheets_writer import upsert_rows
 
-# 把你要跑的來源加進來
-from scrapers import example_html, example_js
+from scrapers import tasa_tw, moc_artres, artemperor
 
 SCRAPERS = [
-    example_html.run,
-    example_js.run,
+    tasa_tw.run,
+    moc_artres.run,
+    artemperor.run,
 ]
 
 async def main():
@@ -14,9 +14,10 @@ async def main():
     for s in SCRAPERS:
         try:
             rows = await s()
+            print(f"[OK] {s.__module__}: {len(rows)} rows")
             all_rows.extend(rows)
         except Exception as e:
-            print(f"[WARN] scraper error: {s.__module__} -> {e}")
+            print(f"[WARN] {s.__module__} -> {e}")
 
     if not all_rows:
         print("No rows scraped today.")
