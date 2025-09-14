@@ -1,13 +1,9 @@
+# run.py
 import asyncio
 from sheets_writer import upsert_rows
-
 from scrapers import tasa_tw, moc_artres, artemperor
 
-SCRAPERS = [
-    tasa_tw.run,
-    moc_artres.run,
-    artemperor.run,
-]
+SCRAPERS = [tasa_tw.run, moc_artres.run, artemperor.run]
 
 async def main():
     all_rows = []
@@ -24,7 +20,7 @@ async def main():
         return
 
     upsert_rows(all_rows)
-    print(f"Wrote {len(all_rows)} rows to Google Sheet.")
+    print(f"[DONE] wrote {len(all_rows)} rows")
 
 if __name__ == "__main__":
     asyncio.run(main())
