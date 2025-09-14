@@ -1,28 +1,29 @@
-# 這個檔先不接爬蟲；只是測試能否寫入 Google Sheet
-from datetime import datetime, timedelta, timezone
-import hashlib
-
+import asyncio
 from sheets_writer import upsert_rows
 
-def make_hash(title, source, link):
-    s = f"{title}|{source}|{link}"
-    return hashlib.sha256(s.encode("utf-8")).hexdigest()
+# 把你要跑的來源加進來
+from scrapers import example_html, example_js
 
-now = datetime.now(timezone(timedelta(hours=8)))
-deadline = (now + timedelta(days=7)).isoformat()
+SCRAPERS = [
+    example_html.run,
+    example_js.run,
+]
 
-demo_row = {
-    "title": "（示範）藝術補助徵件",
-    "organization": "DEMO 單位",
-    "category": "補助/徵件",
-    "location": "Taiwan",
-    "deadline": deadline,
-    "link": "https://example.com/call",
-    "source": "demo",
-    "posted_at": now.isoformat(),
-    "scraped_at": now.isoformat(),
-    "hash": make_hash("（示範）藝術補助徵件", "demo", "https://example.com/call")
-}
+async def main():
+    all_rows = []
+    for s in SCRAPERS:
+        try:
+            rows = await s()
+            all_rows.extend(rows)
+        except Exception as e:
+            print(f"[WARN] scraper error: {s.__module__} -> {e}")
+
+    if not all_rows:
+        print("No rows scraped today.")
+        return
+
+    upsert_rows(all_rows)
+    print(f"Wrote {len(all_rows)} rows to Google Sheet.")
 
 if __name__ == "__main__":
-    upsert_rows([demo_row])
+    asyncio.run(main())
