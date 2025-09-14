@@ -30,7 +30,7 @@ async def _scrape_detail(link):
     return None
 
 async def run():
-    html = await fetch_html(URL, js=False)
+    html = await fetch_html(URL, js=True)
     soup = BeautifulSoup(html, "lxml")
     rows, seen = [], set()
 
