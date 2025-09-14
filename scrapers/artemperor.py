@@ -8,45 +8,45 @@ BASE = "https://artemperor.tw"
 URL  = "https://artemperor.tw/resources"
 SOURCE = "artemperor"
 
-# 該頁通常是資源列表（包含徵件/補助），用純 HTML 抓取，若未載到可改 js=True
-async def run():
-    html = await fetch_html(URL, js=False)
-    soup = BeautifulSoup(html, "lxml")
-    rows = []
+KEYS = ["徵件", "補助", "申請", "Open Call", "徵選", "駐村", "展覽", "招募", "截止", "收件", "至", "Deadline"]
 
-    # 嘗試多種常見容器
-    blocks = soup.select(".resource-item, .list-item, article, .card, .item, li")
+async def run():
+    # 這頁有時候也靠 JS，保守起見 js=True 並等待列表 a 出現
+    html = await fetch_html(URL, js=True, wait_selector="a[href*='/resources/']")
+    soup = BeautifulSoup(html, "lxml")
+    rows, seen = [], set()
+
+    blocks = soup.select(".resource-item, .list-item, article, .card, .item, li, .resources a[href]")
     if not blocks:
-        blocks = soup.find_all(["article","div","li"])
+        blocks = soup.find_all(["article","div","li","a"])
 
     for b in blocks:
-        a = b.select_one("a[href]")
+        a = b if b.name == "a" else b.select_one("a[href]")
         if not a:
             continue
+        href = a.get("href","")
+        if "/resources/" not in href:
+            continue
         title = a.get_text(strip=True)
-        if not title:
+        link  = urljoin(BASE, href)
+        if not title or link in seen:
             continue
-        link = urljoin(BASE, a["href"])
+        seen.add(link)
 
-        # 過濾非資源/徵件：若該塊沒有「徵件/補助/申請/展覽」等字就跳過（寬鬆）
-        text_all = b.get_text(" ", strip=True)
-        if not any(k in text_all for k in ["徵件","補助","申請","Open Call","徵選","駐村","展覽", "藝術家招募"]):
-            # 可能是其他分類導覽，略過
+        text_all = (b.get_text(" ", strip=True) if b.name != "a" else title) or ""
+        if not any(k in text_all for k in KEYS):
+            # 很可能是分類或導覽，不像徵件/資源，略過
             continue
 
-        # 抓日期/截止字串
         deadline_text = None
-        for sel in [".deadline", ".date", ".meta", "time"]:
-            node = b.select_one(sel)
-            if node:
-                t = node.get_text(" ", strip=True)
-                if any(k in t for k in ["截止","收件","至","Deadline","申請期限","申請時間"]):
-                    deadline_text = t
-                    break
-        if not deadline_text:
-            # 就近用整塊文字
-            if any(k in text_all for k in ["截止","收件","至","Deadline","申請期限","申請時間"]):
-                deadline_text = text_all
+        for sel in [".deadline", ".date", ".meta", "time", "p", "span"]:
+            n = (b.select_one(sel) if hasattr(b, "select_one") else None)
+            if n:
+                t = n.get_text(" ", strip=True)
+                if any(k in t for k in KEYS):
+                    deadline_text = t; break
+        if not deadline_text and any(k in text_all for k in KEYS):
+            deadline_text = text_all
 
         item = normalize({
             "title": title,
@@ -59,5 +59,5 @@ async def run():
         })
         item["hash"] = make_hash(item["title"], item["source"], item["link"])
         rows.append(item)
-
+    print(f"[DEBUG] {SOURCE}: {len(rows)}")
     return rows
