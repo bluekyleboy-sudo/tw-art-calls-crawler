@@ -8,42 +8,40 @@ BASE = "https://artres.moc.gov.tw"
 URL  = "https://artres.moc.gov.tw/zh/calls/list"
 SOURCE = "moc_artres"
 
-# 這站通常有 JS 動態產生卡片，直接用 js=True
-async def run():
-    html = await fetch_html(URL, js=True)
-    soup = BeautifulSoup(html, "lxml")
-    rows = []
+KEYS = ["截止", "收件", "申請期限", "申請時間", "至", "Deadline"]
 
-    # 常見卡片容器：.call-card / .card / .item 之類，盡量寬鬆
-    cards = soup.select(".call, .card, .item, .list-item, .result-item, .calls-list .item")
+async def run():
+    # 需要 JS，等到卡片出現
+    html = await fetch_html(URL, js=True, wait_selector="a[href*='/zh/calls/']")
+    soup = BeautifulSoup(html, "lxml")
+    rows, seen = [], set()
+
+    # 盡量廣撈，之後去重
+    cards = soup.select(".card, .item, .list-item, .result-item, .calls-list .item, article, li")
     if not cards:
-        # 後備：找所有含連結與「申請/駐村/徵件」關鍵詞的塊
-        cards = [d for d in soup.find_all("div") if d.find("a") and any(
-            k in d.get_text(" ", strip=True) for k in ["駐村","徵件","申請","Open Call","徵選"]
-        )]
+        cards = soup.find_all(["div","article","li"])
 
     for c in cards:
-        a = c.select_one("a[href]")
-        if not a:
+        a = c.select_one("a[href*='/zh/calls/']")
+        if not a: 
             continue
         title = a.get_text(strip=True)
-        if not title:
+        link  = urljoin(BASE, a["href"])
+        if not title or link in seen:
             continue
-        link = urljoin(BASE, a["href"])
+        seen.add(link)
 
-        # 取日期/截止資訊：常見 class 或文字關鍵
+        # 卡片周圍找截止字串
         deadline_text = None
-        for sel in [".deadline", ".date", ".time", ".info", ".meta", "time"]:
-            node = c.select_one(sel)
-            if node:
-                t = node.get_text(" ", strip=True)
-                if any(k in t for k in ["截止","收件","至","Deadline","申請期限","申請時間"]):
-                    deadline_text = t
-                    break
+        for sel in [".deadline", ".date", ".time", ".info", ".meta", "time", ".text", "p", "span"]:
+            n = c.select_one(sel)
+            if n:
+                t = n.get_text(" ", strip=True)
+                if any(k in t for k in KEYS):
+                    deadline_text = t; break
         if not deadline_text:
-            # 搜索整個卡片文字（最後手段）
             t = c.get_text(" ", strip=True)
-            if any(k in t for k in ["截止","收件","至","Deadline","申請期限","申請時間"]):
+            if any(k in t for k in KEYS):
                 deadline_text = t
 
         item = normalize({
@@ -57,5 +55,5 @@ async def run():
         })
         item["hash"] = make_hash(item["title"], item["source"], item["link"])
         rows.append(item)
-
+    print(f"[DEBUG] {SOURCE}: {len(rows)}")
     return rows
