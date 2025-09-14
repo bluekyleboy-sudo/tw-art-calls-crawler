@@ -33,10 +33,10 @@ async def run():
             continue
         seen.add(link)
 
-        # text_all = (b.get_text(" ", strip=True) if b.name != "a" else title) or ""
+        text_all = (b.get_text(" ", strip=True) if b.name != "a" else title) or ""
         # if not any(k in text_all for k in KEYS):
             # 很可能是分類或導覽，不像徵件/資源，略過
-            continue
+            ＃continue
 
         deadline_text = None
         for sel in [".deadline", ".date", ".meta", "time", "p", "span"]:
