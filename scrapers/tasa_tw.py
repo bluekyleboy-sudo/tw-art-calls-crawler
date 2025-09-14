@@ -8,59 +8,59 @@ BASE = "https://tasa-tw.org"
 URL  = "https://tasa-tw.org/news-zh/open-call-zh"
 SOURCE = "tasa_tw"
 
-# 這頁通常是文章列表，可能是 elementor/wordpress 結構
-CANDIDATE_BLOCKS = [
-    "article", ".elementor-post", ".post", ".entry", ".archive-post", ".jet-listing-grid__item"
-]
+KEYS = ["截止", "收件", "申請", "報名", "至", "Deadline"]
 
-def _nearby_deadline_text(block):
-    # 優先找有「截止/收件/至」等字樣
-    txt = block.get_text(" ", strip=True)
-    # 太長就截斷（保留前後 200 字讓 dateparser 有素材）
-    if len(txt) > 400: 
-        return txt[:200]
-    return txt
+def pick_title_and_link(block):
+    for sel in ["h3 a", ".elementor-post__title a", "a[rel='bookmark']", "a[href]"]:
+        a = block.select_one(sel)
+        if a and a.get_text(strip=True):
+            return a.get_text(strip=True), urljoin(BASE, a["href"])
+    return None, None
+
+async def _scrape_detail(link):
+    # 有些截止日在內文才寫，抓到關鍵字就回傳
+    html = await fetch_html(link, js=False)
+    soup = BeautifulSoup(html, "lxml")
+    text = soup.get_text(" ", strip=True)
+    for k in KEYS:
+        if k in text:
+            # 回傳一小段（避免太長）
+            idx = text.find(k)
+            return text[max(0, idx-40): idx+80]
+    return None
 
 async def run():
     html = await fetch_html(URL, js=False)
     soup = BeautifulSoup(html, "lxml")
-    rows = []
+    rows, seen = [], set()
 
-    blocks = []
-    for sel in CANDIDATE_BLOCKS:
-        blocks.extend(soup.select(sel))
+    # 常見 WP/Elementor 結構
+    blocks = soup.select("article, .elementor-post, .jet-listing-grid__item, .entry, .post")
     if not blocks:
         blocks = soup.find_all(["article","div","li"])
 
     for b in blocks:
-        a = b.select_one("a[href]")
-        if not a: 
+        title, link = pick_title_and_link(b)
+        if not title or not link or link in seen:
             continue
-        title = a.get_text(strip=True)
-        if not title:
-            continue
-        link = urljoin(BASE, a["href"])
+        seen.add(link)
 
-        # 抓就近日期/截止字串
         deadline_text = None
-        for cand in [
-            b.select_one("time"), 
-            b.select_one(".date"), 
-            b.select_one(".elementor-post__excerpt"),
-            b
-        ]:
-            if cand:
-                t = cand.get_text(" ", strip=True)
-                if any(k in t for k in ["截止","收件","至","Deadline","申請","投稿","收件至"]):
-                    deadline_text = t
-                    break
+        # 先就近找
+        for sel in ["time", ".date", ".elementor-post__excerpt", ".entry-summary"]:
+            n = b.select_one(sel)
+            if n:
+                t = n.get_text(" ", strip=True)
+                if any(k in t for k in KEYS):
+                    deadline_text = t; break
+        # 不在列表就抓內頁
         if not deadline_text:
-            deadline_text = _nearby_deadline_text(b)
+            deadline_text = await _scrape_detail(link)
 
         item = normalize({
             "title": title,
             "organization": "TASA 台灣聲響藝術",
-            "category": "徵件/開放投稿",
+            "category": "Open Call/徵件",
             "location": "Taiwan",
             "deadline_text": deadline_text,
             "link": link,
@@ -68,4 +68,5 @@ async def run():
         })
         item["hash"] = make_hash(item["title"], item["source"], item["link"])
         rows.append(item)
+    print(f"[DEBUG] {SOURCE}: {len(rows)}")
     return rows
