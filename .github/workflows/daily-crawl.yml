@@ -1,6 +1,3 @@
-- run: pip install -r requirements.txt
-- run: python -m playwright install --with-deps chromium
-
 name: daily-crawl
 on:
   schedule:
