@@ -1,0 +1,20 @@
+name: daily-crawl
+on:
+  schedule:
+    - cron: "0 1 * * *"   # 每天 01:00 UTC 執行 = 台北 09:00
+  workflow_dispatch:       # 允許你手動按鈕觸發
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - env:
+          GCP_SERVICE_ACCOUNT_JSON: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+          SHEET_NAME: ${{ secrets.SHEET_NAME }}
+        run: python run.py
