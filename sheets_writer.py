@@ -33,19 +33,32 @@ def _read_df(ws):
     return df[COLUMNS]
 
 def upsert_rows(rows):
+    """
+    回傳 (inserted, updated)
+    """
     if not rows:
-        return
+        return (0, 0)
+
     client = _client()
     sh = client.open_by_key(os.environ["SHEET_ID"])
-    ws = sh.worksheet(os.environ.get("SHEET_NAME","Calls"))
+    sheet_name = os.environ.get("SHEET_NAME", "Calls")
+
+    from gspread.exceptions import WorksheetNotFound
+    try:
+        ws = sh.worksheet(sheet_name)
+    except WorksheetNotFound:
+        ws = sh.add_worksheet(title=sheet_name, rows=1, cols=len(COLUMNS))
 
     _ensure_header(ws)
     cur = _read_df(ws)
 
     new_df = pd.DataFrame(rows, columns=COLUMNS).fillna("")
+    inserted, updated = 0, 0
+
     if cur.empty:
         ws.append_rows(new_df.values.tolist(), value_input_option="USER_ENTERED")
-        return
+        inserted = len(new_df)
+        return (inserted, updated)
 
     existing = set(cur["hash"].tolist())
     to_insert = new_df[~new_df["hash"].isin(existing)]
@@ -53,6 +66,7 @@ def upsert_rows(rows):
 
     if not to_insert.empty:
         ws.append_rows(to_insert.values.tolist(), value_input_option="USER_ENTERED")
+        inserted = len(to_insert)
 
     if not to_update.empty:
         hash_to_row = {h: i+2 for i, h in enumerate(cur["hash"].tolist())}
@@ -66,3 +80,6 @@ def upsert_rows(rows):
             updates.append({"range": rng, "values": [r.tolist()]})
         if updates:
             ws.batch_update(updates, value_input_option="USER_ENTERED")
+            updated = len(updates)
+
+    return (inserted, updated)
