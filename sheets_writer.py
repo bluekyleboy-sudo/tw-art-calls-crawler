@@ -1,5 +1,4 @@
-# sheets_writer.py  ← 直接覆蓋這份
-
+# sheets_writer.py
 import os, json
 import gspread
 from google.oauth2.service_account import Credentials
@@ -37,7 +36,7 @@ def _read_df(ws):
     return df[COLUMNS]
 
 def upsert_rows(rows):
-    """回傳 (inserted, updated)"""
+    """把 rows 寫入試算表，回傳 (inserted, updated)"""
     if not rows:
         return (0, 0)
 
@@ -51,7 +50,7 @@ def upsert_rows(rows):
     except WorksheetNotFound:
         ws = sh.add_worksheet(title=sheet_name, rows=1, cols=len(COLUMNS))
 
-    # 這一行是你要的：印出實際被寫入的分頁連結
+    # 印出實際寫入的分頁連結
     print(f"[SHEET] url=https://docs.google.com/spreadsheets/d/{os.environ['SHEET_ID']}/edit#gid={ws.id}, tab={ws.title}")
 
     _ensure_header(ws)
@@ -64,12 +63,13 @@ def upsert_rows(rows):
         ws.append_rows(new_df.values.tolist(), value_input_option="USER_ENTERED")
         return (len(new_df), 0)
 
+    # 與既有資料比對 hash，避免重複
     existing = set(cur["hash"].tolist())
     to_insert = new_df[~new_df["hash"].isin(existing)]
     to_update = new_df[new_df["hash"].isin(existing)]
 
     if not to_insert.empty:
-        ws.append_rows(to_insert.values.tolist(), value_input_option="USER_INPUT")
+        ws.append_rows(to_insert.values.tolist(), value_input_option="USER_ENTERED")
         inserted = len(to_insert)
 
     if not to_update.empty:
