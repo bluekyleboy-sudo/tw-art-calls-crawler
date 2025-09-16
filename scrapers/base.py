@@ -2,7 +2,11 @@
 import httpx, asyncio
 from playwright.async_api import async_playwright
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (crawler for personal research)"}
+HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+  "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8"
+}
+
 
 async def fetch_html(url: str, js: bool=False, wait_selector: str|None=None, timeout: int=45_000) -> str:
     if not js:
