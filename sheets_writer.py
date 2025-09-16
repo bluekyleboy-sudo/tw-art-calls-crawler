@@ -1,10 +1,13 @@
+# sheets_writer.py
 import os, json
 import gspread
 from google.oauth2.service_account import Credentials
 import pandas as pd
+from gspread.exceptions import WorksheetNotFound
 
-COLUMNS = ["title","organization","category","location","deadline",
-           "link","source","posted_at","scraped_at","hash"]
+COLUMNS = ["title","organization","category","location",
+           "start_date","deadline_date",
+           "deadline","link","source","posted_at","scraped_at","hash"]
 
 def _client():
     info = json.loads(os.environ["GCP_SERVICE_ACCOUNT_JSON"])
@@ -33,9 +36,7 @@ def _read_df(ws):
     return df[COLUMNS]
 
 def upsert_rows(rows):
-    """
-    回傳 (inserted, updated)
-    """
+    """回傳 (inserted, updated)"""
     if not rows:
         return (0, 0)
 
@@ -43,7 +44,6 @@ def upsert_rows(rows):
     sh = client.open_by_key(os.environ["SHEET_ID"])
     sheet_name = os.environ.get("SHEET_NAME", "Calls")
 
-    from gspread.exceptions import WorksheetNotFound
     try:
         ws = sh.worksheet(sheet_name)
     except WorksheetNotFound:
@@ -57,8 +57,7 @@ def upsert_rows(rows):
 
     if cur.empty:
         ws.append_rows(new_df.values.tolist(), value_input_option="USER_ENTERED")
-        inserted = len(new_df)
-        return (inserted, updated)
+        return (len(new_df), 0)
 
     existing = set(cur["hash"].tolist())
     to_insert = new_df[~new_df["hash"].isin(existing)]
@@ -74,7 +73,7 @@ def upsert_rows(rows):
         updates = []
         for _, r in to_update.iterrows():
             idx = hash_to_row.get(r["hash"])
-            if not idx:
+            if not idx: 
                 continue
             rng = f"A{idx}:{last_col_letter}{idx}"
             updates.append({"range": rng, "values": [r.tolist()]})
