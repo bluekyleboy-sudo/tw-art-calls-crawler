@@ -3,59 +3,54 @@ from urllib.parse import urljoin
 from scrapers.base import fetch_html
 from pipelines.normalize import normalize
 from pipelines.dedupe import make_hash
+import re
 
 BASE = "https://artres.moc.gov.tw"
-URL = "https://artres.moc.gov.tw/zh/calls/list"
+URL  = "https://artres.moc.gov.tw/zh/calls/list"
 SOURCE = "moc_artres"
-KEYS = ["截止", "收件", "申請期限", "申請時間", "Deadline", "至", "Open Call", "駐村", "徵選"]
+KEYS = ["截止","收件","申請期限","申請時間","Deadline","至","Open Call","駐村","徵選"]
+def _kw(s): return any(k in (s or "") for k in KEYS)
+DATE_RE = re.compile(r"(20\d{2}[./-]\d{1,2}[./-]\d{1,2}(?:\s*\d{1,2}:\d{2})?)")
 
-def _kw(text: str) -> bool:
-    return any(k in (text or "") for k in KEYS)
-
-async def _scrape_detail(link: str):
-    html = await fetch_html(link, js=True)
-    soup = BeautifulSoup(html, "lxml")
-    txt = soup.get_text(" ", strip=True)
+async def _detail(link):
+    html = await fetch_html(link, js=False)
+    if not html or len(html) < 200:
+        html = await fetch_html(link, js=True)
+    s = BeautifulSoup(html, "lxml")
+    title = (s.select_one("h1") or s.title)
+    title = title.get_text(strip=True) if title else ""
+    text = s.get_text(" ", strip=True)
+    seg = None
     for k in KEYS:
-        if k in txt:
-            i = txt.find(k)
-            return txt[max(0, i-60): i+120]
-    import re
-    m = re.search(r"(\d{4}[./-]\d{1,2}[./-]\d{1,2}(\s*\d{1,2}:\d{2})?)", txt)
-    return m.group(0) if m else None
+        if k in text:
+            i = text.find(k); seg = text[max(0,i-60): i+140]; break
+    if not seg:
+        m = DATE_RE.search(text); seg = m.group(0) if m else ""
+    return title, seg
 
 async def run():
-    html = await fetch_html(
-        URL, js=True,
-        wait_selector="a[href*='/calls/'], a[href*='/zh/calls/']"
-    )
+    # 純 HTML 找 a，再用 JS 當備援
+    html = await fetch_html(URL, js=False)
     soup = BeautifulSoup(html, "lxml")
-    rows, seen = [], set()
+    a_tags = soup.select("a[href*='/calls/'], a[href*='/zh/calls/']")
+    if not a_tags:
+        html = await fetch_html(URL, js=True)
+        soup = BeautifulSoup(html, "lxml")
+        a_tags = soup.select("a[href*='/calls/'], a[href*='/zh/calls/']")
 
-    # 卡片/列表
-    cards = soup.select("a[href*='/calls/'], a[href*='/zh/calls/']")
-    for a in cards:
-        title = a.get_text(strip=True)
-        href = a.get("href", "")
-        if not title or not href:
-            continue
+    rows, seen = [], set()
+    for a in a_tags:
+        href = a.get("href",""); 
+        if not href: continue
         link = urljoin(BASE, href)
-        if link in seen:
-            continue
+        if "/calls/" not in link: continue
+        if link in seen: continue
         seen.add(link)
 
-        # 嘗試在父層附近找截止訊息
-        deadline_text = None
-        parent = a.find_parent(["div","li","article"]) or a
-        for sel in [".deadline",".date",".time",".info",".meta","time","p","span"]:
-            n = parent.select_one(sel) if hasattr(parent, "select_one") else None
-            if n:
-                t = n.get_text(" ", strip=True)
-                if _kw(t):
-                    deadline_text = t; break
-
-        if not deadline_text:
-            deadline_text = await _scrape_detail(link)
+        title = a.get_text(strip=True)
+        t2, deadline_text = await _detail(link)
+        title = t2 or title
+        if not title: continue
 
         item = normalize({
             "title": title,
