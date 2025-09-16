@@ -7,62 +7,64 @@ from pipelines.dedupe import make_hash
 BASE = "https://tasa-tw.org"
 URL = "https://tasa-tw.org/news-zh/open-call-zh"
 SOURCE = "tasa_tw"
+KEYS = ["截止", "收件", "申請", "報名", "至", "Deadline", "Open Call"]
 
-# 用來偵測截止/申請等關鍵字（拿來抓就近的日期文字或當備援）
-KEYS = ["截止", "收件", "申請", "報名", "至", "Deadline"]
-
-def pick_title_and_link(block):
-    """從列表卡片中找標題與連結"""
-    for sel in ["h3 a", ".elementor-post__title a", "a[rel='bookmark']", "a[href]"]:
-        a = block.select_one(sel)
-        if a and a.get_text(strip=True):
-            return a.get_text(strip=True), urljoin(BASE, a["href"])
-    return None, None
+def _kw(text: str) -> bool:
+    t = (text or "").strip()
+    return any(k in t for k in KEYS)
 
 async def _scrape_detail(link: str):
-    """有些截止日寫在內文；抓內頁回傳包含關鍵字的一小段文字"""
-    html = await fetch_html(link, js=False)
+    html = await fetch_html(link, js=True)
     soup = BeautifulSoup(html, "lxml")
-    text = soup.get_text(" ", strip=True)
+    txt = soup.get_text(" ", strip=True)
+    # 回傳含關鍵字附近的一小段
     for k in KEYS:
-        if k in text:
-            idx = text.find(k)
-            return text[max(0, idx - 40): idx + 80]
-    return None
+        if k in txt:
+            i = txt.find(k)
+            return txt[max(0, i-60): i+120]
+    # 正則抓日期備援
+    import re
+    m = re.search(r"(\d{4}[./-]\d{1,2}[./-]\d{1,2}(\s*\d{1,2}:\d{2})?)", txt)
+    return m.group(0) if m else None
 
 async def run():
-    # 這頁是 WordPress/Elementor，常會延遲載入；用 JS 並等到文章連結出現
+    # Elementor/WordPress：用 JS 並等待文章連結
     html = await fetch_html(
-        URL,
-        js=True,
+        URL, js=True,
         wait_selector="article a, .elementor-post__title a, a[rel='bookmark']"
     )
     soup = BeautifulSoup(html, "lxml")
     rows, seen = [], set()
 
-    # 常見的列表容器
+    # 先從常見容器找卡片
     blocks = soup.select("article, .elementor-post, .jet-listing-grid__item, .entry, .post")
     if not blocks:
-        blocks = soup.find_all(["article", "div", "li"])
+        blocks = soup.select("#content a[href]")
 
     for b in blocks:
-        title, link = pick_title_and_link(b)
-        if not title or not link or link in seen:
+        a = b.select_one("h3 a, .elementor-post__title a, a[rel='bookmark'], a[href]") if hasattr(b, "select_one") else None
+        if not a:
+            continue
+        title = a.get_text(strip=True)
+        href = a.get("href", "")
+        if not title or not href:
+            continue
+        link = urljoin(BASE, href)
+        if link in seen:
             continue
         seen.add(link)
 
-        # 先在卡片附近找帶有日期語意的節點
+        # 列表附近先找
         deadline_text = None
         for sel in ["time", ".date", ".elementor-post__excerpt", ".entry-summary",
                     ".post-meta", ".elementor-post__meta-data"]:
-            n = b.select_one(sel)
+            n = b.select_one(sel) if hasattr(b, "select_one") else None
             if n:
                 t = n.get_text(" ", strip=True)
-                if any(k in t for k in KEYS):
-                    deadline_text = t
-                    break
+                if _kw(t):
+                    deadline_text = t; break
 
-        # 如果列表抓不到，就進內頁擷取一小段包含關鍵字的文字
+        # 列表沒有就抓內頁
         if not deadline_text:
             deadline_text = await _scrape_detail(link)
 
