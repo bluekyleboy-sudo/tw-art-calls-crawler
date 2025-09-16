@@ -12,7 +12,12 @@ KEYS = ["截止", "收件", "申請期限", "申請時間", "至", "Deadline"]
 
 async def run():
     # 需要 JS，等到卡片出現
-    html = await fetch_html(URL, js=True, wait_selector="a[href*='/calls/']")
+    html = await fetch_html(
+    URL,
+    js=True,
+    wait_selector="a[href*='/calls/'], a[href*='/zh/calls/']"
+)
+
     soup = BeautifulSoup(html, "lxml")
     rows, seen = [], set()
 
