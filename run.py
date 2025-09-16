@@ -1,6 +1,7 @@
 # run.py
-import asyncio, json
-from sheets_writer import upsert_rows
+import os
+os.environ["SHEET_NAME"] = os.environ.get("SHEET_NAME", "Calls_v2") or "Calls_v2"
+from sheets_writer print(f"[ENV] SHEET_ID.tail={os.environ.get('SHEET_ID','')[-8:]}, TAB={os.environ.get('SHEET_NAME')}") import upsert_rows
 from scrapers import tasa_tw, moc_artres, artemperor
 
 SCRAPERS = [tasa_tw.run, moc_artres.run, artemperor.run]
