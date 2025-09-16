@@ -1,5 +1,5 @@
-httpx
 playwright
+httpx
 beautifulsoup4
 lxml
 dateparser
