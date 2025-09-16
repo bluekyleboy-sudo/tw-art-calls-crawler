@@ -1,4 +1,5 @@
-# sheets_writer.py
+# sheets_writer.py  ← 直接覆蓋這份
+
 import os, json
 import gspread
 from google.oauth2.service_account import Credentials
@@ -44,10 +45,14 @@ def upsert_rows(rows):
     sh = client.open_by_key(os.environ["SHEET_ID"])
     sheet_name = os.environ.get("SHEET_NAME", "Calls")
 
+    # 取得或建立分頁
     try:
         ws = sh.worksheet(sheet_name)
     except WorksheetNotFound:
         ws = sh.add_worksheet(title=sheet_name, rows=1, cols=len(COLUMNS))
+
+    # 這一行是你要的：印出實際被寫入的分頁連結
+    print(f"[SHEET] url=https://docs.google.com/spreadsheets/d/{os.environ['SHEET_ID']}/edit#gid={ws.id}, tab={ws.title}")
 
     _ensure_header(ws)
     cur = _read_df(ws)
@@ -64,7 +69,7 @@ def upsert_rows(rows):
     to_update = new_df[new_df["hash"].isin(existing)]
 
     if not to_insert.empty:
-        ws.append_rows(to_insert.values.tolist(), value_input_option="USER_ENTERED")
+        ws.append_rows(to_insert.values.tolist(), value_input_option="USER_INPUT")
         inserted = len(to_insert)
 
     if not to_update.empty:
@@ -73,7 +78,7 @@ def upsert_rows(rows):
         updates = []
         for _, r in to_update.iterrows():
             idx = hash_to_row.get(r["hash"])
-            if not idx: 
+            if not idx:
                 continue
             rng = f"A{idx}:{last_col_letter}{idx}"
             updates.append({"range": rng, "values": [r.tolist()]})
