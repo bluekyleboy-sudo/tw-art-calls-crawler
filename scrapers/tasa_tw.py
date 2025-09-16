@@ -2,18 +2,26 @@
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
 from scrapers.base import fetch_html
-from pipelines.normalize import normalize
+from pipelines.normalize import normalize, parse_to_iso
 from pipelines.dedupe import make_hash
-from pipelines.normalize import parse_to_iso
 import re
 
 BASE = "https://tasa-tw.org"
 URL = "https://tasa-tw.org/news-zh/open-call-zh"
 SOURCE = "tasa_tw"
 
-IDX_TITLES = {"獎項徵選","藝術進駐 open call","工作機會","即將到期"}
-DROP_LINK_SUBSTR = ["/news-zh/tasa-news", "/news-zh/past"]
+# 要排除的索引標題與路徑（索引頁）
+IDX_TITLES = {"獎項徵選","藝術進駐 open call","工作機會","即將到期","TASA 過去活動"}
+DROP_LINK_SUBSTR = [
+    "/news-zh/open-call-zh",
+    "/news-zh/award-zh",
+    "/news-zh/tasa-news",
+    "/news-zh/past",
+    "/news-zh/tasa-past-events",
+]
+
 DATE_RE = re.compile(r"(20\d{2}[./-]\d{1,2}[./-]\d{1,2})(?:\s*(\d{1,2}:\d{2}))?")
+RANGE_RE = re.compile(r"(自|自從)?\s*(20\d{2}[./-]\d{1,2}[./-]\d{1,2}).{0,10}至.{0,10}(20\d{2}[./-]\d{1,2}[./-]\d{1,2})")
 
 def canon(url: str) -> str:
     u = urlparse(url)
@@ -22,18 +30,15 @@ def canon(url: str) -> str:
     return urlunparse((u.scheme, u.netloc, path, u.params, urlencode(q, doseq=True), ""))
 
 def extract_range(text: str):
-    """從內文抓 start/end（盡量），抓不到就回空"""
     if not text: return "",""
-    # 「自 A 至 B」或「A 至 B」
-    m = re.search(r"(自|自從)?\s*(20\d{2}[./-]\d{1,2}[./-]\d{1,2}).{0,10}至.{0,10}(20\d{2}[./-]\d{1,2}[./-]\d{1,2})", text)
+    m = RANGE_RE.search(text)
     if m:
         return parse_to_iso(m.group(2)), parse_to_iso(m.group(3))
-    dates = DATE_RE.findall(text)
-    if len(dates) >= 2:
-        return parse_to_iso(dates[0][0]), parse_to_iso(dates[-1][0])
-    if len(dates) == 1:
-        # 只有一個日期，視為截止
-        return "", parse_to_iso(dates[0][0])
+    ds = DATE_RE.findall(text)
+    if len(ds) >= 2:
+        return parse_to_iso(ds[0][0]), parse_to_iso(ds[-1][0])
+    if len(ds) == 1:
+        return "", parse_to_iso(ds[0][0])
     return "",""
 
 async def _detail(link: str):
@@ -43,8 +48,8 @@ async def _detail(link: str):
     s = BeautifulSoup(html, "lxml")
     title_node = s.select_one("h1") or s.title
     title = title_node.get_text(strip=True) if title_node else ""
-    text = s.get_text(" ", strip=True)
-    start_iso, end_iso = extract_range(text)
+    txt = s.get_text(" ", strip=True)
+    start_iso, end_iso = extract_range(txt)
     return title, start_iso, end_iso
 
 async def run():
@@ -59,7 +64,7 @@ async def run():
     rows, seen = [], set()
     for a in a_tags:
         href = a.get("href","")
-        if not href: 
+        if not href:
             continue
         link = canon(urljoin(BASE, href))
         if BASE not in link:
@@ -68,26 +73,29 @@ async def run():
             continue
 
         title_hint = a.get_text(strip=True)
-        if title_hint in IDX_TITLES:   # 移除索引頁
+        if title_hint in IDX_TITLES:
             continue
 
         if link in seen:
             continue
         seen.add(link)
 
-        t2, start_iso, end_iso = await _detail(link)
-        title = t2 or title_hint
+        real_title, start_iso, end_iso = await _detail(link)
+        title = real_title or title_hint
         if not title:
+            continue
+        # 題名再保險過濾一次
+        if any(x in title for x in ["過去活動","活動/新聞"]):
             continue
 
         item = normalize({
             "title": title,
-            "organization": "台灣藝文空間連線",   # ← 修正名稱
+            "organization": "台灣藝文空間連線",   # ← 正式名稱
             "category": "Open Call/徵件",
             "location": "Taiwan",
             "start_date": start_iso,
             "deadline_date": end_iso,
-            "deadline": end_iso,       # 保留相容欄位
+            "deadline": end_iso,
             "link": link,
             "source": SOURCE,
         })
