@@ -1,72 +1,89 @@
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from scrapers.base import fetch_html
-from pipelines.normalize import normalize
+from playwright.async_api import async_playwright
+from pipelines.normalize import normalize, parse_to_iso
 from pipelines.dedupe import make_hash
-import re
+import re, asyncio
 
 BASE = "https://artres.moc.gov.tw"
 URL  = "https://artres.moc.gov.tw/zh/calls/list"
 SOURCE = "moc_artres"
-KEYS = ["截止","收件","申請期限","申請時間","Deadline","至","Open Call","駐村","徵選"]
-DATE_RE = re.compile(r"(20\d{2}[./-]\d{1,2}[./-]\d{1,2}(?:\s*\d{1,2}:\d{2})?)")
 
-def _kw(s): return any(k in (s or "") for k in KEYS)
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")
 
-async def _detail(link):
-    # 先試純 HTML，失敗再用 JS
-    try:
-        html = await fetch_html(link, js=False)
-    except Exception:
-        html = await fetch_html(link, js=True)
-    if not html or len(html) < 200:
-        html = await fetch_html(link, js=True)
+DATE_RE = re.compile(r"(20\d{2}[./-]\d{1,2}[./-]\d{1,2})(?:\s*(\d{1,2}:\d{2}))?")
+RANGE_RE = re.compile(r"(自|自從)?\s*(20\d{2}[./-]\d{1,2}[./-]\d{1,2}).{0,14}至.{0,14}(20\d{2}[./-]\d{1,2}[./-]\d{1,2})")
+
+def extract_range(text: str):
+    if not text: return "",""
+    m = RANGE_RE.search(text)
+    if m:
+        return parse_to_iso(m.group(2)), parse_to_iso(m.group(3))
+    ds = DATE_RE.findall(text)
+    if len(ds) >= 2:
+        return parse_to_iso(ds[0][0]), parse_to_iso(ds[-1][0])
+    if len(ds) == 1:
+        return "", parse_to_iso(ds[0][0])
+    return "",""
+
+async def _load_html(url: str, timeout_ms=90_000):
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        ctx = await browser.new_context(user_agent=UA, locale="zh-TW")
+        page = await ctx.new_page()
+        await page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+        # 嘗試關掉 cookie/隱私彈窗（若有）
+        for sel in ['button:has-text("同意")','button:has-text("接受")',
+                    '#onetrust-accept-btn-handler','.cookie-accept','.ot-sdk-container button']:
+            try: await page.click(sel, timeout=1500)
+            except Exception: pass
+        # 滾動幾次，讓懶加載完成
+        for _ in range(15):
+            await page.evaluate("window.scrollBy(0, document.body.scrollHeight)")
+            await page.wait_for_timeout(600)
+        await page.wait_for_load_state("networkidle")
+        html = await page.content()
+        await browser.close()
+        return html
+
+async def _detail(link: str):
+    # 內頁也用真瀏覽器，避免 403/JS
+    html = await _load_html(link)
     s = BeautifulSoup(html, "lxml")
     title = (s.select_one("h1") or s.title)
     title = title.get_text(strip=True) if title else ""
     text = s.get_text(" ", strip=True)
-    seg = None
-    for k in KEYS:
-        if k in text:
-            i = text.find(k); seg = text[max(0,i-60): i+140]; break
-    if not seg:
-        m = DATE_RE.search(text); seg = m.group(0) if m else ""
-    return title, seg
+    start_iso, end_iso = extract_range(text)
+    return title, start_iso, end_iso
 
 async def run():
-    # A. 先嘗試純 HTML（快），若 403/失敗，再用 JS 載入
-    try:
-        html = await fetch_html(URL, js=False)
-    except Exception:
-        html = await fetch_html(URL, js=True)
-    if not html or len(html) < 200:
-        html = await fetch_html(URL, js=True)
-
+    # A. 首頁用真瀏覽器，把所有 /calls/ 連結撈出來
+    html = await _load_html(URL)
     soup = BeautifulSoup(html, "lxml")
-    a_tags = soup.select("a[href*='/calls/'], a[href*='/zh/calls/']")
-    rows, seen = [], set()
+    hrefs = {a.get("href","") for a in soup.select("a[href*='/calls/'], a[href*='/zh/calls/']")}
+    links = [urljoin(BASE, h) for h in hrefs if "/calls/" in h]
 
-    for a in a_tags:
-        href = a.get("href",""); 
-        if not href: 
-            continue
-        link = urljoin(BASE, href)
-        if "/calls/" not in link or link in seen:
+    rows, seen = [], set()
+    for link in links:
+        if link in seen: 
             continue
         seen.add(link)
-
-        title = a.get_text(strip=True)
-        t2, deadline_text = await _detail(link)
-        title = t2 or title
+        try:
+            title, start_iso, end_iso = await _detail(link)
+        except Exception as e:
+            print(f"[WARN] detail fail: {link} -> {e}")
+            continue
         if not title:
             continue
-
         item = normalize({
             "title": title,
             "organization": "文化部 Art Residency 平台",
             "category": "駐村/徵選",
             "location": "Taiwan/International",
-            "deadline_text": deadline_text,
+            "start_date": start_iso,
+            "deadline_date": end_iso,
+            "deadline": end_iso,
             "link": link,
             "source": SOURCE,
         })
