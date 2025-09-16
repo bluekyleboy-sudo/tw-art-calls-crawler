@@ -1,21 +1,20 @@
+# run.py
 import os
 import asyncio
 import json
 from sheets_writer import upsert_rows
 from scrapers import tasa_tw, moc_artres, artemperor
 
-# 強制指定分頁名稱（沒有就用 Calls_v2）
+# 若未設定，預設寫到 Calls_v2 分頁（避免看錯舊分頁）
 os.environ["SHEET_NAME"] = os.environ.get("SHEET_NAME") or "Calls_v2"
 
 SCRAPERS = [tasa_tw.run, moc_artres.run, artemperor.run]
 
 def _sort_key(row: dict) -> str:
-    # 依截止時間排序；沒有的排最後
     d = row.get("deadline_date") or row.get("deadline") or ""
     return d if d else "9999-12-31T00:00:00+08:00"
 
 async def main():
-    # 印出實際要寫入的試算表與分頁（尾碼避免外流完整 ID）
     print(f"[ENV] SHEET_ID.tail={os.environ.get('SHEET_ID','')[-8:]}, TAB={os.environ.get('SHEET_NAME')}")
 
     all_rows = []
@@ -34,7 +33,7 @@ async def main():
         print("[WRITE] nothing to write: 0 rows scraped.")
         return
 
-    # 批次內以 hash 去重
+    # 批內以 hash 去重
     seen, deduped = set(), []
     for r in all_rows:
         h = r.get("hash")
@@ -43,7 +42,7 @@ async def main():
         seen.add(h)
         deduped.append(r)
 
-    # 依截止時間排序後再寫入
+    # 依截止日期排序
     deduped.sort(key=_sort_key)
 
     inserted, updated = upsert_rows(deduped)
