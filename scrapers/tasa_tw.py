@@ -19,7 +19,13 @@ def pick_title_and_link(block):
 
 async def _scrape_detail(link):
     # 有些截止日在內文才寫，抓到關鍵字就回傳
-    html = await fetch_html(link, js=False)
+    # 舊：html = await fetch_html(URL, js=False)
+html = await fetch_html(
+    URL,
+    js=True,
+    wait_selector="article a, .elementor-post__title a, a[rel='bookmark']"
+)
+
     soup = BeautifulSoup(html, "lxml")
     text = soup.get_text(" ", strip=True)
     for k in KEYS:
