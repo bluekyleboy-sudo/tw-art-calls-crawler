@@ -3,70 +3,57 @@ from urllib.parse import urljoin
 from scrapers.base import fetch_html
 from pipelines.normalize import normalize
 from pipelines.dedupe import make_hash
+import re
 
 BASE = "https://tasa-tw.org"
 URL = "https://tasa-tw.org/news-zh/open-call-zh"
 SOURCE = "tasa_tw"
-KEYS = ["截止", "收件", "申請", "報名", "至", "Deadline", "Open Call"]
+KEYS = ["截止","收件","申請","報名","至","Deadline","Open Call"]
 
-def _kw(text: str) -> bool:
-    t = (text or "").strip()
-    return any(k in t for k in KEYS)
+def _kw(s): return any(k in (s or "") for k in KEYS)
+DATE_RE = re.compile(r"(20\d{2}[./-]\d{1,2}[./-]\d{1,2}(?:\s*\d{1,2}:\d{2})?)")
 
-async def _scrape_detail(link: str):
-    html = await fetch_html(link, js=True)
-    soup = BeautifulSoup(html, "lxml")
-    txt = soup.get_text(" ", strip=True)
-    # 回傳含關鍵字附近的一小段
+async def _detail(link):
+    html = await fetch_html(link, js=False)
+    if not html or len(html) < 200:
+        html = await fetch_html(link, js=True)
+    s = BeautifulSoup(html, "lxml")
+    title = (s.select_one("h1") or s.title)
+    title = title.get_text(strip=True) if title else ""
+    text = s.get_text(" ", strip=True)
+    # 找含關鍵詞的一小段或第一個日期
+    seg = None
     for k in KEYS:
-        if k in txt:
-            i = txt.find(k)
-            return txt[max(0, i-60): i+120]
-    # 正則抓日期備援
-    import re
-    m = re.search(r"(\d{4}[./-]\d{1,2}[./-]\d{1,2}(\s*\d{1,2}:\d{2})?)", txt)
-    return m.group(0) if m else None
+        if k in text:
+            i = text.find(k); seg = text[max(0,i-60): i+120]; break
+    if not seg:
+        m = DATE_RE.search(text); seg = m.group(0) if m else ""
+    return title, seg
 
 async def run():
-    # Elementor/WordPress：用 JS 並等待文章連結
-    html = await fetch_html(
-        URL, js=True,
-        wait_selector="article a, .elementor-post__title a, a[rel='bookmark']"
-    )
+    # 先不用等 selector：直接純 HTML 掃所有 a，再退回到 JS
+    html = await fetch_html(URL, js=False)
     soup = BeautifulSoup(html, "lxml")
+    a_tags = soup.select("a[href*='/news-zh/'], a[rel='bookmark'], article a[href]")
+    if not a_tags:
+        html = await fetch_html(URL, js=True)
+        soup = BeautifulSoup(html, "lxml")
+        a_tags = soup.select("a[href]")
+
     rows, seen = [], set()
-
-    # 先從常見容器找卡片
-    blocks = soup.select("article, .elementor-post, .jet-listing-grid__item, .entry, .post")
-    if not blocks:
-        blocks = soup.select("#content a[href]")
-
-    for b in blocks:
-        a = b.select_one("h3 a, .elementor-post__title a, a[rel='bookmark'], a[href]") if hasattr(b, "select_one") else None
-        if not a:
-            continue
-        title = a.get_text(strip=True)
-        href = a.get("href", "")
-        if not title or not href:
-            continue
+    for a in a_tags:
+        href = a.get("href",""); 
+        if not href: continue
         link = urljoin(BASE, href)
-        if link in seen:
-            continue
+        if BASE not in link: continue
+        if link in seen: continue
         seen.add(link)
 
-        # 列表附近先找
-        deadline_text = None
-        for sel in ["time", ".date", ".elementor-post__excerpt", ".entry-summary",
-                    ".post-meta", ".elementor-post__meta-data"]:
-            n = b.select_one(sel) if hasattr(b, "select_one") else None
-            if n:
-                t = n.get_text(" ", strip=True)
-                if _kw(t):
-                    deadline_text = t; break
-
-        # 列表沒有就抓內頁
-        if not deadline_text:
-            deadline_text = await _scrape_detail(link)
+        title = a.get_text(strip=True)
+        t2, deadline_text = await _detail(link)
+        title = t2 or title
+        if not title: 
+            continue
 
         item = normalize({
             "title": title,
