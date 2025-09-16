@@ -38,4 +38,4 @@ async def run():
 
         # （暫時關閉關鍵字過濾）
         # if not any(k in text_all for k in KEYS):
-        #     con
+        #     continue
