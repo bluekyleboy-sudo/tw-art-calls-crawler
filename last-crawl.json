@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-17T22:11:25+00:00",
+  "started_at": "2026-07-17T23:12:49+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -145,25 +145,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "The home of free learning from The Open University",
-          "url": "https://www.open.edu/openlearn/",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -176,13 +160,13 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
+          "title": "OpenEvidence",
+          "url": "https://www.openevidence.com/",
           "reason": "HTTP Error 403: Forbidden"
         },
         {
-          "title": "The home of free learning from The Open University",
-          "url": "https://www.open.edu/openlearn/",
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -289,14 +273,14 @@
     },
     {
       "source": "臺北藝術週｜展覽活動響應",
-      "status": "error",
-      "candidates": 0,
-      "accepted": 0,
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 1,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "source": "臺南市美術館 TAM+ 展覽計畫",
@@ -304,9 +288,20 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
+          "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
+          "reason": "HTTP Error 404: Not Found"
+        },
+        {
+          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
+          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
+          "reason": "HTTP Error 404: Not Found"
+        }
+      ],
       "error": ""
     },
     {
@@ -400,9 +395,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -414,9 +409,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Libtayo: Uses, Side Effects, Warnings - Drugs.com",
+          "url": "https://www.drugs.com/libtayo.html",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -433,18 +434,12 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
-      "fetch_errors": 1,
+      "rejected": 10,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "How to Easily Set Up VS Code with Cline and Continue.dev (Lo",
-          "url": "https://www.techbloat.com/how-to-easily-set-up-vs-code-with-cline-and-continue-dev-local-ai-models-via-ollama.html",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -453,9 +448,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "YouTube Masterclass: Your Complete Guide to YouTube Success - Udemy",
+          "url": "https://www.udemy.com/course/youtube-masterclass/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -505,11 +506,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
-      "accepted": 0,
-      "rejected": 3,
+      "candidates": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 2,
       "restricted_candidates": [],
       "error": ""
     },
@@ -534,6 +535,6 @@
       "error": ""
     }
   ],
-  "accepted": 27,
-  "errors": 4
+  "accepted": 29,
+  "errors": 3
 }
