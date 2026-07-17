@@ -1,23 +1,18 @@
 {
-  "started_at": "2026-07-17T19:37:47+00:00",
+  "started_at": "2026-07-17T21:12:58+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
       "candidates": 28,
-      "accepted": 14,
-      "rejected": 14,
-      "fetch_errors": 2,
-      "fallback_fetches": 14,
+      "accepted": 15,
+      "rejected": 13,
+      "fetch_errors": 1,
+      "fallback_fetches": 16,
       "restricted_candidates": [
         {
           "title": "頁面內公開連結",
           "url": "https://artres.moc.gov.tw/upload/residentOpp/ff8081819a76b5a8019a7c0b1a100002.avif",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "頁面內公開連結",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819883f7610198e53b84cb003c",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -48,9 +43,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -85,7 +80,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -161,30 +156,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 4,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OpenAI | Research & Deployment",
-          "url": "https://openai.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "open（英文单词）_百度百科",
-          "url": "https://baike.baidu.com/item/open/497859",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "The home of free learning from The Open University",
-          "url": "https://www.open.edu/openlearn/",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -212,9 +186,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -290,10 +264,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -303,15 +277,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "申請流程 Application Procedure",
-          "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -438,9 +406,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
