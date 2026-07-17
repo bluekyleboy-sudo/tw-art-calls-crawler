@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111318">
+  <meta name="description" content="攝影、當代藝術、藝術駐村與補助機會索引">
+  <title>OPENFIELD｜藝術機會工作台</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#top"><span class="brand-mark">OF</span><span><b>OPENFIELD</b><small>藝術機會工作台</small></span></a>
+      <nav aria-label="主要選單">
+        <button class="active" data-view="cards"><i>⌂</i><span>探索機會</span></button>
+        <button data-view="gantt"><i>⌁</i><span>申請時間軸</span></button>
+        <button data-view="about"><i>◌</i><span>網站簡介</span></button>
+        <button data-view="method"><i>◎</i><span>收錄與來源</span></button>
+      </nav>
+      <div class="side-note"><span class="pulse"></span><div><b>資料監測中</b><small id="updated">同步資料中</small></div></div>
+      <p class="side-footer">Made for creators<br>in Taiwan.</p>
+    </aside>
+
+    <main id="top">
+      <header class="topbar">
+        <div><span class="mobile-brand">OF</span><p>ART OPPORTUNITY DASHBOARD</p></div>
+        <div class="top-actions"><span class="date-chip" id="today-label"></span><a href="#filters" class="round-button" aria-label="搜尋">⌕</a></div>
+      </header>
+
+      <section class="welcome">
+        <div class="welcome-copy">
+          <span class="overline"><i></i> CURATED FOR TAIWAN CREATORS</span>
+          <h1>找到值得投入的<br><em>下一個機會。</em></h1>
+          <p>攝影、當代藝術、國內外駐村與創作補助，都在同一個工作台。</p>
+        </div>
+        <div class="insight-card">
+          <div class="orbit"><span>↗</span></div>
+          <p>本期機會</p><strong id="total">—</strong><small>個仍可申請的項目</small>
+        </div>
+      </section>
+
+      <section class="overview" aria-label="資料概覽">
+        <article><div class="metric-icon blue">◫</div><div><span>已知期限</span><strong id="dated">—</strong></div><small>可加入時間軸</small></article>
+        <article><div class="metric-icon lime">◉</div><div><span>定期來源</span><strong id="sources-count">—</strong></div><small>全部自動檢查</small></article>
+        <article><div class="metric-icon coral">↗</div><div><span>優先區域</span><strong>4</strong></div><small>亞洲優先＋歐美</small></article>
+      </section>
+
+      <section id="filters" class="workspace-head">
+        <div class="section-heading"><div><span>OPPORTUNITIES</span><h2>開放機會</h2></div><p id="count">—</p></div>
+        <div class="tools">
+          <label class="search"><i>⌕</i><span><small>搜尋</small><input id="query" type="search" placeholder="標題、主辦或地區"></span></label>
+          <label><small>主題分類</small><select id="category"><option value="">全部</option><option>影像</option><option>當代藝術</option><option>展覽徵件</option><option>競賽獎項</option><option>國內駐村</option><option>國外駐村</option></select></label>
+          <label><small>地區</small><select id="region"><option value="">全部地區</option><option>臺灣</option><option>亞洲</option><option>歐美</option></select></label>
+          <button id="clear">重設</button>
+        </div>
+      </section>
+
+      <section id="cards" class="view card-board"></section>
+      <section id="gantt" class="view hidden timeline-board"></section>
+      <section id="about" class="view hidden about-board">
+        <div class="about-hero">
+          <span class="overline"><i></i> ABOUT OPENFIELD</span>
+          <h2>給臺灣創作者的<br>藝術機會工作台。</h2>
+          <p>OPENFIELD 集中整理分散在官方網站、藝術媒體與社群平台上的公開徵件，讓攝影、影像、當代藝術、展覽、競賽及國內外駐村機會更容易被找到、比較與安排。</p>
+        </div>
+        <div class="about-features">
+          <article><span>01</span><h3>找到機會</h3><p>用關鍵字、主題與地區篩選目前仍可申請的項目，同一機會可以同時具有多個分類。</p></article>
+          <article><span>02</span><h3>安排時間</h3><p>共用甘特圖以官方開放日或今天為起點、官方截止日為終點，快速查看申請時程。</p></article>
+          <article><span>03</span><h3>前往申請</h3><p>每筆資料保留原始公告與申請連結；英文來源保留英文機會名稱與機構原名。</p></article>
+          <article><span>04</span><h3>尋找資源</h3><p>依機會類型與地點提示可能適用的創作、交流或駐村補助，地方補助只在對應縣市顯示。</p></article>
+        </div>
+        <div class="about-note"><b>資料使用提醒</b><p>OPENFIELD 是探索與規劃工具，不是徵件主辦單位。資格、期限、費用與送件規格可能異動，正式申請前請再次確認原始公告。</p></div>
+      </section>
+      <section id="method" class="view hidden method-board">
+        <div class="method-hero"><span class="overline"><i></i> EDITORIAL STANDARD</span><h2>只留下真正<br>能申請的機會。</h2><p>系統檢查期限、主題、地區與國籍資格。海外 foreign nationals only 可保留；明確限定其他國籍、地區居民或在地工作者的項目則排除。</p></div>
+        <div class="rule-grid">
+          <article><span>01</span><i>⌕</i><h3>多源探索</h3><p>定期檢查官方網站、藝術媒體與社群，以 Open Call、徵件、駐村等關鍵字探索。</p></article>
+          <article><span>02</span><i>✓</i><h3>逐項確認</h3><p>確認主題、區域、資格、開放日、截止日，以及可用的公告和申請連結。</p></article>
+          <article><span>03</span><i>×</i><h3>嚴格排除</h3><p>移除已截止、結果公告、活動回顧、重複項目與不適用臺灣人的機會。</p></article>
+        </div>
+        <div class="sources"><div class="section-heading"><div><span>MONITORED</span><h2>定期檢查來源</h2></div></div><div id="source-list"></div></div>
+      </section>
+      <footer><p>OPENFIELD © 2026</p><span>申請前請以主辦單位最新公告為準。</span><a href="#top">回到頂端 ↑</a></footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+  <script>document.querySelector('#today-label').textContent=new Intl.DateTimeFormat('zh-TW',{month:'short',day:'numeric',weekday:'short'}).format(new Date())</script>
+</body>
+</html>
