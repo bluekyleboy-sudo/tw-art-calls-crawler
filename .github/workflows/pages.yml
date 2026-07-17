@@ -1,0 +1,30 @@
+name: 每小時更新 OPEN FIELD 資料
+on:
+  workflow_dispatch:
+  schedule:
+    # Every hour at minute 15. GitHub may start scheduled runs a few minutes late.
+    - cron: "15 * * * *"
+  push:
+    branches: [main]
+permissions: {contents: write}
+concurrency: {group: hourly-refresh, cancel-in-progress: false}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m unittest discover -s tests
+      - run: python app.py fetch
+      - run: python app.py export --output docs/calls.json
+      - name: 確認更新資料可用
+        run: |
+          python -c "import json; p=json.load(open('docs/calls.json')); assert p.get('opportunities'), '更新結果沒有可發布的機會'; assert p.get('stats',{}).get('last_updated'), '缺少更新時間'"
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "4189824+github-actions[bot]@users.noreply.github.com"
+          git add open-field.sqlite3 last-crawl.json docs
+          git diff --cached --quiet || git commit -m "data: refresh open calls"
+          git push
