@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-17T21:12:58+00:00",
+  "started_at": "2026-07-17T22:11:25+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -43,9 +43,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -80,7 +80,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -145,9 +145,25 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Online Learning Courses and Adult Education - The Open University",
+          "url": "https://www.open.ac.uk/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "The home of free learning from The Open University",
+          "url": "https://www.open.edu/openlearn/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -156,9 +172,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Online Learning Courses and Adult Education - The Open University",
+          "url": "https://www.open.ac.uk/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "The home of free learning from The Open University",
+          "url": "https://www.open.edu/openlearn/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -186,9 +213,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -234,7 +261,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -262,14 +289,14 @@
     },
     {
       "source": "臺北藝術週｜展覽活動響應",
-      "status": "ok",
-      "candidates": 1,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "臺南市美術館 TAM+ 展覽計畫",
@@ -373,9 +400,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 5,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -406,12 +433,18 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 9,
-      "fetch_errors": 0,
+      "rejected": 7,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "How to Easily Set Up VS Code with Cline and Continue.dev (Lo",
+          "url": "https://www.techbloat.com/how-to-easily-set-up-vs-code-with-cline-and-continue-dev-local-ai-models-via-ollama.html",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -472,11 +505,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "candidates": 3,
+      "accepted": 0,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 2,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -501,6 +534,6 @@
       "error": ""
     }
   ],
-  "accepted": 28,
-  "errors": 3
+  "accepted": 27,
+  "errors": 4
 }
