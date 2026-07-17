@@ -1,18 +1,23 @@
 {
-  "started_at": "2026-07-17T17:35:51+00:00",
+  "started_at": "2026-07-17T19:37:47+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
       "candidates": 28,
-      "accepted": 15,
-      "rejected": 13,
-      "fetch_errors": 1,
-      "fallback_fetches": 16,
+      "accepted": 14,
+      "rejected": 14,
+      "fetch_errors": 2,
+      "fallback_fetches": 14,
       "restricted_candidates": [
         {
           "title": "頁面內公開連結",
           "url": "https://artres.moc.gov.tw/upload/residentOpp/ff8081819a76b5a8019a7c0b1a100002.avif",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "頁面內公開連結",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819883f7610198e53b84cb003c",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -43,9 +48,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -120,9 +125,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -134,15 +139,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -151,15 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -168,12 +161,27 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 4,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
+          "title": "OpenAI | Research & Deployment",
+          "url": "https://openai.com/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Online Learning Courses and Adult Education - The Open University",
+          "url": "https://www.open.ac.uk/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "open（英文单词）_百度百科",
+          "url": "https://baike.baidu.com/item/open/497859",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "The home of free learning from The Open University",
+          "url": "https://www.open.edu/openlearn/",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -204,9 +212,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -280,14 +288,14 @@
     },
     {
       "source": "臺北藝術週｜展覽活動響應",
-      "status": "error",
-      "candidates": 0,
-      "accepted": 0,
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 1,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "source": "臺南市美術館 TAM+ 展覽計畫",
@@ -299,8 +307,8 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
+          "title": "申請流程 Application Procedure",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
           "reason": "HTTP Error 404: Not Found"
         }
       ],
@@ -397,9 +405,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -433,15 +441,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "QUERY Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/query",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -532,5 +534,5 @@
     }
   ],
   "accepted": 28,
-  "errors": 4
+  "errors": 3
 }
