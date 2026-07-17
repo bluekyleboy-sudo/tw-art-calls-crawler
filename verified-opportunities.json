@@ -1,0 +1,103 @@
+{
+  "opportunities": [
+    {
+      "title": "TAKE a SHOT 攝影徵件",
+      "url": "https://parklanes.com.tw/take-a-shot-event/",
+      "application_url": "https://parklanes.com.tw/take-a-shot-event/",
+      "source": "金典綠園道｜官方徵件",
+      "category": "競賽獎項",
+      "region": "臺灣",
+      "notes": "徵件對象為對攝影有興趣者；未滿 18 歲須提供監護人同意。",
+      "opening_iso": "2026-07-09",
+      "deadline_iso": "2026-07-27"
+    },
+    {
+      "title": "2026 齊柏林飛閱台灣攝影獎",
+      "url": "https://aerialaward.chipolin.org/rule.php",
+      "application_url": "https://aerialaward.chipolin.org/",
+      "source": "齊柏林基金會｜官方徵件",
+      "category": "競賽獎項",
+      "region": "臺灣",
+      "notes": "以影像故事記錄臺灣土地與環境，資格及作品規格以官方簡章為準。",
+      "opening_iso": "2026-06-05",
+      "deadline_iso": "2026-08-11"
+    },
+    {
+      "title": "#FindingTAIWAN_2.0 全球徵片競賽",
+      "url": "https://www.mofa.gov.tw/News_Content.aspx?n=95&s=122572",
+      "application_url": "https://www.findingtaiwan2026.com.tw/",
+      "source": "外交部｜官方徵件",
+      "category": "競賽獎項",
+      "region": "臺灣",
+      "notes": "邀請全球影像創作者以短片呈現臺灣與世界的連結。",
+      "opening_iso": "2026-07-01",
+      "deadline_iso": "2026-08-31"
+    },
+    {
+      "title": "橋見風華—2026 淡江大橋攝影比賽",
+      "url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
+      "application_url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
+      "source": "台北攝影學會｜官方簡章",
+      "category": "競賽獎項",
+      "region": "臺灣",
+      "notes": "包含照片組與兩分鐘內影片組，詳細送件方式以官方簡章為準。",
+      "opening_iso": "2026-06-01",
+      "deadline_iso": "2026-08-31"
+    },
+    {
+      "title": "2026 桃園地景藝術節攝影比賽",
+      "url": "https://www.tps.tw/2026-taoyuan-art-photography-competition/",
+      "application_url": "https://www.tps.tw/2026-taoyuan-art-photography-competition/",
+      "source": "桃園攝影學會｜官方簡章",
+      "category": "競賽獎項",
+      "region": "臺灣",
+      "notes": "拍攝 2026 桃園地景藝術節系列作品與活動；收件自 8 月 1 日開始。",
+      "opening_iso": "2026-08-01",
+      "deadline_iso": "2026-09-10"
+    },
+    {
+      "title": "Kankaku Exhibition #4 — International Open Call, Japan",
+      "url": "https://www.toram.info/en/kankaku-4",
+      "application_url": "https://www.toram.info/en/kankaku-4",
+      "source": "Spatial Art TORAM｜Official Guidelines",
+      "category": "展覽徵件",
+      "region": "亞洲",
+      "notes": "International contemporary art exhibition at Fukuoka Asian Art Museum. All nationalities and media, including photography, digital art, video and installation, are eligible. Overseas deadline is one month before the general deadline; awards are selected during the exhibition, and participation fees apply only after selection.",
+      "opening_iso": "",
+      "deadline_iso": "2026-07-17"
+    },
+    {
+      "title": "14th Seoul Mediacity Biennale — Artistic Director Open Call, Korea",
+      "url": "https://sema.seoul.go.kr/kr/bbs/610221/getBbsDetail?bbsNo=1545785",
+      "application_url": "mailto:apply@mediacityseoul.kr",
+      "source": "Seoul Museum of Art｜Official Open Call",
+      "category": "展覽徵件",
+      "region": "亞洲",
+      "notes": "International open call for an artistic director or curatorial team. Applicants need recent leadership experience on an international biennale-scale contemporary art project. Interviews are conducted in Korean or with sequential Korean-English interpretation.",
+      "opening_iso": "2026-06-03",
+      "deadline_iso": "2026-07-15"
+    },
+    {
+      "title": "ss space space Open Call 2026/27",
+      "url": "https://www.ssspacespace.work/opencall2627",
+      "application_url": "https://www.ssspacespace.work/opencall2627",
+      "source": "ss space space｜Official Open Call",
+      "category": "展覽徵件",
+      "region": "臺灣",
+      "notes": "Contemporary art exhibition open to artists, curators and researchers of any nationality. Includes a six-month Artist Development Programme and an NTD 22,000 exhibition production grant.",
+      "opening_iso": "",
+      "deadline_iso": "2026-08-31"
+    },
+    {
+      "title": "2027 臺南新藝獎｜當代藝術畫廊展覽徵件",
+      "url": "https://next-art.tainan.gov.tw/index.php?id=3&inter=about",
+      "application_url": "https://next-art.tainan.gov.tw/",
+      "source": "臺南市政府文化局｜官方徵件",
+      "category": "展覽徵件",
+      "region": "臺灣",
+      "notes": "媒合十家臺南畫廊展出，得主可獲新臺幣七萬元展覽活動費；限1986年1月後出生、無畫廊專屬經紀合約者。",
+      "opening_iso": "2026-07-20",
+      "deadline_iso": "2026-09-04"
+    }
+  ]
+}
