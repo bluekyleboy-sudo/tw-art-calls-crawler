@@ -1,0 +1,517 @@
+{
+  "started_at": "2026-07-17T16:13:38+00:00",
+  "sources": [
+    {
+      "source": "文化部藝術進駐網中文版",
+      "status": "ok",
+      "candidates": 28,
+      "accepted": 15,
+      "rejected": 13,
+      "fetch_errors": 1,
+      "fallback_fetches": 16,
+      "restricted_candidates": [
+        {
+          "title": "頁面內公開連結",
+          "url": "https://artres.moc.gov.tw/upload/residentOpp/ff8081819a76b5a8019a7c0b1a100002.avif",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "source": "獎金獵人：藝術與攝影徵件",
+      "status": "ok",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "TOKAS 東京藝術與空間",
+      "status": "ok",
+      "candidates": 27,
+      "accepted": 0,
+      "rejected": 27,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "Rimbun Dahan",
+      "status": "ok",
+      "candidates": 7,
+      "accepted": 0,
+      "rejected": 7,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "Kala Yatra 尼泊爾藝術駐村",
+      "status": "ok",
+      "candidates": 3,
+      "accepted": 0,
+      "rejected": 3,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "鴻梅國際藝術村",
+      "status": "ok",
+      "candidates": 10,
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "臺北藝術週",
+      "status": "ok",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "國立臺灣美術館國際駐村",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 0,
+      "rejected": 1,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "C-LAB 臺灣當代文化實驗場",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 0,
+      "rejected": 1,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "ARTouch 典藏",
+      "status": "ok",
+      "candidates": 10,
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "非池中藝術網",
+      "status": "ok",
+      "candidates": 3,
+      "accepted": 0,
+      "rejected": 3,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "Instagram 公開貼文",
+      "status": "ok",
+      "candidates": 10,
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "Facebook 公開貼文",
+      "status": "ok",
+      "candidates": 10,
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "Threads 公開貼文",
+      "status": "ok",
+      "candidates": 10,
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "白水 SpringBao 攝影徵件",
+      "status": "error",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "國家地理雜誌臺灣攝影大賽",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "TAKE a SHOT 攝影徵件",
+      "status": "ok",
+      "candidates": 2,
+      "accepted": 0,
+      "rejected": 2,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "高雄國際機場攝影徵選",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "齊柏林飛閱台灣攝影獎",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 0,
+      "rejected": 1,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "桃園地景藝術節攝影比賽",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 0,
+      "rejected": 1,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "台北攝影學會攝影徵件",
+      "status": "ok",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "全球攝影比賽即時情報",
+      "status": "ok",
+      "candidates": 3,
+      "accepted": 1,
+      "rejected": 2,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "臺南新藝獎｜畫廊展覽媒合",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "臺北藝術週｜展覽活動響應",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "臺南市美術館 TAM+ 展覽計畫",
+      "status": "ok",
+      "candidates": 6,
+      "accepted": 0,
+      "rejected": 6,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "臺北市立美術館公開徵件",
+      "status": "ok",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "新北市美術館公開徵件",
+      "status": "ok",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "臺中市立美術館公開徵件",
+      "status": "ok",
+      "candidates": 4,
+      "accepted": 0,
+      "rejected": 4,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "金車文藝中心展覽徵件",
+      "status": "ok",
+      "candidates": 2,
+      "accepted": 0,
+      "rejected": 2,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "241藝術空間展覽徵件",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 0,
+      "rejected": 1,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "洪建全基金會雨棚計畫",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 0,
+      "rejected": 1,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "麗寶彩雲藝術空間徵件",
+      "status": "ok",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "窯座 YÁO Alternative Space",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 0,
+      "rejected": 1,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "新樂園藝術空間",
+      "status": "ok",
+      "candidates": 10,
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "好地下藝術空間",
+      "status": "ok",
+      "candidates": 10,
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "Pièce 藝術空間",
+      "status": "ok",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "絕對空間 Absolute Space for the Arts",
+      "status": "ok",
+      "candidates": 10,
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "水谷藝術 Waley Art",
+      "status": "ok",
+      "candidates": 9,
+      "accepted": 0,
+      "rejected": 9,
+      "fetch_errors": 2,
+      "fallback_fetches": 0,
+      "restricted_candidates": [
+        {
+          "title": "Boletos para conciertos musicales, rock, música latina, jazz",
+          "url": "https://www.ticketmaster.com.mx/section/conciertos",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Boletos para Más conciertos en Todo México en 2026-27 | Ticketmaster MX",
+          "url": "https://www.ticketmaster.com.mx/browse/mas-conciertos-catid-52/conciertos-rid-10001/todo-mexico-dma-801",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "source": "立方計劃空間 TheCube Project Space",
+      "status": "error",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "竹圍工作室 Bamboo Curtain Studio",
+      "status": "ok",
+      "candidates": 15,
+      "accepted": 0,
+      "rejected": 15,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "ss space space",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 0,
+      "rejected": 1,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "ss space space Instagram",
+      "status": "error",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Spatial Art TORAM｜Japan Open Calls",
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 2,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "Seoul Museum of Art｜Open Calls",
+      "status": "ok",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
+      "error": ""
+    },
+    {
+      "source": "攝影專題人工查證庫",
+      "status": "ok",
+      "candidates": 9,
+      "accepted": 8,
+      "rejected": 1,
+      "fetch_errors": 0,
+      "error": ""
+    }
+  ],
+  "accepted": 29,
+  "errors": 3
+}
