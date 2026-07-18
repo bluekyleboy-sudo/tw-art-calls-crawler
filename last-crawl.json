@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-17T23:12:49+00:00",
+  "started_at": "2026-07-18T00:13:40+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -80,7 +80,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -156,20 +156,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -245,7 +234,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -275,10 +264,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -288,20 +277,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -350,14 +328,14 @@
     },
     {
       "source": "241藝術空間展覽徵件",
-      "status": "ok",
-      "candidates": 1,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "洪建全基金會雨棚計畫",
@@ -395,9 +373,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -413,8 +391,8 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Libtayo: Uses, Side Effects, Warnings - Drugs.com",
-          "url": "https://www.drugs.com/libtayo.html",
+          "title": "Joey Paul Breaux, 67 - Marrero, LA - Reputation & Contact Details",
+          "url": "https://www.mylife.com/joey-breaux/e70960330962",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -434,9 +412,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -452,8 +430,8 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "YouTube Masterclass: Your Complete Guide to YouTube Success - Udemy",
-          "url": "https://www.udemy.com/course/youtube-masterclass/",
+          "title": "Caching issue -- ?nocache=1 suffix has to be used",
+          "url": "https://community.cloudflare.com/t/caching-issue-nocache-1-suffix-has-to-be-used/170290",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -529,12 +507,12 @@
       "source": "攝影專題人工查證庫",
       "status": "ok",
       "candidates": 9,
-      "accepted": 8,
-      "rejected": 1,
+      "accepted": 7,
+      "rejected": 2,
       "fetch_errors": 0,
       "error": ""
     }
   ],
-  "accepted": 29,
-  "errors": 3
+  "accepted": 27,
+  "errors": 4
 }
