@@ -1,7 +1,7 @@
 {
   "opportunities": [
     {
-      "id": 4,
+      "id": 19,
       "title": "Carlotta Gallery — ‘On Film’ Photography Open Call, UK",
       "url": "https://www.carlottagallery.co.uk/opencalls",
       "application_url": "https://www.carlottagallery.co.uk/opencalls",
@@ -11,9 +11,9 @@
       "notes": "Deadline: July 20, 2026 “On Film” A Film/analogue Photography",
       "opening_iso": "",
       "deadline_iso": "2026-07-20",
-      "fingerprint": "全球攝影比賽即時情報:www.carlottagallery.co.uk",
-      "first_seen": "2026-07-17T16:08:47+00:00",
-      "last_seen": "2026-07-18T00:09:05+00:00",
+      "fingerprint": "carlottagalleryonfilmphotographyopencalluk:www.carlottagallery.co.uk",
+      "first_seen": "2026-07-18T01:05:00+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "Carlotta Gallery — ‘On Film’ Photography Open Call, UK",
       "categories": [
         "影像",
@@ -93,11 +93,10 @@
       "deadline_iso": "2026-07-27",
       "fingerprint": "takeashot攝影徵件:parklanes.com.tw",
       "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-07-18T00:13:40+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "TAKE a SHOT 攝影徵件",
       "categories": [
-        "影像",
-        "競賽獎項"
+        "影像"
       ],
       "opening_inferred": false,
       "display_opening_iso": "2026-07-09",
@@ -161,6 +160,77 @@
       ]
     },
     {
+      "id": 18,
+      "title": "臺北藝術週",
+      "url": "https://taipeiartweek.tw/zh/",
+      "application_url": "https://www.youtube.com/watch?v=tHx5vA6m4Js",
+      "source": "臺北藝術週｜展覽活動響應",
+      "category": "展覽徵件",
+      "region": "臺灣",
+      "notes": "07.31 * 申請截止日期",
+      "opening_iso": "",
+      "deadline_iso": "2026-07-31",
+      "fingerprint": "臺北藝術週:taipeiartweek.tw",
+      "first_seen": "2026-07-18T01:00:39+00:00",
+      "last_seen": "2026-07-18T01:00:39+00:00",
+      "original_title": "臺北藝術週",
+      "categories": [
+        "展覽徵件"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "2026-07-18",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺北市文化局｜藝文補助",
+          "url": "https://culture.gov.taipei/Content_List.aspx?n=01837068FFCD7798",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ],
+          "regions": [
+            "臺北",
+            "台北",
+            "Taipei"
+          ]
+        }
+      ]
+    },
+    {
       "id": 9,
       "title": "2026 齊柏林飛閱台灣攝影獎",
       "url": "https://aerialaward.chipolin.org/rule.php",
@@ -173,7 +243,7 @@
       "deadline_iso": "2026-08-11",
       "fingerprint": "2026齊柏林飛閱台灣攝影獎:aerialaward.chipolin.org",
       "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-07-18T00:13:40+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "2026 齊柏林飛閱台灣攝影獎",
       "categories": [
         "影像",
@@ -253,7 +323,7 @@
       "deadline_iso": "2026-08-17",
       "fingerprint": "頁面內公開連結:www.toram.info",
       "first_seen": "2026-07-17T23:09:01+00:00",
-      "last_seen": "2026-07-18T00:09:51+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "頁面內公開連結",
       "categories": [
         "競賽獎項",
@@ -306,7 +376,7 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "findingtaiwan_20全球徵片競賽:www.mofa.gov.tw",
       "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-07-18T00:13:40+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "#FindingTAIWAN_2.0 全球徵片競賽",
       "categories": [
         "影像",
@@ -386,11 +456,10 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "ssspacespaceopencall202627:www.ssspacespace.work",
       "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-07-18T00:13:40+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "ss space space Open Call 2026/27",
       "categories": [
-        "當代藝術",
-        "展覽徵件"
+        "當代藝術"
       ],
       "opening_inferred": true,
       "display_opening_iso": "2026-07-18",
@@ -466,11 +535,10 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "國家地理雜誌臺灣攝影大賽:www.natgeomedia.com",
       "first_seen": "2026-07-17T16:08:42+00:00",
-      "last_seen": "2026-07-18T00:09:03+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "國家地理雜誌臺灣攝影大賽",
       "categories": [
-        "影像",
-        "競賽獎項"
+        "影像"
       ],
       "opening_inferred": false,
       "display_opening_iso": "2026-05-21",
@@ -534,7 +602,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 20,
       "title": "橋見風華",
       "url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
       "application_url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
@@ -544,9 +612,9 @@
       "notes": "包含照片組與兩分鐘內影片組，詳細送件方式以官方簡章為準。",
       "opening_iso": "2026-06-01",
       "deadline_iso": "2026-08-31",
-      "fingerprint": "橋見風華2026淡江大橋攝影比賽:www.photo.org.tw",
-      "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-07-18T00:13:40+00:00",
+      "fingerprint": "橋見風華:www.photo.org.tw",
+      "first_seen": "2026-07-18T01:05:00+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "橋見風華—2026 淡江大橋攝影比賽",
       "categories": [
         "影像",
@@ -626,11 +694,10 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "高雄國際機場攝影徵選:www.kia.gov.tw",
       "first_seen": "2026-07-17T16:08:45+00:00",
-      "last_seen": "2026-07-18T00:09:07+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "高雄國際機場攝影徵選",
       "categories": [
-        "影像",
-        "競賽獎項"
+        "影像"
       ],
       "opening_inferred": true,
       "display_opening_iso": "2026-07-18",
@@ -708,7 +775,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 21,
       "title": "2027 臺南新藝獎",
       "url": "https://next-art.tainan.gov.tw/index.php?id=3&inter=about",
       "application_url": "https://next-art.tainan.gov.tw/",
@@ -718,9 +785,9 @@
       "notes": "徵件時間 2026年7月20日零時~ 2026年9月4日下午5時30分止 線上系統 評審結果公佈 2026年9月 （暫定） 展覽場地暨媒合名單公佈記者會 2026年11月 與得主及畫廊簽訂合約",
       "opening_iso": "2026-07-20",
       "deadline_iso": "2026-09-04",
-      "fingerprint": "2027臺南新藝獎當代藝術畫廊展覽徵件:next-art.tainan.gov.tw",
-      "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-07-18T00:13:40+00:00",
+      "fingerprint": "2027臺南新藝獎:next-art.tainan.gov.tw",
+      "first_seen": "2026-07-18T01:05:00+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "2027 臺南新藝獎｜當代藝術畫廊展覽徵件",
       "categories": [
         "當代藝術",
@@ -800,7 +867,7 @@
       "deadline_iso": "2026-09-10",
       "fingerprint": "2026桃園地景藝術節攝影比賽:www.tps.tw",
       "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-07-18T00:13:40+00:00",
+      "last_seen": "2026-07-18T01:05:00+00:00",
       "original_title": "2026 桃園地景藝術節攝影比賽",
       "categories": [
         "影像",
@@ -1208,12 +1275,12 @@
     }
   ],
   "stats": {
-    "total": 11,
-    "with_deadline": 11,
-    "last_updated": "2026-07-18T00:13:40+00:00"
+    "total": 12,
+    "with_deadline": 12,
+    "last_updated": "2026-07-18T01:05:00+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-07-18T00:13:40+00:00",
+    "started_at": "2026-07-18T01:04:59+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1257,9 +1324,9 @@
       {
         "source": "Rimbun Dahan",
         "status": "ok",
-        "candidates": 7,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 7,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1294,7 +1361,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1334,9 +1401,9 @@
       {
         "source": "非池中藝術網",
         "status": "ok",
-        "candidates": 10,
+        "candidates": 9,
         "accepted": 0,
-        "rejected": 10,
+        "rejected": 9,
         "fetch_errors": 0,
         "fallback_fetches": 1,
         "restricted_candidates": [],
@@ -1359,9 +1426,20 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 2,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "OpenEvidence",
+            "url": "https://www.openevidence.com/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "OPEN Definition & Meaning - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/dictionary/open",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
@@ -1370,9 +1448,25 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 3,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "OpenEvidence",
+            "url": "https://www.openevidence.com/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "Online Learning Courses and Adult Education - The Open University",
+            "url": "https://www.open.ac.uk/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "OPEN Definition & Meaning - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/dictionary/open",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
@@ -1400,9 +1494,9 @@
       {
         "source": "TAKE a SHOT 攝影徵件",
         "status": "ok",
-        "candidates": 2,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1478,10 +1572,10 @@
         "source": "臺北藝術週｜展覽活動響應",
         "status": "ok",
         "candidates": 1,
-        "accepted": 0,
-        "rejected": 1,
+        "accepted": 1,
+        "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1542,14 +1636,14 @@
       },
       {
         "source": "241藝術空間展覽徵件",
-        "status": "error",
-        "candidates": 0,
+        "status": "ok",
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
-        "error": "HTTP Error 403: Forbidden"
+        "error": ""
       },
       {
         "source": "洪建全基金會雨棚計畫",
@@ -1587,9 +1681,9 @@
       {
         "source": "新樂園藝術空間",
         "status": "ok",
-        "candidates": 9,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 9,
+        "rejected": 10,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1601,15 +1695,9 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 1,
+        "fetch_errors": 0,
         "fallback_fetches": 0,
-        "restricted_candidates": [
-          {
-            "title": "Joey Paul Breaux, 67 - Marrero, LA - Reputation & Contact Details",
-            "url": "https://www.mylife.com/joey-breaux/e70960330962",
-            "reason": "HTTP Error 403: Forbidden"
-          }
-        ],
+        "restricted_candidates": [],
         "error": ""
       },
       {
@@ -1626,9 +1714,9 @@
       {
         "source": "絕對空間 Absolute Space for the Arts",
         "status": "ok",
-        "candidates": 9,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 9,
+        "rejected": 10,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1640,15 +1728,9 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 1,
+        "fetch_errors": 0,
         "fallback_fetches": 0,
-        "restricted_candidates": [
-          {
-            "title": "Caching issue -- ?nocache=1 suffix has to be used",
-            "url": "https://community.cloudflare.com/t/caching-issue-nocache-1-suffix-has-to-be-used/170290",
-            "reason": "HTTP Error 403: Forbidden"
-          }
-        ],
+        "restricted_candidates": [],
         "error": ""
       },
       {
@@ -1727,7 +1809,7 @@
         "error": ""
       }
     ],
-    "accepted": 27,
-    "errors": 4
+    "accepted": 28,
+    "errors": 3
   }
 }
