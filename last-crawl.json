@@ -1,18 +1,23 @@
 {
-  "started_at": "2026-07-18T01:04:59+00:00",
+  "started_at": "2026-07-18T01:10:57+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
       "candidates": 28,
-      "accepted": 15,
-      "rejected": 13,
-      "fetch_errors": 1,
-      "fallback_fetches": 16,
+      "accepted": 14,
+      "rejected": 14,
+      "fetch_errors": 2,
+      "fallback_fetches": 15,
       "restricted_candidates": [
         {
           "title": "頁面內公開連結",
           "url": "https://artres.moc.gov.tw/upload/residentOpp/ff8081819a76b5a8019a7c0b1a100002.avif",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "頁面內公開連結",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff808181896d5b230189b04817ea003d",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -43,9 +48,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -80,7 +85,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -120,9 +125,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -145,20 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -167,19 +161,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
       "restricted_candidates": [
-        {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
         {
           "title": "OPEN Definition & Meaning - Merriam-Webster",
           "url": "https://www.merriam-webster.com/dictionary/open",
@@ -213,9 +197,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -261,7 +245,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -291,10 +275,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -304,9 +288,20 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
+          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
+          "reason": "HTTP Error 404: Not Found"
+        },
+        {
+          "title": "租借服務 Application Service",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
+          "reason": "HTTP Error 404: Not Found"
+        }
+      ],
       "error": ""
     },
     {
@@ -355,14 +350,14 @@
     },
     {
       "source": "241藝術空間展覽徵件",
-      "status": "ok",
-      "candidates": 1,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "洪建全基金會雨棚計畫",
@@ -414,9 +409,25 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Arevalo's Tires Inc. | Dalton's Best Tire and Mechanic Service",
+          "url": "https://www.arevalostires.com/",
+          "reason": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "Taylor's Tire & Service, Inc. in Dalton, GA 30720 - 706-278",
+          "url": "https://www.chamberofcommerce.com/business-directory/georgia/dalton/tire-shop/1411676-taylor-s-tire-service-inc",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "THE BEST 10 Tires in DALTON, GA - Verified Listings Only - Yelp",
+          "url": "https://www.yelp.com/search?cflt=tires&find_loc=Dalton%2C+GA",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -528,6 +539,6 @@
       "error": ""
     }
   ],
-  "accepted": 28,
-  "errors": 3
+  "accepted": 26,
+  "errors": 4
 }

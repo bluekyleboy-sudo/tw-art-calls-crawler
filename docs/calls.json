@@ -1,7 +1,7 @@
 {
   "opportunities": [
     {
-      "id": 69,
+      "id": 22,
       "title": "Carlotta Gallery — ‘On Film’ Photography Open Call, UK",
       "url": "https://www.carlottagallery.co.uk/opencalls",
       "application_url": "https://www.carlottagallery.co.uk/opencalls",
@@ -11,9 +11,9 @@
       "notes": "Deadline: July 20, 2026 “On Film” A Film/analogue Photography",
       "opening_iso": "",
       "deadline_iso": "2026-07-20",
-      "fingerprint": "全球攝影比賽即時情報:www.carlottagallery.co.uk",
-      "first_seen": "2026-07-12T16:06:30+00:00",
-      "last_seen": "2026-07-17T04:53:53+00:00",
+      "fingerprint": "carlottagalleryonfilmphotographyopencalluk:www.carlottagallery.co.uk",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "Carlotta Gallery — ‘On Film’ Photography Open Call, UK",
       "categories": [
         "影像",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "id": 63,
+      "id": 8,
       "title": "TAKE a SHOT 攝影徵件",
       "url": "https://parklanes.com.tw/take-a-shot-event/",
       "application_url": "https://parklanes.com.tw/take-a-shot-event/",
@@ -92,12 +92,11 @@
       "opening_iso": "2026-07-09",
       "deadline_iso": "2026-07-27",
       "fingerprint": "takeashot攝影徵件:parklanes.com.tw",
-      "first_seen": "2026-07-12T16:01:58+00:00",
-      "last_seen": "2026-07-17T04:58:39+00:00",
+      "first_seen": "2026-07-17T16:13:38+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "TAKE a SHOT 攝影徵件",
       "categories": [
-        "影像",
-        "競賽獎項"
+        "影像"
       ],
       "opening_inferred": false,
       "display_opening_iso": "2026-07-09",
@@ -161,7 +160,7 @@
       ]
     },
     {
-      "id": 82,
+      "id": 23,
       "title": "2027年芬蘭亞特雷斯創意中心Silence Awareness Existence藝術進駐計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019eed6e2eed004a",
       "application_url": "https://www.facebook.com/photo/?fbid=1060703499845135&set=a.189377650311062",
@@ -172,8 +171,8 @@
       "opening_iso": "",
       "deadline_iso": "2026-07-30",
       "fingerprint": "2027年芬蘭亞特雷斯創意中心silenceawarenessexistence藝術進駐計畫:artres.moc.gov.tw",
-      "first_seen": "2026-07-13T01:33:23+00:00",
-      "last_seen": "2026-07-17T04:53:13+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "2027年芬蘭亞特雷斯創意中心Silence Awareness Existence藝術進駐計畫",
       "categories": [
         "國外駐村"
@@ -213,7 +212,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": 24,
       "title": "白水 SpringBao 攝影徵件",
       "url": "https://www.instagram.com/p/DaPYb1vpDZQ/",
       "application_url": "https://forms.gle/13ZMGUNFFXw8ZDFP7",
@@ -224,12 +223,11 @@
       "opening_iso": "",
       "deadline_iso": "2026-07-30",
       "fingerprint": "白水springbao攝影徵件:www.instagram.com",
-      "first_seen": "2026-07-12T15:56:31+00:00",
-      "last_seen": "2026-07-17T04:53:33+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "白水 SpringBao 攝影徵件",
       "categories": [
-        "影像",
-        "競賽獎項"
+        "影像"
       ],
       "opening_inferred": true,
       "display_opening_iso": "2026-07-18",
@@ -293,7 +291,7 @@
       ]
     },
     {
-      "id": 56,
+      "id": 25,
       "title": "Ey!Studio AiR 國際藝術家駐村計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019efebe2249007b",
       "application_url": "https://forms.gle/DYgzC7DsitJEVrWY9",
@@ -304,8 +302,8 @@
       "opening_iso": "",
       "deadline_iso": "2026-07-31",
       "fingerprint": "eystudioair國際藝術家駐村計畫:artres.moc.gov.tw",
-      "first_seen": "2026-07-12T15:58:10+00:00",
-      "last_seen": "2026-07-17T04:53:13+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "Ey!Studio AiR 國際藝術家駐村計畫",
       "categories": [
         "國外駐村"
@@ -345,7 +343,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": 26,
       "title": "My First Arquetopia Residency駐村計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819a75f70f019a760c849c0001",
       "application_url": "https://www.arquetopia.org/special-themed-residency-programs",
@@ -356,8 +354,8 @@
       "opening_iso": "",
       "deadline_iso": "2026-07-31",
       "fingerprint": "myfirstarquetopiaresidency駐村計畫:artres.moc.gov.tw",
-      "first_seen": "2026-07-12T12:13:56+00:00",
-      "last_seen": "2026-07-17T04:53:13+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "My First Arquetopia Residency駐村計畫",
       "categories": [
         "國外駐村"
@@ -397,7 +395,7 @@
       ]
     },
     {
-      "id": 64,
+      "id": 9,
       "title": "2026 齊柏林飛閱台灣攝影獎",
       "url": "https://aerialaward.chipolin.org/rule.php",
       "application_url": "https://aerialaward.chipolin.org/",
@@ -408,8 +406,8 @@
       "opening_iso": "2026-06-05",
       "deadline_iso": "2026-08-11",
       "fingerprint": "2026齊柏林飛閱台灣攝影獎:aerialaward.chipolin.org",
-      "first_seen": "2026-07-12T16:01:58+00:00",
-      "last_seen": "2026-07-17T04:58:39+00:00",
+      "first_seen": "2026-07-17T16:13:38+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "2026 齊柏林飛閱台灣攝影獎",
       "categories": [
         "影像",
@@ -477,7 +475,60 @@
       ]
     },
     {
-      "id": 65,
+      "id": 17,
+      "title": "頁面內公開連結",
+      "url": "https://www.toram.info/en/exhibition-open-call",
+      "application_url": "https://static.wixstatic.com/media/b37a3f_003cbe23323b4c83a974ab9f92d2686d~mv2.png/v1/fill/w_298,h_228,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%AB%E3%83%B3%E3%82%AB%E3%82%AF4HP%E5%8B%9F%E9%9B%86.png",
+      "source": "Spatial Art TORAM｜Japan Open Calls",
+      "category": "競賽獎項",
+      "region": "亞洲",
+      "notes": "Deadline: 2026.08.17.MON ![Image 2: Call for entries for the international open call",
+      "opening_iso": "",
+      "deadline_iso": "2026-08-17",
+      "fingerprint": "頁面內公開連結:www.toram.info",
+      "first_seen": "2026-07-17T23:09:01+00:00",
+      "last_seen": "2026-07-18T01:07:05+00:00",
+      "original_title": "頁面內公開連結",
+      "categories": [
+        "競賽獎項",
+        "國外駐村"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "2026-07-18",
+      "country": "日本",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜出國駐村交流計畫",
+          "url": "https://www.moc.gov.tw/News.aspx?n=105&sms=10550",
+          "categories": [
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
       "title": "#FindingTAIWAN_2.0 全球徵片競賽",
       "url": "https://www.mofa.gov.tw/News_Content.aspx?n=95&s=122572",
       "application_url": "https://www.findingtaiwan2026.com.tw/",
@@ -488,8 +539,8 @@
       "opening_iso": "2026-07-01",
       "deadline_iso": "2026-08-31",
       "fingerprint": "findingtaiwan_20全球徵片競賽:www.mofa.gov.tw",
-      "first_seen": "2026-07-12T16:01:58+00:00",
-      "last_seen": "2026-07-17T04:58:39+00:00",
+      "first_seen": "2026-07-17T16:13:38+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "#FindingTAIWAN_2.0 全球徵片競賽",
       "categories": [
         "影像",
@@ -557,7 +608,7 @@
       ]
     },
     {
-      "id": 80,
+      "id": 27,
       "title": "2027年總爺藝文中心-國際藝術進駐計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f4a47267f0001",
       "application_url": "http://air-culture.tainan.gov.tw/",
@@ -568,8 +619,8 @@
       "opening_iso": "",
       "deadline_iso": "2026-08-31",
       "fingerprint": "2027年總爺藝文中心國際藝術進駐計畫:artres.moc.gov.tw",
-      "first_seen": "2026-07-13T01:33:21+00:00",
-      "last_seen": "2026-07-17T04:53:12+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "2027年總爺藝文中心-國際藝術進駐計畫",
       "categories": [
         "國內駐村"
@@ -602,7 +653,7 @@
       ]
     },
     {
-      "id": 81,
+      "id": 28,
       "title": "2027年蕭壠文化園區國際藝術進駐計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f4a5c0ab90004",
       "application_url": "https://air-culture.tainan.gov.tw/index.php?inter=plan&id=4",
@@ -613,8 +664,8 @@
       "opening_iso": "",
       "deadline_iso": "2026-08-31",
       "fingerprint": "2027年蕭壠文化園區國際藝術進駐計畫:artres.moc.gov.tw",
-      "first_seen": "2026-07-13T01:33:22+00:00",
-      "last_seen": "2026-07-17T04:53:13+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "2027年蕭壠文化園區國際藝術進駐計畫",
       "categories": [
         "國內駐村"
@@ -647,7 +698,7 @@
       ]
     },
     {
-      "id": 83,
+      "id": 14,
       "title": "ss space space Open Call 2026/27",
       "url": "https://www.ssspacespace.work/opencall2627",
       "application_url": "https://www.ssspacespace.work/opencall2627",
@@ -658,12 +709,11 @@
       "opening_iso": "",
       "deadline_iso": "2026-08-31",
       "fingerprint": "ssspacespaceopencall202627:www.ssspacespace.work",
-      "first_seen": "2026-07-13T02:43:24+00:00",
-      "last_seen": "2026-07-17T04:58:39+00:00",
+      "first_seen": "2026-07-17T16:13:38+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "ss space space Open Call 2026/27",
       "categories": [
-        "當代藝術",
-        "展覽徵件"
+        "當代藝術"
       ],
       "opening_inferred": true,
       "display_opening_iso": "2026-07-18",
@@ -727,7 +777,7 @@
       ]
     },
     {
-      "id": 61,
+      "id": 2,
       "title": "國家地理雜誌臺灣攝影大賽",
       "url": "https://www.natgeomedia.com/photocontest/how-to-enter.asp",
       "application_url": "https://www.natgeomedia.com/photocontest/how-to-enter.asp",
@@ -738,12 +788,11 @@
       "opening_iso": "2026-05-21",
       "deadline_iso": "2026-08-31",
       "fingerprint": "國家地理雜誌臺灣攝影大賽:www.natgeomedia.com",
-      "first_seen": "2026-07-12T16:00:12+00:00",
-      "last_seen": "2026-07-17T04:53:33+00:00",
+      "first_seen": "2026-07-17T16:08:42+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "國家地理雜誌臺灣攝影大賽",
       "categories": [
-        "影像",
-        "競賽獎項"
+        "影像"
       ],
       "opening_inferred": false,
       "display_opening_iso": "2026-05-21",
@@ -807,7 +856,7 @@
       ]
     },
     {
-      "id": 66,
+      "id": 20,
       "title": "橋見風華",
       "url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
       "application_url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
@@ -817,9 +866,9 @@
       "notes": "包含照片組與兩分鐘內影片組，詳細送件方式以官方簡章為準。",
       "opening_iso": "2026-06-01",
       "deadline_iso": "2026-08-31",
-      "fingerprint": "橋見風華2026淡江大橋攝影比賽:www.photo.org.tw",
-      "first_seen": "2026-07-12T16:01:58+00:00",
-      "last_seen": "2026-07-17T04:58:39+00:00",
+      "fingerprint": "橋見風華:www.photo.org.tw",
+      "first_seen": "2026-07-18T01:05:00+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "橋見風華—2026 淡江大橋攝影比賽",
       "categories": [
         "影像",
@@ -887,7 +936,7 @@
       ]
     },
     {
-      "id": 62,
+      "id": 3,
       "title": "高雄國際機場攝影徵選",
       "url": "https://www.kia.gov.tw/vision2026/",
       "application_url": "https://www.kia.gov.tw/vision2026/",
@@ -898,12 +947,11 @@
       "opening_iso": "",
       "deadline_iso": "2026-08-31",
       "fingerprint": "高雄國際機場攝影徵選:www.kia.gov.tw",
-      "first_seen": "2026-07-12T16:00:14+00:00",
-      "last_seen": "2026-07-17T04:53:40+00:00",
+      "first_seen": "2026-07-17T16:08:45+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "高雄國際機場攝影徵選",
       "categories": [
-        "影像",
-        "競賽獎項"
+        "影像"
       ],
       "opening_inferred": true,
       "display_opening_iso": "2026-07-18",
@@ -981,7 +1029,7 @@
       ]
     },
     {
-      "id": 78,
+      "id": 21,
       "title": "2027 臺南新藝獎",
       "url": "https://next-art.tainan.gov.tw/index.php?id=3&inter=about",
       "application_url": "https://next-art.tainan.gov.tw/",
@@ -991,9 +1039,9 @@
       "notes": "徵件時間 2026年7月20日零時~ 2026年9月4日下午5時30分止 線上系統 評審結果公佈 2026年9月 （暫定） 展覽場地暨媒合名單公佈記者會 2026年11月 與得主及畫廊簽訂合約",
       "opening_iso": "2026-07-20",
       "deadline_iso": "2026-09-04",
-      "fingerprint": "2027臺南新藝獎當代藝術畫廊展覽徵件:next-art.tainan.gov.tw",
-      "first_seen": "2026-07-13T01:31:28+00:00",
-      "last_seen": "2026-07-17T04:58:39+00:00",
+      "fingerprint": "2027臺南新藝獎:next-art.tainan.gov.tw",
+      "first_seen": "2026-07-18T01:05:00+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "2027 臺南新藝獎｜當代藝術畫廊展覽徵件",
       "categories": [
         "當代藝術",
@@ -1061,7 +1109,7 @@
       ]
     },
     {
-      "id": 67,
+      "id": 12,
       "title": "2026 桃園地景藝術節攝影比賽",
       "url": "https://www.tps.tw/2026-taoyuan-art-photography-competition/",
       "application_url": "https://www.tps.tw/2026-taoyuan-art-photography-competition/",
@@ -1072,8 +1120,8 @@
       "opening_iso": "2026-08-01",
       "deadline_iso": "2026-09-10",
       "fingerprint": "2026桃園地景藝術節攝影比賽:www.tps.tw",
-      "first_seen": "2026-07-12T16:01:58+00:00",
-      "last_seen": "2026-07-17T04:58:39+00:00",
+      "first_seen": "2026-07-17T16:13:38+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "2026 桃園地景藝術節攝影比賽",
       "categories": [
         "影像",
@@ -1141,7 +1189,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 29,
       "title": "班夫藝術中心 跨文化音樂駐村計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3f1da1900060",
       "application_url": "https://www.banffcentre.ca/programs/music/soundweavings-2027",
@@ -1152,8 +1200,8 @@
       "opening_iso": "",
       "deadline_iso": "2026-09-30",
       "fingerprint": "班夫藝術中心跨文化音樂駐村計畫:artres.moc.gov.tw",
-      "first_seen": "2026-07-12T12:10:57+00:00",
-      "last_seen": "2026-07-17T04:53:13+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "班夫藝術中心 跨文化音樂駐村計畫",
       "categories": [
         "國外駐村"
@@ -1193,7 +1241,7 @@
       ]
     },
     {
-      "id": 79,
+      "id": 30,
       "title": "甘塞拉國際藝術中心 2027 行走實踐實驗室",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef842ac8e006b",
       "application_url": "https://canserrat.org/collective-creation2027_internationalresidency",
@@ -1203,9 +1251,9 @@
       "notes": "截止日期 2026.10.03 甘塞拉國際藝術中心 2027 集體創作實驗室：行走實踐實驗室 - Arts Residency Network Taiwan 藝術進駐網 跳到主要內容區塊 您的瀏覽器似乎不支援 JavaScript 語法",
       "opening_iso": "",
       "deadline_iso": "2026-10-03",
-      "fingerprint": "甘塞拉國際藝術中心2027集體創作實驗室行走實踐實驗室甘塞拉國際藝術中心2027集體創作實驗室以行走作為藝術與研:artres.moc.gov.tw",
-      "first_seen": "2026-07-13T01:33:21+00:00",
-      "last_seen": "2026-07-17T04:53:12+00:00",
+      "fingerprint": "甘塞拉國際藝術中心2027行走實踐實驗室:artres.moc.gov.tw",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "甘塞拉國際藝術中心 2027 行走實踐實驗室",
       "categories": [
         "國外駐村"
@@ -1245,7 +1293,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": 31,
       "title": "2026年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818198faf3a2019908590e4f0008",
       "application_url": "https://www.zhengbinart.com/about-zhma",
@@ -1256,8 +1304,8 @@
       "opening_iso": "",
       "deadline_iso": "2026-12-31",
       "fingerprint": "2026年永晝海濱美術館spacemoor展覽銷售駐港創作opencall:artres.moc.gov.tw",
-      "first_seen": "2026-07-12T12:13:56+00:00",
-      "last_seen": "2026-07-17T04:53:14+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "2026年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall",
       "categories": [
         "國內駐村"
@@ -1290,7 +1338,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": 32,
       "title": "2026年阿根廷柯拉松．心藝村藝術駐村徵件",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818198faf3a201999e78a01200cf",
       "application_url": "https://residenciacorazon.com.ar/",
@@ -1301,8 +1349,8 @@
       "opening_iso": "",
       "deadline_iso": "2026-12-31",
       "fingerprint": "2026年阿根廷柯拉松心藝村藝術駐村徵件:artres.moc.gov.tw",
-      "first_seen": "2026-07-12T12:13:56+00:00",
-      "last_seen": "2026-07-17T04:53:14+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "2026年阿根廷柯拉松．心藝村藝術駐村徵件",
       "categories": [
         "國外駐村"
@@ -1342,7 +1390,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": 33,
       "title": "Arquetopia 2025-2026 VAACA駐村計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818198faf3a2019975280ac200c7",
       "application_url": "https://www.arquetopia.org/residency-application",
@@ -1353,8 +1401,8 @@
       "opening_iso": "",
       "deadline_iso": "2026-12-31",
       "fingerprint": "arquetopia20252026vaaca駐村計畫:artres.moc.gov.tw",
-      "first_seen": "2026-07-12T12:13:56+00:00",
-      "last_seen": "2026-07-17T04:53:14+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "Arquetopia 2025-2026 VAACA駐村計畫",
       "categories": [
         "國外駐村"
@@ -1394,7 +1442,7 @@
       ]
     },
     {
-      "id": 58,
+      "id": 34,
       "title": "KAGANHOTEL 河岸旅館 藝術進駐 「KAGANHOTEL（河岸旅館・HOTEL）」由專門經營青年共享住宅的不動產公司",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff808181896d5b230189b04817ea003d",
       "application_url": "https://kaganhotel.com/air-en",
@@ -1405,8 +1453,8 @@
       "opening_iso": "",
       "deadline_iso": "",
       "fingerprint": "kaganhotel河岸旅館藝術進駐kaganhotel河岸旅館hotel由專門經營青年共享住宅的不動產公司:artres.moc.gov.tw",
-      "first_seen": "2026-07-12T15:58:11+00:00",
-      "last_seen": "2026-07-17T04:53:14+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "KAGANHOTEL 河岸旅館 藝術進駐 「KAGANHOTEL（河岸旅館・HOTEL）」由專門經營青年共享住宅的不動產公司",
       "categories": [
         "國外駐村"
@@ -1446,7 +1494,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": 35,
       "title": "Knai Bang Chatt – 藝術家駐村計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819b0257e0019c93cac6a70037",
       "application_url": "https://www.artforkep.org/",
@@ -1457,8 +1505,8 @@
       "opening_iso": "",
       "deadline_iso": "",
       "fingerprint": "knaibangchatt藝術家駐村計畫:artres.moc.gov.tw",
-      "first_seen": "2026-07-12T15:58:11+00:00",
-      "last_seen": "2026-07-17T04:53:15+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "Knai Bang Chatt – 藝術家駐村計畫",
       "categories": [
         "國外駐村"
@@ -1498,7 +1546,7 @@
       ]
     },
     {
-      "id": 75,
+      "id": 36,
       "title": "V54年青藝術家駐留計劃 計劃自2016年開展以來，為本地及海外年青藝術家提供低於市值租金的短期住宿與交流服務",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819883f7610198e53b84cb003c",
       "application_url": "https://www.poleungkuk.org.hk/service/youth-services/all-services/creative-art-and-culture-services/young-artist-in-residence-v54",
@@ -1509,8 +1557,8 @@
       "opening_iso": "",
       "deadline_iso": "",
       "fingerprint": "v54年青藝術家駐留計劃計劃自2016年開展以來為本地及海外年青藝術家提供低於市值租金的短期住宿與交流服務:artres.moc.gov.tw",
-      "first_seen": "2026-07-13T00:37:52+00:00",
-      "last_seen": "2026-07-17T04:53:15+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "V54年青藝術家駐留計劃 計劃自2016年開展以來，為本地及海外年青藝術家提供低於市值租金的短期住宿與交流服務",
       "categories": [
         "國外駐村"
@@ -1550,7 +1598,7 @@
       ]
     },
     {
-      "id": 50,
+      "id": 37,
       "title": "天堂藝術進駐短期駐村計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818191396c0101933d266590013e",
       "application_url": "https://air-j.info/en/program/paradise-air-shortstay-program/",
@@ -1561,8 +1609,8 @@
       "opening_iso": "",
       "deadline_iso": "",
       "fingerprint": "天堂藝術進駐短期駐村計畫:artres.moc.gov.tw",
-      "first_seen": "2026-07-12T12:13:56+00:00",
-      "last_seen": "2026-07-17T04:53:14+00:00",
+      "first_seen": "2026-07-18T01:10:57+00:00",
+      "last_seen": "2026-07-18T01:10:57+00:00",
       "original_title": "天堂藝術進駐短期駐村計畫",
       "categories": [
         "國外駐村"
@@ -1942,22 +1990,33 @@
     }
   ],
   "stats": {
-    "total": 25,
-    "with_deadline": 21,
-    "last_updated": "2026-07-17T04:58:39+00:00"
+    "total": 26,
+    "with_deadline": 22,
+    "last_updated": "2026-07-18T01:10:57+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-07-17T04:58:39+00:00",
+    "started_at": "2026-07-18T01:10:57+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
         "status": "ok",
-        "candidates": 61,
+        "candidates": 28,
         "accepted": 14,
-        "rejected": 47,
-        "fetch_errors": 0,
-        "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "rejected": 14,
+        "fetch_errors": 2,
+        "fallback_fetches": 15,
+        "restricted_candidates": [
+          {
+            "title": "頁面內公開連結",
+            "url": "https://artres.moc.gov.tw/upload/residentOpp/ff8081819a76b5a8019a7c0b1a100002.avif",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "頁面內公開連結",
+            "url": "https://artres.moc.gov.tw/zh/calls/content/ff808181896d5b230189b04817ea003d",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
@@ -2051,9 +2110,9 @@
       {
         "source": "ARTouch 典藏",
         "status": "ok",
-        "candidates": 9,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 9,
+        "rejected": 10,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2062,9 +2121,9 @@
       {
         "source": "非池中藝術網",
         "status": "ok",
-        "candidates": 9,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 9,
+        "rejected": 10,
         "fetch_errors": 0,
         "fallback_fetches": 1,
         "restricted_candidates": [],
@@ -2098,21 +2157,27 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 1,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "OPEN Definition & Meaning - Merriam-Webster",
+            "url": "https://www.merriam-webster.com/dictionary/open",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
         "source": "白水 SpringBao 攝影徵件",
-        "status": "ok",
-        "candidates": 11,
-        "accepted": 1,
-        "rejected": 10,
+        "status": "error",
+        "candidates": 0,
+        "accepted": 0,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "HTTP Error 429: Too Many Requests"
       },
       {
         "source": "國家地理雜誌臺灣攝影大賽",
@@ -2165,7 +2230,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2219,9 +2284,20 @@
         "candidates": 6,
         "accepted": 0,
         "rejected": 6,
-        "fetch_errors": 0,
+        "fetch_errors": 2,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
+            "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
+            "reason": "HTTP Error 404: Not Found"
+          },
+          {
+            "title": "租借服務 Application Service",
+            "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
+            "reason": "HTTP Error 404: Not Found"
+          }
+        ],
         "error": ""
       },
       {
@@ -2270,14 +2346,14 @@
       },
       {
         "source": "241藝術空間展覽徵件",
-        "status": "ok",
-        "candidates": 2,
+        "status": "error",
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "HTTP Error 403: Forbidden"
       },
       {
         "source": "洪建全基金會雨棚計畫",
@@ -2304,9 +2380,9 @@
       {
         "source": "窯座 YÁO Alternative Space",
         "status": "ok",
-        "candidates": 2,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2329,9 +2405,25 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 3,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "Arevalo's Tires Inc. | Dalton's Best Tire and Mechanic Service",
+            "url": "https://www.arevalostires.com/",
+            "reason": "HTTP Error 429: Too Many Requests"
+          },
+          {
+            "title": "Taylor's Tire & Service, Inc. in Dalton, GA 30720 - 706-278",
+            "url": "https://www.chamberofcommerce.com/business-directory/georgia/dalton/tire-shop/1411676-taylor-s-tire-service-inc",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "THE BEST 10 Tires in DALTON, GA - Verified Listings Only - Yelp",
+            "url": "https://www.yelp.com/search?cflt=tires&find_loc=Dalton%2C+GA",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
@@ -2402,23 +2494,23 @@
       },
       {
         "source": "ss space space Instagram",
-        "status": "ok",
-        "candidates": 12,
+        "status": "error",
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 12,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "HTTP Error 429: Too Many Requests"
       },
       {
         "source": "Spatial Art TORAM｜Japan Open Calls",
         "status": "ok",
-        "candidates": 3,
-        "accepted": 0,
-        "rejected": 3,
+        "candidates": 1,
+        "accepted": 1,
+        "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 2,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2437,13 +2529,13 @@
         "source": "攝影專題人工查證庫",
         "status": "ok",
         "candidates": 9,
-        "accepted": 8,
-        "rejected": 1,
+        "accepted": 7,
+        "rejected": 2,
         "fetch_errors": 0,
         "error": ""
       }
     ],
-    "accepted": 27,
-    "errors": 1
+    "accepted": 26,
+    "errors": 4
   }
 }
