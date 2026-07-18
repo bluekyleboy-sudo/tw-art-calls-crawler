@@ -2,7 +2,6 @@ name: 每小時更新 OPEN FIELD 資料
 on:
   workflow_dispatch:
   schedule:
-    # Every hour at minute 15. GitHub may start scheduled runs a few minutes late.
     - cron: "15 * * * *"
   push:
     branches: [main]
@@ -17,7 +16,33 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: python -m unittest discover -s tests
+      - name: 備份上一版有效機會
+        run: cp docs/calls.json /tmp/previous-calls.json
       - run: python app.py fetch
+      - name: 交叉合併過去既有機會
+        run: |
+          python - <<'PY'
+          import json, urllib.request
+          from datetime import date, datetime, timedelta, timezone
+          import app
+          feeds=[json.load(open('/tmp/previous-calls.json'))]
+          try:
+              with urllib.request.urlopen('https://openfield-art-calls-tw.bluekyleboy.chatgpt.site/calls.json', timeout=30) as response:
+                  feeds.append(json.load(response))
+          except Exception as exc:
+              print('Sites snapshot unavailable:', exc)
+          cutoff=(datetime.now(timezone.utc)-timedelta(days=30)).isoformat()
+          restored=0
+          for feed in feeds:
+              for x in feed.get('opportunities', []):
+                  deadline=x.get('deadline_iso', '')
+                  if deadline and deadline < date.today().isoformat(): continue
+                  if not deadline and x.get('last_seen', '') < cutoff: continue
+                  if not all(x.get(k) for k in ('title','url','source','category','region')): continue
+                  app.save({'title':x['title'],'url':x['url'],'application_url':x.get('application_url') or x['url'],'source':x['source'],'category':x['category'],'region':x['region'],'notes':x.get('notes',''),'opening_iso':x.get('opening_iso',''),'deadline_iso':deadline})
+                  restored+=1
+          print('Cross-validated historical records:', restored)
+          PY
       - run: python app.py export --output docs/calls.json
       - name: 確認更新資料可用
         run: |
