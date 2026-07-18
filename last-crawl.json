@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-18T19:37:00+00:00",
+  "started_at": "2026-07-18T21:10:49+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,9 +37,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -180,9 +180,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -236,8 +236,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 3,
-      "accepted": 1,
-      "rejected": 2,
+      "accepted": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -400,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -414,12 +414,17 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "GOOGLE Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/google",
+          "title": "Kosovo | History, Map, Flag, Population, Languages, & Capital - Britannica",
+          "url": "https://www.britannica.com/place/Kosovo",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Kosovo - Autonomy, Ethnicity, Politics | Britannica",
+          "url": "https://www.britannica.com/place/Kosovo/Government-and-society",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -472,11 +477,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
