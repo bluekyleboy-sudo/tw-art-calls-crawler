@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import argparse, concurrent.futures, difflib, gzip, html, json, re, shutil, sqlite3, time, urllib.request
 import xml.etree.ElementTree as ET
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -242,8 +242,9 @@ def crawl_source(source):
   unique={canonical(x["url"]):x for x in promising}; candidates=list(unique.values())[:source.get("max_candidates",60)]; report["candidates"]=len(candidates)
   def inspect(candidate):
    try:
-    generic=("跳到主要內容區塊","skip to content","english","open call","schedule","programs","artist","residency","latest news","最新消息")
-    if source["mode"] not in ("direct","search") and (candidate["title"].strip().lower() in generic or clean(candidate["title"]).lower()==source["name"].lower()): return None,"generic navigation"
+    generic=("跳到主要內容區塊","skip to content","english","open call","schedule","programs","artist","residency","latest news","最新消息","頁面內公開連結")
+    candidate_title=clean(candidate["title"]).lower()
+    if candidate_title in generic or (source["mode"] not in ("direct","search") and candidate_title==source["name"].lower()): return None,"generic navigation"
     if "prefetched" in candidate: detail,detail_links=candidate["prefetched"]; url=candidate["url"]; method="prefetched"
     else:
      detail,detail_links,url,method=readable_fetch(candidate["url"])
@@ -272,11 +273,32 @@ def crawl_source(source):
       report["fetch_errors"]+=1
       if len(report["restricted_candidates"])<8: report["restricted_candidates"].append({"title":title_clean(candidate.get("title","候選頁面")),"url":candidate.get("url",""),"reason":reason[12:]})
   if report["candidates"]:
-   c=database(); c.execute("DELETE FROM opportunities WHERE source=? AND last_seen<?",(source["name"],source_started)); c.commit(); c.close()
+   # A listing can transiently omit valid calls because of pagination, social
+   # login walls or rate limits. Keep dated records until their deadline and
+   # only retire rolling/no-deadline records after 30 days without confirmation.
+   stale=(datetime.now(timezone.utc)-timedelta(days=30)).isoformat(timespec="seconds")
+   c=database(); c.execute("DELETE FROM opportunities WHERE source=? AND deadline_iso='' AND last_seen<?",(source["name"],stale)); c.commit(); c.close()
  except Exception as exc: report["status"]="error";report["error"]=str(exc)[:300]
  return report
 
+def restore_previous_snapshot():
+ """Recover from a missing/new DB using the last successfully exported feed."""
+ snapshot=ROOT/"docs"/"calls.json"
+ if not snapshot.exists():return 0
+ try:items=json.loads(snapshot.read_text(encoding="utf-8")).get("opportunities",[])
+ except Exception:return 0
+ valid=[x for x in items if not x.get("deadline_iso") or x["deadline_iso"]>=date.today().isoformat()]
+ c=database(); count=c.execute("SELECT COUNT(*) FROM opportunities WHERE deadline_iso='' OR deadline_iso>=?",(date.today().isoformat(),)).fetchone()[0];c.close()
+ if count>=max(1,int(len(valid)*.8)):return 0
+ restored=0
+ for x in valid:
+  required=("title","url","source","category","region")
+  if not all(x.get(k) for k in required):continue
+  save({"title":x["title"],"url":x["url"],"application_url":x.get("application_url") or x["url"],"source":x["source"],"category":x["category"],"region":x["region"],"notes":x.get("notes",""),"opening_iso":x.get("opening_iso",""),"deadline_iso":x.get("deadline_iso","")});restored+=1
+ return restored
+
 def harvest():
+ restored=restore_previous_snapshot()
  sources=load(SOURCES,"sources")
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: reports=list(pool.map(crawl_source,sources))
  if VERIFIED.exists():
@@ -285,7 +307,7 @@ def harvest():
    if not item.get("deadline_iso") or item["deadline_iso"]>=date.today().isoformat(): save(item); kept+=1
   reports.append({"source":"攝影專題人工查證庫","status":"ok","candidates":len(verified),"accepted":kept,"rejected":len(verified)-kept,"fetch_errors":0,"error":""})
  c=database(); c.execute("DELETE FROM opportunities WHERE deadline_iso<>'' AND deadline_iso<?",(date.today().isoformat(),)); c.commit(); c.close()
- payload={"started_at":now(),"sources":reports,"accepted":sum(x["accepted"] for x in reports),"errors":sum(x["status"]=="error" for x in reports)}
+ payload={"started_at":now(),"sources":reports,"accepted":sum(x["accepted"] for x in reports),"restored_from_previous":restored,"errors":sum(x["status"]=="error" for x in reports)}
  REPORT.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8"); return payload
 def opportunity_key(title):
  value=title_clean(title).lower()
@@ -328,6 +350,7 @@ def opportunities():
  c=database(); rows=c.execute("SELECT * FROM opportunities WHERE deadline_iso='' OR deadline_iso>=? ORDER BY CASE WHEN deadline_iso='' THEN 1 ELSE 0 END,deadline_iso,title",(date.today().isoformat(),)).fetchall();c.close(); grants=load(GRANTS,"grants");out=[]
  for row in rows:
   item=dict(row)
+  if title_clean(item["title"]).lower() in ("頁面內公開連結","open call","latest news","最新消息"):continue
   title_overrides={
    "https://www.carlottagallery.co.uk/opencalls":"Carlotta Gallery — ‘On Film’ Photography Open Call, UK",
    "https://canserrat.org/collective-creation2027_internationalresidency":"甘塞拉國際藝術中心 2027 行走實踐實驗室",
