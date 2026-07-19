@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-19T03:58:52+00:00",
+  "started_at": "2026-07-19T06:47:26+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -403,17 +403,23 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Pagamenti internazionali: bonifico, rimessa di assegni e cambiali",
+          "url": "https://www.laleggepertutti.it/5081_pagamenti-internazionali-bonifico-rimessa-di-assegni-e-cambiali",
+          "reason": "The read operation timed out"
+        }
+      ],
       "error": ""
     },
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 4,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 4,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
