@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-19T16:17:57+00:00",
+  "started_at": "2026-07-19T17:23:09+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -403,23 +403,17 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Windsor Castle - All You SHOULD Know Before Going (2026 Reviews)",
-          "url": "https://www.tripadvisor.com/Attraction_Review-g186419-d216438-Reviews-Windsor_Castle-Windsor_Windsor_and_Maidenhead_Berkshire_England.html",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -501,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 13,
   "restored_from_previous": 0,
   "errors": 3
 }
