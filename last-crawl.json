@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-19T06:47:26+00:00",
+  "started_at": "2026-07-19T09:21:41+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -370,20 +370,42 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "300+ \"Mark Bolton\" profiles | LinkedIn",
+          "url": "https://www.linkedin.com/pub/dir/Mark+/Bolton+",
+          "reason": "HTTP Error 999: <none>"
+        },
+        {
+          "title": "Mcb Solutions Ltd",
+          "url": "https://1stdirectory.co.uk/financial/mcb-solutions-ltd/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 0,
+      "rejected": 9,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Hotels in Biberach an der Riß",
+          "url": "https://de.hotels.com/de1640080/hotels-biberach-an-der-ri-deutschland/",
+          "reason": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "Die 10 besten Hotels in Bordesholm ab 43 € | Hotels.com",
+          "url": "https://de.hotels.com/de365075/hotels-bordesholm-deutschland/",
+          "reason": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "error": ""
     },
     {
@@ -403,13 +425,18 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Pagamenti internazionali: bonifico, rimessa di assegni e cambiali",
-          "url": "https://www.laleggepertutti.it/5081_pagamenti-internazionali-bonifico-rimessa-di-assegni-e-cambiali",
-          "reason": "The read operation timed out"
+          "title": "Beyrac Architects | architecture firm | Beyrac Architects - Dubai",
+          "url": "https://www.beyracarchitects.com/",
+          "reason": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "title": "Architect in United Arab Emirates - Infobel",
+          "url": "https://www.infobel.com/en/unitedarabemirates/business/80202/architect",
+          "reason": "HTTP Error 403: Forbidden"
         }
       ],
       "error": ""
@@ -417,9 +444,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
