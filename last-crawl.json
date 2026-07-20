@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-20T11:17:29+00:00",
+  "started_at": "2026-07-20T13:23:12+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -125,9 +125,9 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -147,9 +147,9 @@
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -411,18 +411,12 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 1,
-      "fetch_errors": 1,
+      "rejected": 10,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "잘만테크 토론방,주주동호회,소액주주모임,상장폐지 주식,퇴출 종목",
-          "url": "http://forum.38.co.kr/html/forum/board/?code=090120",
-          "reason": "<urlopen error timed out>"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -472,11 +466,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -501,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 13,
   "restored_from_previous": 0,
   "errors": 3
 }
