@@ -1,56 +1,15 @@
 {
-  "started_at": "2026-07-20T20:45:48+00:00",
+  "started_at": "2026-07-20T22:17:32+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 61,
-      "accepted": 13,
-      "rejected": 48,
-      "fetch_errors": 23,
-      "fallback_fetches": 11,
-      "restricted_candidates": [
-        {
-          "title": "Knai Bang Chatt – 藝術家駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819b0257e0019c93cac6a70037",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2027/28年度城崎國際藝術中心駐村藝術家計畫 日本 / 豊岡市 截止日期 2026.06.27",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ea19f67640029",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "東京藝術空間 2027 駐村計畫：國際創作者駐村計畫、策展人駐村計畫、研究駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e0157aaca0034",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2027農場工作室國際藝術駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019ce09f3bcd0002",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "叩居國際駐村計畫：2026 年 8 月至 9 月 印度 / 新德里 截止日期 2026.06.07",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3f9afd710064",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2026–2027年太武新村眷村文化園區藝術進駐計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019dd7f71ed00001",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "恩庫拉第九屆：巴塞隆納與畢爾包策展研究駐村 西班牙 / 巴塞隆納、畢爾包 截止日期 2026.07.06",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef82f69930068",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2027年駁二藝術特區藝術家進駐計畫公開徵件",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019df268b988000d",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "candidates": 28,
+      "accepted": 0,
+      "rejected": 28,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -78,9 +37,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -155,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -173,8 +132,8 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -186,22 +145,12 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OpenAI | Research & Deployment",
-          "url": "https://openai.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -213,17 +162,12 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -254,9 +198,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -302,7 +246,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -310,8 +254,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 3,
-      "accepted": 2,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -345,30 +289,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 4,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
-          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "租借服務 Application Service",
-          "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -476,25 +399,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Divino Espirito Santo Porta em Promoção no Magazine Luiza",
-          "url": "https://www.magazineluiza.com.br/busca/divino+espirito+santo+porta/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Resultados para \"Porta Guardanapos Espirito Santo\" - Elo7",
-          "url": "https://www.elo7.com.br/lista/porta-guardanapos-espirito-santo",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "Porta guardanapos espirito santo esmaltado | Compre Produtos ... - Elo7",
-          "url": "https://www.elo7.com.br/lista/porta-guardanapos-espirito-santo-esmaltado",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -514,15 +421,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Current local time in Pensacola (Florida, United States)",
-          "url": "https://sunsetsunrisetime.com/time/pensacola",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -612,7 +513,7 @@
       "error": ""
     }
   ],
-  "accepted": 26,
+  "accepted": 12,
   "restored_from_previous": 0,
   "errors": 3
 }
