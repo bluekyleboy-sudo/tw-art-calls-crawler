@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-20T00:17:39+00:00",
+  "started_at": "2026-07-20T04:11:34+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,9 +37,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -125,9 +125,9 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -147,9 +147,9 @@
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -180,9 +180,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -236,8 +236,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 3,
-      "accepted": 1,
-      "rejected": 2,
+      "accepted": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -400,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -414,22 +414,17 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Dean Martin | Biography, Movies, & Songs | Britannica",
-          "url": "https://www.britannica.com/biography/Dean-Martin",
+          "title": "Mr. Bungle Lyrics and Tracklist - Genius",
+          "url": "https://genius.com/albums/Mr-bungle/Mr-bungle",
           "reason": "HTTP Error 403: Forbidden"
         },
         {
-          "title": "Dean Martin died on Christmas Day after two-year battle with a deadly",
-          "url": "https://www.express.co.uk/life-style/health/1654144/dean-martin-health-lung-cancer-tumour-symptoms-emphysema",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Dean Martin (1917-1995) - Find a Grave Memorial",
-          "url": "https://www.findagrave.com/memorial/1190/dean-martin",
+          "title": "Mr. Bungle - OU818 Lyrics and Tracklist | Genius",
+          "url": "https://genius.com/albums/Mr-bungle/Ou818",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -511,7 +506,7 @@
       "error": ""
     }
   ],
-  "accepted": 11,
+  "accepted": 13,
   "restored_from_previous": 0,
   "errors": 3
 }
