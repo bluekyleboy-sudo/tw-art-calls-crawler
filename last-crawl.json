@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-20T04:11:34+00:00",
+  "started_at": "2026-07-20T07:33:59+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -117,17 +117,23 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 1,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "https://t.co/2upkV7MBYG",
+          "url": "https://x.com/labooboo2546/status/2076287047816610234",
+          "reason": "HTTP Error 404: Not Found"
+        }
+      ],
       "error": ""
     },
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +142,9 @@
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -147,9 +153,9 @@
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -323,9 +329,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -367,9 +373,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 6,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 6,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -414,20 +420,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Mr. Bungle Lyrics and Tracklist - Genius",
-          "url": "https://genius.com/albums/Mr-bungle/Mr-bungle",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Mr. Bungle - OU818 Lyrics and Tracklist | Genius",
-          "url": "https://genius.com/albums/Mr-bungle/Ou818",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
