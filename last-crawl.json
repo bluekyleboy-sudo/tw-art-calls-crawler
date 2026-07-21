@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-21T09:44:54+00:00",
+  "started_at": "2026-07-21T12:05:13+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,9 +37,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -125,9 +125,9 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 6,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -147,9 +147,9 @@
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -180,9 +180,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -236,8 +236,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 3,
-      "accepted": 0,
-      "rejected": 3,
+      "accepted": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -338,7 +338,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -378,9 +378,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 5,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -400,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -495,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 11,
+  "accepted": 12,
   "restored_from_previous": 0,
   "errors": 3
 }
