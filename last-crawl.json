@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-21T20:41:21+00:00",
+  "started_at": "2026-07-21T22:17:12+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -128,9 +128,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -139,9 +145,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -150,9 +162,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -378,9 +396,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 5,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -400,9 +418,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -414,9 +432,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Best Continuous Glucose Monitors – Forbes Health",
+          "url": "https://www.forbes.com/health/conditions/diabetes/best-continuous-glucose-monitor/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
