@@ -1,56 +1,15 @@
 {
-  "started_at": "2026-07-22T16:51:01+00:00",
+  "started_at": "2026-07-22T18:39:19+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 62,
-      "accepted": 15,
-      "rejected": 47,
-      "fetch_errors": 21,
-      "fallback_fetches": 12,
-      "restricted_candidates": [
-        {
-          "title": "2027/28年度城崎國際藝術中心駐村藝術家計畫 日本 / 豊岡市 截止日期 2026.06.27",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ea19f67640029",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "東京藝術空間 2027 駐村計畫：國際創作者駐村計畫、策展人駐村計畫、研究駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e0157aaca0034",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2027 茨城縣阿庫斯駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019d7059c630005e",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2026 Folimage動畫工作室駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019d1f51a95b0026",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "「Nodus 2026」：聖馬特烏（卡斯特羅）當代舞蹈藝術駐留計畫 西班牙 / 卡斯特羅 截止日期 2026.05.25",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019ce5ca5c0f000b",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "「IF里昂國際插畫節",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019db80b85a602ba",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2026臺灣文學基地作家駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019d8596f6b90075",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "黃金町市集＋上大岡市集 2026：我們交會的世界",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019db402b595008e",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "candidates": 29,
+      "accepted": 0,
+      "rejected": 29,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -144,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -155,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -169,15 +128,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -186,15 +139,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -203,25 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -325,14 +256,14 @@
     },
     {
       "source": "臺北藝術週｜展覽活動響應",
-      "status": "error",
-      "candidates": 0,
-      "accepted": 0,
+      "status": "ok",
+      "candidates": 1,
+      "accepted": 1,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "source": "臺南市美術館 TAM+ 展覽計畫",
@@ -340,20 +271,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
-          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "租借服務 Application Service",
-          "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -402,14 +322,14 @@
     },
     {
       "source": "241藝術空間展覽徵件",
-      "status": "error",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "source": "洪建全基金會雨棚計畫",
@@ -450,58 +370,17 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 9,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Eva Elfie - Reddit",
-          "url": "https://www.reddit.com/r/EvaElfie/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "with Eva Elfie : r/RiaeSuicide - Reddit",
-          "url": "https://www.reddit.com/r/RiaeSuicide/comments/14gu2jx/with_eva_elfie/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Eva_Elfie_OF - Reddit",
-          "url": "https://www.reddit.com/r/Eva_Elfie_OF/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Yoo, i got the eva elfie decal : r/Warthunder - Reddit",
-          "url": "https://www.reddit.com/r/Warthunder/comments/xm1ud3/yoo_i_got_the_eva_elfie_decal/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Eva Elfie : r/FamousFaces - Reddit",
-          "url": "https://www.reddit.com/r/FamousFaces/comments/1ddp9tk/eva_elfie/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "HOT QUESTIONS TO DOTA 2 PLAYERS — Eva Elfie : r/DotA2 - Reddit",
-          "url": "https://www.reddit.com/r/DotA2/comments/ye38qb/hot_questions_to_dota_2_players_eva_elfie/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Dragons Dogma 2 ( Eva Elfie ) : r/DragonsDogma2 - Reddit",
-          "url": "https://www.reddit.com/r/DragonsDogma2/comments/1bs6gzc/dragons_dogma_2_eva_elfie/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Got the Eva Elfie decal : r/Warthunder - Reddit",
-          "url": "https://www.reddit.com/r/Warthunder/comments/xm3eea/got_the_eva_elfie_decal/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -521,16 +400,16 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 1,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Marmorkirken | Church | Marmorkirken, Frederiksgade, Copenhagen, Denmark",
-          "url": "https://www.marmorkirken.dk/",
-          "reason": "HTTP Error 429: Too Many Requests"
+          "title": "OCI",
+          "url": "http://ociservices.gov.in/",
+          "reason": "<urlopen error timed out>"
         }
       ],
       "error": ""
@@ -538,9 +417,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -622,7 +501,7 @@
       "error": ""
     }
   ],
-  "accepted": 26,
+  "accepted": 12,
   "restored_from_previous": 0,
-  "errors": 5
+  "errors": 3
 }
