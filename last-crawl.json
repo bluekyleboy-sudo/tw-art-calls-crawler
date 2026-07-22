@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-21T23:18:08+00:00",
+  "started_at": "2026-07-22T00:14:10+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -114,18 +114,12 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 1,
+      "rejected": 7,
+      "fetch_errors": 0,
       "fallback_fetches": 1,
-      "restricted_candidates": [
-        {
-          "title": "Gyro Shack Menu (Latest updated menu)",
-          "url": "https://gyro-shack.goto-restaurants.com/menu",
-          "reason": "<urlopen error [Errno -2] Name or service not known>"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -264,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -362,9 +356,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -417,9 +411,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -501,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 11,
   "restored_from_previous": 0,
   "errors": 3
 }
