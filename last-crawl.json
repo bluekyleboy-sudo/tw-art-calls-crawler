@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-23T16:50:44+00:00",
+  "started_at": "2026-07-23T18:42:29+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -466,11 +466,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -495,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 13,
   "restored_from_previous": 0,
   "errors": 3
 }
