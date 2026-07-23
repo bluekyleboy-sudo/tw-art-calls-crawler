@@ -1,56 +1,15 @@
 {
-  "started_at": "2026-07-23T06:45:18+00:00",
+  "started_at": "2026-07-23T09:40:44+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 62,
-      "accepted": 15,
-      "rejected": 47,
-      "fetch_errors": 24,
-      "fallback_fetches": 12,
-      "restricted_candidates": [
-        {
-          "title": "台北",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019d71596d5f0065",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2026 好地下藝術空間 藝術家進駐徵件",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef34e50390057",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2027/28年度城崎國際藝術中心駐村藝術家計畫 日本 / 豊岡市 截止日期 2026.06.27",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ea19f67640029",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "東京藝術空間 2027 駐村計畫：國際創作者駐村計畫、策展人駐村計畫、研究駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e0157aaca0034",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2027 茨城縣阿庫斯駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019d7059c630005e",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2026 Folimage動畫工作室駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019d1f51a95b0026",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2026 Makotaay生態藝術村藝術創作營 臺灣 / 花蓮縣 截止日期 2026.05.31",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e010a9171002d",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "「Nodus 2026」：聖馬特烏（卡斯特羅）當代舞蹈藝術駐留計畫 西班牙 / 卡斯特羅 截止日期 2026.05.25",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019ce5ca5c0f000b",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "candidates": 29,
+      "accepted": 0,
+      "rejected": 29,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -269,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -312,35 +271,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 5,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
-          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "租借服務 Application Service",
-          "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "申請流程 Application Procedure",
-          "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -389,14 +322,14 @@
     },
     {
       "source": "241藝術空間展覽徵件",
-      "status": "error",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "source": "洪建全基金會雨棚計畫",
@@ -445,23 +378,12 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 2,
-      "fetch_errors": 2,
+      "rejected": 10,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Android TV x86 (repurpose your own PCs) - XDA Forums",
-          "url": "https://forum.xda-developers.com/android-stick--console-computers/intel/android-tv-x86-repurpose-pcs-t4182205",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "XDA Forums",
-          "url": "https://forum.xda-developers.com/attachments/v88_rk3229_7-1_mx4vb_20171209_v011_androidpc-es-zip.5273341/",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -478,20 +400,26 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Carr — Architecture and Interior Design",
+          "url": "https://www.carr.net.au/",
+          "reason": "<urlopen error timed out>"
+        }
+      ],
       "error": ""
     },
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -543,14 +471,14 @@
     },
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
-      "status": "error",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": ""
     },
     {
       "source": "Seoul Museum of Art｜Open Calls",
@@ -573,7 +501,7 @@
       "error": ""
     }
   ],
-  "accepted": 26,
+  "accepted": 11,
   "restored_from_previous": 0,
-  "errors": 5
+  "errors": 3
 }
