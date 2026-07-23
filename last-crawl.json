@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-23T20:25:02+00:00",
+  "started_at": "2026-07-23T22:19:14+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -150,9 +150,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "HOTEL ALBUQUERQUE AT OLD TOWN - 2026 Prices & Reviews (NM) - Tripadvisor",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60933-d92775-Reviews-Hotel_Albuquerque_at_Old_Town-Albuquerque_New_Mexico.html",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -367,9 +373,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -400,9 +406,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
