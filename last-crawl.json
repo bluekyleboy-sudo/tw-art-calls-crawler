@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-23T23:18:42+00:00",
+  "started_at": "2026-07-24T00:17:43+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -128,15 +128,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -145,15 +139,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -162,15 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -246,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -276,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -341,11 +323,11 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -385,9 +367,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 7,
-      "accepted": 0,
-      "rejected": 7,
+      "candidates": 10,
+      "accepted": 1,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -399,9 +381,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Fluorescent lamp | Definition, Types, & Facts | Britannica",
+          "url": "https://www.britannica.com/technology/fluorescent-lamp",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -429,28 +417,12 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 8,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 3,
+      "rejected": 8,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Error",
-          "url": "https://www.consultas.curp.gob.mx/CurpSP/curppxcurp1.do",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
-        },
-        {
-          "title": "CURP | Trámites | gob.mx",
-          "url": "https://www.consultas.curp.gob.mx/CurpSP/imprimir.do",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
-        },
-        {
-          "title": "Ayuda",
-          "url": "https://www.consultas.curp.gob.mx/CurpSP/html/informacionecurpPS.html",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -500,11 +472,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
