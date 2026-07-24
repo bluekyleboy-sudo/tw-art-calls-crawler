@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-24T12:00:51+00:00",
+  "started_at": "2026-07-24T14:17:23+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -381,9 +381,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Contact Us | 1-800 CONTACTS",
+          "url": "https://www.1800contacts.com/contact-us",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "1-800 Contacts",
+          "url": "https://www.1800contacts.com/rebates",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -400,9 +411,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
