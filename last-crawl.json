@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-25T18:15:36+00:00",
+  "started_at": "2026-07-25T19:39:24+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -344,14 +344,14 @@
     },
     {
       "source": "麗寶彩雲藝術空間徵件",
-      "status": "ok",
+      "status": "error",
       "candidates": 0,
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
     },
     {
       "source": "窯座 YÁO Alternative Space",
@@ -367,23 +367,12 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
-      "fetch_errors": 2,
+      "rejected": 10,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Lowes Store Locations in New York, NY - The Real Yellow Pages",
-          "url": "https://www.yellowpages.com/new-york-ny/lowes-store-locations",
-          "reason": "HTTP Error 530: <none>"
-        },
-        {
-          "title": "Lowes in Queens, NY - The Real Yellow Pages",
-          "url": "https://www.yellowpages.com/queens-ny/lowes",
-          "reason": "HTTP Error 530: <none>"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -422,9 +411,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -506,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 13,
   "restored_from_previous": 0,
-  "errors": 3
+  "errors": 4
 }
