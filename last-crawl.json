@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-25T17:19:13+00:00",
+  "started_at": "2026-07-25T18:15:36+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -367,12 +367,23 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 0,
+      "rejected": 9,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Lowes Store Locations in New York, NY - The Real Yellow Pages",
+          "url": "https://www.yellowpages.com/new-york-ny/lowes-store-locations",
+          "reason": "HTTP Error 530: <none>"
+        },
+        {
+          "title": "Lowes in Queens, NY - The Real Yellow Pages",
+          "url": "https://www.yellowpages.com/queens-ny/lowes",
+          "reason": "HTTP Error 530: <none>"
+        }
+      ],
       "error": ""
     },
     {
@@ -411,9 +422,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -495,7 +506,7 @@
       "error": ""
     }
   ],
-  "accepted": 13,
+  "accepted": 12,
   "restored_from_previous": 0,
   "errors": 3
 }
