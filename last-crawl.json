@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-26T18:18:56+00:00",
+  "started_at": "2026-07-26T19:42:47+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -367,9 +367,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -381,9 +381,25 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "HBO哈利波特电视剧第一部预告片已经发布，如何评价",
+          "url": "https://www.zhihu.com/question/2020416457738056357",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "如何看待外媒报道 HBO 剧版《哈利·波特》或让非裔演员帕帕·厄希度饰演斯内普教授",
+          "url": "https://www.zhihu.com/question/6063215262",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "为什么 HBO 的剧集《真探》（True Detective）的",
+          "url": "https://www.zhihu.com/question/22786627",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -400,18 +416,12 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 6,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 1,
+      "rejected": 6,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Car Plows Into Crowd at Berlin Pride Event in Suspected Terror Attack",
-          "url": "https://www.nytimes.com/2026/07/25/world/europe/berlin-car-attack.html",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -420,12 +430,27 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 4,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "驱动精灵、360驱动大师、驱动人生、联想驱动管理我该相信谁",
-          "url": "https://www.zhihu.com/question/50028705",
+          "title": "Soda Ash??? - Texas Hunting Forum",
+          "url": "https://texashuntingforum.com/forum/ubbthreads.php/topics/799975/Re_Soda_Ash",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Crushed iron ore for roads... - Texas Hunting Forum",
+          "url": "https://texashuntingforum.com/forum/ubbthreads.php/topics/4277073/Crushed_iron_ore_for_roads",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Knives - Texas Hunting Forum",
+          "url": "https://texashuntingforum.com/forum/ubbthreads.php/forums/44/1/knives",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": ".300 Blackout with Nikon Scope - Texas Hunting Forum",
+          "url": "https://texashuntingforum.com/forum/ubbthreads.php/topics/9362995/300-blackout-with-nikon-scope",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
