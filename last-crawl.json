@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-26T04:04:04+00:00",
+  "started_at": "2026-07-26T06:53:35+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -125,9 +125,9 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -147,9 +147,9 @@
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -245,14 +245,14 @@
     },
     {
       "source": "臺南新藝獎｜畫廊展覽媒合",
-      "status": "ok",
-      "candidates": 2,
-      "accepted": 1,
-      "rejected": 1,
+      "status": "error",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "<urlopen error timed out>"
     },
     {
       "source": "臺北藝術週｜展覽活動響應",
@@ -381,15 +381,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "There is no/There is not a - WordReference Forums",
-          "url": "https://forum.wordreference.com/threads/there-is-no-there-is-not-a.1519409/",
-          "reason": "HTTP Error 418: "
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -409,45 +403,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 7,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "BingHomepageQuiz - Reddit",
-          "url": "https://www.reddit.com/r/BingHomepageQuiz/hot/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "discoverbits (u/discoverbits) - Reddit",
-          "url": "https://www.reddit.com/user/discoverbits/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Microsoft Rewards: Bing News Quiz Answers Today - Reddit",
-          "url": "https://www.reddit.com/r/EveryDayBingQuiz/comments/1d4lg7p/microsoft_rewards_bing_news_quiz_answers_today/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Is there some secret \"trick\" to solving these? - Reddit",
-          "url": "https://www.reddit.com/r/MicrosoftRewards/comments/1bu8kas/is_there_some_secret_trick_to_solving_these/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Quizzes Not Giving Full Points? : r/MicrosoftRewards - Reddit",
-          "url": "https://www.reddit.com/r/MicrosoftRewards/comments/11qycsf/quizzes_not_giving_full_points/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "[US] In 2016, the American bison was declared what? - MS Bing Quiz",
-          "url": "https://www.reddit.com/r/BingHomepageQuiz/comments/rysc10/us_in_2016_the_american_bison_was_declared_what/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "[US] Bing Entertainment News Quiz (6/8/2022) - Reddit",
-          "url": "https://www.reddit.com/r/BingHomepageQuiz/comments/v7pyb6/us_bing_entertainment_news_quiz_682022/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -507,14 +465,14 @@
     },
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
-      "status": "error",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": ""
     },
     {
       "source": "Seoul Museum of Art｜Open Calls",
@@ -537,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 13,
+  "accepted": 12,
   "restored_from_previous": 0,
   "errors": 4
 }
