@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-26T00:24:42+00:00",
+  "started_at": "2026-07-26T04:04:04+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -19,7 +19,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -381,9 +381,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "There is no/There is not a - WordReference Forums",
+          "url": "https://forum.wordreference.com/threads/there-is-no-there-is-not-a.1519409/",
+          "reason": "HTTP Error 418: "
+        }
+      ],
       "error": ""
     },
     {
@@ -400,12 +406,48 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 7,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "BingHomepageQuiz - Reddit",
+          "url": "https://www.reddit.com/r/BingHomepageQuiz/hot/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "discoverbits (u/discoverbits) - Reddit",
+          "url": "https://www.reddit.com/user/discoverbits/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Microsoft Rewards: Bing News Quiz Answers Today - Reddit",
+          "url": "https://www.reddit.com/r/EveryDayBingQuiz/comments/1d4lg7p/microsoft_rewards_bing_news_quiz_answers_today/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Is there some secret \"trick\" to solving these? - Reddit",
+          "url": "https://www.reddit.com/r/MicrosoftRewards/comments/1bu8kas/is_there_some_secret_trick_to_solving_these/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Quizzes Not Giving Full Points? : r/MicrosoftRewards - Reddit",
+          "url": "https://www.reddit.com/r/MicrosoftRewards/comments/11qycsf/quizzes_not_giving_full_points/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "[US] In 2016, the American bison was declared what? - MS Bing Quiz",
+          "url": "https://www.reddit.com/r/BingHomepageQuiz/comments/rysc10/us_in_2016_the_american_bison_was_declared_what/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "[US] Bing Entertainment News Quiz (6/8/2022) - Reddit",
+          "url": "https://www.reddit.com/r/BingHomepageQuiz/comments/v7pyb6/us_bing_entertainment_news_quiz_682022/",
+          "reason": "HTTP Error 403: Blocked"
+        }
+      ],
       "error": ""
     },
     {
@@ -414,15 +456,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Google",
-          "url": "https://maps.l.google.com/",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -471,14 +507,14 @@
     },
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
-      "status": "ok",
-      "candidates": 3,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Seoul Museum of Art｜Open Calls",
@@ -503,5 +539,5 @@
   ],
   "accepted": 13,
   "restored_from_previous": 0,
-  "errors": 3
+  "errors": 4
 }
