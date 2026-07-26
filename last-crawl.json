@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-26T19:42:47+00:00",
+  "started_at": "2026-07-26T21:16:30+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 8,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 8,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -367,9 +367,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 8,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 8,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -381,25 +381,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "HBO哈利波特电视剧第一部预告片已经发布，如何评价",
-          "url": "https://www.zhihu.com/question/2020416457738056357",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "如何看待外媒报道 HBO 剧版《哈利·波特》或让非裔演员帕帕·厄希度饰演斯内普教授",
-          "url": "https://www.zhihu.com/question/6063215262",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "为什么 HBO 的剧集《真探》（True Detective）的",
-          "url": "https://www.zhihu.com/question/22786627",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -416,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 6,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -430,30 +414,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 4,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Soda Ash??? - Texas Hunting Forum",
-          "url": "https://texashuntingforum.com/forum/ubbthreads.php/topics/799975/Re_Soda_Ash",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Crushed iron ore for roads... - Texas Hunting Forum",
-          "url": "https://texashuntingforum.com/forum/ubbthreads.php/topics/4277073/Crushed_iron_ore_for_roads",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Knives - Texas Hunting Forum",
-          "url": "https://texashuntingforum.com/forum/ubbthreads.php/forums/44/1/knives",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": ".300 Blackout with Nikon Scope - Texas Hunting Forum",
-          "url": "https://texashuntingforum.com/forum/ubbthreads.php/topics/9362995/300-blackout-with-nikon-scope",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -532,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 13,
+  "accepted": 12,
   "restored_from_previous": 0,
   "errors": 3
 }
