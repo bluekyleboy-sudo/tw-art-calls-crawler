@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-26T06:53:35+00:00",
+  "started_at": "2026-07-26T09:28:22+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -125,9 +125,9 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -147,9 +147,9 @@
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -245,14 +245,14 @@
     },
     {
       "source": "臺南新藝獎｜畫廊展覽媒合",
-      "status": "error",
-      "candidates": 0,
-      "accepted": 0,
-      "rejected": 0,
+      "status": "ok",
+      "candidates": 2,
+      "accepted": 1,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "<urlopen error timed out>"
+      "error": ""
     },
     {
       "source": "臺北藝術週｜展覽活動響應",
@@ -495,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 13,
   "restored_from_previous": 0,
-  "errors": 4
+  "errors": 3
 }
