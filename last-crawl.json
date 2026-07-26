@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-25T23:16:49+00:00",
+  "started_at": "2026-07-26T00:24:42+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -19,7 +19,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -117,15 +117,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 1,
-      "restricted_candidates": [
-        {
-          "title": "Starbucks | Description, History, & Facts | Britannica Money",
-          "url": "https://www.britannica.com/money/Starbucks",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -234,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -264,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -424,9 +418,9 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "NASDAQ Composite Index Today (IXIC) - Investing.com",
-          "url": "https://www.investing.com/indices/nasdaq-composite%20",
-          "reason": "HTTP Error 403: Forbidden"
+          "title": "Google",
+          "url": "https://maps.l.google.com/",
+          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
         }
       ],
       "error": ""
@@ -478,11 +472,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -507,7 +501,7 @@
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 13,
   "restored_from_previous": 0,
   "errors": 3
 }
