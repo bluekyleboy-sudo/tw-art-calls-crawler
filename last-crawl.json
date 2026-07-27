@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-27T17:16:45+00:00",
+  "started_at": "2026-07-27T18:54:28+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -117,15 +117,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 1,
-      "restricted_candidates": [
-        {
-          "title": "Información territorial de Aysén - Geoportal IDE | Geoportal IDE GORE Aysén",
-          "url": "https://ide.goreaysen.gob.cl/descripcion-regional-y-comunal/",
-          "reason": "<urlopen error timed out>"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -344,7 +338,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -373,9 +367,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -406,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -420,9 +414,50 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 10,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Welcome to UPSC | UPSC",
+          "url": "https://upsc.gov.in/",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "UPSC",
+          "url": "https://upsc.gov.in/whats-new/257%20posts%20of%20Enforcement%20Officer%20-%20Accounts%20Officer%20in%20%28EPFO%29%2C%20Ministry%20of%20Labour%20and%20Employment./e%20-%20Admit%20Card",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "UPSC",
+          "url": "https://upsc.gov.in/sites/default/files/Fscrty-03-LctrHistoryLadakh-Engl-100426.pdf",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "SECTION A - UPSC",
+          "url": "https://upsc.gov.in/sites/default/files/TELUGU_I_0.pdf",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "Microsoft Word - VacCirc-CnsltntPAlvl-18102019-Engl - UPSC",
+          "url": "https://upsc.gov.in/sites/default/files/VacCirc-CnsltntPAlvl-18102019-Engl.pdf",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "UPSC",
+          "url": "https://upsc.gov.in/sites/default/files/Alist-09-ScnstB-ZSI-Engl-291124.pdf",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "UPSC",
+          "url": "https://upsc.gov.in/whats-new/51%20-%202023%20%28Special%29",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "Full page photo - UPSC",
+          "url": "https://upsc.gov.in/sites/default/files/CHEMISTRY-PAPER-2.pdf",
+          "reason": "<urlopen error timed out>"
+        }
+      ],
       "error": ""
     },
     {
@@ -472,11 +507,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
