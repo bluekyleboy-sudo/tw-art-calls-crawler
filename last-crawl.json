@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-28T09:53:37+00:00",
+  "started_at": "2026-07-28T12:18:12+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,9 +37,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -125,34 +125,52 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -180,9 +198,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -236,8 +254,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 4,
-      "accepted": 2,
-      "rejected": 2,
+      "accepted": 1,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -258,10 +276,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -378,33 +396,12 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 7,
-      "fetch_errors": 4,
+      "rejected": 9,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "The Simple Art Of Murder Chandler - test-guia.oitcinterfor",
-          "url": "https://test-guia.oitcinterfor.org/Download_PDFS/G-wMcO/450411/TheSimpleArtOfMurderChandler.pdf",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "Raymond Chandler The Simple Art Of Murder - thebloodybuddy",
-          "url": "https://thebloodybuddy.com/fetch.php/textbooks/QCdBmG/Raymond_Chandler_The_Simple_Art_Of_Murder.pdf",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "The Simple Art Of Murder By Raymond Chandler - dev2",
-          "url": "https://dev2.cpelectronics.co.uk/HomePages/browse/u8q9Li/TheSimpleArtOfMurderByRaymondChandler.pdf",
-          "reason": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ss"
-        },
-        {
-          "title": "Raymond Chandler Simple Art Of Murder",
-          "url": "https://staging.schoolhouseteachers.com/book/book-search/fetch.php/raymond_chandler_simple_art_of_murder.pdf",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -421,20 +418,46 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 0,
+      "rejected": 7,
+      "fetch_errors": 5,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "The Blackwell Encyclopedic Dictionary Of Management",
+          "url": "https://archive.kdd.org/files/Resources/HomePages/The_Blackwell_Encyclopedic_Dictionary_Of_Management_Information_Systems_Blackwell_Encyclopedia_Of_Management.pdf",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "The Blackwell Encyclopedia Of Management And Encyclopedic",
+          "url": "https://billing.barefootsurftravel.com/results/virtual-library/fetch.php/The_Blackwell_Encyclopedia_Of_Management_And_Encyclopedic_Dictionaries_The_Blackwell_Encyclopedic_Dictionary.pdf",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "Blackwell Encyclopedic Dictionary Of International Management",
+          "url": "https://ukdemo.diamondsfactory.co.uk/data/Resources/HomePages/blackwell_encyclopedic_dictionary_of_international_management.pdf",
+          "reason": "<urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "title": "The Blackwell Encyclopedia Of Management And Encyclopedic",
+          "url": "https://stage.foodbankofeastalabama.com/public/Resources/Download_PDFS/The%20Blackwell%20Encyclopedia%20Of%20Management%20And%20Encyclopedic%20Dictionaries%20The%20Blackwell%20Encyclopedic%20Dictionary.pdf",
+          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
+        },
+        {
+          "title": "The Blackwell Encyclopedic Dictionary Of Management",
+          "url": "https://archive.kdd.org/book/virtual-library/Documents/The_Blackwell_Encyclopedic_Dictionary_Of_Management_Information_Systems_Blackwell_Encyclopedia_Of_Management.pdf",
+          "reason": "<urlopen error timed out>"
+        }
+      ],
       "error": ""
     },
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
