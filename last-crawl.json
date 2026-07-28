@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-28T14:45:04+00:00",
+  "started_at": "2026-07-28T16:56:45+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -381,20 +381,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "recipes : r/DashDiet - Reddit",
-          "url": "https://www.reddit.com/r/DashDiet/comments/eifapv/recipes/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Krypt Forge Recipes : Gear + Konsumables : r/MortalKombat - Reddit",
-          "url": "https://www.reddit.com/r/MortalKombat/comments/bk6oxq/krypt_forge_recipes_gear_konsumables/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -414,20 +403,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Dog Food at Tractor Supply Co",
-          "url": "https://www.tractorsupply.com/tsc/catalog/dog-food",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Pet at Tractor Supply Co",
-          "url": "https://www.tractorsupply.com/tsc/category/pet",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
