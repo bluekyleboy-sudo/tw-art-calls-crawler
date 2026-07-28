@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-28T12:18:12+00:00",
+  "started_at": "2026-07-28T14:45:04+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,9 +37,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -128,15 +128,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -145,15 +139,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -162,15 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -198,9 +180,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -246,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -254,8 +236,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 4,
-      "accepted": 1,
-      "rejected": 3,
+      "accepted": 2,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -276,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -396,12 +378,23 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "recipes : r/DashDiet - Reddit",
+          "url": "https://www.reddit.com/r/DashDiet/comments/eifapv/recipes/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Krypt Forge Recipes : Gear + Konsumables : r/MortalKombat - Reddit",
+          "url": "https://www.reddit.com/r/MortalKombat/comments/bk6oxq/krypt_forge_recipes_gear_konsumables/",
+          "reason": "HTTP Error 403: Blocked"
+        }
+      ],
       "error": ""
     },
     {
@@ -418,36 +411,21 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
-      "fetch_errors": 5,
+      "rejected": 10,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "The Blackwell Encyclopedic Dictionary Of Management",
-          "url": "https://archive.kdd.org/files/Resources/HomePages/The_Blackwell_Encyclopedic_Dictionary_Of_Management_Information_Systems_Blackwell_Encyclopedia_Of_Management.pdf",
-          "reason": "<urlopen error timed out>"
+          "title": "Dog Food at Tractor Supply Co",
+          "url": "https://www.tractorsupply.com/tsc/catalog/dog-food",
+          "reason": "HTTP Error 403: Forbidden"
         },
         {
-          "title": "The Blackwell Encyclopedia Of Management And Encyclopedic",
-          "url": "https://billing.barefootsurftravel.com/results/virtual-library/fetch.php/The_Blackwell_Encyclopedia_Of_Management_And_Encyclopedic_Dictionaries_The_Blackwell_Encyclopedic_Dictionary.pdf",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "Blackwell Encyclopedic Dictionary Of International Management",
-          "url": "https://ukdemo.diamondsfactory.co.uk/data/Resources/HomePages/blackwell_encyclopedic_dictionary_of_international_management.pdf",
-          "reason": "<urlopen error [Errno 111] Connection refused>"
-        },
-        {
-          "title": "The Blackwell Encyclopedia Of Management And Encyclopedic",
-          "url": "https://stage.foodbankofeastalabama.com/public/Resources/Download_PDFS/The%20Blackwell%20Encyclopedia%20Of%20Management%20And%20Encyclopedic%20Dictionaries%20The%20Blackwell%20Encyclopedic%20Dictionary.pdf",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
-        },
-        {
-          "title": "The Blackwell Encyclopedic Dictionary Of Management",
-          "url": "https://archive.kdd.org/book/virtual-library/Documents/The_Blackwell_Encyclopedic_Dictionary_Of_Management_Information_Systems_Blackwell_Encyclopedia_Of_Management.pdf",
-          "reason": "<urlopen error timed out>"
+          "title": "Pet at Tractor Supply Co",
+          "url": "https://www.tractorsupply.com/tsc/category/pet",
+          "reason": "HTTP Error 403: Forbidden"
         }
       ],
       "error": ""
@@ -455,9 +433,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -510,11 +488,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
