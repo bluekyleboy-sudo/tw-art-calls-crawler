@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-29T06:50:05+00:00",
+  "started_at": "2026-07-29T09:54:21+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -228,15 +228,15 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 4,
-      "accepted": 2,
+      "candidates": 3,
+      "accepted": 1,
       "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -356,11 +356,11 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -381,15 +381,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Mickey Mouse Conspiracy Theory... : r/conspiracy - Reddit",
-          "url": "https://www.reddit.com/r/conspiracy/comments/ok4yq7/mickey_mouse_conspiracy_theory/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -409,45 +403,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 7,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Mcdvoice competition : r/McDonalds - Reddit",
-          "url": "https://www.reddit.com/r/McDonalds/comments/3hlujg/mcdvoice_competition/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Receipt survey code? : r/McDonalds - Reddit",
-          "url": "https://www.reddit.com/r/McDonalds/comments/57fczu/receipt_survey_code/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "I created a bot for Voice Surveys : r/McLounge - Reddit",
-          "url": "https://www.reddit.com/r/McLounge/comments/s9m8pf/i_created_a_bot_for_voice_surveys/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Pro tip: on the top of every mcdonalda reciept is a code for a ... - Reddit",
-          "url": "https://www.reddit.com/r/vagabond/comments/ei7jn0/pro_tip_on_the_top_of_every_mcdonalda_reciept_is/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Can the survey code be used in the McDonalds App?",
-          "url": "https://www.reddit.com/r/McDonaldsEmployees/comments/xkije3/can_the_survey_code_be_used_in_the_mcdonalds_app/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "McDonalds only rewards survey-takers if they rate as “highly ... - Reddit",
-          "url": "https://www.reddit.com/r/assholedesign/comments/txcaz7/mcdonalds_only_rewards_surveytakers_if_they_rate/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "mcdvoice-surveycode (u/mcdvoice-surveycode) - Reddit",
-          "url": "https://www.reddit.com/user/mcdvoice-surveycode/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -456,9 +414,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Water | Definition, Chemical Formula, Structure, Molecule, & Facts",
+          "url": "https://www.britannica.com/science/water",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -537,7 +501,7 @@
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 10,
   "restored_from_previous": 0,
   "errors": 3
 }
