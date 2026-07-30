@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-07-30T20:39:23+00:00",
+  "started_at": "2026-07-30T22:23:32+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 30,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 30,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -271,9 +271,25 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
+          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
+          "reason": "HTTP Error 404: Not Found"
+        },
+        {
+          "title": "申請流程 Application Procedure",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
+          "reason": "HTTP Error 404: Not Found"
+        },
+        {
+          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
+          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
+          "reason": "HTTP Error 404: Not Found"
+        }
+      ],
       "error": ""
     },
     {
@@ -378,9 +394,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 8,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 8,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -495,7 +511,7 @@
       "error": ""
     }
   ],
-  "accepted": 11,
+  "accepted": 10,
   "restored_from_previous": 0,
   "errors": 3
 }
