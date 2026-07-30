@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-29T23:21:25+00:00",
+  "started_at": "2026-07-30T03:32:35+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -106,32 +106,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "PIRN definition and meaning | Collins English Dictionary",
-          "url": "https://www.collinsdictionary.com/dictionary/english/pirn",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 1,
+      "rejected": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 1,
-      "restricted_candidates": [
-        {
-          "title": "Thinking about little girls : Paraphilias Forum - Psych forums",
-          "url": "https://www.psychforums.com/paraphilias/topic135253.html",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -240,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -379,9 +367,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -390,9 +378,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -412,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -423,9 +411,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
