@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-30T12:08:47+00:00",
+  "started_at": "2026-07-30T14:36:16+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -125,9 +125,9 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -147,9 +147,9 @@
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -258,10 +258,10 @@
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -414,9 +414,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Nueva camiseta de Boca 2025: cuánto sale y dónde comprarla",
+          "url": "https://colinental.com.ar/nueva-camiseta-de-boca-2025-cuanto-sale-y-donde-comprarla/",
+          "reason": "<urlopen error [Errno -2] Name or service not known>"
+        }
+      ],
       "error": ""
     },
     {
@@ -495,7 +501,7 @@
       "error": ""
     }
   ],
-  "accepted": 11,
+  "accepted": 10,
   "restored_from_previous": 0,
   "errors": 3
 }
