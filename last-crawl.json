@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-31T10:55:20+00:00",
+  "started_at": "2026-07-31T13:10:26+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,18 +103,12 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 8,
       "accepted": 0,
-      "rejected": 7,
-      "fetch_errors": 1,
+      "rejected": 8,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "STICK definition and meaning | Collins English Dictionary",
-          "url": "https://www.collinsdictionary.com/dictionary/english/stick",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -134,9 +128,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -145,9 +145,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -156,9 +162,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -234,7 +246,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -277,20 +289,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
-          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "申請流程 Application Procedure",
-          "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -384,33 +385,12 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 4,
+      "rejected": 9,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "static.flow.com.ar",
-          "url": "http://static.flow.com.ar/",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "bml.flow.com.ar",
-          "url": "https://bml.flow.com.ar/",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl"
-        },
-        {
-          "title": "Las preñadas | Flow",
-          "url": "https://portal.app.flow.com.ar/ver/40529185",
-          "reason": "HTTP Error 455: "
-        },
-        {
-          "title": "Un show más | Flow",
-          "url": "https://portal.app.flow.com.ar/ver/VODx25585438",
-          "reason": "HTTP Error 455: "
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -438,9 +418,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -449,18 +429,12 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 8,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 1,
+      "rejected": 8,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Empire State Building - Tripadvisor",
-          "url": "https://www.tripadvisor.com/Attraction_Review-g60763-d104365-Reviews-Empire_State_Building-New_York_City_New_York.html",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
