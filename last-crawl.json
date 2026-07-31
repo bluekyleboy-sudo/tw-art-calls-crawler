@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-07-31T15:33:51+00:00",
+  "started_at": "2026-07-31T17:56:32+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 30,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 30,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -104,25 +104,19 @@
       "source": "ARTouch 典藏",
       "status": "ok",
       "candidates": 10,
-      "accepted": 1,
-      "rejected": 9,
-      "fetch_errors": 1,
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Jaws | Shark, Steven Spielberg, Cast, 50th Anniversary, & Facts",
-          "url": "https://www.britannica.com/topic/Jaws-film-by-Spielberg",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
+      "candidates": 7,
+      "accepted": 1,
+      "rejected": 6,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -234,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -255,15 +249,9 @@
       "candidates": 2,
       "accepted": 1,
       "rejected": 1,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "線上報名 Apply",
-          "url": "https://next-art-apply.tainan.gov.tw",
-          "reason": "<urlopen error timed out>"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -313,9 +301,9 @@
     {
       "source": "臺中市立美術館公開徵件",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 5,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -379,9 +367,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
