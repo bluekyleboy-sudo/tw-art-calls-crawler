@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-31T13:10:26+00:00",
+  "started_at": "2026-07-31T15:33:51+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,12 +103,18 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 8,
-      "accepted": 0,
-      "rejected": 8,
-      "fetch_errors": 0,
+      "candidates": 10,
+      "accepted": 1,
+      "rejected": 9,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Jaws | Shark, Steven Spielberg, Cast, 50th Anniversary, & Facts",
+          "url": "https://www.britannica.com/topic/Jaws-film-by-Spielberg",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -128,15 +134,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -145,15 +145,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -162,15 +156,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -246,7 +234,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -267,9 +255,15 @@
       "candidates": 2,
       "accepted": 1,
       "rejected": 1,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "線上報名 Apply",
+          "url": "https://next-art-apply.tainan.gov.tw",
+          "reason": "<urlopen error timed out>"
+        }
+      ],
       "error": ""
     },
     {
@@ -429,9 +423,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -513,7 +507,7 @@
       "error": ""
     }
   ],
-  "accepted": 10,
+  "accepted": 11,
   "restored_from_previous": 0,
   "errors": 3
 }
