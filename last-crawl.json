@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-02T21:15:11+00:00",
+  "started_at": "2026-08-02T22:14:16+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -283,7 +283,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -301,11 +301,11 @@
     {
       "source": "臺中市立美術館公開徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 5,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -322,14 +322,14 @@
     },
     {
       "source": "241藝術空間展覽徵件",
-      "status": "ok",
+      "status": "error",
       "candidates": 0,
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "洪建全基金會雨棚計畫",
@@ -381,9 +381,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Cheap Flights: Find Cheap Tickets, Flights & Airfare | CheapTickets",
+          "url": "https://www.cheaptickets.com/Flights",
+          "reason": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "error": ""
     },
     {
@@ -414,18 +420,33 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 5,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "国家地理信息公共服务平台 天地图",
-          "url": "https://www.tianditu.gov.cn/",
-          "reason": "<urlopen error timed out>"
+          "title": "/r/publix : where posting is a pleasure! - Reddit",
+          "url": "https://www.reddit.com/r/publix/",
+          "reason": "HTTP Error 403: Blocked"
         },
         {
-          "title": "标准地图服务系统",
-          "url": "http://bzdt.ch.mnr.gov.cn/",
-          "reason": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+          "title": "VinylReleases: a place for announcements of releases and pressings - Reddit",
+          "url": "https://www.reddit.com/r/VinylReleases/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Seriously",
+          "url": "https://www.reddit.com/r/Sparkdriver/comments/17rlv9h/seriously_this_is_what_its_all_about/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Paramount + through Walmart Plus is not working : r/walmart",
+          "url": "https://www.reddit.com/r/walmart/comments/1au9xw3/paramount_through_walmart_plus_is_not_working/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "The subreddit for off-brand celebrity doppelgangers",
+          "url": "https://www.reddit.com/r/WalmartCelebrities/",
+          "reason": "HTTP Error 403: Blocked"
         }
       ],
       "error": ""
@@ -477,11 +498,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -508,5 +529,5 @@
   ],
   "accepted": 10,
   "restored_from_previous": 0,
-  "errors": 3
+  "errors": 4
 }
