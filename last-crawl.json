@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-01T23:18:20+00:00",
+  "started_at": "2026-08-02T00:17:00+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -106,20 +106,42 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "基督山伯爵电影有多少版本，那个质量比较好",
+          "url": "https://www.zhihu.com/question/21833658",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "如何评价 BBC 新剧《真相捕捉》",
+          "url": "https://www.zhihu.com/question/345032860",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "怎么看待BBC《进食、断食与长寿》",
+          "url": "https://www.zhihu.com/question/31395511",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 1,
       "fallback_fetches": 1,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Walmart Sellers - Reddit",
+          "url": "https://www.reddit.com/r/WalmartSellers/",
+          "reason": "HTTP Error 403: Blocked"
+        }
+      ],
       "error": ""
     },
     {
@@ -150,9 +172,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OpenEvidence",
+          "url": "https://www.openevidence.com/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "The Open University | Courses and Qualifications",
+          "url": "https://www.open.ac.uk/courses/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -228,7 +261,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -271,20 +304,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -334,9 +356,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -378,9 +400,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -389,9 +411,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 13,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 13,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -425,9 +447,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "How do I activate my ESPN Unlimited plan through my Pay-TV Provider?",
+          "url": "https://support.espn.com/hc/en-us/articles/40231460139924-How-do-I-activate-my-ESPN-Unlimited-plan-through-my-Pay-TV-Provider",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
