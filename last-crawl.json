@@ -1,15 +1,56 @@
 {
-  "started_at": "2026-08-03T00:18:43+00:00",
+  "started_at": "2026-08-03T04:01:05+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 27,
-      "accepted": 0,
-      "rejected": 27,
-      "fetch_errors": 0,
-      "fallback_fetches": 1,
-      "restricted_candidates": [],
+      "candidates": 64,
+      "accepted": 11,
+      "rejected": 53,
+      "fetch_errors": 27,
+      "fallback_fetches": 9,
+      "restricted_candidates": [
+        {
+          "title": "2027年駁二藝術特區藝術家進駐計畫公開徵件",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019df268b988000d",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "2027臺灣陶藝駐村計畫",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3edd435b005b",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "115年「藝術游擊」藝術家馬祖駐村徵選",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e6d287b950088",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "2027/28年度城崎國際藝術中心駐村藝術家計畫 日本 / 豊岡市 截止日期 2026.06.27",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ea19f67640029",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "東京藝術空間 2027 駐村計畫：國際創作者駐村計畫、策展人駐村計畫、研究駐村計畫",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e0157aaca0034",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "叩居國際駐村計畫：2026 年 8 月至 9 月 印度 / 新德里 截止日期 2026.06.07",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3f9afd710064",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "揚凡艾克學院 2027 食物實驗室研究員駐村計畫",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e01294b4b0031",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "2027 茨城縣阿庫斯駐村計畫",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019d7059c630005e",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -48,11 +89,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -117,9 +158,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 1,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Dezeen Awards",
+          "url": "https://www.dezeen.com/awards/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -128,15 +175,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -145,15 +186,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -162,12 +197,17 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
+          "title": "OpenEvidence",
+          "url": "https://www.openevidence.com/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Online Learning Courses and Adult Education - The Open University",
+          "url": "https://www.open.ac.uk/",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -246,7 +286,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -289,9 +329,25 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
+          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
+          "reason": "HTTP Error 404: Not Found"
+        },
+        {
+          "title": "申請流程 Application Procedure",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
+          "reason": "HTTP Error 404: Not Found"
+        },
+        {
+          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
+          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
+          "reason": "HTTP Error 404: Not Found"
+        }
+      ],
       "error": ""
     },
     {
@@ -396,12 +452,18 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 0,
+      "rejected": 3,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Google Scholar",
+          "url": "https://scholar.google.com/intl/ja/",
+          "reason": "HTTP Error 404: Not Found"
+        }
+      ],
       "error": ""
     },
     {
@@ -421,9 +483,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "คู่มือปฏิบัติงาน เรื่อง การกำหนดรายละเอียดหรือขอบเขตของงานที่จัด",
+          "url": "https://president.skru.ac.th/news/data/2024-04-28_151.pdf",
+          "reason": "<urlopen error timed out>"
+        }
+      ],
       "error": ""
     },
     {
@@ -483,14 +551,14 @@
     },
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
-      "status": "ok",
-      "candidates": 3,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Seoul Museum of Art｜Open Calls",
@@ -513,7 +581,7 @@
       "error": ""
     }
   ],
-  "accepted": 10,
+  "accepted": 21,
   "restored_from_previous": 0,
-  "errors": 3
+  "errors": 4
 }
