@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-08-03T07:50:40+00:00",
+  "started_at": "2026-08-03T11:48:18+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 27,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 27,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -261,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -367,9 +367,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -378,9 +378,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 8,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 8,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -400,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -411,9 +411,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -466,11 +466,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
