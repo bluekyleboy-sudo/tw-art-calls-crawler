@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-03T18:08:56+00:00",
+  "started_at": "2026-08-03T20:03:38+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,9 +37,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -180,9 +180,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -261,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -271,20 +271,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
-          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -389,38 +378,12 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 6,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 5,
+      "rejected": 6,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Pornhub - Reddit",
-          "url": "https://www.reddit.com/r/Pornhub/rising/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "How much money can you earn on xvideos and pornhub?",
-          "url": "https://www.reddit.com/r/Entrepreneur/comments/dwfe5m/how_much_money_can_you_earn_on_xvideos_and_pornhub/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Sissy Hypno - Reddit",
-          "url": "https://www.reddit.com/r/sissyhypno/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Following the PornHub purge, where is the best source of free porn?",
-          "url": "https://www.reddit.com/r/AskReddit/comments/kv1ddt/following_the_pornhub_purge_where_is_the_best/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Pornhub singlehandedly ruined the word hub and the black and ... - Reddit",
-          "url": "https://www.reddit.com/r/Showerthoughts/comments/go7g5g/pornhub_singlehandedly_ruined_the_word_hub_and/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -451,35 +414,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 5,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "美国人用什么聊天软件",
-          "url": "https://www.zhihu.com/question/309660435",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "网易外贸通有用过的吗",
-          "url": "https://www.zhihu.com/question/623804037",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "手机whatsapp自动翻译",
-          "url": "https://www.zhihu.com/question/442107993",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "为什么外国人更喜欢用 Email 邮件沟通",
-          "url": "https://www.zhihu.com/question/21308410",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "whatsapp messenger - 知乎",
-          "url": "https://www.zhihu.com/topic/19560025/hot",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -529,11 +466,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
