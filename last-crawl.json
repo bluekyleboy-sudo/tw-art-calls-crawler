@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-03T15:20:17+00:00",
+  "started_at": "2026-08-03T18:08:56+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -271,9 +271,20 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
+          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
+          "reason": "HTTP Error 404: Not Found"
+        },
+        {
+          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
+          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
+          "reason": "HTTP Error 404: Not Found"
+        }
+      ],
       "error": ""
     },
     {
@@ -323,9 +334,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -381,9 +392,35 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 5,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Pornhub - Reddit",
+          "url": "https://www.reddit.com/r/Pornhub/rising/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "How much money can you earn on xvideos and pornhub?",
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/dwfe5m/how_much_money_can_you_earn_on_xvideos_and_pornhub/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Sissy Hypno - Reddit",
+          "url": "https://www.reddit.com/r/sissyhypno/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Following the PornHub purge, where is the best source of free porn?",
+          "url": "https://www.reddit.com/r/AskReddit/comments/kv1ddt/following_the_pornhub_purge_where_is_the_best/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Pornhub singlehandedly ruined the word hub and the black and ... - Reddit",
+          "url": "https://www.reddit.com/r/Showerthoughts/comments/go7g5g/pornhub_singlehandedly_ruined_the_word_hub_and/",
+          "reason": "HTTP Error 403: Blocked"
+        }
+      ],
       "error": ""
     },
     {
@@ -414,9 +451,35 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 5,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "美国人用什么聊天软件",
+          "url": "https://www.zhihu.com/question/309660435",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "网易外贸通有用过的吗",
+          "url": "https://www.zhihu.com/question/623804037",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "手机whatsapp自动翻译",
+          "url": "https://www.zhihu.com/question/442107993",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "为什么外国人更喜欢用 Email 邮件沟通",
+          "url": "https://www.zhihu.com/question/21308410",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "whatsapp messenger - 知乎",
+          "url": "https://www.zhihu.com/topic/19560025/hot",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
