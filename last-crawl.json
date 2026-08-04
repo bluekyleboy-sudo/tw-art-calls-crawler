@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-04T20:01:09+00:00",
+  "started_at": "2026-08-04T21:40:48+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -114,12 +114,33 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 0,
+      "rejected": 5,
+      "fetch_errors": 4,
       "fallback_fetches": 1,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "SIARHE v. 2.0.1 - salud.gob.mx",
+          "url": "https://salud.gob.mx/unidades/cie/siarhe/?Id_URL=mision",
+          "reason": "Not a gzipped file (b'\\r\\n')"
+        },
+        {
+          "title": "SIARHE v. 2.0.1 - apps.salud.gob.mx",
+          "url": "http://apps.salud.gob.mx/unidades/cie/siarhe/?Id_URL=numeralia&_Tipo=recursos&_Id=3",
+          "reason": "Not a gzipped file (b'\\r\\n')"
+        },
+        {
+          "title": "SIARHE - Servicios Estatales de Salud",
+          "url": "https://sesa.qroo.gob.mx/siarhe/",
+          "reason": "<urlopen error timed out>"
+        },
+        {
+          "title": "SIARHE v. 2.0.1 - salud.gob.mx",
+          "url": "https://www.salud.gob.mx/unidades/cie/siarhe/?Id_URL=atribuciones",
+          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
+        }
+      ],
       "error": ""
     },
     {
@@ -246,7 +267,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -279,7 +300,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -396,9 +417,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
