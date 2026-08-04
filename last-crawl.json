@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-08-04T18:07:59+00:00",
+  "started_at": "2026-08-04T20:01:09+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 27,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 27,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -117,30 +117,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 4,
+      "fetch_errors": 0,
       "fallback_fetches": 1,
-      "restricted_candidates": [
-        {
-          "title": "How to remove the border highlight on an input text element",
-          "url": "https://stackoverflow.com/questions/1457849/how-to-remove-the-border-highlight-on-an-input-text-element",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "css - Any way to limit border length? - Stack Overflow",
-          "url": "https://stackoverflow.com/questions/4131490/any-way-to-limit-border-length",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "html - Absolute position and Overflow:hidden - Stack Overflow",
-          "url": "https://stackoverflow.com/questions/5513382/absolute-position-and-overflowhidden",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "How to remove focus border (outline) around text/input boxes? (Chrome)",
-          "url": "https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -149,9 +128,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -160,9 +145,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -171,9 +162,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -282,7 +279,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -292,20 +289,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
-          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
-          "reason": "HTTP Error 404: Not Found"
-        },
-        {
-          "title": "租借服務 Application Service",
-          "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -435,25 +421,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "idm服务器响应显示你没有权限下载此文件这个怎么办",
-          "url": "https://www.zhihu.com/question/373322044",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "谷歌账号注册验证无法发出信息怎么办",
-          "url": "https://www.zhihu.com/question/1945629068243481180",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "为什么很多国产安卓机不能用Google Play",
-          "url": "https://www.zhihu.com/question/23849325",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -514,11 +484,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
