@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-04T21:40:48+00:00",
+  "started_at": "2026-08-04T23:22:59+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -114,33 +114,12 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 5,
-      "fetch_errors": 4,
+      "rejected": 7,
+      "fetch_errors": 0,
       "fallback_fetches": 1,
-      "restricted_candidates": [
-        {
-          "title": "SIARHE v. 2.0.1 - salud.gob.mx",
-          "url": "https://salud.gob.mx/unidades/cie/siarhe/?Id_URL=mision",
-          "reason": "Not a gzipped file (b'\\r\\n')"
-        },
-        {
-          "title": "SIARHE v. 2.0.1 - apps.salud.gob.mx",
-          "url": "http://apps.salud.gob.mx/unidades/cie/siarhe/?Id_URL=numeralia&_Tipo=recursos&_Id=3",
-          "reason": "Not a gzipped file (b'\\r\\n')"
-        },
-        {
-          "title": "SIARHE - Servicios Estatales de Salud",
-          "url": "https://sesa.qroo.gob.mx/siarhe/",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "SIARHE v. 2.0.1 - salud.gob.mx",
-          "url": "https://www.salud.gob.mx/unidades/cie/siarhe/?Id_URL=atribuciones",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -149,15 +128,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -166,15 +139,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -183,15 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -417,9 +378,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -453,9 +414,35 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 5,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Documents – vizCard Help Desk",
+          "url": "https://help.vizibility.com/hc/en-us/categories/204078368-Documents",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "vizCard Help Desk - Vizibility",
+          "url": "https://help.vizibility.com/hc/en-us",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Instructions for an Email Client Not Listed – vizCard Help Desk",
+          "url": "https://help.vizibility.com/hc/en-us/articles/229006808-Instructions-for-an-Email-Client-Not-Listed",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "User Guide – vizCard Help Desk",
+          "url": "https://help.vizibility.com/hc/en-us/categories/204078328-User-Guide",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Supported Browsers – vizCard Help Desk",
+          "url": "https://help.vizibility.com/hc/en-us/articles/229006748-Supported-Browsers",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
