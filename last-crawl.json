@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-04T03:41:44+00:00",
+  "started_at": "2026-08-04T06:45:27+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -117,20 +117,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 1,
-      "restricted_candidates": [
-        {
-          "title": "鼠标很敏感，左键单击经常被当成双击是怎么回事",
-          "url": "https://www.zhihu.com/question/20373110",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "美客多尺码表这样用，销量真的有提升",
-          "url": "https://www.zhihu.com/pin/1911798203940073936",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -139,9 +128,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -154,8 +149,8 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "The home of free learning from The Open University",
-          "url": "https://www.open.edu/openlearn/",
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -167,29 +162,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 5,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
       "restricted_candidates": [
-        {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "The Open University | Courses and Qualifications",
-          "url": "https://www.open.ac.uk/courses/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "About",
-          "url": "https://openai.com/about/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
         {
           "title": "OPEN Definition & Meaning - Merriam-Webster",
           "url": "https://www.merriam-webster.com/dictionary/open",
@@ -271,7 +246,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -413,15 +388,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Log In | North Shore Bank",
-          "url": "https://northshorebank.hbstest.net/personal/digital-banking-services/log-in.aspx",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -430,9 +399,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Thomas Edison | Biography, Early Life, Inventions, & Facts | Britannica",
+          "url": "https://www.britannica.com/biography/Thomas-Edison",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -452,20 +427,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Classic Ford Cars & Trucks For Sale - Hemmings",
-          "url": "https://www.hemmings.com/classifieds/cars-for-sale/ford",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Classic Mercedes-Benz 280SL For Sale - Hemmings",
-          "url": "https://www.hemmings.com/classifieds/cars-for-sale/mercedes-benz/280sl",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -474,20 +438,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Stanford University | History, Location, & Notable Alumni | Britannica",
-          "url": "https://www.britannica.com/topic/Stanford-University",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Credentialed education from Stanford faculty | Stanford Online",
-          "url": "https://online.stanford.edu/",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -537,11 +490,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
