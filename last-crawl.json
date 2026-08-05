@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-05T19:59:16+00:00",
+  "started_at": "2026-08-05T21:37:04+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,9 +37,9 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -128,15 +128,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -145,15 +139,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -162,15 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -198,9 +180,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -418,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -484,11 +466,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
