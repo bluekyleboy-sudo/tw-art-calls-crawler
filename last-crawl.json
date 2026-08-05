@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-04T23:22:59+00:00",
+  "started_at": "2026-08-05T03:36:52+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -125,9 +125,9 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -147,9 +147,9 @@
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -261,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -323,9 +323,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -378,9 +378,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -414,35 +414,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 5,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Documents – vizCard Help Desk",
-          "url": "https://help.vizibility.com/hc/en-us/categories/204078368-Documents",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "vizCard Help Desk - Vizibility",
-          "url": "https://help.vizibility.com/hc/en-us",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Instructions for an Email Client Not Listed – vizCard Help Desk",
-          "url": "https://help.vizibility.com/hc/en-us/articles/229006808-Instructions-for-an-Email-Client-Not-Listed",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "User Guide – vizCard Help Desk",
-          "url": "https://help.vizibility.com/hc/en-us/categories/204078328-User-Guide",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Supported Browsers – vizCard Help Desk",
-          "url": "https://help.vizibility.com/hc/en-us/articles/229006748-Supported-Browsers",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
