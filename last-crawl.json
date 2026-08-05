@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-05T06:46:16+00:00",
+  "started_at": "2026-08-05T09:55:39+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -125,9 +125,9 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -147,9 +147,9 @@
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -235,9 +235,9 @@
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 5,
       "accepted": 1,
-      "rejected": 3,
+      "rejected": 4,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -323,11 +323,11 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -381,30 +381,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 4,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "64-bit ROBACUS DOWNLOAD",
-          "url": "https://dl.yanderesimulator.com/index.html",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-"
-        },
-        {
-          "title": "Yandere Simulator",
-          "url": "https://dl.yanderesimulator.com/robdem.html",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-"
-        },
-        {
-          "title": "admin.yanderesimulator.com",
-          "url": "https://admin.yanderesimulator.com/robini",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-"
-        },
-        {
-          "title": "admin.yanderesimulator.com",
-          "url": "https://admin.yanderesimulator.com/pubsoc.html",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
