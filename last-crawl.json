@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-05T17:58:08+00:00",
+  "started_at": "2026-08-05T19:59:16+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -125,34 +125,52 @@
     {
       "source": "Instagram 公開貼文",
       "status": "ok",
-      "candidates": 11,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 11,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "Facebook 公開貼文",
       "status": "ok",
-      "candidates": 11,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 11,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "Threads 公開貼文",
       "status": "ok",
-      "candidates": 11,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 11,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -367,9 +385,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
