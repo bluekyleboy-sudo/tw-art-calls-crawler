@@ -1,15 +1,56 @@
 {
-  "started_at": "2026-08-06T12:24:07+00:00",
+  "started_at": "2026-08-06T15:33:18+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 27,
-      "accepted": 0,
-      "rejected": 27,
-      "fetch_errors": 0,
-      "fallback_fetches": 1,
-      "restricted_candidates": [],
+      "candidates": 64,
+      "accepted": 14,
+      "rejected": 50,
+      "fetch_errors": 26,
+      "fallback_fetches": 13,
+      "restricted_candidates": [
+        {
+          "title": "2026橋仔頭糖廠藝術村 藝術家進駐徵件",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019dbe53880b02bf",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "2027臺灣陶藝駐村計畫",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3edd435b005b",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "115年「藝術游擊」藝術家馬祖駐村徵選",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e6d287b950088",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "2026 好地下藝術空間 藝術家進駐徵件",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef34e50390057",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "揚凡艾克學院2027 第2項材料研究員駐村計畫",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3e2240620059",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "東京藝術空間 2027 駐村計畫：國際創作者駐村計畫、策展人駐村計畫、研究駐村計畫",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e0157aaca0034",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "叩居國際駐村計畫：2026 年 8 月至 9 月 印度 / 新德里 截止日期 2026.06.07",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3f9afd710064",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "揚凡艾克學院 2027 食物實驗室研究員駐村計畫",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e01294b4b0031",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -74,7 +115,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -103,9 +144,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -162,9 +203,14 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "Online Learning Courses and Adult Education - The Open University",
+          "url": "https://www.open.ac.uk/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
         {
           "title": "OPEN Definition & Meaning - Merriam-Webster",
           "url": "https://www.merriam-webster.com/dictionary/open",
@@ -246,7 +292,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -274,14 +320,14 @@
     },
     {
       "source": "臺北藝術週｜展覽活動響應",
-      "status": "ok",
-      "candidates": 1,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "臺南市美術館 TAM+ 展覽計畫",
@@ -289,9 +335,30 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 4,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
+          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
+          "reason": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "title": "租借服務 Application Service",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
+          "reason": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "title": "申請流程 Application Procedure",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
+          "reason": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
+          "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
+          "reason": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "error": ""
     },
     {
@@ -340,14 +407,14 @@
     },
     {
       "source": "241藝術空間展覽徵件",
-      "status": "ok",
-      "candidates": 1,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "洪建全基金會雨棚計畫",
@@ -385,12 +452,53 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 1,
-      "fetch_errors": 0,
+      "rejected": 10,
+      "fetch_errors": 9,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "¿Como generar números aleatorios dentro de un rango de valores?",
+          "url": "https://es.stackoverflow.com/questions/5390/como-generar-n%C3%BAmeros-aleatorios-dentro-de-un-rango-de-valores",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Calculadora em php - Stack Overflow em Português",
+          "url": "https://pt.stackoverflow.com/questions/11824/calculadora-em-php",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Java - calcular diferencia de años - Stack Overflow en español",
+          "url": "https://es.stackoverflow.com/questions/489052/java-calcular-diferencia-de-a%c3%b1os-localdate",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Calculadora Bhaskara Javascript - Stack Overflow em Português",
+          "url": "https://pt.stackoverflow.com/questions/372535/calculadora-bhaskara-javascript",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Como faço para calcular a idade usando php e html?",
+          "url": "https://pt.stackoverflow.com/questions/235913/como-fa%c3%a7o-para-calcular-a-idade-usando-php-e-html",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "input type=\"range\" no funciona en calculadora de financiación",
+          "url": "https://es.stackoverflow.com/questions/277224/input-type-range-no-funciona-en-calculadora-de-financiaci%c3%b3n",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "establecer como valor 0 si el input esta vacio",
+          "url": "https://es.stackoverflow.com/questions/188812/establecer-como-valor-0-si-el-input-esta-vacio",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Somando valores entre inputs html e javascript",
+          "url": "https://pt.stackoverflow.com/questions/172340/somando-valores-entre-inputs-html-e-javascript",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -429,9 +537,9 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -484,11 +592,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -513,7 +621,7 @@
       "error": ""
     }
   ],
-  "accepted": 10,
+  "accepted": 24,
   "restored_from_previous": 0,
-  "errors": 3
+  "errors": 5
 }
