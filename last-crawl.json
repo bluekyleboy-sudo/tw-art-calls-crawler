@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-08-07T18:06:35+00:00",
+  "started_at": "2026-08-07T19:19:59+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 27,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 27,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 5,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -128,9 +128,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -139,9 +145,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -150,9 +162,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -180,11 +198,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -228,7 +246,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -323,9 +341,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -370,23 +388,13 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Facebook profile URL regular expression - Stack Overflow",
-          "url": "https://stackoverflow.com/questions/5205652/facebook-profile-url-regular-expression",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Using facebook.katana aka facebook app from the code",
-          "url": "https://stackoverflow.com/questions/8917793/using-facebook-katana-aka-facebook-app-from-the-code",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Facebook Access Token for Pages - Stack Overflow",
-          "url": "https://stackoverflow.com/questions/8231877/facebook-access-token-for-pages",
-          "reason": "HTTP Error 403: Forbidden"
+          "title": "Search for SDM आख्या जन्म में नहीं लगा शिकायत प्रक्रिया | PAReSHRAM",
+          "url": "https://pareshram-labour.odisha.gov.in/en/search/node?keys=SDM%20%E0%A4%86%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%9C%E0%A4%A8%E0%A5%8D%E0%A4%AE%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%A8%E0%A4%B9%E0%A5%80%E0%A4%82%20%E0%A4%B2%E0%A4%97%E0%A4%BE%20%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%AF%E0%A4%A4%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE",
+          "reason": "<urlopen error timed out>"
         }
       ],
       "error": ""
@@ -416,23 +424,12 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
-      "fetch_errors": 2,
+      "rejected": 10,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "如何在中国大陆用「合法」的方式观看到youtube上面的",
-          "url": "https://www.zhihu.com/question/1903231775980913051",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "idm服务器响应显示你没有权限下载此文件这个怎么办",
-          "url": "https://www.zhihu.com/question/373322044",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -441,20 +438,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Water | Definition, Chemical Formula, Structure, Molecule, & Facts",
-          "url": "https://www.britannica.com/science/water",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "水的分子结构、性质和用途",
-          "url": "https://zhuanlan.zhihu.com/p/1973889124139307735",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -504,11 +490,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
