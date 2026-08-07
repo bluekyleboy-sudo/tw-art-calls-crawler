@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-07T09:20:13+00:00",
+  "started_at": "2026-08-07T10:18:06+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 5,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -198,11 +198,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -246,7 +246,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -279,7 +279,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -388,17 +388,28 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "HATE! Synonyms: 121 Similar and Opposite Words - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/thesaurus/hate!",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "HATES Synonyms: 69 Similar and Opposite Words - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/thesaurus/hates",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
