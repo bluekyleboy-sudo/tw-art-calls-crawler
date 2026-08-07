@@ -1,56 +1,15 @@
 {
-  "started_at": "2026-08-07T00:21:30+00:00",
+  "started_at": "2026-08-07T04:08:05+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 64,
-      "accepted": 14,
-      "rejected": 50,
-      "fetch_errors": 24,
-      "fallback_fetches": 11,
-      "restricted_candidates": [
-        {
-          "title": "東京藝術空間 2027 駐村計畫：國際創作者駐村計畫、策展人駐村計畫、研究駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e0157aaca0034",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2027農場工作室國際藝術駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019ce09f3bcd0002",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "叩居國際駐村計畫：2026 年 8 月至 9 月 印度 / 新德里 截止日期 2026.06.07",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3f9afd710064",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "揚凡艾克學院 2027 食物實驗室研究員駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e01294b4b0031",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2026 Folimage動畫工作室駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019d1f51a95b0026",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "2026–2027年太武新村眷村文化園區藝術進駐計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019dd7f71ed00001",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "「Nodus 2026」：聖馬特烏（卡斯特羅）當代舞蹈藝術駐留計畫 西班牙 / 卡斯特羅 截止日期 2026.05.25",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019ce5ca5c0f000b",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "柯拉松．心藝村駐村計畫",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019cffc2a87a0017",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "candidates": 27,
+      "accepted": 0,
+      "rejected": 27,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -89,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -115,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -144,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -169,35 +128,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 5,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OpenAI | Research & Deployment",
-          "url": "https://openai.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "The home of free learning from The Open University",
-          "url": "https://www.open.edu/openlearn/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -206,40 +139,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 6,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OpenAI | Research & Deployment",
-          "url": "https://openai.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "The home of free learning from The Open University",
-          "url": "https://www.open.edu/openlearn/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "About",
-          "url": "https://openai.com/about/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -248,35 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 5,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OpenEvidence",
-          "url": "https://www.openevidence.com/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Online Learning Courses and Adult Education - The Open University",
-          "url": "https://www.open.ac.uk/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "The home of free learning from The Open University",
-          "url": "https://www.open.edu/openlearn/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "About",
-          "url": "https://openai.com/about/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -385,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -447,11 +323,11 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -502,28 +378,12 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 8,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 3,
+      "rejected": 8,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Why does Bing AI actively lie? : r/bing - Reddit",
-          "url": "https://www.reddit.com/r/bing/comments/147ietz/why_does_bing_ai_actively_lie/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "How to view old images in Bing Image Creator? : r/bing - Reddit",
-          "url": "https://www.reddit.com/r/bing/comments/11zoxpw/how_to_view_old_images_in_bing_image_creator/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Bing ChatGPT too proud to admit mistake, doubles down and then ... - Reddit",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/14gnv5b/bing_chatgpt_too_proud_to_admit_mistake_doubles/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -540,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -606,11 +466,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -635,7 +495,7 @@
       "error": ""
     }
   ],
-  "accepted": 24,
+  "accepted": 10,
   "restored_from_previous": 0,
   "errors": 3
 }
