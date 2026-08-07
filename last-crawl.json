@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-07T04:08:05+00:00",
+  "started_at": "2026-08-07T05:54:58+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -283,7 +283,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -301,11 +301,11 @@
     {
       "source": "臺中市立美術館公開徵件",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -378,9 +378,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -400,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -466,11 +466,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
