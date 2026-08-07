@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-07T16:14:02+00:00",
+  "started_at": "2026-08-07T17:11:22+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
