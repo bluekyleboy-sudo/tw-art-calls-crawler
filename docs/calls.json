@@ -1,86 +1,6 @@
 {
   "opportunities": [
     {
-      "id": 38,
-      "title": "全球攝影比賽即時情報",
-      "url": "http://opencall.photoisrael.org/",
-      "application_url": "http://beaverglobal.com/clients/ipf/",
-      "source": "全球攝影比賽即時情報",
-      "category": "影像",
-      "region": "歐美",
-      "notes": "deadline extended to August 6, 2026 Submission fee: $22.00 (US dollars). The processing fees go towards the registration and the presentation of the artworks at the 2026 International Phot",
-      "opening_iso": "",
-      "deadline_iso": "2026-08-06",
-      "fingerprint": "全球攝影比賽即時情報:opencall.photoisrael.org",
-      "first_seen": "2026-07-18T08:58:59+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
-      "original_title": "全球攝影比賽即時情報",
-      "categories": [
-        "影像",
-        "競賽獎項"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
-      "country": "歐美",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜科技藝術創作發展補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        },
-        {
-          "title": "臺灣美術基金會／藝術銀行",
-          "url": "https://www.tfaf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "王源林文化藝術基金會",
-          "url": "https://wylf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        }
-      ]
-    },
-    {
       "id": 9,
       "title": "2026 齊柏林飛閱台灣攝影獎",
       "url": "https://aerialaward.chipolin.org/rule.php",
@@ -93,7 +13,7 @@
       "deadline_iso": "2026-08-11",
       "fingerprint": "2026齊柏林飛閱台灣攝影獎:aerialaward.chipolin.org",
       "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2026 齊柏林飛閱台灣攝影獎",
       "categories": [
         "影像",
@@ -173,14 +93,14 @@
       "deadline_iso": "2026-08-15",
       "fingerprint": "carlottagalleryonfilmphotographyopencalluk:www.carlottagallery.co.uk",
       "first_seen": "2026-07-23T16:50:44+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "Carlotta Gallery — ‘On Film’ Photography Open Call, UK",
       "categories": [
         "影像",
         "競賽獎項"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "歐美",
       "suggested_grants": [
         {
@@ -253,7 +173,7 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "findingtaiwan_20全球徵片競賽:www.mofa.gov.tw",
       "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "#FindingTAIWAN_2.0 全球徵片競賽",
       "categories": [
         "影像",
@@ -333,13 +253,13 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "2026新埤客庄藝術駐村新埤是客家傳統聚落是幸或不幸它沒跟上現代社會發展的腳步因而保留了許多過往的生活痕跡:artres.moc.gov.tw",
       "first_seen": "2026-07-22T16:45:51+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2026 新埤客庄藝術駐村 新埤是客家傳統聚落，是幸或不幸，它沒跟上現代社會發展的腳步，因而保留了許多過往的生活痕跡",
       "categories": [
         "國內駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "臺灣",
       "suggested_grants": [
         {
@@ -378,13 +298,13 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "2027年總爺藝文中心國際藝術進駐計畫:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2027年總爺藝文中心-國際藝術進駐計畫",
       "categories": [
         "國內駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "臺灣",
       "suggested_grants": [
         {
@@ -423,13 +343,13 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "2027年蕭壠文化園區國際藝術進駐計畫:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2027年蕭壠文化園區國際藝術進駐計畫",
       "categories": [
         "國內駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "臺灣",
       "suggested_grants": [
         {
@@ -468,13 +388,13 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "ssspacespaceopencall202627:www.ssspacespace.work",
       "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "ss space space Open Call 2026/27",
       "categories": [
         "當代藝術"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "臺灣",
       "suggested_grants": [
         {
@@ -547,7 +467,7 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "國家地理雜誌臺灣攝影大賽:www.natgeomedia.com",
       "first_seen": "2026-07-17T16:08:42+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "國家地理雜誌臺灣攝影大賽",
       "categories": [
         "影像"
@@ -626,7 +546,7 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "橋見風華:www.photo.org.tw",
       "first_seen": "2026-07-18T01:05:00+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "橋見風華—2026 淡江大橋攝影比賽",
       "categories": [
         "影像",
@@ -706,13 +626,13 @@
       "deadline_iso": "2026-08-31",
       "fingerprint": "高雄國際機場攝影徵選:www.kia.gov.tw",
       "first_seen": "2026-07-17T16:08:45+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "高雄國際機場攝影徵選",
       "categories": [
         "影像"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "臺灣",
       "suggested_grants": [
         {
@@ -799,7 +719,7 @@
       "deadline_iso": "2026-09-04",
       "fingerprint": "2027臺南新藝獎:next-art.tainan.gov.tw",
       "first_seen": "2026-07-18T01:05:00+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2027 臺南新藝獎｜當代藝術畫廊展覽徵件",
       "categories": [
         "當代藝術",
@@ -879,7 +799,7 @@
       "deadline_iso": "2026-09-10",
       "fingerprint": "2026桃園地景藝術節攝影比賽:www.tps.tw",
       "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2026 桃園地景藝術節攝影比賽",
       "categories": [
         "影像",
@@ -959,13 +879,13 @@
       "deadline_iso": "2026-09-30",
       "fingerprint": "班夫藝術中心跨文化音樂駐村計畫:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "班夫藝術中心 跨文化音樂駐村計畫",
       "categories": [
         "國外駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "歐美",
       "suggested_grants": [
         {
@@ -1011,13 +931,13 @@
       "deadline_iso": "2026-10-03",
       "fingerprint": "甘塞拉國際藝術中心2027行走實踐實驗室:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "甘塞拉國際藝術中心 2027 行走實踐實驗室",
       "categories": [
         "國外駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "歐美",
       "suggested_grants": [
         {
@@ -1063,13 +983,13 @@
       "deadline_iso": "2026-12-04",
       "fingerprint": "jawsfilmwikipedia:en.wikipedia.org",
       "first_seen": "2026-07-31T15:29:07+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "Jaws (film) - Wikipedia",
       "categories": [
         "影像"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "亞洲",
       "suggested_grants": [
         {
@@ -1142,13 +1062,13 @@
       "deadline_iso": "2026-12-31",
       "fingerprint": "2026年永晝海濱美術館spacemoor展覽銷售駐港創作opencall:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2026年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall",
       "categories": [
         "國內駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "臺灣",
       "suggested_grants": [
         {
@@ -1187,13 +1107,13 @@
       "deadline_iso": "2026-12-31",
       "fingerprint": "2026年阿根廷柯拉松心藝村藝術駐村徵件:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2026年阿根廷柯拉松．心藝村藝術駐村徵件",
       "categories": [
         "國外駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "阿根廷",
       "suggested_grants": [
         {
@@ -1239,13 +1159,13 @@
       "deadline_iso": "2026-12-31",
       "fingerprint": "arquetopia20252026vaaca駐村計畫:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "Arquetopia 2025-2026 VAACA駐村計畫",
       "categories": [
         "國外駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "歐美",
       "suggested_grants": [
         {
@@ -1291,13 +1211,13 @@
       "deadline_iso": "2027-12-31",
       "fingerprint": "2027年永晝海濱美術館spacemoor展覽銷售駐港創作opencall:artres.moc.gov.tw",
       "first_seen": "2026-07-30T06:41:13+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2027年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall",
       "categories": [
         "國內駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "臺灣",
       "suggested_grants": [
         {
@@ -1336,13 +1256,13 @@
       "deadline_iso": "",
       "fingerprint": "20262027牛弓藝術學院淡季駐村計畫:artres.moc.gov.tw",
       "first_seen": "2026-07-30T06:41:24+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "2026–2027 牛弓藝術學院淡季駐村計畫",
       "categories": [
         "國外駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "歐美",
       "suggested_grants": [
         {
@@ -1388,13 +1308,13 @@
       "deadline_iso": "",
       "fingerprint": "bostonmarathonwikipedia:en.wikipedia.org",
       "first_seen": "2026-07-18T13:49:19+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "Boston Marathon - Wikipedia",
       "categories": [
         "競賽獎項"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "臺灣",
       "suggested_grants": []
     },
@@ -1411,13 +1331,13 @@
       "deadline_iso": "",
       "fingerprint": "gmailwikipedia:en.wikipedia.org",
       "first_seen": "2026-07-24T00:13:27+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "Gmail - Wikipedia",
       "categories": [
         "競賽獎項"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "臺灣",
       "suggested_grants": []
     },
@@ -1434,13 +1354,13 @@
       "deadline_iso": "",
       "fingerprint": "kaganhotel河岸旅館藝術進駐kaganhotel河岸旅館hotel由專門經營青年共享住宅的不動產公司:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "KAGANHOTEL 河岸旅館 藝術進駐 「KAGANHOTEL（河岸旅館・HOTEL）」由專門經營青年共享住宅的不動產公司",
       "categories": [
         "國外駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "亞洲",
       "suggested_grants": [
         {
@@ -1486,13 +1406,13 @@
       "deadline_iso": "",
       "fingerprint": "knaibangchatt藝術家駐村計畫:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "Knai Bang Chatt – 藝術家駐村計畫",
       "categories": [
         "國外駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "亞洲",
       "suggested_grants": [
         {
@@ -1538,13 +1458,13 @@
       "deadline_iso": "",
       "fingerprint": "v54年青藝術家駐留計劃計劃自2016年開展以來為本地及海外年青藝術家提供低於市值租金的短期住宿與交流服務:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "V54年青藝術家駐留計劃 計劃自2016年開展以來，為本地及海外年青藝術家提供低於市值租金的短期住宿與交流服務",
       "categories": [
         "國外駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "亞洲",
       "suggested_grants": [
         {
@@ -1590,13 +1510,13 @@
       "deadline_iso": "",
       "fingerprint": "天堂藝術進駐短期駐村計畫:artres.moc.gov.tw",
       "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-06T15:33:18+00:00",
+      "last_seen": "2026-08-07T00:21:30+00:00",
       "original_title": "天堂藝術進駐短期駐村計畫",
       "categories": [
         "國外駐村"
       ],
       "opening_inferred": true,
-      "display_opening_iso": "2026-08-06",
+      "display_opening_iso": "2026-08-07",
       "country": "亞洲",
       "suggested_grants": [
         {
@@ -1970,12 +1890,12 @@
     }
   ],
   "stats": {
-    "total": 27,
-    "with_deadline": 20,
-    "last_updated": "2026-08-06T15:33:18+00:00"
+    "total": 26,
+    "with_deadline": 19,
+    "last_updated": "2026-08-07T00:21:30+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-06T15:33:18+00:00",
+    "started_at": "2026-08-07T00:21:30+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1983,37 +1903,17 @@
         "candidates": 64,
         "accepted": 14,
         "rejected": 50,
-        "fetch_errors": 26,
-        "fallback_fetches": 13,
+        "fetch_errors": 24,
+        "fallback_fetches": 11,
         "restricted_candidates": [
-          {
-            "title": "2026橋仔頭糖廠藝術村 藝術家進駐徵件",
-            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019dbe53880b02bf",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "2027臺灣陶藝駐村計畫",
-            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3edd435b005b",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "115年「藝術游擊」藝術家馬祖駐村徵選",
-            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e6d287b950088",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "2026 好地下藝術空間 藝術家進駐徵件",
-            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef34e50390057",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "揚凡艾克學院2027 第2項材料研究員駐村計畫",
-            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3e2240620059",
-            "reason": "HTTP Error 403: Forbidden"
-          },
           {
             "title": "東京藝術空間 2027 駐村計畫：國際創作者駐村計畫、策展人駐村計畫、研究駐村計畫",
             "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e0157aaca0034",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "2027農場工作室國際藝術駐村計畫",
+            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019ce09f3bcd0002",
             "reason": "HTTP Error 403: Forbidden"
           },
           {
@@ -2024,6 +1924,26 @@
           {
             "title": "揚凡艾克學院 2027 食物實驗室研究員駐村計畫",
             "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e01294b4b0031",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "2026 Folimage動畫工作室駐村計畫",
+            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019d1f51a95b0026",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "2026–2027年太武新村眷村文化園區藝術進駐計畫",
+            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019dd7f71ed00001",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "「Nodus 2026」：聖馬特烏（卡斯特羅）當代舞蹈藝術駐留計畫 西班牙 / 卡斯特羅 截止日期 2026.05.25",
+            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019ce5ca5c0f000b",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "柯拉松．心藝村駐村計畫",
+            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819cd603ad019cffc2a87a0017",
             "reason": "HTTP Error 403: Forbidden"
           }
         ],
@@ -2065,11 +1985,11 @@
       {
         "source": "Kala Yatra 尼泊爾藝術駐村",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2120,9 +2040,9 @@
       {
         "source": "ARTouch 典藏",
         "status": "ok",
-        "candidates": 7,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 7,
+        "rejected": 10,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2145,9 +2065,29 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 1,
+        "fetch_errors": 5,
         "fallback_fetches": 0,
         "restricted_candidates": [
+          {
+            "title": "OpenEvidence",
+            "url": "https://www.openevidence.com/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "OpenAI | Research & Deployment",
+            "url": "https://openai.com/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "Online Learning Courses and Adult Education - The Open University",
+            "url": "https://www.open.ac.uk/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "The home of free learning from The Open University",
+            "url": "https://www.open.edu/openlearn/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
           {
             "title": "OPEN Definition & Meaning - Merriam-Webster",
             "url": "https://www.merriam-webster.com/dictionary/open",
@@ -2162,9 +2102,34 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 1,
+        "fetch_errors": 6,
         "fallback_fetches": 0,
         "restricted_candidates": [
+          {
+            "title": "OpenEvidence",
+            "url": "https://www.openevidence.com/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "OpenAI | Research & Deployment",
+            "url": "https://openai.com/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "Online Learning Courses and Adult Education - The Open University",
+            "url": "https://www.open.ac.uk/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "The home of free learning from The Open University",
+            "url": "https://www.open.edu/openlearn/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "About",
+            "url": "https://openai.com/about/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
           {
             "title": "OPEN Definition & Meaning - Merriam-Webster",
             "url": "https://www.merriam-webster.com/dictionary/open",
@@ -2179,12 +2144,27 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 2,
+        "fetch_errors": 5,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
+            "title": "OpenEvidence",
+            "url": "https://www.openevidence.com/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
             "title": "Online Learning Courses and Adult Education - The Open University",
             "url": "https://www.open.ac.uk/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "The home of free learning from The Open University",
+            "url": "https://www.open.edu/openlearn/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "About",
+            "url": "https://openai.com/about/",
             "reason": "HTTP Error 403: Forbidden"
           },
           {
@@ -2268,7 +2248,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2296,14 +2276,14 @@
       },
       {
         "source": "臺北藝術週｜展覽活動響應",
-        "status": "error",
-        "candidates": 0,
+        "status": "ok",
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
-        "error": "HTTP Error 403: Forbidden"
+        "error": ""
       },
       {
         "source": "臺南市美術館 TAM+ 展覽計畫",
@@ -2311,30 +2291,9 @@
         "candidates": 6,
         "accepted": 0,
         "rejected": 6,
-        "fetch_errors": 4,
+        "fetch_errors": 0,
         "fallback_fetches": 0,
-        "restricted_candidates": [
-          {
-            "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
-            "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
-            "reason": "HTTP Error 500: Internal Server Error"
-          },
-          {
-            "title": "租借服務 Application Service",
-            "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
-            "reason": "HTTP Error 500: Internal Server Error"
-          },
-          {
-            "title": "申請流程 Application Procedure",
-            "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
-            "reason": "HTTP Error 500: Internal Server Error"
-          },
-          {
-            "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
-            "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
-            "reason": "HTTP Error 500: Internal Server Error"
-          }
-        ],
+        "restricted_candidates": [],
         "error": ""
       },
       {
@@ -2383,14 +2342,14 @@
       },
       {
         "source": "241藝術空間展覽徵件",
-        "status": "error",
-        "candidates": 0,
+        "status": "ok",
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": "HTTP Error 403: Forbidden"
+        "error": ""
       },
       {
         "source": "洪建全基金會雨棚計畫",
@@ -2431,50 +2390,9 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 9,
+        "fetch_errors": 0,
         "fallback_fetches": 0,
-        "restricted_candidates": [
-          {
-            "title": "¿Como generar números aleatorios dentro de un rango de valores?",
-            "url": "https://es.stackoverflow.com/questions/5390/como-generar-n%C3%BAmeros-aleatorios-dentro-de-un-rango-de-valores",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "Calculadora em php - Stack Overflow em Português",
-            "url": "https://pt.stackoverflow.com/questions/11824/calculadora-em-php",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "Java - calcular diferencia de años - Stack Overflow en español",
-            "url": "https://es.stackoverflow.com/questions/489052/java-calcular-diferencia-de-a%c3%b1os-localdate",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "Calculadora Bhaskara Javascript - Stack Overflow em Português",
-            "url": "https://pt.stackoverflow.com/questions/372535/calculadora-bhaskara-javascript",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "Como faço para calcular a idade usando php e html?",
-            "url": "https://pt.stackoverflow.com/questions/235913/como-fa%c3%a7o-para-calcular-a-idade-usando-php-e-html",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "input type=\"range\" no funciona en calculadora de financiación",
-            "url": "https://es.stackoverflow.com/questions/277224/input-type-range-no-funciona-en-calculadora-de-financiaci%c3%b3n",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "establecer como valor 0 si el input esta vacio",
-            "url": "https://es.stackoverflow.com/questions/188812/establecer-como-valor-0-si-el-input-esta-vacio",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "Somando valores entre inputs html e javascript",
-            "url": "https://pt.stackoverflow.com/questions/172340/somando-valores-entre-inputs-html-e-javascript",
-            "reason": "HTTP Error 403: Forbidden"
-          }
-        ],
+        "restricted_candidates": [],
         "error": ""
       },
       {
@@ -2483,9 +2401,25 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 3,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "Why does Bing AI actively lie? : r/bing - Reddit",
+            "url": "https://www.reddit.com/r/bing/comments/147ietz/why_does_bing_ai_actively_lie/",
+            "reason": "HTTP Error 403: Blocked"
+          },
+          {
+            "title": "How to view old images in Bing Image Creator? : r/bing - Reddit",
+            "url": "https://www.reddit.com/r/bing/comments/11zoxpw/how_to_view_old_images_in_bing_image_creator/",
+            "reason": "HTTP Error 403: Blocked"
+          },
+          {
+            "title": "Bing ChatGPT too proud to admit mistake, doubles down and then ... - Reddit",
+            "url": "https://www.reddit.com/r/ChatGPT/comments/14gnv5b/bing_chatgpt_too_proud_to_admit_mistake_doubles/",
+            "reason": "HTTP Error 403: Blocked"
+          }
+        ],
         "error": ""
       },
       {
@@ -2502,9 +2436,9 @@
       {
         "source": "絕對空間 Absolute Space for the Arts",
         "status": "ok",
-        "candidates": 10,
+        "candidates": 9,
         "accepted": 0,
-        "rejected": 10,
+        "rejected": 9,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2599,6 +2533,6 @@
     ],
     "accepted": 24,
     "restored_from_previous": 0,
-    "errors": 5
+    "errors": 3
   }
 }
