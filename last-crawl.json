@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-08-08T09:58:43+00:00",
+  "started_at": "2026-08-08T10:55:59+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 27,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 27,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 5,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -180,11 +180,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -261,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -271,20 +271,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
-          "reason": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
-          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
-          "reason": "HTTP Error 500: Internal Server Error"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -378,9 +367,9 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -411,9 +400,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
