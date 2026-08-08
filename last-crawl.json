@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-08T14:57:19+00:00",
+  "started_at": "2026-08-08T15:50:34+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,22 +37,22 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 7,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -180,11 +180,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -283,7 +283,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -301,11 +301,11 @@
     {
       "source": "臺中市立美術館公開徵件",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -370,25 +370,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "قوانين منظومة العدالة",
-          "url": "https://adala.justice.gov.ma/resources/2",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "وزارة العدل",
-          "url": "https://adala.justice.gov.ma/ar/",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "ضمانات المحاكمة الجنائية العادلة خلال مرحلتي التحقيق والمحاكمة (",
-          "url": "https://revues.imist.ma/index.php/Contentieux-Affaires/article/view/66105",
-          "reason": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
