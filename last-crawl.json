@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-08-08T02:25:57+00:00",
+  "started_at": "2026-08-08T04:26:51+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 27,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 27,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -117,9 +117,30 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 4,
       "fallback_fetches": 1,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "LunaCloudGaming - Reddit",
+          "url": "https://www.reddit.com/r/LunaCloudGaming/wiki/faqs/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "A place to post, discuss, gift adult coloring books - Reddit",
+          "url": "https://www.reddit.com/r/AdultColoring/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Fulfillment and Sort Centers At Amazon - Reddit",
+          "url": "https://www.reddit.com/r/FASCAmazon/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Amazon Deals US - Reddit",
+          "url": "https://www.reddit.com/r/amazondealsus/",
+          "reason": "HTTP Error 403: Blocked"
+        }
+      ],
       "error": ""
     },
     {
@@ -150,9 +171,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "About",
+          "url": "https://openai.com/about/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -228,7 +255,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -323,9 +350,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -378,9 +405,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 6,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 6,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -407,8 +434,8 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Olympic Games host cities | By Year, Next, Past, Future, History",
-          "url": "https://www.britannica.com/sports/Olympic-Games-host-cities",
+          "title": "Amazon Stock Price Today | NASDAQ: AMZN Live - Investing.com",
+          "url": "https://www.investing.com/equities/amazon-com-inc",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
