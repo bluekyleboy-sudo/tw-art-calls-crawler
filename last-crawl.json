@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-08T04:26:51+00:00",
+  "started_at": "2026-08-08T06:02:55+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -117,30 +117,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 4,
+      "fetch_errors": 0,
       "fallback_fetches": 1,
-      "restricted_candidates": [
-        {
-          "title": "LunaCloudGaming - Reddit",
-          "url": "https://www.reddit.com/r/LunaCloudGaming/wiki/faqs/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "A place to post, discuss, gift adult coloring books - Reddit",
-          "url": "https://www.reddit.com/r/AdultColoring/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Fulfillment and Sort Centers At Amazon - Reddit",
-          "url": "https://www.reddit.com/r/FASCAmazon/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Amazon Deals US - Reddit",
-          "url": "https://www.reddit.com/r/amazondealsus/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -171,15 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "About",
-          "url": "https://openai.com/about/",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -262,9 +235,9 @@
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 4,
       "accepted": 1,
-      "rejected": 4,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -288,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -350,9 +323,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -405,9 +378,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 6,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -430,15 +403,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Amazon Stock Price Today | NASDAQ: AMZN Live - Investing.com",
-          "url": "https://www.investing.com/equities/amazon-com-inc",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -499,11 +466,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
