@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-08T10:55:59+00:00",
+  "started_at": "2026-08-08T11:47:12+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 7,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -117,9 +117,25 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 1,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "银河录像局靠谱吗",
+          "url": "https://www.zhihu.com/question/3141235744",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "2012年为什么 Netflix 没落了",
+          "url": "https://www.zhihu.com/question/20569116",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "如何评价Netflix的《超时空辉夜姬",
+          "url": "https://www.zhihu.com/question/1997843021090281330",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -150,9 +166,30 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 4,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OpenEvidence",
+          "url": "https://www.openevidence.com/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Restaurants and Restaurant Bookings | OpenTable",
+          "url": "https://www.opentable.com/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "The home of free learning from The Open University",
+          "url": "https://www.open.edu/openlearn/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Online Learning Courses and Adult Education - The Open University",
+          "url": "https://www.open.ac.uk/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -180,11 +217,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -261,7 +298,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -271,9 +308,20 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "申請流程 Application Procedure",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
+          "reason": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
+          "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
+          "reason": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "error": ""
     },
     {
@@ -378,9 +426,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -403,17 +451,33 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "خريطة الموقع",
+          "url": "https://www.burjkhalifa.ae/ar/site-map/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "دليل زيارة برج خليفة",
+          "url": "https://www.wingie.ae/blog/%D8%AF%D9%84%D9%8A%D9%84-%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A8%D8%B1%D8%AC-%D8%AE%D9%84%D9%8A%D9%81%D8%A9/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "استمتع بتجربة الإقامة وزيارة برج خليفة",
+          "url": "https://www.burjkhalifa.ae/ar/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -466,11 +530,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
