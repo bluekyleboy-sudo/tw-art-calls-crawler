@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-08T07:19:13+00:00",
+  "started_at": "2026-08-08T08:06:37+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -106,28 +106,17 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Имя Ламиа: значение и происхождение, судьба и характер",
-          "url": "https://nashiimena.ru/l/imya-lamia-znachenie-i-proishozhdenie-sudba-i-harakter/",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "Имя Ламиа: происхождение и значение, судьба, характер",
-          "url": "https://imena-wiki.ru/imya-lamia-proishozhdenie-i-znachenie-sudba-harakter/",
-          "reason": "<urlopen error timed out>"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -228,7 +217,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -381,15 +370,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Following the PornHub purge, where is the best source of free ... - Reddit",
-          "url": "https://www.reddit.com/r/AskReddit/comments/kv1ddt/following_the_pornhub_purge_where_is_the_best/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -398,20 +381,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Ukraine | History, Flag, Population, President, Map, Language, & Facts",
-          "url": "https://www.britannica.com/place/Ukraine",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Ukraine - Soviet Union, Independence, Revolution | Britannica",
-          "url": "https://www.britannica.com/place/Ukraine/History",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -431,9 +403,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "On This Day - What Happened Today In History | Britannica",
+          "url": "https://www.britannica.com/on-this-day",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -442,9 +420,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "VINDICATE - Meaning & Translations | Collins English Dictionary",
+          "url": "https://www.collinsdictionary.com/english-language-learning/vindicate",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "VINDICATE definition in American English | Collins English Dictionary",
+          "url": "https://www.collinsdictionary.com/us/dictionary/english/vindicate",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -494,11 +483,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
