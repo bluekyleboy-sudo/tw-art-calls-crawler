@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-08T19:02:47+00:00",
+  "started_at": "2026-08-08T19:48:50+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -261,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -370,17 +370,33 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Thoughts on Kaede Kayano *Spoiler Twist* - Reddit",
+          "url": "https://www.reddit.com/r/AssasinationClassroom/comments/q6pk07/thoughts_on_kaede_kayano_spoiler_twist/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Kaede Kayano vs Mukuro Ikusaba (Assassination Classroom vs ... - Reddit",
+          "url": "https://www.reddit.com/r/danganronpa/comments/157161c/kaede_kayano_vs_mukuro_ikusaba_assassination/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Respect Koro Sensei (Assassination Classroom) : r/respectthreads - Reddit",
+          "url": "https://www.reddit.com/r/respectthreads/comments/7a46dg/respect_koro_sensei_assassination_classroom/",
+          "reason": "HTTP Error 403: Blocked"
+        }
+      ],
       "error": ""
     },
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -403,17 +419,12 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Oil Refineries: How They Work and Their Key Functions",
-          "url": "https://www.investopedia.com/terms/o/oil-refinery.asp",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Petroleum refining | Definition, History, Processes, & Facts - Britannica",
-          "url": "https://www.britannica.com/technology/petroleum-refining",
+          "title": "Journal of Energy Storage | ScienceDirect.com by Elsevier",
+          "url": "https://www.sciencedirect.com/journal/journal-of-energy-storage",
           "reason": "HTTP Error 403: Forbidden"
         }
       ],
@@ -425,9 +436,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Google | History & Facts; Products & Services | Britannica Money",
+          "url": "https://www.britannica.com/money/Google-Inc",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -477,11 +494,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
