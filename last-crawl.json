@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-08-08T19:48:50+00:00",
+  "started_at": "2026-08-08T20:55:24+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 27,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 27,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -323,9 +323,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -370,33 +370,17 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Thoughts on Kaede Kayano *Spoiler Twist* - Reddit",
-          "url": "https://www.reddit.com/r/AssasinationClassroom/comments/q6pk07/thoughts_on_kaede_kayano_spoiler_twist/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Kaede Kayano vs Mukuro Ikusaba (Assassination Classroom vs ... - Reddit",
-          "url": "https://www.reddit.com/r/danganronpa/comments/157161c/kaede_kayano_vs_mukuro_ikusaba_assassination/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Respect Koro Sensei (Assassination Classroom) : r/respectthreads - Reddit",
-          "url": "https://www.reddit.com/r/respectthreads/comments/7a46dg/respect_koro_sensei_assassination_classroom/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 9,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -419,15 +403,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Journal of Energy Storage | ScienceDirect.com by Elsevier",
-          "url": "https://www.sciencedirect.com/journal/journal-of-energy-storage",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -436,15 +414,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Google | History & Facts; Products & Services | Britannica Money",
-          "url": "https://www.britannica.com/money/Google-Inc",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -494,11 +466,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
