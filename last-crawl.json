@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-08T22:53:10+00:00",
+  "started_at": "2026-08-08T23:48:46+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 11,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -261,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -378,9 +378,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -403,15 +403,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "On This Day - What Happened Today In History | Britannica",
-          "url": "https://www.britannica.com/on-this-day",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -420,13 +414,18 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "VINDICATE - Meaning & Translations | Collins English Dictionary",
-          "url": "https://www.collinsdictionary.com/english-language-learning/vindicate",
-          "reason": "HTTP Error 403: Forbidden"
+          "title": "PSA: email log in loop fix for yahoo/att problems - Reddit",
+          "url": "https://www.reddit.com/r/yahoo/comments/ufcq1u/psa_email_log_in_loop_fix_for_yahooatt_problems/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Yahoo search instead of Google (browser hijacking?) - Reddit",
+          "url": "https://www.reddit.com/r/chrome/comments/fvin0v/yahoo_search_instead_of_google_browser_hijacking/",
+          "reason": "HTTP Error 403: Blocked"
         }
       ],
       "error": ""
