@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-08-08T13:16:26+00:00",
+  "started_at": "2026-08-08T14:01:48+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 27,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 27,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -128,9 +128,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -139,9 +145,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -150,9 +162,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "OPEN Definition & Meaning - Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/open",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -261,7 +279,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -271,9 +289,15 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
+          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
+          "reason": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "error": ""
     },
     {
@@ -370,9 +394,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "i＝1，为什么 (++i)+ (++i)＝6",
+          "url": "https://www.zhihu.com/question/347864795",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "\"Normalize\" values to sum 1 but keeping their weights",
+          "url": "https://math.stackexchange.com/questions/278418/normalize-values-to-sum-1-but-keeping-their-weights",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -381,9 +416,25 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Assassin's Creed: Unity soundtrack",
+          "url": "https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed:_Unity_soundtrack",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Ryan Amon - Assassin's Creed Wiki",
+          "url": "https://assassinscreed.fandom.com/wiki/Ryan_Amon",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Chris Tilton and Sarah Schachner – Assassin's Creed Unity ... - Discogs",
+          "url": "https://www.discogs.com/master/1602782-Chris-Tilton-2-and-Sarah-Schachner-Assassins-Creed-Unity-Original-Soundtrack",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -403,48 +454,33 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 8,
+      "fetch_errors": 5,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Login | E-WayBill System",
-          "url": "https://ewaybillgst.gov.in/Login.aspx",
-          "reason": "<urlopen error timed out>"
+          "title": "Report of the Editor American Economic Journal: Macroeconomics",
+          "url": "https://www.pubs.aeaweb.org/doi/abs/10.1257/pandp.115.800",
+          "reason": "HTTP Error 403: Forbidden"
         },
         {
-          "title": "E-WayBill System",
-          "url": "http://ewaybillgst.gov.in/",
-          "reason": "<urlopen error timed out>"
+          "title": "<italic>American Economic Journal: Macroeconomics</italic>",
+          "url": "https://pubs.aeaweb.org/doi/pdfplus/10.1257/pandp.111.718",
+          "reason": "HTTP Error 403: Forbidden"
         },
         {
-          "title": "E-WayBill System",
-          "url": "https://ewaybill2.gst.gov.in/RedirectPage.aspx",
-          "reason": "<urlopen error timed out>"
+          "title": "American Economic Journal Macroeconomics",
+          "url": "https://www.jstor.org/stable/27192711",
+          "reason": "HTTP Error 403: Forbidden"
         },
         {
-          "title": "E-Waybill Dashboard login",
-          "url": "https://dashboard.ewaybillgst.gov.in/",
-          "reason": "<urlopen error timed out>"
+          "title": "2025 Ultimate Macro journal rankings « XJMR",
+          "url": "https://www.econjobrumors.com/topic/2025-ultimate-macro-journal-rankings-1",
+          "reason": "<urlopen error [Errno 101] Network is unreachable>"
         },
         {
-          "title": "E-Way Bill System",
-          "url": "http://mis.ewaybillgst.gov.in/ewb_ctz/citizen/citizenmenu.aspx",
-          "reason": "<urlopen error [Errno 104] Connection reset by peer>"
-        },
-        {
-          "title": "E - Waybill System",
-          "url": "https://mis.ewaybillgst.gov.in/Account/login.aspx",
-          "reason": "<urlopen error [Errno 104] Connection reset by peer>"
-        },
-        {
-          "title": "E-WayBill System",
-          "url": "https://ewaybillgst.gov.in/Others/EBPrintnew.aspx",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "E-Way Bill System",
-          "url": "https://ewaybillgst.gov.in/account/ewbuserregistration.aspx",
-          "reason": "<urlopen error timed out>"
+          "title": "Journal of Macroeconomics | ScienceDirect.com by Elsevier",
+          "url": "https://www.sciencedirect.com/journal/journal-of-macroeconomics",
+          "reason": "HTTP Error 403: Forbidden"
         }
       ],
       "error": ""
@@ -452,18 +488,12 @@
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 1,
+      "rejected": 9,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Eminem | Songs, Real Name, Without Me, Daughter, Stan, & Facts - Britannica",
-          "url": "https://www.britannica.com/biography/Eminem",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -513,11 +543,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
