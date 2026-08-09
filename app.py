@@ -339,9 +339,12 @@ def title_clean(title):
  else: value=re.split(r"[。！？!?]|(?:\s{2,})|\s+(?:本計畫|本次|該計畫|這項|邀請|歡迎|旨在|希望|提供|成立於|自\d{4}年)",value,maxsplit=1)[0]
  return value[:64].rstrip("，。,.：:；; ")
 def fingerprint(title,url): return re.sub(r"[^\w\u4e00-\u9fff]+","",title.lower())[:150]+":"+canonical(url).lower()
-def save(item,db_path=None):
+def save(item,db_path=None,preserve_existing=False):
  c=database(db_path); stamp=now(); key=fingerprint(item["title"],item["url"])
- c.execute("""INSERT INTO opportunities(title,url,application_url,source,category,region,notes,opening_iso,deadline_iso,fingerprint,first_seen,last_seen) VALUES(?,?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(fingerprint) DO UPDATE SET title=excluded.title,url=excluded.url,application_url=excluded.application_url,source=excluded.source,category=excluded.category,region=excluded.region,notes=excluded.notes,opening_iso=excluded.opening_iso,deadline_iso=excluded.deadline_iso,last_seen=excluded.last_seen""",(item["title"],item["url"],item["application_url"],item["source"],item["category"],item["region"],item["notes"],item["opening_iso"],item["deadline_iso"],key,stamp,stamp)); c.commit(); c.close()
+ values=(item["title"],item["url"],item["application_url"],item["source"],item["category"],item["region"],item["notes"],item["opening_iso"],item["deadline_iso"],key,stamp,stamp)
+ if preserve_existing:c.execute("""INSERT OR IGNORE INTO opportunities(title,url,application_url,source,category,region,notes,opening_iso,deadline_iso,fingerprint,first_seen,last_seen) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)""",values)
+ else:c.execute("""INSERT INTO opportunities(title,url,application_url,source,category,region,notes,opening_iso,deadline_iso,fingerprint,first_seen,last_seen) VALUES(?,?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(fingerprint) DO UPDATE SET title=excluded.title,url=excluded.url,application_url=excluded.application_url,source=excluded.source,category=excluded.category,region=excluded.region,notes=excluded.notes,opening_iso=excluded.opening_iso,deadline_iso=excluded.deadline_iso,last_seen=excluded.last_seen""",values)
+ c.commit(); c.close()
 
 def instagram_profile_candidates(profile):
  data=profile.get("data",{}) if isinstance(profile,dict) else {};user=data.get("user",{}) if isinstance(data,dict) else {}
@@ -730,7 +733,8 @@ def same_opportunity(a,b):
   return title_variant or dates_match
  if min(len(ak),len(bk))<7:return False
  title_match=ak==bk or difflib.SequenceMatcher(None,ak,bk).ratio()>=.9
- application_a={canonical(a["application_url"])} if a.get("application_url","").startswith("http") else set();application_b={canonical(b["application_url"])} if b.get("application_url","").startswith("http") else set()
+ application_a={canonical(url) for url in [a.get("application_url","")]+a.get("_application_aliases",[]) if url.startswith("http")}
+ application_b={canonical(url) for url in [b.get("application_url","")]+b.get("_application_aliases",[]) if url.startswith("http")}
  if application_a & application_b:
   prefix_variant=min(len(ak),len(bk))>=16 and (ak.startswith(bk) or bk.startswith(ak))
   return dates_match and (ak==bk or prefix_variant)
@@ -742,6 +746,7 @@ def merge_opportunities(items):
   if not found:
    item["_opening_candidates"]=[item["opening_iso"]] if item.get("opening_iso") else []
    item["_deadline_candidates"]=[item["deadline_iso"]] if item.get("deadline_iso") else []
+   item["_application_aliases"]=[item["application_url"]] if item.get("application_url","").startswith("http") else []
    merged.append(item);continue
   if len(item.get("original_title",item["title"]))>len(found.get("original_title",found["title"])):
    found["original_title"]=item.get("original_title",item["title"])
@@ -752,6 +757,9 @@ def merge_opportunities(items):
    for field in ("application_url","country","region","category"):
     if item.get(field):found[field]=item[field]
   if found.get("application_url")==found.get("url") and item.get("application_url")!=item.get("url"):found["application_url"]=item["application_url"]
+  seen_applications={canonical(url) for url in found["_application_aliases"]}
+  for url in [item.get("application_url","")]+item.get("_application_aliases",[]):
+   if url.startswith("http") and canonical(url) not in seen_applications:found["_application_aliases"].append(url);seen_applications.add(canonical(url))
   if item.get("opening_iso"):found["_opening_candidates"].append(item["opening_iso"])
   if item.get("deadline_iso"):found["_deadline_candidates"].append(item["deadline_iso"])
   for field in ("country","region"):
@@ -760,6 +768,7 @@ def merge_opportunities(items):
   found["suggested_grants"]+= [g for g in item.get("suggested_grants",[]) if g["url"] not in seen]
   found["categories"]=[x for x in ("影像","當代藝術","展覽徵件","競賽獎項","國內駐村","國外駐村") if x in found.get("categories",[])+item.get("categories",[])]
  for item in merged:
+  item.pop("_application_aliases",None)
   for field,candidates in (("opening_iso",item.pop("_opening_candidates")),("deadline_iso",item.pop("_deadline_candidates"))):
    if candidates:
     counts={value:candidates.count(value) for value in candidates}

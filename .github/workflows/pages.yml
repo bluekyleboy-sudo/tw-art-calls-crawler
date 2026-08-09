@@ -40,7 +40,7 @@ jobs:
                   if deadline and deadline < app.today_iso(): continue
                   if not deadline and x.get('last_seen', '') < cutoff: continue
                   if not all(x.get(k) for k in ('title','url','source','category','region')): continue
-                  app.save({'title':x['title'],'url':x['url'],'application_url':x.get('application_url') or x['url'],'source':x['source'],'category':x['category'],'region':x['region'],'notes':x.get('notes',''),'opening_iso':x.get('opening_iso',''),'deadline_iso':deadline})
+                  app.save({'title':x['title'],'url':x['url'],'application_url':x.get('application_url') or x['url'],'source':x['source'],'category':x['category'],'region':x['region'],'notes':x.get('notes',''),'opening_iso':x.get('opening_iso',''),'deadline_iso':deadline}, preserve_existing=True)
                   restored+=1
           print('Cross-validated historical records:', restored)
           PY
