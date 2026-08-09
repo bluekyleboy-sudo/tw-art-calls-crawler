@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-09T10:57:22+00:00",
+  "started_at": "2026-08-09T11:50:03+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -128,15 +128,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -145,15 +139,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -162,15 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -257,7 +239,7 @@
       "accepted": 1,
       "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -289,9 +271,15 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "租借服務 Application Service",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
+          "reason": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "error": ""
     },
     {
@@ -356,7 +344,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -399,9 +387,30 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 4,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "正在申请中的专利在哪个网站可以查看状态",
+          "url": "https://www.zhihu.com/question/432937200/answers/updated",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "查询中国专利的所有方法有哪些",
+          "url": "https://www.zhihu.com/question/59967051",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "实用新型专利怎么查询",
+          "url": "https://www.zhihu.com/question/530051050",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "有哪些比较实用的专利查询网站，求推荐",
+          "url": "https://www.zhihu.com/question/389373382",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -421,17 +430,43 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 5,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Grills - The Home Depot",
+          "url": "https://www.homedepot.com/b/Outdoors-Outdoor-Cooking-Grills/N-5yc1vZbxaz",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Grills & Outdoor Cooking Equipment | Lowe's",
+          "url": "https://www.lowes.com/c/Grills-outdoor-cooking-Outdoors",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Gas Grills - The Home Depot",
+          "url": "https://www.homedepot.com/b/Outdoors-Outdoor-Cooking-Grills-Gas-Grills/N-5yc1vZc5t5",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Gas Grills | Seattle | Portland | Bellevue | Tacoma | Lynnwood",
+          "url": "https://www.richshome.com/collections/grills-outdoor-kitchens/grills/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "BBQs & Grills - Costco Wholesale",
+          "url": "https://www.costco.com/grills.html",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "水谷藝術 Waley Art",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -484,11 +519,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
