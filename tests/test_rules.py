@@ -73,8 +73,10 @@ class Rules(unittest.TestCase):
  def test_same_princeton_announcement_keeps_richer_verified_metadata(self):
   post="https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26"
   crawler={"title":"COLLECTIVE EXHIBITION IN PRINCETON","original_title":"COLLECTIVE EXHIBITION IN PRINCETON","url":post,"application_url":"https://www.pointpleasantpublishing.net/exhibit-in-princeton-open-call","deadline_iso":"2027-01-01","opening_iso":"","notes":"Deadline to Apply: January 1st, 2027","region":"亞洲","country":"亞洲","category":"競賽獎項","categories":["競賽獎項"],"suggested_grants":[]}
+  relay={**crawler,"url":"https://bsky.app/profile/artcalls.bsky.social/post/3mrdkezfxr226","application_url":"https://www.pointpleasantpublishing.net/princeton-arts-festival"}
+  mastodon={**crawler,"title":"COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P","original_title":"COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P","url":"https://mastodon.social/@artdeadline/116970854142316703","application_url":"https://www.pointpleasantpublishing.net/princeton-arts-festival"}
   verified={"title":"Crowns of Princeton｜2027 Princeton Arts Festival International Call for Artists","original_title":"Crowns of Princeton｜2027 Princeton Arts Festival International Call for Artists","url":post,"application_url":"https://www.pointpleasantpublishing.net/princeton-arts-festival","deadline_iso":"2027-01-01","opening_iso":"","notes":"Official page verifies an international arts festival and exhibition in Princeton, United States, open to artists across media.","region":"歐美","country":"美國","category":"展覽徵件","categories":["影像","展覽徵件"],"suggested_grants":[]}
-  merged=app.merge_opportunities([crawler,verified])
+  merged=app.merge_opportunities([crawler,relay,mastodon,verified])
   self.assertEqual(len(merged),1)
   self.assertEqual(merged[0]["title"],"COLLECTIVE EXHIBITION IN PRINCETON")
   self.assertEqual(merged[0]["application_url"],verified["application_url"])
@@ -85,6 +87,13 @@ class Rules(unittest.TestCase):
   def row(deadline): return {"title":"2027 臺南新藝獎","url":"https://next-art.test/call","application_url":"https://next-art.test/call","opening_iso":"2026-07-20","deadline_iso":deadline,"suggested_grants":[]}
   merged=app.merge_opportunities([row("2026-09-04"),row("2026-09-04"),row("2027-04-11")])
   self.assertEqual(merged[0]["deadline_iso"],"2026-09-04")
+ def test_historical_restore_does_not_overwrite_current_verified_metadata(self):
+  current={"title":"Verified Call","url":"https://social.test/post/one","application_url":"https://official.test/canonical","source":"Verified","category":"展覽徵件","region":"歐美","notes":"Current verified details","opening_iso":"","deadline_iso":"2027-01-01"}
+  stale={**current,"application_url":"https://official.test/old-alias","category":"競賽獎項","region":"亞洲","notes":"Stale details"}
+  with tempfile.TemporaryDirectory() as folder:
+   db=Path(folder)/"data.sqlite3";app.save(current,db);app.save(stale,db,preserve_existing=True)
+   connection=sqlite3.connect(db);row=connection.execute("SELECT application_url,category,region,notes FROM opportunities").fetchone();connection.close()
+  self.assertEqual(row,(current["application_url"],current["category"],current["region"],current["notes"]))
  def test_canonical_preserves_semantic_query_parameters(self):
   first="https://example.test/News_Content.aspx?n=95&s=122572&utm_source=newsletter"
   second="https://example.test/News_Content.aspx?n=95&s=122573"
