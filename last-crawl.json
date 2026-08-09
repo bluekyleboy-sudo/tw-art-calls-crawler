@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-09T06:06:47+00:00",
+  "started_at": "2026-08-09T07:20:50+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,22 +37,22 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 7,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -103,18 +103,12 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 5,
-      "fetch_errors": 1,
+      "rejected": 10,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Windows 98 - JLA FORUMS",
-          "url": "http://www.jlaforums.com/viewforum.php?f=342",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -186,11 +180,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -384,9 +378,9 @@
     {
       "source": "好地下藝術空間",
       "status": "ok",
-      "candidates": 6,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
