@@ -173,7 +173,7 @@
       "deadline_iso": "2026-08-15",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-09T16:35:40+00:00",
-      "last_seen": "2026-08-09T17:04:22+00:00",
+      "last_seen": "2026-08-09T17:21:24+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -253,7 +253,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-09T17:09:05+00:00",
+      "last_seen": "2026-08-09T17:25:41+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -526,7 +526,8 @@
       "last_seen": "2026-08-09T15:50:40+00:00",
       "original_title": "ss space space Open Call 2026/27",
       "categories": [
-        "當代藝術"
+        "當代藝術",
+        "展覽徵件"
       ],
       "opening_inferred": true,
       "display_opening_iso": "",
@@ -605,7 +606,8 @@
       "last_seen": "2026-08-09T15:50:40+00:00",
       "original_title": "國家地理雜誌臺灣攝影大賽",
       "categories": [
-        "影像"
+        "影像",
+        "競賽獎項"
       ],
       "opening_inferred": false,
       "display_opening_iso": "2026-05-21",
@@ -764,7 +766,8 @@
       "last_seen": "2026-08-09T15:50:40+00:00",
       "original_title": "高雄國際機場攝影徵選",
       "categories": [
-        "影像"
+        "影像",
+        "競賽獎項"
       ],
       "opening_inferred": true,
       "display_opening_iso": "",
@@ -1267,7 +1270,7 @@
       "deadline_iso": "2026-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-09T17:09:05+00:00",
+      "last_seen": "2026-08-09T17:21:30+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1322,10 +1325,11 @@
       "deadline_iso": "2027-01-01",
       "fingerprint": "collectiveexhibitioninprinceton:https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
       "first_seen": "2026-08-09T16:35:28+00:00",
-      "last_seen": "2026-08-09T17:09:05+00:00",
-      "original_title": "Crowns of Princeton｜2027 Princeton Arts Festival International Call for Artists",
+      "last_seen": "2026-08-09T17:21:14+00:00",
+      "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
       "categories": [
         "影像",
+        "展覽徵件",
         "競賽獎項"
       ],
       "opening_inferred": true,
@@ -1388,29 +1392,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": 52,
-      "title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
-      "url": "https://mastodon.social/@artdeadline/116970854142316703",
-      "application_url": "https://www.pointpleasantpublishing.net/princeton-arts-festival",
-      "source": "Mastodon｜ArtDeadline.Com",
-      "category": "競賽獎項",
-      "region": "亞洲",
-      "notes": "Deadline to Apply: January 1st, 2027 Notifications: Selected applicants will be notified of their",
-      "opening_iso": "",
-      "deadline_iso": "2027-01-01",
-      "fingerprint": "collectiveexhibitioninprincetoninternationaldeadlinejanuary12027callforartistsp:https://mastodon.social/@artdeadline/116970854142316703",
-      "first_seen": "2026-08-09T16:35:29+00:00",
-      "last_seen": "2026-08-09T17:04:20+00:00",
-      "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
-      "categories": [
-        "競賽獎項"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "亞洲",
-      "suggested_grants": []
     },
     {
       "id": 46,
@@ -2040,12 +2021,12 @@
     }
   ],
   "stats": {
-    "total": 28,
-    "with_deadline": 23,
-    "last_updated": "2026-08-09T17:09:05+00:00"
+    "total": 27,
+    "with_deadline": 22,
+    "last_updated": "2026-08-09T17:25:41+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-09T17:09:05+00:00",
+    "started_at": "2026-08-09T17:25:41+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -2120,7 +2101,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2299,7 +2280,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2332,7 +2313,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
