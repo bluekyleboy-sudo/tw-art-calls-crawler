@@ -1,12 +1,13 @@
-name: 每小時更新 OPEN FIELD 資料
+name: 每日午夜更新 OPENFIELD 資料
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 * * * *"
+    # 00:00 Asia/Taipei is 16:00 UTC on the previous calendar day.
+    - cron: "0 16 * * *"
   push:
     branches: [main]
 permissions: {contents: write}
-concurrency: {group: hourly-refresh, cancel-in-progress: false}
+concurrency: {group: daily-midnight-refresh, cancel-in-progress: false}
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -23,7 +24,7 @@ jobs:
         run: |
           python - <<'PY'
           import json, urllib.request
-          from datetime import date, datetime, timedelta, timezone
+          from datetime import datetime, timedelta, timezone
           import app
           feeds=[json.load(open('/tmp/previous-calls.json'))]
           try:
@@ -36,7 +37,7 @@ jobs:
           for feed in feeds:
               for x in feed.get('opportunities', []):
                   deadline=x.get('deadline_iso', '')
-                  if deadline and deadline < date.today().isoformat(): continue
+                  if deadline and deadline < app.today_iso(): continue
                   if not deadline and x.get('last_seen', '') < cutoff: continue
                   if not all(x.get(k) for k in ('title','url','source','category','region')): continue
                   app.save({'title':x['title'],'url':x['url'],'application_url':x.get('application_url') or x['url'],'source':x['source'],'category':x['category'],'region':x['region'],'notes':x.get('notes',''),'opening_iso':x.get('opening_iso',''),'deadline_iso':deadline})
