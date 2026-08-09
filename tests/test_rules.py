@@ -136,6 +136,17 @@ class Rules(unittest.TestCase):
   with mock.patch.object(app.socket,"getaddrinfo",return_value=[endpoint]),mock.patch.object(app.socket,"socket",return_value=fake_socket):
    self.assertIs(app.public_connection(("rebind.test",443),5),fake_socket)
   fake_socket.connect.assert_called_once_with(("93.184.216.34",443))
+ def test_https_handler_does_not_require_legacy_check_hostname(self):
+  handler=app.PublicHTTPSHandler()
+  if hasattr(handler,"_check_hostname"):delattr(handler,"_check_hostname")
+  request=app.urllib.request.Request("https://example.com")
+  with mock.patch.object(handler,"do_open",return_value="ok") as do_open:
+   self.assertEqual(handler.https_open(request),"ok")
+  args,kwargs=do_open.call_args
+  self.assertIs(args[0],app.PublicHTTPSConnection)
+  self.assertIs(args[1],request)
+  self.assertIn("context",kwargs)
+  self.assertNotIn("check_hostname",kwargs)
  def test_failed_harvest_keeps_database_and_report_untouched(self):
   with tempfile.TemporaryDirectory() as folder:
    root=Path(folder);db=root/"data.sqlite3";report=root/"report.json";sources=root/"sources.json";missing=root/"missing.json"

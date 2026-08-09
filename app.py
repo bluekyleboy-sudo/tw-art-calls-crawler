@@ -94,7 +94,7 @@ class PublicHTTPSConnection(http.client.HTTPSConnection):
 class PublicHTTPHandler(urllib.request.HTTPHandler):
  def http_open(self,req):return self.do_open(PublicHTTPConnection,req)
 class PublicHTTPSHandler(urllib.request.HTTPSHandler):
- def https_open(self,req):return self.do_open(PublicHTTPSConnection,req,context=self._context,check_hostname=self._check_hostname)
+ def https_open(self,req):return self.do_open(PublicHTTPSConnection,req,context=self._context)
 class PublicRedirectHandler(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,req,fp,code,msg,headers,newurl):
   ensure_public_http_url(newurl)
