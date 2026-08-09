@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-08-09T15:50:40+00:00",
+  "started_at": "2026-08-09T16:40:23+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -74,16 +74,16 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "國立臺灣美術館國際駐村",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -114,45 +114,70 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
+      "candidates": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 2,
       "restricted_candidates": [],
       "error": ""
     },
     {
-      "source": "Instagram 公開貼文",
+      "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
+      "candidates": 24,
+      "accepted": 2,
+      "rejected": 22,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
     {
-      "source": "Facebook 公開貼文",
+      "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 0,
+      "candidates": 36,
+      "accepted": 1,
+      "rejected": 35,
+      "fetch_errors": 7,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
-      "error": ""
-    },
-    {
-      "source": "Threads 公開貼文",
-      "status": "ok",
-      "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 0,
-      "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117019397238396263",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117042519605322586",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/116957506960150531",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/116923510645136325",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/116908323346547823",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/116968622417035847",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/116929612188242021",
+          "reason": "hostname could not be resolved"
+        }
+      ],
       "error": ""
     },
     {
@@ -224,11 +249,11 @@
     {
       "source": "台北攝影學會攝影徵件",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -236,10 +261,10 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 4,
-      "accepted": 1,
-      "rejected": 3,
+      "accepted": 2,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -261,7 +286,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -323,9 +348,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -338,7 +363,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -365,66 +390,11 @@
       "error": ""
     },
     {
-      "source": "新樂園藝術空間",
-      "status": "ok",
-      "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 0,
-      "fallback_fetches": 0,
-      "restricted_candidates": [],
-      "error": ""
-    },
-    {
-      "source": "好地下藝術空間",
-      "status": "ok",
-      "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 2,
-      "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "2 \"Hadley Hickman\" profiles | LinkedIn",
-          "url": "https://www.linkedin.com/pub/dir/hadley/hickman",
-          "reason": "HTTP Error 999: <none>"
-        },
-        {
-          "title": "Brett Hadley – Lux Cinematography | LinkedIn",
-          "url": "https://www.linkedin.com/in/bretthadley",
-          "reason": "HTTP Error 999: <none>"
-        }
-      ],
-      "error": ""
-    },
-    {
       "source": "Pièce 藝術空間",
       "status": "ok",
       "candidates": 0,
       "accepted": 0,
       "rejected": 0,
-      "fetch_errors": 0,
-      "fallback_fetches": 0,
-      "restricted_candidates": [],
-      "error": ""
-    },
-    {
-      "source": "絕對空間 Absolute Space for the Arts",
-      "status": "ok",
-      "candidates": 9,
-      "accepted": 0,
-      "rejected": 9,
-      "fetch_errors": 0,
-      "fallback_fetches": 0,
-      "restricted_candidates": [],
-      "error": ""
-    },
-    {
-      "source": "水谷藝術 Waley Art",
-      "status": "ok",
-      "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -475,11 +445,22 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
+      "source": "Node94｜官方 Instagram",
+      "status": "error",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -499,14 +480,13 @@
     {
       "source": "攝影專題人工查證庫",
       "status": "ok",
-      "candidates": 9,
-      "accepted": 6,
+      "candidates": 11,
+      "accepted": 8,
       "rejected": 3,
       "fetch_errors": 0,
       "error": ""
     }
   ],
-  "accepted": 10,
-  "restored_from_previous": 0,
-  "errors": 3
+  "accepted": 17,
+  "errors": 4
 }
