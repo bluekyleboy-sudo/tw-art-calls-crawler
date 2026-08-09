@@ -704,7 +704,9 @@ def harvest(db_path=None,report_path=None):
    reports.append({"source":"攝影專題人工查證庫","status":"ok","candidates":len(verified),"accepted":kept,"rejected":len(verified)-kept,"fetch_errors":0,"error":""})
   c=database(stage); c.execute("DELETE FROM opportunities WHERE deadline_iso<>'' AND deadline_iso<?",(today_iso(),)); c.commit(); c.close()
   payload={"started_at":now(),"sources":reports,"accepted":sum(x["accepted"] for x in reports),"errors":sum(x["status"]=="error" for x in reports)}
-  if not harvest_healthy(reports):raise RuntimeError("crawl health gate failed; previous data was preserved")
+  if not harvest_healthy(reports):
+   failures=[{"source":item["source"],"error":item.get("error","") or "source health check failed","candidates":item.get("candidates",0),"fetch_errors":item.get("fetch_errors",0)} for item in reports if item["status"]=="error"]
+   raise RuntimeError(f"crawl health gate failed ({len(failures)}/{len(reports)} sources); previous data was preserved; failures="+json.dumps(failures,ensure_ascii=False,separators=(",",":")))
   stage.replace(target);atomic_write(report_target,json.dumps(payload,ensure_ascii=False,indent=2));return payload
  finally:
   stage.unlink(missing_ok=True)
