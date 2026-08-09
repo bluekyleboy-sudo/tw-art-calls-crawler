@@ -58,6 +58,29 @@ class Rules(unittest.TestCase):
   merged=app.merge_opportunities([base,variant])
   self.assertEqual(len(merged),1)
   self.assertEqual(merged[0]["application_url"],"https://forms.test/apply")
+ def test_short_title_duplicates_with_the_same_announcement_are_merged(self):
+  first={"title":"橋見風華","url":"https://photo.test/call?id=1664","application_url":"https://photo.test/call?id=1664","deadline_iso":"2026-08-31"}
+  second={"title":"橋見風華—2026 淡江大橋攝影比賽","url":"https://photo.test/call?id=1664","application_url":"https://photo.test/call?id=1664","deadline_iso":"2026-08-31"}
+  self.assertTrue(app.same_opportunity(first,second))
+ def test_leading_edition_duplicate_with_the_same_announcement_is_merged(self):
+  first={"title":"2027 臺南新藝獎","url":"https://next-art.test/call","application_url":"https://next-art.test/","deadline_iso":"2026-09-04"}
+  second={"title":"臺南新藝獎","url":"https://next-art.test/call","application_url":"https://next-art-apply.test/","deadline_iso":"2026-09-04"}
+  self.assertTrue(app.same_opportunity(first,second))
+ def test_different_calls_are_not_merged_only_because_a_social_post_url_was_reused(self):
+  first={"title":"Collective Exhibition in Princeton","url":"https://bsky.app/profile/gallery/post/one","application_url":"https://gallery.test/collective","deadline_iso":"2027-01-01"}
+  second={"title":"Princeton Arts Festival International Call","url":"https://bsky.app/profile/gallery/post/one","application_url":"https://gallery.test/festival","deadline_iso":"2027-02-01"}
+  self.assertFalse(app.same_opportunity(first,second))
+ def test_same_princeton_announcement_keeps_richer_verified_metadata(self):
+  post="https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26"
+  crawler={"title":"COLLECTIVE EXHIBITION IN PRINCETON","original_title":"COLLECTIVE EXHIBITION IN PRINCETON","url":post,"application_url":"https://www.pointpleasantpublishing.net/exhibit-in-princeton-open-call","deadline_iso":"2027-01-01","opening_iso":"","notes":"Deadline to Apply: January 1st, 2027","region":"亞洲","country":"亞洲","category":"競賽獎項","categories":["競賽獎項"],"suggested_grants":[]}
+  verified={"title":"Crowns of Princeton｜2027 Princeton Arts Festival International Call for Artists","original_title":"Crowns of Princeton｜2027 Princeton Arts Festival International Call for Artists","url":post,"application_url":"https://www.pointpleasantpublishing.net/princeton-arts-festival","deadline_iso":"2027-01-01","opening_iso":"","notes":"Official page verifies an international arts festival and exhibition in Princeton, United States, open to artists across media.","region":"歐美","country":"美國","category":"展覽徵件","categories":["影像","展覽徵件"],"suggested_grants":[]}
+  merged=app.merge_opportunities([crawler,verified])
+  self.assertEqual(len(merged),1)
+  self.assertEqual(merged[0]["title"],"COLLECTIVE EXHIBITION IN PRINCETON")
+  self.assertEqual(merged[0]["application_url"],verified["application_url"])
+  self.assertEqual((merged[0]["region"],merged[0]["country"],merged[0]["category"]),("歐美","美國","展覽徵件"))
+  self.assertEqual(merged[0]["notes"],verified["notes"])
+  self.assertEqual(merged[0]["categories"],["影像","展覽徵件","競賽獎項"])
  def test_duplicate_date_consensus_beats_late_exhibition_date(self):
   def row(deadline): return {"title":"2027 臺南新藝獎","url":"https://next-art.test/call","application_url":"https://next-art.test/call","opening_iso":"2026-07-20","deadline_iso":deadline,"suggested_grants":[]}
   merged=app.merge_opportunities([row("2026-09-04"),row("2026-09-04"),row("2027-04-11")])
