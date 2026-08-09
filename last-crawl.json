@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-08-09T11:50:03+00:00",
+  "started_at": "2026-08-09T13:20:21+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 27,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 27,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 7,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -180,11 +180,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -228,7 +228,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -261,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -271,15 +271,9 @@
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "租借服務 Application Service",
-          "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
-          "reason": "HTTP Error 500: Internal Server Error"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -329,9 +323,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -387,30 +381,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 4,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "正在申请中的专利在哪个网站可以查看状态",
-          "url": "https://www.zhihu.com/question/432937200/answers/updated",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "查询中国专利的所有方法有哪些",
-          "url": "https://www.zhihu.com/question/59967051",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "实用新型专利怎么查询",
-          "url": "https://www.zhihu.com/question/530051050",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "有哪些比较实用的专利查询网站，求推荐",
-          "url": "https://www.zhihu.com/question/389373382",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -427,36 +400,16 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 5,
+      "rejected": 7,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Grills - The Home Depot",
-          "url": "https://www.homedepot.com/b/Outdoors-Outdoor-Cooking-Grills/N-5yc1vZbxaz",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Grills & Outdoor Cooking Equipment | Lowe's",
-          "url": "https://www.lowes.com/c/Grills-outdoor-cooking-Outdoors",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Gas Grills - The Home Depot",
-          "url": "https://www.homedepot.com/b/Outdoors-Outdoor-Cooking-Grills-Gas-Grills/N-5yc1vZc5t5",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Gas Grills | Seattle | Portland | Bellevue | Tacoma | Lynnwood",
-          "url": "https://www.richshome.com/collections/grills-outdoor-kitchens/grills/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "BBQs & Grills - Costco Wholesale",
-          "url": "https://www.costco.com/grills.html",
-          "reason": "HTTP Error 403: Forbidden"
+          "title": "कृषक पंजीकरण संख्या की स्थिति जाने",
+          "url": "https://agriculture.up.gov.in/SearchRecordNew.aspx",
+          "reason": "<urlopen error timed out>"
         }
       ],
       "error": ""
