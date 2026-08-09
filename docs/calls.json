@@ -173,7 +173,7 @@
       "deadline_iso": "2026-08-15",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-09T16:35:40+00:00",
-      "last_seen": "2026-08-09T16:35:40+00:00",
+      "last_seen": "2026-08-09T17:04:22+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -253,7 +253,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-09T16:40:23+00:00",
+      "last_seen": "2026-08-09T17:09:05+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": 88,
       "title": "2026 新埤客庄藝術駐村",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f7f5a4a530016",
       "application_url": "https://forms.gle/Mdwv9t2xceCSYjLGA",
@@ -386,9 +386,9 @@
       "notes": "截止日期 2026.08.31 Title: 2026 新埤客庄藝術駐村 - Arts Residency Network Taiwan 藝術進駐網 URL Source: https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f7f5a4a530016 Markdown Content: ###",
       "opening_iso": "",
       "deadline_iso": "2026-08-31",
-      "fingerprint": "2026新埤客庄藝術駐村新埤是客家傳統聚落是幸或不幸它沒跟上現代社會發展的腳步因而保留了許多過往的生活痕跡:artres.moc.gov.tw",
-      "first_seen": "2026-07-22T16:45:51+00:00",
-      "last_seen": "2026-08-09T15:50:40+00:00",
+      "fingerprint": "2026新埤客庄藝術駐村:https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f7f5a4a530016",
+      "first_seen": "2026-08-09T17:09:05+00:00",
+      "last_seen": "2026-08-09T17:09:05+00:00",
       "original_title": "2026 新埤客庄藝術駐村 新埤是客家傳統聚落，是幸或不幸，它沒跟上現代社會發展的腳步，因而保留了許多過往的生活痕跡",
       "categories": [
         "國內駐村"
@@ -682,164 +682,6 @@
       "fingerprint": "橋見風華:www.photo.org.tw",
       "first_seen": "2026-07-18T01:05:00+00:00",
       "last_seen": "2026-08-09T15:50:40+00:00",
-      "original_title": "橋見風華",
-      "categories": [
-        "影像"
-      ],
-      "opening_inferred": false,
-      "display_opening_iso": "2026-06-01",
-      "country": "臺灣",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜科技藝術創作發展補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        },
-        {
-          "title": "臺灣美術基金會／藝術銀行",
-          "url": "https://www.tfaf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "王源林文化藝術基金會",
-          "url": "https://wylf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 72,
-      "title": "橋見風華",
-      "url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
-      "application_url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
-      "source": "台北攝影學會｜官方簡章",
-      "category": "影像",
-      "region": "臺灣",
-      "notes": "包含照片組與兩分鐘內影片組，詳細送件方式以官方簡章為準。",
-      "opening_iso": "2026-06-01",
-      "deadline_iso": "2026-08-31",
-      "fingerprint": "橋見風華:https://www.photo.org.tw/news-1-1.aspx?nid=1664",
-      "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-09T16:40:23+00:00",
-      "original_title": "橋見風華",
-      "categories": [
-        "影像"
-      ],
-      "opening_inferred": false,
-      "display_opening_iso": "2026-06-01",
-      "country": "臺灣",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜科技藝術創作發展補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        },
-        {
-          "title": "臺灣美術基金會／藝術銀行",
-          "url": "https://www.tfaf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "王源林文化藝術基金會",
-          "url": "https://wylf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "橋見風華—2026 淡江大橋攝影比賽",
-      "url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
-      "application_url": "https://www.photo.org.tw/news-1-1.aspx?nid=1664",
-      "source": "台北攝影學會｜官方簡章",
-      "category": "影像",
-      "region": "臺灣",
-      "notes": "包含照片組與兩分鐘內影片組，詳細送件方式以官方簡章為準。",
-      "opening_iso": "2026-06-01",
-      "deadline_iso": "2026-08-31",
-      "fingerprint": "橋見風華2026淡江大橋攝影比賽:www.photo.org.tw",
-      "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-08-09T15:50:40+00:00",
       "original_title": "橋見風華—2026 淡江大橋攝影比賽",
       "categories": [
         "影像",
@@ -1075,116 +917,6 @@
           "categories": [
             "影像",
             "當代藝術"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "臺南新藝獎",
-      "url": "https://next-art.tainan.gov.tw/index.php?id=3&inter=about",
-      "application_url": "https://next-art-apply.tainan.gov.tw",
-      "source": "臺南新藝獎｜畫廊展覽媒合",
-      "category": "展覽徵件",
-      "region": "臺灣",
-      "notes": "徵件時間 2026年7月20日零時~ 2026年9月4日下午5時30分止 線上系統 評審結果公佈 2026年9月 （暫定） 展覽場地暨媒合名單公佈記者會 2026年11月 與得主及畫廊簽訂合約",
-      "opening_iso": "",
-      "deadline_iso": "2026-09-04",
-      "fingerprint": "臺南新藝獎:next-art.tainan.gov.tw",
-      "first_seen": "2026-07-17T16:08:48+00:00",
-      "last_seen": "2026-08-09T15:46:16+00:00",
-      "original_title": "臺南新藝獎",
-      "categories": [
-        "展覽徵件"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "臺灣",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 56,
-      "title": "臺南新藝獎",
-      "url": "https://next-art.tainan.gov.tw/index.php?id=3&inter=about",
-      "application_url": "https://next-art-apply.tainan.gov.tw",
-      "source": "臺南新藝獎｜畫廊展覽媒合",
-      "category": "展覽徵件",
-      "region": "臺灣",
-      "notes": "徵件時間 2026年7月20日零時~ 2026年9月4日下午5時30分止 線上系統 評審結果公佈 2026年9月 （暫定） 展覽場地暨媒合名單公佈記者會 2026年11月 與得主及畫廊簽訂合約",
-      "opening_iso": "",
-      "deadline_iso": "2026-09-04",
-      "fingerprint": "臺南新藝獎:https://next-art.tainan.gov.tw/index.php?id=3&inter=about",
-      "first_seen": "2026-08-09T16:35:36+00:00",
-      "last_seen": "2026-08-09T16:35:36+00:00",
-      "original_title": "臺南新藝獎",
-      "categories": [
-        "展覽徵件"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "臺灣",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
           ]
         }
       ]
@@ -1535,7 +1267,7 @@
       "deadline_iso": "2026-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-09T16:35:31+00:00",
+      "last_seen": "2026-08-09T17:09:05+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1581,29 +1313,6 @@
       "id": 50,
       "title": "COLLECTIVE EXHIBITION IN PRINCETON",
       "url": "https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
-      "application_url": "https://www.pointpleasantpublishing.net/exhibit-in-princeton-open-call",
-      "source": "Bluesky｜Call for Artists from ArtDeadline.Com (@artdeadline.bsky.social)",
-      "category": "競賽獎項",
-      "region": "亞洲",
-      "notes": "Deadline to Apply: January 1st, 2027 Notifications: Selected applicants will be notified of their",
-      "opening_iso": "",
-      "deadline_iso": "2027-01-01",
-      "fingerprint": "collectiveexhibitioninprinceton:https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
-      "first_seen": "2026-08-09T16:35:28+00:00",
-      "last_seen": "2026-08-09T16:35:28+00:00",
-      "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
-      "categories": [
-        "競賽獎項"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "亞洲",
-      "suggested_grants": []
-    },
-    {
-      "id": 66,
-      "title": "Crowns of Princeton｜2027 Princeton Arts Festival International Call for Artists",
-      "url": "https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
       "application_url": "https://www.pointpleasantpublishing.net/princeton-arts-festival",
       "source": "Bluesky｜Call for Artists from ArtDeadline.Com (@artdeadline.bsky.social)",
       "category": "影像",
@@ -1611,13 +1320,13 @@
       "notes": "Official page states the Princeton, New Jersey, United States festival is open to artists internationally across media including performance and moving image. A USD 24 application requirement applies; selected artists retain all artwork sales. Festival date is 2027-02-20.",
       "opening_iso": "",
       "deadline_iso": "2027-01-01",
-      "fingerprint": "crownsofprinceton2027princetonartsfestivalinternationalcallforartists:https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
-      "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-09T16:40:23+00:00",
+      "fingerprint": "collectiveexhibitioninprinceton:https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
+      "first_seen": "2026-08-09T16:35:28+00:00",
+      "last_seen": "2026-08-09T17:09:05+00:00",
       "original_title": "Crowns of Princeton｜2027 Princeton Arts Festival International Call for Artists",
       "categories": [
         "影像",
-        "展覽徵件"
+        "競賽獎項"
       ],
       "opening_inferred": true,
       "display_opening_iso": "",
@@ -1679,6 +1388,29 @@
           ]
         }
       ]
+    },
+    {
+      "id": 52,
+      "title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
+      "url": "https://mastodon.social/@artdeadline/116970854142316703",
+      "application_url": "https://www.pointpleasantpublishing.net/princeton-arts-festival",
+      "source": "Mastodon｜ArtDeadline.Com",
+      "category": "競賽獎項",
+      "region": "亞洲",
+      "notes": "Deadline to Apply: January 1st, 2027 Notifications: Selected applicants will be notified of their",
+      "opening_iso": "",
+      "deadline_iso": "2027-01-01",
+      "fingerprint": "collectiveexhibitioninprincetoninternationaldeadlinejanuary12027callforartistsp:https://mastodon.social/@artdeadline/116970854142316703",
+      "first_seen": "2026-08-09T16:35:29+00:00",
+      "last_seen": "2026-08-09T17:04:20+00:00",
+      "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
+      "categories": [
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "亞洲",
+      "suggested_grants": []
     },
     {
       "id": 46,
@@ -1778,7 +1510,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 89,
       "title": "KAGANHOTEL 河岸旅館 藝術進駐",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff808181896d5b230189b04817ea003d",
       "application_url": "https://kaganhotel.com/air-en",
@@ -1788,9 +1520,9 @@
       "notes": "",
       "opening_iso": "",
       "deadline_iso": "",
-      "fingerprint": "kaganhotel河岸旅館藝術進駐kaganhotel河岸旅館hotel由專門經營青年共享住宅的不動產公司:artres.moc.gov.tw",
-      "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-09T15:50:40+00:00",
+      "fingerprint": "kaganhotel河岸旅館藝術進駐:https://artres.moc.gov.tw/zh/calls/content/ff808181896d5b230189b04817ea003d",
+      "first_seen": "2026-08-09T17:09:05+00:00",
+      "last_seen": "2026-08-09T17:09:05+00:00",
       "original_title": "KAGANHOTEL 河岸旅館 藝術進駐 「KAGANHOTEL（河岸旅館・HOTEL）」由專門經營青年共享住宅的不動產公司",
       "categories": [
         "國外駐村"
@@ -1882,7 +1614,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 90,
       "title": "V54年青藝術家駐留計劃",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819883f7610198e53b84cb003c",
       "application_url": "https://www.poleungkuk.org.hk/service/youth-services/all-services/creative-art-and-culture-services/young-artist-in-residence-v54",
@@ -1892,9 +1624,9 @@
       "notes": "",
       "opening_iso": "",
       "deadline_iso": "",
-      "fingerprint": "v54年青藝術家駐留計劃計劃自2016年開展以來為本地及海外年青藝術家提供低於市值租金的短期住宿與交流服務:artres.moc.gov.tw",
-      "first_seen": "2026-07-18T01:10:57+00:00",
-      "last_seen": "2026-08-09T15:50:40+00:00",
+      "fingerprint": "v54年青藝術家駐留計劃:https://artres.moc.gov.tw/zh/calls/content/ff8081819883f7610198e53b84cb003c",
+      "first_seen": "2026-08-09T17:09:05+00:00",
+      "last_seen": "2026-08-09T17:09:05+00:00",
       "original_title": "V54年青藝術家駐留計劃 計劃自2016年開展以來，為本地及海外年青藝術家提供低於市值租金的短期住宿與交流服務",
       "categories": [
         "國外駐村"
@@ -2308,12 +2040,12 @@
     }
   ],
   "stats": {
-    "total": 32,
-    "with_deadline": 27,
-    "last_updated": "2026-08-09T16:40:23+00:00"
+    "total": 28,
+    "with_deadline": 23,
+    "last_updated": "2026-08-09T17:09:05+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-09T16:40:23+00:00",
+    "started_at": "2026-08-09T17:09:05+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -2578,7 +2310,7 @@
         "accepted": 2,
         "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2662,9 +2394,9 @@
       {
         "source": "241藝術空間展覽徵件",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 1,
         "restricted_candidates": [],
@@ -2677,7 +2409,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2772,11 +2504,11 @@
       {
         "source": "Spatial Art TORAM｜Japan Open Calls",
         "status": "ok",
-        "candidates": 2,
+        "candidates": 3,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 3,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
