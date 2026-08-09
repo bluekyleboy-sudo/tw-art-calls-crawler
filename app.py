@@ -721,11 +721,15 @@ def same_opportunity(a,b):
  deadline_years_b={b.get("deadline_iso","")[:4]} if re.match(r"^20\d{2}-",b.get("deadline_iso","") or "") else set()
  if not years_a and not years_b and deadline_years_a and deadline_years_b and deadline_years_a.isdisjoint(deadline_years_b):return False
  ak,bk=opportunity_key(a.get("title","")),opportunity_key(b.get("title",""))
- if min(len(ak),len(bk))<7:return False
  dates_match=not a.get("deadline_iso") or not b.get("deadline_iso") or a["deadline_iso"]==b["deadline_iso"]
- title_match=ak==bk or difflib.SequenceMatcher(None,ak,bk).ratio()>=.9
  announcement_a={canonical(a["url"])} if a.get("url","").startswith("http") else set();announcement_b={canonical(b["url"])} if b.get("url","").startswith("http") else set()
- if announcement_a & announcement_b:return title_match
+ if announcement_a & announcement_b:
+  editionless=lambda value:re.sub(r"^20\d{2}","",value)
+  short_variant=min(len(ak),len(bk))>=4 and (ak.startswith(bk) or bk.startswith(ak))
+  title_variant=ak==bk or editionless(ak)==editionless(bk) or short_variant or difflib.SequenceMatcher(None,ak,bk).ratio()>=.9
+  return title_variant or dates_match
+ if min(len(ak),len(bk))<7:return False
+ title_match=ak==bk or difflib.SequenceMatcher(None,ak,bk).ratio()>=.9
  application_a={canonical(a["application_url"])} if a.get("application_url","").startswith("http") else set();application_b={canonical(b["application_url"])} if b.get("application_url","").startswith("http") else set()
  if application_a & application_b:
   prefix_variant=min(len(ak),len(bk))>=16 and (ak.startswith(bk) or bk.startswith(ak))
@@ -741,7 +745,12 @@ def merge_opportunities(items):
    merged.append(item);continue
   if len(item.get("original_title",item["title"]))>len(found.get("original_title",found["title"])):
    found["original_title"]=item.get("original_title",item["title"])
-  if len(item.get("notes",""))>len(found.get("notes","")):found["notes"]=item["notes"]
+  richer_evidence=len(item.get("notes",""))>len(found.get("notes",""))
+  if richer_evidence:found["notes"]=item["notes"]
+  same_announcement=bool(item.get("url") and found.get("url") and canonical(item["url"])==canonical(found["url"]))
+  if same_announcement and richer_evidence:
+   for field in ("application_url","country","region","category"):
+    if item.get(field):found[field]=item[field]
   if found.get("application_url")==found.get("url") and item.get("application_url")!=item.get("url"):found["application_url"]=item["application_url"]
   if item.get("opening_iso"):found["_opening_candidates"].append(item["opening_iso"])
   if item.get("deadline_iso"):found["_deadline_candidates"].append(item["deadline_iso"])
