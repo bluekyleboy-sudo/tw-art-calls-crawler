@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-09T14:57:24+00:00",
+  "started_at": "2026-08-09T15:50:40+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -114,9 +114,9 @@
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 6,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -128,15 +128,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -145,15 +139,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -162,15 +150,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "OPEN Definition & Meaning - Merriam-Webster",
-          "url": "https://www.merriam-webster.com/dictionary/open",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -279,7 +261,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -385,43 +367,12 @@
     {
       "source": "新樂園藝術空間",
       "status": "ok",
-      "candidates": 8,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 8,
-      "fetch_errors": 6,
+      "rejected": 10,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Education Board Bangladesh - Computer Center - News Archives",
-          "url": "http://educationboard.gov.bd/computer/cc_news_archives.php?mid=3",
-          "reason": "[Errno 104] Connection reset by peer"
-        },
-        {
-          "title": "Education Board Bangladesh",
-          "url": "http://educationboard.gov.bd/comilla/personnel_inspector_college.php",
-          "reason": "[Errno 104] Connection reset by peer"
-        },
-        {
-          "title": "Education Board Bangladesh",
-          "url": "http://archive.educationboard.gov.bd/?sr=1&et=2&exam=ssc&year=2024&board=dhaka&roll=118064®=2110884721&value_a=2&value_b=5&value_s=7&btnSubmit=Submit",
-          "reason": "<urlopen error [Errno -2] Name or service not known>"
-        },
-        {
-          "title": "Education Board Bangladesh",
-          "url": "http://educationboard.gov.bd/dhaka/?trk=profile_certification_title",
-          "reason": "[Errno 104] Connection reset by peer"
-        },
-        {
-          "title": "Education Board Bangladesh - Comilla Board - News Archives",
-          "url": "http://educationboard.gov.bd/comilla/cb_news_archives.php?mid=3",
-          "reason": "[Errno 104] Connection reset by peer"
-        },
-        {
-          "title": "Education Board Bangladesh - Rajshahi Board - Function - Activities",
-          "url": "http://educationboard.gov.bd/rajshahi//activities.php",
-          "reason": "[Errno 104] Connection reset by peer"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -430,9 +381,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "2 \"Hadley Hickman\" profiles | LinkedIn",
+          "url": "https://www.linkedin.com/pub/dir/hadley/hickman",
+          "reason": "HTTP Error 999: <none>"
+        },
+        {
+          "title": "Brett Hadley – Lux Cinematography | LinkedIn",
+          "url": "https://www.linkedin.com/in/bretthadley",
+          "reason": "HTTP Error 999: <none>"
+        }
+      ],
       "error": ""
     },
     {
@@ -449,9 +411,9 @@
     {
       "source": "絕對空間 Absolute Space for the Arts",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -515,11 +477,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
