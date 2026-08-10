@@ -173,7 +173,7 @@
       "deadline_iso": "2026-08-15",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-09T16:35:40+00:00",
-      "last_seen": "2026-08-09T17:21:24+00:00",
+      "last_seen": "2026-08-10T16:58:05+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -253,7 +253,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-09T17:25:41+00:00",
+      "last_seen": "2026-08-10T17:02:22+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -1265,12 +1265,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2026-12-31 143 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
+      "notes": "截止日期：2026-12-31 142 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
       "opening_iso": "",
       "deadline_iso": "2026-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-09T17:21:30+00:00",
+      "last_seen": "2026-08-10T16:57:56+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1325,7 +1325,7 @@
       "deadline_iso": "2027-01-01",
       "fingerprint": "collectiveexhibitioninprinceton:https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
       "first_seen": "2026-08-09T16:35:28+00:00",
-      "last_seen": "2026-08-09T17:21:14+00:00",
+      "last_seen": "2026-08-10T16:57:47+00:00",
       "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
       "categories": [
         "影像",
@@ -2023,10 +2023,10 @@
   "stats": {
     "total": 27,
     "with_deadline": 22,
-    "last_updated": "2026-08-09T17:25:41+00:00"
+    "last_updated": "2026-08-10T17:02:22+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-09T17:25:41+00:00",
+    "started_at": "2026-08-10T17:02:22+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -2152,9 +2152,9 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 24,
+        "candidates": 26,
         "accepted": 2,
-        "rejected": 22,
+        "rejected": 24,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2163,10 +2163,10 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 36,
+        "candidates": 35,
         "accepted": 1,
-        "rejected": 35,
-        "fetch_errors": 7,
+        "rejected": 34,
+        "fetch_errors": 6,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
@@ -2197,11 +2197,6 @@
           {
             "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
             "url": "https://mastodon.world/@iviira9/116968622417035847",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/116929612188242021",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -2291,7 +2286,7 @@
         "accepted": 2,
         "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2390,7 +2385,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2485,11 +2480,11 @@
       {
         "source": "Spatial Art TORAM｜Japan Open Calls",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },

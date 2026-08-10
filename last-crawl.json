@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-09T17:25:41+00:00",
+  "started_at": "2026-08-10T17:02:22+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -125,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 24,
+      "candidates": 26,
       "accepted": 2,
-      "rejected": 22,
+      "rejected": 24,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,10 +136,10 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 36,
+      "candidates": 35,
       "accepted": 1,
-      "rejected": 35,
-      "fetch_errors": 7,
+      "rejected": 34,
+      "fetch_errors": 6,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -170,11 +170,6 @@
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/116968622417035847",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/116929612188242021",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -264,7 +259,7 @@
       "accepted": 2,
       "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -363,7 +358,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -458,11 +453,11 @@
     {
       "source": "Spatial Art TORAM｜Japan Open Calls",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
