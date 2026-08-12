@@ -93,7 +93,7 @@
       "deadline_iso": "2026-08-15",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-09T16:35:40+00:00",
-      "last_seen": "2026-08-11T17:01:33+00:00",
+      "last_seen": "2026-08-12T17:01:19+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -173,7 +173,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-11T17:06:15+00:00",
+      "last_seen": "2026-08-12T17:05:55+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -932,12 +932,12 @@
       "source": "文化部藝術進駐網中文版",
       "category": "國內駐村",
       "region": "臺灣",
-      "notes": "截止日期 | 2026.08.31 | | --- | | 結果公告日期 | 2026 年 9 月 10 日 | | 網站 | [2026 新埤客庄藝術駐村2026 新埤客庄藝術駐村計畫簡章](https://drive.google.com/file/d/1_jAZhkpBopxpelqDfi7W0Eaof2x11_pK/view \"前往2026 新埤客庄藝術駐村",
+      "notes": "截止日期 | 2026.08.31 | | --- | | 結果公告日期 | 2026 年 9 月 10 日 | | 網站 | [2026 新埤客庄藝術駐村左堆藝術節Facebook](https://www.facebook.com/profile.php?id=61580871818987 \"前往2026 新埤客庄藝術駐村左堆藝術節Facebook (另開新視窗",
       "opening_iso": "",
       "deadline_iso": "2026-09-10",
       "fingerprint": "ff8081819f3c3aff019f7f5a4a530016:https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f7f5a4a530016",
       "first_seen": "2026-08-11T17:01:22+00:00",
-      "last_seen": "2026-08-11T17:01:22+00:00",
+      "last_seen": "2026-08-12T17:01:16+00:00",
       "original_title": "ff8081819f3c3aff019f7f5a4a530016",
       "categories": [
         "國內駐村"
@@ -1034,7 +1034,7 @@
       "deadline_iso": "2026-10-03",
       "fingerprint": "ff8081819e916f41019ef842ac8e006b:https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef842ac8e006b",
       "first_seen": "2026-08-11T17:01:22+00:00",
-      "last_seen": "2026-08-11T17:01:22+00:00",
+      "last_seen": "2026-08-12T17:01:16+00:00",
       "original_title": "ff8081819e916f41019ef842ac8e006b",
       "categories": [
         "國外駐村"
@@ -1230,12 +1230,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2026-12-31 141 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
+      "notes": "截止日期：2026-12-31 140 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
       "opening_iso": "",
       "deadline_iso": "2026-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-11T17:01:30+00:00",
+      "last_seen": "2026-08-12T17:01:09+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1290,7 +1290,7 @@
       "deadline_iso": "2027-01-01",
       "fingerprint": "collectiveexhibitioninprinceton:https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
       "first_seen": "2026-08-09T16:35:28+00:00",
-      "last_seen": "2026-08-11T17:01:22+00:00",
+      "last_seen": "2026-08-12T17:01:13+00:00",
       "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
       "categories": [
         "影像",
@@ -1482,6 +1482,7 @@
       "last_seen": "2026-08-09T17:09:05+00:00",
       "original_title": "KAGANHOTEL 河岸旅館 藝術進駐 「KAGANHOTEL（河岸旅館・HOTEL）」由專門經營青年共享住宅的不動產公司",
       "categories": [
+        "國內駐村",
         "國外駐村"
       ],
       "opening_inferred": true,
@@ -1514,6 +1515,16 @@
             "當代藝術",
             "展覽徵件",
             "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
           ]
         }
       ]
@@ -1635,7 +1646,7 @@
       "deadline_iso": "",
       "fingerprint": "ff80818191396c0101933d266590013e:https://artres.moc.gov.tw/zh/calls/content/ff80818191396c0101933d266590013e",
       "first_seen": "2026-08-11T17:01:26+00:00",
-      "last_seen": "2026-08-11T17:01:26+00:00",
+      "last_seen": "2026-08-12T17:01:21+00:00",
       "original_title": "ff80818191396c0101933d266590013e",
       "categories": [
         "國外駐村"
@@ -1999,26 +2010,20 @@
   "stats": {
     "total": 27,
     "with_deadline": 22,
-    "last_updated": "2026-08-11T17:06:15+00:00"
+    "last_updated": "2026-08-12T17:05:55+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-11T17:06:15+00:00",
+    "started_at": "2026-08-12T17:05:55+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
         "status": "ok",
         "candidates": 26,
-        "accepted": 12,
-        "rejected": 14,
-        "fetch_errors": 1,
-        "fallback_fetches": 13,
-        "restricted_candidates": [
-          {
-            "title": "",
-            "url": "https://artres.moc.gov.tw/upload/residentOpp/ff8081819a76b5a8019a7c0b1a100002.avif",
-            "reason": "HTTP Error 403: Forbidden"
-          }
-        ],
+        "accepted": 11,
+        "rejected": 15,
+        "fetch_errors": 0,
+        "fallback_fetches": 12,
+        "restricted_candidates": [],
         "error": ""
       },
       {
@@ -2100,14 +2105,14 @@
       },
       {
         "source": "C-LAB 臺灣當代文化實驗場",
-        "status": "error",
-        "candidates": 0,
+        "status": "ok",
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": "The read operation timed out"
+        "error": ""
       },
       {
         "source": "ARTouch 典藏",
@@ -2134,9 +2139,9 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 26,
+        "candidates": 27,
         "accepted": 2,
-        "rejected": 24,
+        "rejected": 25,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2151,6 +2156,11 @@
         "fetch_errors": 7,
         "fallback_fetches": 0,
         "restricted_candidates": [
+          {
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117083446250885269",
+            "reason": "hostname could not be resolved"
+          },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117075826797087312",
@@ -2174,11 +2184,6 @@
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/116923510645136325",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/116908323346547823",
             "reason": "hostname could not be resolved"
           },
           {
@@ -2262,7 +2267,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2270,8 +2275,8 @@
         "source": "全球攝影比賽即時情報",
         "status": "ok",
         "candidates": 4,
-        "accepted": 2,
-        "rejected": 2,
+        "accepted": 1,
+        "rejected": 3,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2496,7 +2501,7 @@
         "error": ""
       }
     ],
-    "accepted": 28,
-    "errors": 5
+    "accepted": 26,
+    "errors": 4
   }
 }
