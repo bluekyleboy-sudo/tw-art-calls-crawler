@@ -1,14 +1,14 @@
 {
-  "started_at": "2026-08-12T17:05:55+00:00",
+  "started_at": "2026-08-13T17:05:59+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 26,
-      "accepted": 11,
-      "rejected": 15,
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 12,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 5,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -91,14 +91,14 @@
     },
     {
       "source": "C-LAB 臺灣當代文化實驗場",
-      "status": "ok",
-      "candidates": 2,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "The read operation timed out"
     },
     {
       "source": "ARTouch 典藏",
@@ -125,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 27,
-      "accepted": 2,
-      "rejected": 25,
+      "candidates": 28,
+      "accepted": 4,
+      "rejected": 24,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 37,
+      "candidates": 38,
       "accepted": 1,
-      "rejected": 36,
+      "rejected": 37,
       "fetch_errors": 7,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -205,11 +205,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -286,7 +286,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -337,9 +337,9 @@
     {
       "source": "金車文藝中心展覽徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -363,7 +363,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -381,9 +381,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -487,6 +487,6 @@
       "error": ""
     }
   ],
-  "accepted": 26,
-  "errors": 4
+  "accepted": 17,
+  "errors": 5
 }
