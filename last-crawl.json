@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-13T17:05:59+00:00",
+  "started_at": "2026-08-14T17:03:23+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 7,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -91,14 +91,14 @@
     },
     {
       "source": "C-LAB 臺灣當代文化實驗場",
-      "status": "error",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "The read operation timed out"
+      "error": ""
     },
     {
       "source": "ARTouch 典藏",
@@ -126,8 +126,8 @@
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
       "candidates": 28,
-      "accepted": 4,
-      "rejected": 24,
+      "accepted": 2,
+      "rejected": 26,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -139,7 +139,7 @@
       "candidates": 38,
       "accepted": 1,
       "rejected": 37,
-      "fetch_errors": 7,
+      "fetch_errors": 6,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -165,11 +165,6 @@
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/116957506960150531",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/116923510645136325",
           "reason": "hostname could not be resolved"
         },
         {
@@ -205,11 +200,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -231,7 +226,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -337,9 +332,9 @@
     {
       "source": "金車文藝中心展覽徵件",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -381,9 +376,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -487,6 +482,6 @@
       "error": ""
     }
   ],
-  "accepted": 17,
-  "errors": 5
+  "accepted": 15,
+  "errors": 4
 }

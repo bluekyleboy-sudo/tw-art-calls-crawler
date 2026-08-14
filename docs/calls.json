@@ -93,7 +93,7 @@
       "deadline_iso": "2026-08-15",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-09T16:35:40+00:00",
-      "last_seen": "2026-08-13T17:00:53+00:00",
+      "last_seen": "2026-08-14T16:58:34+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -173,7 +173,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-13T17:05:59+00:00",
+      "last_seen": "2026-08-14T17:03:23+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -1390,12 +1390,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2026-12-31 139 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
+      "notes": "截止日期：2026-12-31 138 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
       "opening_iso": "",
       "deadline_iso": "2026-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-13T17:00:22+00:00",
+      "last_seen": "2026-08-14T16:58:34+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1450,8 +1450,8 @@
       "deadline_iso": "2027-01-01",
       "fingerprint": "collectiveexhibitioninprinceton:https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
       "first_seen": "2026-08-09T16:35:28+00:00",
-      "last_seen": "2026-08-13T17:00:38+00:00",
-      "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
+      "last_seen": "2026-08-14T16:58:21+00:00",
+      "original_title": "Crowns of Princeton｜2027 Princeton Arts Festival International Call for Artists",
       "categories": [
         "影像",
         "展覽徵件",
@@ -1517,6 +1517,29 @@
           ]
         }
       ]
+    },
+    {
+      "id": 52,
+      "title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
+      "url": "https://mastodon.social/@artdeadline/116970854142316703",
+      "application_url": "https://www.pointpleasantpublishing.net/exhibit-in-princeton-open-call",
+      "source": "Mastodon｜ArtDeadline.Com",
+      "category": "競賽獎項",
+      "region": "亞洲",
+      "notes": "Deadline to Apply: January 1st, 2027 Notifications: Selected applicants will be notified of their",
+      "opening_iso": "",
+      "deadline_iso": "2027-01-01",
+      "fingerprint": "collectiveexhibitioninprincetoninternationaldeadlinejanuary12027callforartistsp:https://mastodon.social/@artdeadline/116970854142316703",
+      "first_seen": "2026-08-09T16:35:29+00:00",
+      "last_seen": "2026-08-14T16:58:28+00:00",
+      "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
+      "categories": [
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "亞洲",
+      "suggested_grants": []
     },
     {
       "id": 46,
@@ -2168,12 +2191,12 @@
     }
   ],
   "stats": {
-    "total": 29,
-    "with_deadline": 24,
-    "last_updated": "2026-08-13T17:05:59+00:00"
+    "total": 30,
+    "with_deadline": 25,
+    "last_updated": "2026-08-14T17:03:23+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-13T17:05:59+00:00",
+    "started_at": "2026-08-14T17:03:23+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -2211,11 +2234,11 @@
       {
         "source": "Rimbun Dahan",
         "status": "ok",
-        "candidates": 5,
+        "candidates": 7,
         "accepted": 0,
-        "rejected": 5,
+        "rejected": 7,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2265,14 +2288,14 @@
       },
       {
         "source": "C-LAB 臺灣當代文化實驗場",
-        "status": "error",
-        "candidates": 0,
+        "status": "ok",
+        "candidates": 3,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 3,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": "The read operation timed out"
+        "error": ""
       },
       {
         "source": "ARTouch 典藏",
@@ -2300,8 +2323,8 @@
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
         "candidates": 28,
-        "accepted": 4,
-        "rejected": 24,
+        "accepted": 2,
+        "rejected": 26,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2313,7 +2336,7 @@
         "candidates": 38,
         "accepted": 1,
         "rejected": 37,
-        "fetch_errors": 7,
+        "fetch_errors": 6,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
@@ -2339,11 +2362,6 @@
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/116957506960150531",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/116923510645136325",
             "reason": "hostname could not be resolved"
           },
           {
@@ -2379,11 +2397,11 @@
       {
         "source": "TAKE a SHOT 攝影徵件",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2405,7 +2423,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2511,9 +2529,9 @@
       {
         "source": "金車文藝中心展覽徵件",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2555,9 +2573,9 @@
       {
         "source": "窯座 YÁO Alternative Space",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2661,7 +2679,7 @@
         "error": ""
       }
     ],
-    "accepted": 17,
-    "errors": 5
+    "accepted": 15,
+    "errors": 4
   }
 }
