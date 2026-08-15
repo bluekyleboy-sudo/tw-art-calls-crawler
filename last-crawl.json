@@ -1,14 +1,14 @@
 {
-  "started_at": "2026-08-14T17:03:23+00:00",
+  "started_at": "2026-08-15T16:35:22+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 0,
-      "accepted": 0,
-      "rejected": 0,
+      "candidates": 26,
+      "accepted": 10,
+      "rejected": 16,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 11,
       "restricted_candidates": [],
       "error": ""
     },
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 5,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -126,8 +126,8 @@
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
       "candidates": 28,
-      "accepted": 2,
-      "rejected": 26,
+      "accepted": 4,
+      "rejected": 24,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -139,7 +139,7 @@
       "candidates": 38,
       "accepted": 1,
       "rejected": 37,
-      "fetch_errors": 6,
+      "fetch_errors": 7,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -151,6 +151,11 @@
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117075826797087312",
           "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "(Less than) two days to apply for the two FLASH Residencies for light art curators, in Helsinki",
+          "url": "https://pixelfed.art/p/mkivinen/992373937404331918",
+          "reason": "HTTP Error 403: Forbidden"
         },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
@@ -200,11 +205,11 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -256,8 +261,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 4,
-      "accepted": 1,
-      "rejected": 3,
+      "accepted": 0,
+      "rejected": 4,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -281,7 +286,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -343,9 +348,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -376,9 +381,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -482,6 +487,6 @@
       "error": ""
     }
   ],
-  "accepted": 15,
+  "accepted": 26,
   "errors": 4
 }
