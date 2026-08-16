@@ -13,7 +13,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-15T16:35:22+00:00",
+      "last_seen": "2026-08-16T16:41:23+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -765,6 +765,86 @@
       ]
     },
     {
+      "id": 107,
+      "title": "全球攝影比賽即時情報",
+      "url": "https://solas-shadowgallery.com/open-calls",
+      "application_url": "https://solas-shadowgallery.com/open-calls",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "",
+      "notes": "Deadline: 7th September 2026 You will only be notified if selected",
+      "opening_iso": "",
+      "deadline_iso": "2026-09-07",
+      "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
+      "first_seen": "2026-08-16T16:37:43+00:00",
+      "last_seen": "2026-08-16T16:37:43+00:00",
+      "original_title": "全球攝影比賽即時情報",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "2026 桃園地景藝術節攝影比賽",
       "url": "https://www.tps.tw/2026-taoyuan-art-photography-competition/",
@@ -902,7 +982,7 @@
       "deadline_iso": "2026-09-30",
       "fingerprint": "ff8081819dce31a7019e3f1da1900060:https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3f1da1900060",
       "first_seen": "2026-08-11T17:01:22+00:00",
-      "last_seen": "2026-08-15T16:30:12+00:00",
+      "last_seen": "2026-08-16T16:31:08+00:00",
       "original_title": "ff8081819dce31a7019e3f1da1900060",
       "categories": [
         "國外駐村"
@@ -954,7 +1034,7 @@
       "deadline_iso": "2026-10-03",
       "fingerprint": "ff8081819e916f41019ef842ac8e006b:https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef842ac8e006b",
       "first_seen": "2026-08-11T17:01:22+00:00",
-      "last_seen": "2026-08-15T16:30:12+00:00",
+      "last_seen": "2026-08-16T16:31:06+00:00",
       "original_title": "ff8081819e916f41019ef842ac8e006b",
       "categories": [
         "國外駐村"
@@ -1230,12 +1310,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2026-12-31 137 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
+      "notes": "截止日期：2026-12-31 136 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
       "opening_iso": "",
       "deadline_iso": "2026-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-15T16:30:13+00:00",
+      "last_seen": "2026-08-16T16:31:08+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1290,8 +1370,8 @@
       "deadline_iso": "2027-01-01",
       "fingerprint": "collectiveexhibitioninprinceton:https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
       "first_seen": "2026-08-09T16:35:28+00:00",
-      "last_seen": "2026-08-15T16:30:26+00:00",
-      "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
+      "last_seen": "2026-08-16T16:39:11+00:00",
+      "original_title": "Crowns of Princeton｜2027 Princeton Arts Festival International Call for Artists",
       "categories": [
         "影像",
         "展覽徵件",
@@ -1357,6 +1437,29 @@
           ]
         }
       ]
+    },
+    {
+      "id": 52,
+      "title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
+      "url": "https://mastodon.social/@artdeadline/116970854142316703",
+      "application_url": "https://www.pointpleasantpublishing.net/princeton-arts-festival",
+      "source": "Mastodon｜ArtDeadline.Com",
+      "category": "競賽獎項",
+      "region": "亞洲",
+      "notes": "Deadline to Apply: January 1st, 2027 Notifications: Selected applicants will be notified of their",
+      "opening_iso": "",
+      "deadline_iso": "2027-01-01",
+      "fingerprint": "collectiveexhibitioninprincetoninternationaldeadlinejanuary12027callforartistsp:https://mastodon.social/@artdeadline/116970854142316703",
+      "first_seen": "2026-08-09T16:35:29+00:00",
+      "last_seen": "2026-08-16T16:31:20+00:00",
+      "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
+      "categories": [
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "亞洲",
+      "suggested_grants": []
     },
     {
       "id": 46,
@@ -1646,7 +1749,7 @@
       "deadline_iso": "",
       "fingerprint": "ff80818191396c0101933d266590013e:https://artres.moc.gov.tw/zh/calls/content/ff80818191396c0101933d266590013e",
       "first_seen": "2026-08-11T17:01:26+00:00",
-      "last_seen": "2026-08-15T16:30:12+00:00",
+      "last_seen": "2026-08-16T16:31:11+00:00",
       "original_title": "ff80818191396c0101933d266590013e",
       "categories": [
         "國外駐村"
@@ -2008,21 +2111,21 @@
     }
   ],
   "stats": {
-    "total": 27,
-    "with_deadline": 22,
-    "last_updated": "2026-08-15T16:35:22+00:00"
+    "total": 29,
+    "with_deadline": 24,
+    "last_updated": "2026-08-16T16:41:23+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-15T16:35:22+00:00",
+    "started_at": "2026-08-16T16:41:23+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
         "status": "ok",
         "candidates": 26,
-        "accepted": 10,
-        "rejected": 16,
+        "accepted": 8,
+        "rejected": 18,
         "fetch_errors": 0,
-        "fallback_fetches": 11,
+        "fallback_fetches": 9,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2051,22 +2154,22 @@
       {
         "source": "Rimbun Dahan",
         "status": "ok",
-        "candidates": 5,
+        "candidates": 7,
         "accepted": 0,
-        "rejected": 5,
+        "rejected": 7,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
       {
         "source": "Kala Yatra 尼泊爾藝術駐村",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2140,8 +2243,8 @@
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
         "candidates": 28,
-        "accepted": 4,
-        "rejected": 24,
+        "accepted": 2,
+        "rejected": 26,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2153,7 +2256,7 @@
         "candidates": 38,
         "accepted": 1,
         "rejected": 37,
-        "fetch_errors": 7,
+        "fetch_errors": 6,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
@@ -2165,11 +2268,6 @@
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117075826797087312",
             "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "(Less than) two days to apply for the two FLASH Residencies for light art curators, in Helsinki",
-            "url": "https://pixelfed.art/p/mkivinen/992373937404331918",
-            "reason": "HTTP Error 403: Forbidden"
           },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
@@ -2219,11 +2317,11 @@
       {
         "source": "TAKE a SHOT 攝影徵件",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2275,10 +2373,10 @@
         "source": "全球攝影比賽即時情報",
         "status": "ok",
         "candidates": 4,
-        "accepted": 0,
-        "rejected": 4,
+        "accepted": 1,
+        "rejected": 3,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2377,7 +2475,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2395,9 +2493,9 @@
       {
         "source": "窯座 YÁO Alternative Space",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2501,7 +2599,7 @@
         "error": ""
       }
     ],
-    "accepted": 26,
+    "accepted": 23,
     "errors": 4
   }
 }
