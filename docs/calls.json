@@ -13,7 +13,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-16T16:41:23+00:00",
+      "last_seen": "2026-08-17T16:37:30+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -229,7 +229,7 @@
       "id": 28,
       "title": "2027年蕭壠文化園區國際藝術進駐計畫",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f4a5c0ab90004",
-      "application_url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f4a5c0ab90004",
+      "application_url": "http://air-culture.tainan.gov.tw/填具申請表，並於申請截止日前完成線上申請。",
       "source": "文化部藝術進駐網中文版",
       "category": "國內駐村",
       "region": "臺灣",
@@ -358,7 +358,7 @@
       "source": "國家地理雜誌臺灣攝影大賽",
       "category": "影像",
       "region": "臺灣",
-      "notes": "徵件截止當日 2026/8/31，年滿18歲即可參賽",
+      "notes": "2026/8/31 為準 個人參賽：青少年組 免報名費 (徵件截止",
       "opening_iso": "2026-05-21",
       "deadline_iso": "2026-08-31",
       "fingerprint": "國家地理雜誌臺灣攝影大賽:www.natgeomedia.com",
@@ -777,7 +777,7 @@
       "deadline_iso": "2026-09-07",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-16T16:37:43+00:00",
-      "last_seen": "2026-08-16T16:37:43+00:00",
+      "last_seen": "2026-08-17T16:32:58+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1034,7 +1034,7 @@
       "deadline_iso": "2026-10-03",
       "fingerprint": "ff8081819e916f41019ef842ac8e006b:https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef842ac8e006b",
       "first_seen": "2026-08-11T17:01:22+00:00",
-      "last_seen": "2026-08-16T16:31:06+00:00",
+      "last_seen": "2026-08-17T16:32:44+00:00",
       "original_title": "ff8081819e916f41019ef842ac8e006b",
       "categories": [
         "國外駐村"
@@ -1310,12 +1310,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2026-12-31 136 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
+      "notes": "截止日期：2026-12-31 135 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
       "opening_iso": "",
       "deadline_iso": "2026-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-16T16:31:08+00:00",
+      "last_seen": "2026-08-17T16:32:51+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1451,7 +1451,7 @@
       "deadline_iso": "2027-01-01",
       "fingerprint": "collectiveexhibitioninprincetoninternationaldeadlinejanuary12027callforartistsp:https://mastodon.social/@artdeadline/116970854142316703",
       "first_seen": "2026-08-09T16:35:29+00:00",
-      "last_seen": "2026-08-16T16:31:20+00:00",
+      "last_seen": "2026-08-17T16:32:47+00:00",
       "original_title": "COLLECTIVE EXHIBITION IN PRINCETON International Deadline: January 1, 2027 – Call for Artists. P",
       "categories": [
         "競賽獎項"
@@ -1749,7 +1749,7 @@
       "deadline_iso": "",
       "fingerprint": "ff80818191396c0101933d266590013e:https://artres.moc.gov.tw/zh/calls/content/ff80818191396c0101933d266590013e",
       "first_seen": "2026-08-11T17:01:26+00:00",
-      "last_seen": "2026-08-16T16:31:11+00:00",
+      "last_seen": "2026-08-17T16:33:03+00:00",
       "original_title": "ff80818191396c0101933d266590013e",
       "categories": [
         "國外駐村"
@@ -2113,19 +2113,19 @@
   "stats": {
     "total": 29,
     "with_deadline": 24,
-    "last_updated": "2026-08-16T16:41:23+00:00"
+    "last_updated": "2026-08-17T16:37:30+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-16T16:41:23+00:00",
+    "started_at": "2026-08-17T16:37:30+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
         "status": "ok",
         "candidates": 26,
-        "accepted": 8,
-        "rejected": 18,
+        "accepted": 9,
+        "rejected": 17,
         "fetch_errors": 0,
-        "fallback_fetches": 9,
+        "fallback_fetches": 10,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2165,11 +2165,11 @@
       {
         "source": "Kala Yatra 尼泊爾藝術駐村",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 3,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 3,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2191,7 +2191,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2209,9 +2209,9 @@
       {
         "source": "C-LAB 臺灣當代文化實驗場",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 4,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 4,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2220,9 +2220,9 @@
       {
         "source": "ARTouch 典藏",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 10,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2241,14 +2241,14 @@
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
-        "status": "ok",
-        "candidates": 28,
-        "accepted": 2,
-        "rejected": 26,
+        "status": "error",
+        "candidates": 0,
+        "accepted": 0,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
       },
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
@@ -2343,7 +2343,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2365,7 +2365,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2376,7 +2376,7 @@
         "accepted": 1,
         "rejected": 3,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2398,7 +2398,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2599,7 +2599,7 @@
         "error": ""
       }
     ],
-    "accepted": 23,
-    "errors": 4
+    "accepted": 22,
+    "errors": 5
   }
 }

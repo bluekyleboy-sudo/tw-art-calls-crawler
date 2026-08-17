@@ -1,14 +1,14 @@
 {
-  "started_at": "2026-08-16T16:41:23+00:00",
+  "started_at": "2026-08-17T16:37:30+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
       "candidates": 26,
-      "accepted": 8,
-      "rejected": 18,
+      "accepted": 9,
+      "rejected": 17,
       "fetch_errors": 0,
-      "fallback_fetches": 9,
+      "fallback_fetches": 10,
       "restricted_candidates": [],
       "error": ""
     },
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -92,9 +92,9 @@
     {
       "source": "C-LAB 臺灣當代文化實驗場",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 4,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 4,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -124,14 +124,14 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "ok",
-      "candidates": 28,
-      "accepted": 2,
-      "rejected": 26,
+      "status": "error",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
@@ -226,7 +226,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -248,7 +248,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -259,7 +259,7 @@
       "accepted": 1,
       "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -281,7 +281,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -482,6 +482,6 @@
       "error": ""
     }
   ],
-  "accepted": 23,
-  "errors": 4
+  "accepted": 22,
+  "errors": 5
 }
