@@ -13,7 +13,7 @@
       "deadline_iso": "2026-08-25",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/memory-what-remains",
       "first_seen": "2026-08-19T16:36:58+00:00",
-      "last_seen": "2026-08-19T16:36:58+00:00",
+      "last_seen": "2026-08-20T16:39:58+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -93,7 +93,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-19T16:42:12+00:00",
+      "last_seen": "2026-08-20T16:44:37+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -857,7 +857,7 @@
       "deadline_iso": "2026-09-07",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-16T16:37:43+00:00",
-      "last_seen": "2026-08-19T16:36:58+00:00",
+      "last_seen": "2026-08-20T16:39:58+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1211,7 +1211,7 @@
       "deadline_iso": "2026-10-03",
       "fingerprint": "ff8081819e916f41019ef842ac8e006b:https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef842ac8e006b",
       "first_seen": "2026-08-11T17:01:22+00:00",
-      "last_seen": "2026-08-17T16:32:44+00:00",
+      "last_seen": "2026-08-20T16:39:39+00:00",
       "original_title": "ff8081819e916f41019ef842ac8e006b",
       "categories": [
         "國外駐村"
@@ -1338,7 +1338,7 @@
       "source": "文化部藝術進駐網中文版",
       "category": "國內駐村",
       "region": "臺灣",
-      "notes": "截止日期 | 2026.12.31 | | --- | | 網站 | [2026年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall Instagram](https://www.instagram.com/spacemoor2023/ \"前往2026年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall",
+      "notes": "截止日期 | 2026.12.31 | | --- | | 網站 | [2026年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall 2026年簡章](https://reurl.cc/0a0a2A \"前往2026年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall 2026年簡章 (另開新視窗)\")",
       "opening_iso": "",
       "deadline_iso": "2026-12-31",
       "fingerprint": "2026年永晝海濱美術館spacemoor展覽銷售駐港創作opencall:artres.moc.gov.tw",
@@ -1480,61 +1480,6 @@
       ]
     },
     {
-      "id": 54,
-      "title": "非池中藝術網",
-      "url": "https://artemperor.tw/resources",
-      "application_url": "https://artemperor.tw/resources",
-      "source": "非池中藝術網",
-      "category": "展覽徵件",
-      "region": "臺灣",
-      "notes": "截止日期：2026-12-31 133 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
-      "opening_iso": "",
-      "deadline_iso": "2026-12-31",
-      "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
-      "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-19T16:36:32+00:00",
-      "original_title": "非池中藝術網",
-      "categories": [
-        "展覽徵件"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "臺灣",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        }
-      ]
-    },
-    {
       "id": 50,
       "title": "COLLECTIVE EXHIBITION IN PRINCETON",
       "url": "https://bsky.app/profile/artdeadline.bsky.social/post/3mrdkgiowsc26",
@@ -1628,7 +1573,7 @@
       "deadline_iso": "2027-04-30",
       "fingerprint": "ff8081819f3c3aff01a000aa9c45008a:https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff01a000aa9c45008a",
       "first_seen": "2026-08-19T16:36:27+00:00",
-      "last_seen": "2026-08-19T16:36:27+00:00",
+      "last_seen": "2026-08-20T16:39:39+00:00",
       "original_title": "ff8081819f3c3aff01a000aa9c45008a",
       "categories": [
         "國外駐村"
@@ -1749,6 +1694,62 @@
             "當代藝術",
             "展覽徵件",
             "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "非池中藝術網",
+      "url": "https://artemperor.tw/resources",
+      "application_url": "https://artemperor.tw/resources",
+      "source": "非池中藝術網",
+      "category": "展覽徵件",
+      "region": "臺灣",
+      "notes": "截止日期：2027-12-31 497 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫](https://artemperor.tw/reso",
+      "opening_iso": "",
+      "deadline_iso": "2027-12-31",
+      "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
+      "first_seen": "2026-08-09T16:35:31+00:00",
+      "last_seen": "2026-08-20T16:39:45+00:00",
+      "original_title": "非池中藝術網",
+      "categories": [
+        "展覽徵件",
+        "國內駐村"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
             "國外駐村"
           ]
         },
@@ -2007,7 +2008,7 @@
       "deadline_iso": "",
       "fingerprint": "ff80818191396c0101933d266590013e:https://artres.moc.gov.tw/zh/calls/content/ff80818191396c0101933d266590013e",
       "first_seen": "2026-08-11T17:01:26+00:00",
-      "last_seen": "2026-08-19T16:36:39+00:00",
+      "last_seen": "2026-08-20T16:39:57+00:00",
       "original_title": "ff80818191396c0101933d266590013e",
       "categories": [
         "國外駐村"
@@ -2371,46 +2372,20 @@
   "stats": {
     "total": 33,
     "with_deadline": 28,
-    "last_updated": "2026-08-19T16:42:12+00:00"
+    "last_updated": "2026-08-20T16:44:37+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-19T16:42:12+00:00",
+    "started_at": "2026-08-20T16:44:37+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
         "status": "ok",
         "candidates": 32,
-        "accepted": 10,
-        "rejected": 22,
-        "fetch_errors": 5,
-        "fallback_fetches": 11,
-        "restricted_candidates": [
-          {
-            "title": "",
-            "url": "https://artres.moc.gov.tw/upload/residentOpp/ff8081819a76b5a8019a7c0b1a100002.avif",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "ff8081819dce31a7019e3f1da1900060",
-            "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3f1da1900060",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "ff80818198faf3a2019908590e4f0008",
-            "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818198faf3a2019908590e4f0008",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "ff80818198faf3a201999e78a01200cf",
-            "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818198faf3a201999e78a01200cf",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "ff808181896d5b230189b04817ea003d",
-            "url": "https://artres.moc.gov.tw/zh/calls/content/ff808181896d5b230189b04817ea003d",
-            "reason": "HTTP Error 403: Forbidden"
-          }
-        ],
+        "accepted": 7,
+        "rejected": 25,
+        "fetch_errors": 0,
+        "fallback_fetches": 8,
+        "restricted_candidates": [],
         "error": ""
       },
       {
@@ -2460,11 +2435,11 @@
       {
         "source": "鴻梅國際藝術村",
         "status": "ok",
-        "candidates": 10,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 10,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2525,22 +2500,22 @@
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
-        "status": "ok",
-        "candidates": 6,
+        "status": "error",
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 6,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
       },
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 38,
+        "candidates": 37,
         "accepted": 1,
-        "rejected": 37,
-        "fetch_errors": 9,
+        "rejected": 36,
+        "fetch_errors": 7,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
@@ -2557,11 +2532,6 @@
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117116171096930774",
             "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "OPEN CALL: Photography Commission with UCD Library and the National Folklore Collection (NFC). U",
-            "url": "https://mastodon.ie/@ucdarchives/117116703316420368",
-            "reason": "HTTP Error 403: Forbidden"
           },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
@@ -2637,7 +2607,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2659,7 +2629,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2893,7 +2863,7 @@
         "error": ""
       }
     ],
-    "accepted": 24,
-    "errors": 4
+    "accepted": 21,
+    "errors": 5
   }
 }

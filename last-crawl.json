@@ -1,41 +1,15 @@
 {
-  "started_at": "2026-08-19T16:42:12+00:00",
+  "started_at": "2026-08-20T16:44:37+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
       "candidates": 32,
-      "accepted": 10,
-      "rejected": 22,
-      "fetch_errors": 5,
-      "fallback_fetches": 11,
-      "restricted_candidates": [
-        {
-          "title": "",
-          "url": "https://artres.moc.gov.tw/upload/residentOpp/ff8081819a76b5a8019a7c0b1a100002.avif",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "ff8081819dce31a7019e3f1da1900060",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819dce31a7019e3f1da1900060",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "ff80818198faf3a2019908590e4f0008",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818198faf3a2019908590e4f0008",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "ff80818198faf3a201999e78a01200cf",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818198faf3a201999e78a01200cf",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "ff808181896d5b230189b04817ea003d",
-          "url": "https://artres.moc.gov.tw/zh/calls/content/ff808181896d5b230189b04817ea003d",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "accepted": 7,
+      "rejected": 25,
+      "fetch_errors": 0,
+      "fallback_fetches": 8,
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -85,11 +59,11 @@
     {
       "source": "鴻梅國際藝術村",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -150,22 +124,22 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "ok",
-      "candidates": 6,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 38,
+      "candidates": 37,
       "accepted": 1,
-      "rejected": 37,
-      "fetch_errors": 9,
+      "rejected": 36,
+      "fetch_errors": 7,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -182,11 +156,6 @@
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117116171096930774",
           "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "OPEN CALL: Photography Commission with UCD Library and the National Folklore Collection (NFC). U",
-          "url": "https://mastodon.ie/@ucdarchives/117116703316420368",
-          "reason": "HTTP Error 403: Forbidden"
         },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
@@ -262,7 +231,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -284,7 +253,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -518,6 +487,6 @@
       "error": ""
     }
   ],
-  "accepted": 24,
-  "errors": 4
+  "accepted": 21,
+  "errors": 5
 }
