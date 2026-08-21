@@ -1,14 +1,14 @@
 {
-  "started_at": "2026-08-20T16:44:37+00:00",
+  "started_at": "2026-08-21T16:44:08+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 32,
-      "accepted": 7,
-      "rejected": 25,
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 8,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -59,11 +59,11 @@
     {
       "source": "鴻梅國際藝術村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 10,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -92,9 +92,9 @@
     {
       "source": "C-LAB 臺灣當代文化實驗場",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 5,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -131,7 +131,7 @@
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
+      "error": "Bluesky searches returned no recent posts"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
@@ -260,8 +260,8 @@
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 5,
-      "accepted": 2,
+      "candidates": 4,
+      "accepted": 1,
       "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
@@ -348,9 +348,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -487,6 +487,6 @@
       "error": ""
     }
   ],
-  "accepted": 21,
+  "accepted": 13,
   "errors": 5
 }

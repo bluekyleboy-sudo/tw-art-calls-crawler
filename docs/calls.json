@@ -93,7 +93,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-20T16:44:37+00:00",
+      "last_seen": "2026-08-21T16:44:08+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -857,7 +857,7 @@
       "deadline_iso": "2026-09-07",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-16T16:37:43+00:00",
-      "last_seen": "2026-08-20T16:39:58+00:00",
+      "last_seen": "2026-08-21T16:39:35+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1717,12 +1717,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 497 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫](https://artemperor.tw/reso",
+      "notes": "截止日期：2027-12-31 496 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫](https://artemperor.tw/reso",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-20T16:39:45+00:00",
+      "last_seen": "2026-08-21T16:39:22+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件",
@@ -2372,19 +2372,19 @@
   "stats": {
     "total": 33,
     "with_deadline": 28,
-    "last_updated": "2026-08-20T16:44:37+00:00"
+    "last_updated": "2026-08-21T16:44:08+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-20T16:44:37+00:00",
+    "started_at": "2026-08-21T16:44:08+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
         "status": "ok",
-        "candidates": 32,
-        "accepted": 7,
-        "rejected": 25,
+        "candidates": 0,
+        "accepted": 0,
+        "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 8,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2435,11 +2435,11 @@
       {
         "source": "鴻梅國際藝術村",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 10,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2468,9 +2468,9 @@
       {
         "source": "C-LAB 臺灣當代文化實驗場",
         "status": "ok",
-        "candidates": 4,
+        "candidates": 5,
         "accepted": 0,
-        "rejected": 4,
+        "rejected": 5,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2507,7 +2507,7 @@
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
+        "error": "Bluesky searches returned no recent posts"
       },
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
@@ -2636,8 +2636,8 @@
       {
         "source": "全球攝影比賽即時情報",
         "status": "ok",
-        "candidates": 5,
-        "accepted": 2,
+        "candidates": 4,
+        "accepted": 1,
         "rejected": 3,
         "fetch_errors": 0,
         "fallback_fetches": 0,
@@ -2724,9 +2724,9 @@
       {
         "source": "241藝術空間展覽徵件",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 1,
         "restricted_candidates": [],
@@ -2863,7 +2863,7 @@
         "error": ""
       }
     ],
-    "accepted": 21,
+    "accepted": 13,
     "errors": 5
   }
 }
