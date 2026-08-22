@@ -1,15 +1,36 @@
 {
-  "started_at": "2026-08-21T16:44:08+00:00",
+  "started_at": "2026-08-22T16:34:55+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 0,
-      "accepted": 0,
-      "rejected": 0,
-      "fetch_errors": 0,
-      "fallback_fetches": 1,
-      "restricted_candidates": [],
+      "candidates": 32,
+      "accepted": 5,
+      "rejected": 27,
+      "fetch_errors": 4,
+      "fallback_fetches": 6,
+      "restricted_candidates": [
+        {
+          "title": "ff8081819f3c3aff019f7f5a4a530016",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f7f5a4a530016",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "ff80818198faf3a201999e78a01200cf",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818198faf3a201999e78a01200cf",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "ff80818191396c0101933d266590013e",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818191396c0101933d266590013e",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "ff8081819b0257e0019c93cac6a70037",
+          "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819b0257e0019c93cac6a70037",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -74,7 +95,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -124,14 +145,14 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "error",
-      "candidates": 0,
-      "accepted": 0,
-      "rejected": 0,
+      "status": "ok",
+      "candidates": 28,
+      "accepted": 2,
+      "rejected": 26,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "Bluesky searches returned no recent posts"
+      "error": ""
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
@@ -231,7 +252,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -253,15 +274,15 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 4,
-      "accepted": 1,
+      "candidates": 5,
+      "accepted": 2,
       "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
@@ -286,7 +307,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -487,6 +508,6 @@
       "error": ""
     }
   ],
-  "accepted": 13,
-  "errors": 5
+  "accepted": 21,
+  "errors": 4
 }
