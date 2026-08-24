@@ -1,14 +1,14 @@
 {
-  "started_at": "2026-08-23T16:36:54+00:00",
+  "started_at": "2026-08-24T16:47:33+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
       "status": "ok",
-      "candidates": 32,
-      "accepted": 12,
-      "rejected": 20,
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 13,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -125,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 13,
+      "candidates": 26,
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 26,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +136,9 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 36,
+      "candidates": 35,
       "accepted": 0,
-      "rejected": 36,
+      "rejected": 35,
       "fetch_errors": 7,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -148,13 +148,13 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117121659250278041",
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117116171096930774",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117116171096930774",
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117121659250278041",
           "reason": "hostname could not be resolved"
         },
         {
@@ -231,7 +231,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -253,7 +253,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -348,9 +348,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -487,6 +487,6 @@
       "error": ""
     }
   ],
-  "accepted": 25,
+  "accepted": 13,
   "errors": 4
 }
