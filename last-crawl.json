@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-24T16:47:33+00:00",
+  "started_at": "2026-08-25T16:46:55+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -92,9 +92,9 @@
     {
       "source": "C-LAB 臺灣當代文化實驗場",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 6,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 6,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -106,9 +106,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "1 - Wikiwand",
+          "url": "https://www.wikiwand.com/en/1",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "The number one - Britannica",
+          "url": "https://www.britannica.com/science/the-number-one",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -125,9 +136,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 26,
+      "candidates": 27,
       "accepted": 0,
-      "rejected": 26,
+      "rejected": 27,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],

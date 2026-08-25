@@ -1,86 +1,6 @@
 {
   "opportunities": [
     {
-      "id": 112,
-      "title": "全球攝影比賽即時情報",
-      "url": "https://chateaugallery.com/call-for-entries/memory-what-remains",
-      "application_url": "https://chateaugallery.com/call-for-entries/memory-what-remains",
-      "source": "全球攝影比賽即時情報",
-      "category": "影像",
-      "region": "歐美",
-      "notes": "Deadline August 20, 2026 Artist Notifications August 25, 2026",
-      "opening_iso": "",
-      "deadline_iso": "2026-08-25",
-      "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/memory-what-remains",
-      "first_seen": "2026-08-19T16:36:58+00:00",
-      "last_seen": "2026-08-20T16:39:58+00:00",
-      "original_title": "全球攝影比賽即時情報",
-      "categories": [
-        "影像",
-        "競賽獎項"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "歐美",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜科技藝術創作發展補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        },
-        {
-          "title": "臺灣美術基金會／藝術銀行",
-          "url": "https://www.tfaf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "王源林文化藝術基金會",
-          "url": "https://wylf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        }
-      ]
-    },
-    {
       "id": 65,
       "title": "Node94 藝術展演計畫｜2026 Open Call",
       "url": "https://www.instagram.com/p/DbLEHGiCUv-/",
@@ -93,7 +13,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-24T16:47:33+00:00",
+      "last_seen": "2026-08-25T16:46:55+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -857,7 +777,7 @@
       "deadline_iso": "2026-09-07",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-16T16:37:43+00:00",
-      "last_seen": "2026-08-24T16:42:47+00:00",
+      "last_seen": "2026-08-25T16:42:20+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1114,7 +1034,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-08-24T16:42:47+00:00",
+      "last_seen": "2026-08-25T16:42:20+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1797,12 +1717,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 493 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫](https://artemperor.tw/reso",
+      "notes": "截止日期：2027-12-31 492 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫](https://artemperor.tw/reso",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-24T16:42:42+00:00",
+      "last_seen": "2026-08-25T16:42:12+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件",
@@ -2450,12 +2370,12 @@
     }
   ],
   "stats": {
-    "total": 34,
-    "with_deadline": 29,
-    "last_updated": "2026-08-24T16:47:33+00:00"
+    "total": 33,
+    "with_deadline": 28,
+    "last_updated": "2026-08-25T16:46:55+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-24T16:47:33+00:00",
+    "started_at": "2026-08-25T16:46:55+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -2548,9 +2468,9 @@
       {
         "source": "C-LAB 臺灣當代文化實驗場",
         "status": "ok",
-        "candidates": 5,
+        "candidates": 6,
         "accepted": 0,
-        "rejected": 5,
+        "rejected": 6,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2562,9 +2482,20 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 2,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "1 - Wikiwand",
+            "url": "https://www.wikiwand.com/en/1",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "The number one - Britannica",
+            "url": "https://www.britannica.com/science/the-number-one",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
@@ -2581,9 +2512,9 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 26,
+        "candidates": 27,
         "accepted": 0,
-        "rejected": 26,
+        "rejected": 27,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
