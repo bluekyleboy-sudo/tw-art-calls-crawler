@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-25T16:46:55+00:00",
+  "started_at": "2026-08-26T16:55:43+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -106,20 +106,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "1 - Wikiwand",
-          "url": "https://www.wikiwand.com/en/1",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "The number one - Britannica",
-          "url": "https://www.britannica.com/science/the-number-one",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -135,21 +124,21 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "ok",
-      "candidates": 27,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 27,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 35,
+      "candidates": 36,
       "accepted": 0,
-      "rejected": 35,
+      "rejected": 36,
       "fetch_errors": 7,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -297,7 +286,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -319,7 +308,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -359,9 +348,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -499,5 +488,5 @@
     }
   ],
   "accepted": 13,
-  "errors": 4
+  "errors": 5
 }
