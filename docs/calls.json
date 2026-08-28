@@ -13,7 +13,7 @@
       "deadline_iso": "2026-08-28",
       "fingerprint": "node94藝術展演計畫2026opencall:https://www.instagram.com/p/dblehgicuv-",
       "first_seen": "2026-08-09T16:40:23+00:00",
-      "last_seen": "2026-08-26T16:55:43+00:00",
+      "last_seen": "2026-08-28T00:54:18+00:00",
       "original_title": "Node94 藝術展演計畫｜2026 Open Call",
       "categories": [
         "展覽徵件"
@@ -777,7 +777,7 @@
       "deadline_iso": "2026-09-07",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-16T16:37:43+00:00",
-      "last_seen": "2026-08-26T16:51:04+00:00",
+      "last_seen": "2026-08-28T00:51:54+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1034,7 +1034,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-08-26T16:51:04+00:00",
+      "last_seen": "2026-08-28T00:51:54+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1715,17 +1715,16 @@
       "url": "https://artemperor.tw/resources",
       "application_url": "https://artemperor.tw/resources",
       "source": "非池中藝術網",
-      "category": "展覽徵件",
+      "category": "國內駐村",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 491 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫](https://artemperor.tw/reso",
+      "notes": "截止日期：2027-12-31 490 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-26T16:50:55+00:00",
+      "last_seen": "2026-08-28T00:48:35+00:00",
       "original_title": "非池中藝術網",
       "categories": [
-        "展覽徵件",
         "國內駐村"
       ],
       "opening_inferred": true,
@@ -1740,16 +1739,6 @@
             "當代藝術",
             "展覽徵件",
             "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
             "國外駐村"
           ]
         },
@@ -2372,10 +2361,10 @@
   "stats": {
     "total": 33,
     "with_deadline": 28,
-    "last_updated": "2026-08-26T16:55:43+00:00"
+    "last_updated": "2026-08-28T00:54:18+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-26T16:55:43+00:00",
+    "started_at": "2026-08-28T00:54:18+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -2395,7 +2384,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2424,11 +2413,11 @@
       {
         "source": "Kala Yatra 尼泊爾藝術駐村",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2450,7 +2439,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2512,9 +2501,9 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 36,
+        "candidates": 34,
         "accepted": 0,
-        "rejected": 36,
+        "rejected": 34,
         "fetch_errors": 7,
         "fallback_fetches": 0,
         "restricted_candidates": [
@@ -2640,7 +2629,7 @@
         "accepted": 2,
         "rejected": 3,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2662,7 +2651,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2684,7 +2673,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
