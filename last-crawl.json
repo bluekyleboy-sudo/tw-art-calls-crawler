@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-29T00:33:42+00:00",
+  "started_at": "2026-08-29T19:23:38+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 6,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -124,21 +124,21 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "ok",
-      "candidates": 33,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 33,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 33,
+      "candidates": 32,
       "accepted": 0,
-      "rejected": 33,
+      "rejected": 32,
       "fetch_errors": 10,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -493,5 +493,5 @@
     }
   ],
   "accepted": 12,
-  "errors": 4
+  "errors": 5
 }
