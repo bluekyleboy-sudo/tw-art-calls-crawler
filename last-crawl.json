@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-08-30T19:16:36+00:00",
+  "started_at": "2026-08-31T21:27:35+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -125,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 33,
+      "candidates": 8,
       "accepted": 0,
-      "rejected": 33,
+      "rejected": 8,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -139,7 +139,7 @@
       "candidates": 34,
       "accepted": 0,
       "rejected": 34,
-      "fetch_errors": 11,
+      "fetch_errors": 10,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -200,8 +200,8 @@
       "source": "國家地理雜誌臺灣攝影大賽",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -222,8 +222,8 @@
       "source": "高雄國際機場攝影徵選",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -254,9 +254,9 @@
     {
       "source": "台北攝影學會攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -269,7 +269,7 @@
       "accepted": 2,
       "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -353,9 +353,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -486,12 +486,12 @@
       "source": "攝影專題人工查證庫",
       "status": "ok",
       "candidates": 11,
-      "accepted": 6,
-      "rejected": 5,
+      "accepted": 3,
+      "rejected": 8,
       "fetch_errors": 0,
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 7,
   "errors": 4
 }
