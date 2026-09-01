@@ -173,7 +173,7 @@
       "deadline_iso": "2026-09-07",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-16T16:37:43+00:00",
-      "last_seen": "2026-08-31T21:23:17+00:00",
+      "last_seen": "2026-09-01T19:24:16+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -421,7 +421,7 @@
       "id": 113,
       "title": "全球攝影比賽即時情報",
       "url": "https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
-      "application_url": "https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
+      "application_url": "https://form.jotform.com/262265884403057",
       "source": "全球攝影比賽即時情報",
       "category": "影像",
       "region": "歐美",
@@ -430,7 +430,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-08-31T21:23:17+00:00",
+      "last_seen": "2026-09-01T19:24:16+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1113,12 +1113,12 @@
       "source": "非池中藝術網",
       "category": "競賽獎項",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 486 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
+      "notes": "截止日期：2027-12-31 485 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-08-31T21:23:08+00:00",
+      "last_seen": "2026-09-01T19:18:27+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "競賽獎項"
@@ -1735,10 +1735,10 @@
   "stats": {
     "total": 24,
     "with_deadline": 19,
-    "last_updated": "2026-08-31T21:23:17+00:00"
+    "last_updated": "2026-09-01T19:24:16+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-08-31T21:27:35+00:00",
+    "started_at": "2026-09-01T19:28:23+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1776,11 +1776,11 @@
       {
         "source": "Rimbun Dahan",
         "status": "ok",
-        "candidates": 7,
+        "candidates": 5,
         "accepted": 0,
-        "rejected": 7,
+        "rejected": 5,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1813,7 +1813,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1864,9 +1864,9 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 8,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 8,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1875,9 +1875,9 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 34,
+        "candidates": 35,
         "accepted": 0,
-        "rejected": 34,
+        "rejected": 35,
         "fetch_errors": 10,
         "fallback_fetches": 0,
         "restricted_candidates": [
@@ -1892,13 +1892,13 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117172150107324309",
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117173211611569038",
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117173211611569038",
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117172150107324309",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1912,13 +1912,13 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117075826797087312",
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117121659250278041",
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117121659250278041",
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117075826797087312",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -1953,7 +1953,7 @@
         "accepted": 0,
         "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1975,7 +1975,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1997,7 +1997,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2030,7 +2030,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2092,9 +2092,9 @@
       {
         "source": "241藝術空間展覽徵件",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 1,
         "restricted_candidates": [],
