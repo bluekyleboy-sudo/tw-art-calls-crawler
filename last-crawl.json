@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-03T19:16:55+00:00",
+  "started_at": "2026-09-04T18:59:35+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -58,14 +58,14 @@
     },
     {
       "source": "鴻梅國際藝術村",
-      "status": "ok",
-      "candidates": 10,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "hostname could not be resolved"
     },
     {
       "source": "臺北藝術週",
@@ -81,9 +81,9 @@
     {
       "source": "國立臺灣美術館國際駐村",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -124,32 +124,52 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "ok",
-      "candidates": 10,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 36,
+      "candidates": 35,
       "accepted": 0,
-      "rejected": 36,
-      "fetch_errors": 10,
+      "rejected": 35,
+      "fetch_errors": 11,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117213308354327007",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117212408673952761",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117183039787467067",
           "reason": "hostname could not be resolved"
         },
         {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117172150107324309",
+          "reason": "hostname could not be resolved"
+        },
+        {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117173366759804518",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117121768529771736",
           "reason": "hostname could not be resolved"
         },
         {
@@ -159,27 +179,7 @@
         },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117172150107324309",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117121768529771736",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117116171096930774",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117121659250278041",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117075826797087312",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -277,8 +277,8 @@
       "source": "臺南新藝獎｜畫廊展覽媒合",
       "status": "ok",
       "candidates": 2,
-      "accepted": 1,
-      "rejected": 1,
+      "accepted": 0,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -353,9 +353,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -486,12 +486,12 @@
       "source": "攝影專題人工查證庫",
       "status": "ok",
       "candidates": 11,
-      "accepted": 3,
-      "rejected": 8,
+      "accepted": 2,
+      "rejected": 9,
       "fetch_errors": 0,
       "error": ""
     }
   ],
-  "accepted": 7,
-  "errors": 4
+  "accepted": 5,
+  "errors": 6
 }
