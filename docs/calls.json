@@ -93,7 +93,7 @@
       "deadline_iso": "2026-09-07",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-08-16T16:37:43+00:00",
-      "last_seen": "2026-09-04T18:55:05+00:00",
+      "last_seen": "2026-09-05T18:01:52+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -350,7 +350,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-09-04T18:55:07+00:00",
+      "last_seen": "2026-09-05T18:01:53+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1033,12 +1033,12 @@
       "source": "非池中藝術網",
       "category": "競賽獎項",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 482 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
+      "notes": "截止日期：2027-12-31 481 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-09-04T18:55:03+00:00",
+      "last_seen": "2026-09-05T18:01:47+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "競賽獎項"
@@ -1655,10 +1655,10 @@
   "stats": {
     "total": 23,
     "with_deadline": 18,
-    "last_updated": "2026-09-04T18:55:07+00:00"
+    "last_updated": "2026-09-05T18:01:53+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-09-04T18:59:35+00:00",
+    "started_at": "2026-09-05T18:06:20+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1729,9 +1729,9 @@
       {
         "source": "臺北藝術週",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1740,9 +1740,9 @@
       {
         "source": "國立臺灣美術館國際駐村",
         "status": "ok",
-        "candidates": 2,
+        "candidates": 3,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 3,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1783,21 +1783,21 @@
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
-        "status": "error",
-        "candidates": 0,
+        "status": "ok",
+        "candidates": 29,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 29,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
+        "error": ""
       },
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 35,
+        "candidates": 37,
         "accepted": 0,
-        "rejected": 35,
+        "rejected": 37,
         "fetch_errors": 11,
         "fallback_fetches": 0,
         "restricted_candidates": [
@@ -1946,9 +1946,9 @@
       {
         "source": "臺北藝術週｜展覽活動響應",
         "status": "ok",
-        "candidates": 2,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2152,6 +2152,6 @@
       }
     ],
     "accepted": 5,
-    "errors": 6
+    "errors": 5
   }
 }
