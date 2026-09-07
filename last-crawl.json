@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-06T18:17:39+00:00",
+  "started_at": "2026-09-07T19:48:24+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -48,33 +48,33 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "鴻梅國際藝術村",
-      "status": "error",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "hostname could not be resolved"
+      "error": ""
     },
     {
       "source": "臺北藝術週",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -131,14 +131,14 @@
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "Bluesky searches returned no recent posts"
+      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 35,
+      "candidates": 41,
       "accepted": 0,
-      "rejected": 35,
+      "rejected": 41,
       "fetch_errors": 11,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -158,23 +158,23 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117172150107324309",
-          "reason": "hostname could not be resolved"
-        },
-        {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117173366759804518",
           "reason": "hostname could not be resolved"
         },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117121768529771736",
+          "url": "https://mastodon.world/@iviira9/117172150107324309",
           "reason": "hostname could not be resolved"
         },
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117173211611569038",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117121768529771736",
           "reason": "hostname could not be resolved"
         },
         {
@@ -236,7 +236,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,7 +258,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -266,10 +266,10 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 4,
-      "accepted": 2,
-      "rejected": 2,
+      "accepted": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -287,11 +287,11 @@
     {
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -353,11 +353,11 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 11,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 5,
-  "errors": 6
+  "accepted": 4,
+  "errors": 5
 }
