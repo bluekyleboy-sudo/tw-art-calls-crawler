@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-08T19:21:41+00:00",
+  "started_at": "2026-09-09T19:14:16+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 5,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -124,24 +124,29 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "ok",
-      "candidates": 36,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 36,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 42,
+      "candidates": 44,
       "accepted": 0,
-      "rejected": 42,
-      "fetch_errors": 13,
+      "rejected": 44,
+      "fetch_errors": 14,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117241673624241311",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117234773035809443",
@@ -153,18 +158,13 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117213308354327007",
-          "reason": "hostname could not be resolved"
-        },
-        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117212408673952761",
           "reason": "hostname could not be resolved"
         },
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117183039787467067",
+          "url": "https://mastodon.world/@iviira9/117213308354327007",
           "reason": "hostname could not be resolved"
         },
         {
@@ -173,13 +173,13 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117173366759804518",
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117121768529771736",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117121768529771736",
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117183039787467067",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -236,7 +236,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,7 +258,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -291,7 +291,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -353,18 +353,12 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 11,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 11,
-      "fetch_errors": 1,
-      "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "演藝團體變更(換補)登記申請表",
-          "url": "https://culture.hccg.gov.tw/uploaddowndoc?file=hcccb/202301161510220.odt&filedisplay=%E6%96%B0%E7%AB%B9%E5%B8%82%E6%BC%94%E8%97%9D%E5%9C%98%E9%AB%94%E8%AE%8A%E6%9B%B4%EF%BC%88%E6%8F%9B%E8%A3%9C%EF%BC%89%E7%99%BB%E8%A8%98%E7%94%B3%E8%AB%8B%E8%A1%A81120116%E4%BF%AE%E6%AD%A3.odt&flag=doc",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "rejected": 1,
+      "fetch_errors": 0,
+      "fallback_fetches": 1,
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -499,5 +493,5 @@
     }
   ],
   "accepted": 4,
-  "errors": 3
+  "errors": 4
 }
