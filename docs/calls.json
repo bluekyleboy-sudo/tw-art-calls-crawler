@@ -1,131 +1,6 @@
 {
   "opportunities": [
     {
-      "id": 12,
-      "title": "2026 桃園地景藝術節攝影比賽",
-      "url": "https://www.tps.tw/2026-taoyuan-art-photography-competition/",
-      "application_url": "https://www.tps.tw/2026-taoyuan-art-photography-competition/",
-      "source": "桃園攝影學會｜官方簡章",
-      "category": "影像",
-      "region": "臺灣",
-      "notes": "拍攝 2026 桃園地景藝術節系列作品與活動；收件自 8 月 1 日開始。",
-      "opening_iso": "2026-08-01",
-      "deadline_iso": "2026-09-10",
-      "fingerprint": "2026桃園地景藝術節攝影比賽:www.tps.tw",
-      "first_seen": "2026-07-17T16:13:38+00:00",
-      "last_seen": "2026-08-09T15:50:40+00:00",
-      "original_title": "2026 桃園地景藝術節攝影比賽",
-      "categories": [
-        "影像",
-        "競賽獎項"
-      ],
-      "opening_inferred": false,
-      "display_opening_iso": "2026-08-01",
-      "country": "臺灣",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜科技藝術創作發展補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        },
-        {
-          "title": "臺灣美術基金會／藝術銀行",
-          "url": "https://www.tfaf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "王源林文化藝術基金會",
-          "url": "https://wylf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 94,
-      "title": "ff8081819f3c3aff019f7f5a4a530016",
-      "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f7f5a4a530016",
-      "application_url": "https://forms.gle/Mdwv9t2xceCSYjLGA",
-      "source": "文化部藝術進駐網中文版",
-      "category": "國內駐村",
-      "region": "臺灣",
-      "notes": "截止日期 | 2026.08.31 | | --- | | 結果公告日期 | 2026 年 9 月 10 日 | | 網站 | [2026 新埤客庄藝術駐村2026 新埤客庄藝術駐村計畫簡章](https://drive.google.com/file/d/1_jAZhkpBopxpelqDfi7W0Eaof2x11_pK/view \"前往2026 新埤客庄藝術駐村",
-      "opening_iso": "",
-      "deadline_iso": "2026-09-10",
-      "fingerprint": "ff8081819f3c3aff019f7f5a4a530016:https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019f7f5a4a530016",
-      "first_seen": "2026-08-11T17:01:22+00:00",
-      "last_seen": "2026-08-23T16:31:06+00:00",
-      "original_title": "ff8081819f3c3aff019f7f5a4a530016",
-      "categories": [
-        "國內駐村"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "臺灣",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        }
-      ]
-    },
-    {
       "id": 111,
       "title": "ff8081819f3c3aff01a018d55fbd0099",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff01a018d55fbd0099",
@@ -190,7 +65,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-09-09T19:11:04+00:00",
+      "last_seen": "2026-09-10T19:03:48+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -871,22 +746,54 @@
       "url": "https://artemperor.tw/resources",
       "application_url": "https://artemperor.tw/resources",
       "source": "非池中藝術網",
-      "category": "競賽獎項",
+      "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 477 days left [](https://artemperor.tw/resources/955) ### [徵件補助](https://artemperor.tw/resources/955)## [SPACE MOOR / 永晝海濱美術館：【2026年 展覽銷售 / 駐港創作 Open Call】](https://art",
+      "notes": "截止日期：2027-12-31 476 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-09-09T19:10:44+00:00",
+      "last_seen": "2026-09-10T19:02:05+00:00",
       "original_title": "非池中藝術網",
       "categories": [
-        "競賽獎項"
+        "展覽徵件"
       ],
       "opening_inferred": true,
       "display_opening_iso": "",
       "country": "臺灣",
-      "suggested_grants": []
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        }
+      ]
     },
     {
       "id": 47,
@@ -1493,12 +1400,12 @@
     }
   ],
   "stats": {
-    "total": 21,
-    "with_deadline": 16,
-    "last_updated": "2026-09-09T19:11:04+00:00"
+    "total": 19,
+    "with_deadline": 14,
+    "last_updated": "2026-09-10T19:03:48+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-09-09T19:14:16+00:00",
+    "started_at": "2026-09-10T19:05:34+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1536,11 +1443,11 @@
       {
         "source": "Rimbun Dahan",
         "status": "ok",
-        "candidates": 5,
+        "candidates": 7,
         "accepted": 0,
-        "rejected": 5,
+        "rejected": 7,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1573,7 +1480,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1623,27 +1530,27 @@
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
-        "status": "error",
-        "candidates": 0,
+        "status": "ok",
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
+        "error": ""
       },
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 44,
+        "candidates": 42,
         "accepted": 0,
-        "rejected": 44,
-        "fetch_errors": 14,
+        "rejected": 42,
+        "fetch_errors": 13,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
             "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117241673624241311",
+            "url": "https://mastodon.world/@iviira9/117246998491937358",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1654,6 +1561,11 @@
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117233549722568231",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117241673624241311",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1674,11 +1586,6 @@
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117121768529771736",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117183039787467067",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -1790,7 +1697,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1985,13 +1892,13 @@
         "source": "攝影專題人工查證庫",
         "status": "ok",
         "candidates": 11,
-        "accepted": 2,
-        "rejected": 9,
+        "accepted": 1,
+        "rejected": 10,
         "fetch_errors": 0,
         "error": ""
       }
     ],
-    "accepted": 4,
-    "errors": 4
+    "accepted": 3,
+    "errors": 3
   }
 }
