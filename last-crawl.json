@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-10T19:05:34+00:00",
+  "started_at": "2026-09-11T19:05:33+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -125,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 25,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 25,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -139,9 +139,14 @@
       "candidates": 42,
       "accepted": 0,
       "rejected": 42,
-      "fetch_errors": 13,
+      "fetch_errors": 14,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117251633432245155",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
           "url": "https://mastodon.world/@iviira9/117246998491937358",
@@ -175,11 +180,6 @@
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117172150107324309",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117121768529771736",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -236,7 +236,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,7 +258,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -353,9 +353,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
