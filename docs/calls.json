@@ -65,7 +65,7 @@
       "deadline_iso": "2026-09-21",
       "fingerprint": "全球攝影比賽即時情報:https://theimageflow.com/uncategorized/call-for-entry-photo-of-the-season-you-cant-be-serious",
       "first_seen": "2026-09-12T18:14:27+00:00",
-      "last_seen": "2026-09-12T18:14:27+00:00",
+      "last_seen": "2026-09-13T18:40:11+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -145,7 +145,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-09-12T18:14:25+00:00",
+      "last_seen": "2026-09-13T18:40:11+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -828,12 +828,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 474 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 473 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-09-12T18:14:20+00:00",
+      "last_seen": "2026-09-13T18:40:09+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1482,10 +1482,10 @@
   "stats": {
     "total": 20,
     "with_deadline": 15,
-    "last_updated": "2026-09-12T18:14:27+00:00"
+    "last_updated": "2026-09-13T18:40:11+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-09-12T18:16:41+00:00",
+    "started_at": "2026-09-13T18:43:25+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1556,9 +1556,9 @@
       {
         "source": "臺北藝術週",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1589,9 +1589,9 @@
       {
         "source": "ARTouch 典藏",
         "status": "ok",
-        "candidates": 10,
+        "candidates": 7,
         "accepted": 0,
-        "rejected": 10,
+        "rejected": 7,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1622,12 +1622,17 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 41,
+        "candidates": 40,
         "accepted": 0,
-        "rejected": 41,
+        "rejected": 40,
         "fetch_errors": 15,
         "fallback_fetches": 0,
         "restricted_candidates": [
+          {
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117263722961756552",
+            "reason": "hostname could not be resolved"
+          },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117257328276849243",
@@ -1644,13 +1649,13 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117246998491937358",
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117233549722568231",
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117233549722568231",
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117246998491937358",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1661,11 +1666,6 @@
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117212408673952761",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117213308354327007",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -1722,7 +1722,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1744,7 +1744,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1773,9 +1773,9 @@
       {
         "source": "臺北藝術週｜展覽活動響應",
         "status": "ok",
-        "candidates": 2,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
