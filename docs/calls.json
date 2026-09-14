@@ -65,7 +65,7 @@
       "deadline_iso": "2026-09-21",
       "fingerprint": "全球攝影比賽即時情報:https://theimageflow.com/uncategorized/call-for-entry-photo-of-the-season-you-cant-be-serious",
       "first_seen": "2026-09-12T18:14:27+00:00",
-      "last_seen": "2026-09-13T18:40:11+00:00",
+      "last_seen": "2026-09-14T20:13:40+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -145,7 +145,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-09-13T18:40:11+00:00",
+      "last_seen": "2026-09-14T20:13:39+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -154,6 +154,86 @@
       "opening_inferred": true,
       "display_opening_iso": "",
       "country": "歐美",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "title": "全球攝影比賽即時情報",
+      "url": "https://solas-shadowgallery.com/open-calls",
+      "application_url": "https://solas-shadowgallery.com/open-calls",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "",
+      "notes": "Deadline: 29th September 2026 You will only be notified if selected",
+      "opening_iso": "",
+      "deadline_iso": "2026-09-29",
+      "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
+      "first_seen": "2026-09-14T20:13:40+00:00",
+      "last_seen": "2026-09-14T20:13:40+00:00",
+      "original_title": "全球攝影比賽即時情報",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "",
       "suggested_grants": [
         {
           "title": "國家文化藝術基金會｜常態補助",
@@ -828,12 +908,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 473 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 472 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-09-13T18:40:09+00:00",
+      "last_seen": "2026-09-14T20:13:31+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1480,12 +1560,12 @@
     }
   ],
   "stats": {
-    "total": 20,
-    "with_deadline": 15,
-    "last_updated": "2026-09-13T18:40:11+00:00"
+    "total": 21,
+    "with_deadline": 16,
+    "last_updated": "2026-09-14T20:13:40+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-09-13T18:43:25+00:00",
+    "started_at": "2026-09-14T20:15:17+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1560,7 +1640,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1589,9 +1669,9 @@
       {
         "source": "ARTouch 典藏",
         "status": "ok",
-        "candidates": 7,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 7,
+        "rejected": 10,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1722,7 +1802,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1744,7 +1824,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1752,8 +1832,8 @@
         "source": "全球攝影比賽即時情報",
         "status": "ok",
         "candidates": 4,
-        "accepted": 2,
-        "rejected": 2,
+        "accepted": 3,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1777,7 +1857,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1839,9 +1919,9 @@
       {
         "source": "241藝術空間展覽徵件",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 1,
         "restricted_candidates": [],
@@ -1978,7 +2058,7 @@
         "error": ""
       }
     ],
-    "accepted": 4,
+    "accepted": 5,
     "errors": 4
   }
 }
