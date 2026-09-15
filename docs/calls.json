@@ -65,7 +65,7 @@
       "deadline_iso": "2026-09-21",
       "fingerprint": "全球攝影比賽即時情報:https://theimageflow.com/uncategorized/call-for-entry-photo-of-the-season-you-cant-be-serious",
       "first_seen": "2026-09-12T18:14:27+00:00",
-      "last_seen": "2026-09-14T20:13:40+00:00",
+      "last_seen": "2026-09-15T19:36:31+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -145,7 +145,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-09-14T20:13:39+00:00",
+      "last_seen": "2026-09-15T19:36:31+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -225,7 +225,7 @@
       "deadline_iso": "2026-09-29",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-09-14T20:13:40+00:00",
-      "last_seen": "2026-09-14T20:13:40+00:00",
+      "last_seen": "2026-09-15T19:36:31+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -459,6 +459,137 @@
       "categories": [
         "影像",
         "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "歐美",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "title": "Tip: OBJECT & LIGHT",
+      "url": "https://bsky.app/profile/touringartists.bsky.social/post/3mvhtrf5ys22q",
+      "application_url": "https://www.depo2015.cz/internationalopencall2026",
+      "source": "Bluesky｜touring artists (@touringartists.bsky.social)",
+      "category": "國外駐村",
+      "region": "歐美",
+      "notes": "deadline 7–14 October 2026 ·",
+      "opening_iso": "2026-10-07",
+      "deadline_iso": "2026-10-14",
+      "fingerprint": "tipobjectlight:https://bsky.app/profile/touringartists.bsky.social/post/3mvhtrf5ys22q",
+      "first_seen": "2026-09-15T19:36:45+00:00",
+      "last_seen": "2026-09-15T19:36:45+00:00",
+      "original_title": "Tip: OBJECT & LIGHT",
+      "categories": [
+        "國外駐村"
+      ],
+      "opening_inferred": false,
+      "display_opening_iso": "2026-10-07",
+      "country": "歐美",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜出國駐村交流計畫",
+          "url": "https://www.moc.gov.tw/News.aspx?n=105&sms=10550",
+          "categories": [
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "title": "Open call: Amsterdam Light Festival Deadline 7.12.2026 Note: there's a separate Amarte open call",
+      "url": "https://pixelfed.art/p/mkivinen/1005357921870063592",
+      "application_url": "https://amsterdamlightfestival.com/en/open-call",
+      "source": "Mastodon｜Mia Kivinen (@mkivinen@pixelfed.art)",
+      "category": "當代藝術",
+      "region": "歐美",
+      "notes": "deadline for submissions is 7 December 2026, 23:59h (CET) 5. More information about the",
+      "opening_iso": "",
+      "deadline_iso": "2026-12-07",
+      "fingerprint": "opencallamsterdamlightfestivaldeadline7122026notetheresaseparateamarteopencall:https://pixelfed.art/p/mkivinen/1005357921870063592",
+      "first_seen": "2026-09-15T19:36:02+00:00",
+      "last_seen": "2026-09-15T19:36:02+00:00",
+      "original_title": "Open call: Amsterdam Light Festival Deadline 7.12.2026 Note: there's a separate Amarte open call",
+      "categories": [
+        "當代藝術"
       ],
       "opening_inferred": true,
       "display_opening_iso": "",
@@ -908,12 +1039,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 472 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 471 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-09-14T20:13:31+00:00",
+      "last_seen": "2026-09-15T19:36:15+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1560,12 +1691,12 @@
     }
   ],
   "stats": {
-    "total": 21,
-    "with_deadline": 16,
-    "last_updated": "2026-09-14T20:13:40+00:00"
+    "total": 23,
+    "with_deadline": 18,
+    "last_updated": "2026-09-15T19:36:45+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-09-14T20:15:17+00:00",
+    "started_at": "2026-09-15T19:39:35+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1636,11 +1767,11 @@
       {
         "source": "臺北藝術週",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1690,21 +1821,21 @@
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
-        "status": "error",
-        "candidates": 0,
-        "accepted": 0,
-        "rejected": 0,
+        "status": "ok",
+        "candidates": 37,
+        "accepted": 1,
+        "rejected": 36,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
+        "error": ""
       },
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 40,
-        "accepted": 0,
-        "rejected": 40,
+        "candidates": 42,
+        "accepted": 1,
+        "rejected": 41,
         "fetch_errors": 15,
         "fallback_fetches": 0,
         "restricted_candidates": [
@@ -1802,7 +1933,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1824,7 +1955,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1853,11 +1984,11 @@
       {
         "source": "臺北藝術週｜展覽活動響應",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2058,7 +2189,7 @@
         "error": ""
       }
     ],
-    "accepted": 5,
-    "errors": 4
+    "accepted": 7,
+    "errors": 3
   }
 }

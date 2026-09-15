@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-14T20:15:17+00:00",
+  "started_at": "2026-09-15T19:39:35+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -70,11 +70,11 @@
     {
       "source": "臺北藝術週",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -124,21 +124,21 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "error",
-      "candidates": 0,
-      "accepted": 0,
-      "rejected": 0,
+      "status": "ok",
+      "candidates": 37,
+      "accepted": 1,
+      "rejected": 36,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 40,
-      "accepted": 0,
-      "rejected": 40,
+      "candidates": 42,
+      "accepted": 1,
+      "rejected": 41,
       "fetch_errors": 15,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -236,7 +236,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,7 +258,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -287,11 +287,11 @@
     {
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 5,
-  "errors": 4
+  "accepted": 7,
+  "errors": 3
 }
