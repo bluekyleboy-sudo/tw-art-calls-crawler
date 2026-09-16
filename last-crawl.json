@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-15T19:39:35+00:00",
+  "started_at": "2026-09-16T19:29:29+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -70,11 +70,11 @@
     {
       "source": "臺北藝術週",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -92,9 +92,9 @@
     {
       "source": "C-LAB 臺灣當代文化實驗場",
       "status": "ok",
-      "candidates": 6,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 5,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -124,14 +124,14 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "ok",
-      "candidates": 37,
-      "accepted": 1,
-      "rejected": 36,
+      "status": "error",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
@@ -139,12 +139,12 @@
       "candidates": 42,
       "accepted": 1,
       "rejected": 41,
-      "fetch_errors": 15,
+      "fetch_errors": 16,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117263722961756552",
+          "url": "https://mastodon.world/@iviira9/117280188078247946",
           "reason": "hostname could not be resolved"
         },
         {
@@ -155,6 +155,11 @@
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117251633432245155",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117263722961756552",
           "reason": "hostname could not be resolved"
         },
         {
@@ -170,11 +175,6 @@
         {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
           "url": "https://mastodon.world/@iviira9/117246998491937358",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117241673624241311",
           "reason": "hostname could not be resolved"
         },
         {
@@ -236,7 +236,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,16 +258,16 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 3,
       "accepted": 3,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -287,11 +287,11 @@
     {
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 7,
-  "errors": 3
+  "accepted": 6,
+  "errors": 4
 }
