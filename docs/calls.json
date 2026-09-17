@@ -1,58 +1,6 @@
 {
   "opportunities": [
     {
-      "id": 111,
-      "title": "ff8081819f3c3aff01a018d55fbd0099",
-      "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff01a018d55fbd0099",
-      "application_url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff01a018d55fbd0099",
-      "source": "文化部藝術進駐網中文版",
-      "category": "國外駐村",
-      "region": "亞洲",
-      "notes": "截止日期 | 2026.08.24 | | --- | | 結果公告日期 | 預計於 2026年9月17日前後公布，所有申請者皆會收到電子郵件通知",
-      "opening_iso": "",
-      "deadline_iso": "2026-09-17",
-      "fingerprint": "ff8081819f3c3aff01a018d55fbd0099:https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff01a018d55fbd0099",
-      "first_seen": "2026-08-19T16:36:33+00:00",
-      "last_seen": "2026-08-23T16:31:07+00:00",
-      "original_title": "ff8081819f3c3aff01a018d55fbd0099",
-      "categories": [
-        "國外駐村"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "亞洲",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜出國駐村交流計畫",
-          "url": "https://www.moc.gov.tw/News.aspx?n=105&sms=10550",
-          "categories": [
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        }
-      ]
-    },
-    {
       "id": 114,
       "title": "全球攝影比賽即時情報",
       "url": "https://theimageflow.com/uncategorized/call-for-entry-photo-of-the-season-you-cant-be-serious/",
@@ -65,7 +13,7 @@
       "deadline_iso": "2026-09-21",
       "fingerprint": "全球攝影比賽即時情報:https://theimageflow.com/uncategorized/call-for-entry-photo-of-the-season-you-cant-be-serious",
       "first_seen": "2026-09-12T18:14:27+00:00",
-      "last_seen": "2026-09-16T19:27:54+00:00",
+      "last_seen": "2026-09-17T19:38:29+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -145,7 +93,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-09-16T19:27:53+00:00",
+      "last_seen": "2026-09-17T19:38:28+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -225,7 +173,7 @@
       "deadline_iso": "2026-09-29",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-09-14T20:13:40+00:00",
-      "last_seen": "2026-09-16T19:27:54+00:00",
+      "last_seen": "2026-09-17T19:38:29+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -586,7 +534,7 @@
       "deadline_iso": "2026-12-07",
       "fingerprint": "opencallamsterdamlightfestivaldeadline7122026notetheresaseparateamarteopencall:https://pixelfed.art/p/mkivinen/1005357921870063592",
       "first_seen": "2026-09-15T19:36:02+00:00",
-      "last_seen": "2026-09-16T19:27:42+00:00",
+      "last_seen": "2026-09-17T19:38:14+00:00",
       "original_title": "Open call: Amsterdam Light Festival Deadline 7.12.2026 Note: there's a separate Amarte open call",
       "categories": [
         "當代藝術"
@@ -1039,12 +987,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 470 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 469 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-09-16T19:27:45+00:00",
+      "last_seen": "2026-09-17T19:38:25+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1691,12 +1639,12 @@
     }
   ],
   "stats": {
-    "total": 23,
-    "with_deadline": 18,
-    "last_updated": "2026-09-16T19:27:54+00:00"
+    "total": 22,
+    "with_deadline": 17,
+    "last_updated": "2026-09-17T19:38:29+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-09-16T19:29:29+00:00",
+    "started_at": "2026-09-17T19:40:40+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1767,11 +1715,11 @@
       {
         "source": "臺北藝術週",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1833,12 +1781,17 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 42,
+        "candidates": 43,
         "accepted": 1,
-        "rejected": 41,
-        "fetch_errors": 16,
+        "rejected": 42,
+        "fetch_errors": 15,
         "fallback_fetches": 0,
         "restricted_candidates": [
+          {
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117285657469212636",
+            "reason": "hostname could not be resolved"
+          },
           {
             "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
             "url": "https://mastodon.world/@iviira9/117280188078247946",
@@ -1855,23 +1808,18 @@
             "reason": "hostname could not be resolved"
           },
           {
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117234773035809443",
+            "reason": "hostname could not be resolved"
+          },
+          {
             "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
             "url": "https://mastodon.world/@iviira9/117263722961756552",
             "reason": "hostname could not be resolved"
           },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117234773035809443",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117233549722568231",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117246998491937358",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1984,11 +1932,11 @@
       {
         "source": "臺北藝術週｜展覽活動響應",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2105,9 +2053,9 @@
       {
         "source": "立方計劃空間 TheCube Project Space",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
