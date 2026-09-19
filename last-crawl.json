@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-18T18:58:00+00:00",
+  "started_at": "2026-09-19T18:35:37+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 10,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 10,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -124,14 +124,14 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "ok",
-      "candidates": 38,
-      "accepted": 2,
-      "rejected": 36,
+      "status": "error",
+      "candidates": 0,
+      "accepted": 0,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
@@ -139,12 +139,12 @@
       "candidates": 42,
       "accepted": 1,
       "rejected": 41,
-      "fetch_errors": 14,
+      "fetch_errors": 15,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117291744915131099",
+          "url": "https://mastodon.world/@iviira9/117296925686129305",
           "reason": "hostname could not be resolved"
         },
         {
@@ -154,12 +154,22 @@
         },
         {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117285657469212636",
+          "url": "https://mastodon.world/@iviira9/117291744915131099",
           "reason": "hostname could not be resolved"
         },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117257328276849243",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117285657469212636",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117251633432245155",
           "reason": "hostname could not be resolved"
         },
         {
@@ -169,17 +179,7 @@
         },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117251633432245155",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117234773035809443",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117233549722568231",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -236,7 +236,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -258,7 +258,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -386,9 +386,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 8,
-  "errors": 3
+  "accepted": 6,
+  "errors": 4
 }
