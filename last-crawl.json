@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-19T18:35:37+00:00",
+  "started_at": "2026-09-20T18:40:22+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -124,14 +124,14 @@
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
-      "status": "error",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 13,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 13,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "all Bluesky searches failed: HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
@@ -353,9 +353,9 @@
     {
       "source": "241藝術空間展覽徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -386,9 +386,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -493,5 +493,5 @@
     }
   ],
   "accepted": 6,
-  "errors": 4
+  "errors": 3
 }
