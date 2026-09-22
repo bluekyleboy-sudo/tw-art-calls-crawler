@@ -13,7 +13,7 @@
       "deadline_iso": "2026-09-24",
       "fingerprint": "callforartistsautumn2026submissionsarenowbeingacceptedfromartistsinallmediumstoa:https://bsky.app/profile/silkpurseguild.bsky.social/post/3mvn2asos4z2p",
       "first_seen": "2026-09-18T18:57:22+00:00",
-      "last_seen": "2026-09-21T20:19:53+00:00",
+      "last_seen": "2026-09-22T19:38:52+00:00",
       "original_title": "Call for Artists, Autumn 2026Submissions are now being accepted from artists in all mediums to a",
       "categories": [
         "影像"
@@ -92,7 +92,7 @@
       "deadline_iso": "2026-09-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries/elemental-earth-air-fire-water",
       "first_seen": "2026-08-22T16:30:08+00:00",
-      "last_seen": "2026-09-21T20:20:13+00:00",
+      "last_seen": "2026-09-22T19:39:10+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -172,7 +172,7 @@
       "deadline_iso": "2026-09-29",
       "fingerprint": "全球攝影比賽即時情報:https://solas-shadowgallery.com/open-calls",
       "first_seen": "2026-09-14T20:13:40+00:00",
-      "last_seen": "2026-09-21T20:20:13+00:00",
+      "last_seen": "2026-09-22T19:39:11+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -481,7 +481,7 @@
       "deadline_iso": "2026-10-14",
       "fingerprint": "tipobjectlight:https://bsky.app/profile/touringartists.bsky.social/post/3mvhtrf5ys22q",
       "first_seen": "2026-09-15T19:36:45+00:00",
-      "last_seen": "2026-09-21T20:19:53+00:00",
+      "last_seen": "2026-09-22T19:38:53+00:00",
       "original_title": "Tip: OBJECT & LIGHT",
       "categories": [
         "國外駐村"
@@ -533,7 +533,7 @@
       "deadline_iso": "2026-12-07",
       "fingerprint": "opencallamsterdamlightfestivaldeadline7122026notetheresaseparateamarteopencall:https://pixelfed.art/p/mkivinen/1005357921870063592",
       "first_seen": "2026-09-15T19:36:02+00:00",
-      "last_seen": "2026-09-21T20:20:08+00:00",
+      "last_seen": "2026-09-22T19:39:08+00:00",
       "original_title": "Open call: Amsterdam Light Festival Deadline 7.12.2026 Note: there's a separate Amarte open call",
       "categories": [
         "當代藝術"
@@ -986,12 +986,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 465 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 464 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-09-21T20:20:08+00:00",
+      "last_seen": "2026-09-22T19:39:04+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1640,10 +1640,10 @@
   "stats": {
     "total": 22,
     "with_deadline": 17,
-    "last_updated": "2026-09-21T20:20:13+00:00"
+    "last_updated": "2026-09-22T19:39:11+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-09-21T20:20:50+00:00",
+    "started_at": "2026-09-22T19:39:51+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1780,15 +1780,15 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 42,
+        "candidates": 44,
         "accepted": 1,
-        "rejected": 41,
-        "fetch_errors": 15,
+        "rejected": 43,
+        "fetch_errors": 16,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117296925686129305",
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117314302934162786",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1798,7 +1798,7 @@
           },
           {
             "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117291744915131099",
+            "url": "https://mastodon.world/@iviira9/117296925686129305",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1808,7 +1808,7 @@
           },
           {
             "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117285657469212636",
+            "url": "https://mastodon.world/@iviira9/117291744915131099",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1817,13 +1817,13 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117280188078247946",
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117234773035809443",
             "reason": "hostname could not be resolved"
           },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117234773035809443",
+            "url": "https://mastodon.world/@iviira9/117233549722568231",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -1997,9 +1997,9 @@
       {
         "source": "241藝術空間展覽徵件",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 1,
         "restricted_candidates": [],
