@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-26T19:08:05+00:00",
+  "started_at": "2026-09-27T19:40:18+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -59,9 +59,9 @@
     {
       "source": "鴻梅國際藝術村",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -125,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 34,
+      "candidates": 35,
       "accepted": 1,
-      "rejected": 33,
+      "rejected": 34,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,10 +136,10 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 45,
+      "candidates": 44,
       "accepted": 1,
-      "rejected": 44,
-      "fetch_errors": 18,
+      "rejected": 43,
+      "fetch_errors": 17,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -266,8 +266,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 3,
-      "accepted": 2,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 6,
+  "accepted": 5,
   "errors": 3
 }
