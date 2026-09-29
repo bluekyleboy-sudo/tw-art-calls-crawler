@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-28T21:43:50+00:00",
+  "started_at": "2026-09-29T20:35:39+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -70,9 +70,9 @@
     {
       "source": "臺北藝術週",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,15 +136,25 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 46,
-      "accepted": 1,
+      "candidates": 45,
+      "accepted": 0,
       "rejected": 45,
-      "fetch_errors": 16,
+      "fetch_errors": 17,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117355729969159445",
+          "reason": "hostname could not be resolved"
+        },
+        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117348347045303756",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117353741018450823",
           "reason": "hostname could not be resolved"
         },
         {
@@ -163,18 +173,8 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117336247549671650",
-          "reason": "hostname could not be resolved"
-        },
-        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117251633432245155",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117331155440850172",
           "reason": "hostname could not be resolved"
         },
         {
@@ -266,8 +266,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 3,
-      "accepted": 1,
-      "rejected": 2,
+      "accepted": 0,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -287,9 +287,9 @@
     {
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 5,
+  "accepted": 3,
   "errors": 3
 }
