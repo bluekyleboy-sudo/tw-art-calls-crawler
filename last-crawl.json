@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-09-29T20:35:39+00:00",
+  "started_at": "2026-09-30T20:41:06+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -103,9 +103,9 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 9,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 9,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,15 +136,15 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 45,
+      "candidates": 43,
       "accepted": 0,
-      "rejected": 45,
+      "rejected": 43,
       "fetch_errors": 17,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117355729969159445",
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117359954293980315",
           "reason": "hostname could not be resolved"
         },
         {
@@ -153,18 +153,23 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117353741018450823",
-          "reason": "hostname could not be resolved"
-        },
-        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117319534062233880",
           "reason": "hostname could not be resolved"
         },
         {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117355729969159445",
+          "reason": "hostname could not be resolved"
+        },
+        {
           "title": "Thank you very much for choosing my job.#ZariGallery # CallForArtists # ContemporaryArt # London",
           "url": "https://mastodon.world/@iviira9/117290828370653542",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117353741018450823",
           "reason": "hostname could not be resolved"
         },
         {
@@ -175,11 +180,6 @@
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117251633432245155",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117234773035809443",
           "reason": "hostname could not be resolved"
         }
       ],
