@@ -145,7 +145,7 @@
       "deadline_iso": "2026-10-14",
       "fingerprint": "tipobjectlight:https://bsky.app/profile/touringartists.bsky.social/post/3mvhtrf5ys22q",
       "first_seen": "2026-09-15T19:36:45+00:00",
-      "last_seen": "2026-09-30T20:40:17+00:00",
+      "last_seen": "2026-10-01T20:54:21+00:00",
       "original_title": "Tip: OBJECT & LIGHT",
       "categories": [
         "國外駐村"
@@ -180,6 +180,86 @@
             "當代藝術",
             "展覽徵件",
             "國外駐村"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "title": "全球攝影比賽即時情報",
+      "url": "https://chateaugallery.com/call-for-entries",
+      "application_url": "https://form.jotform.com/262211312095142",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "",
+      "notes": "Deadline October 20, 2026 11:59 PM ET Artist Notifications October 27, 2026",
+      "opening_iso": "",
+      "deadline_iso": "2026-10-27",
+      "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries",
+      "first_seen": "2026-10-01T20:54:30+00:00",
+      "last_seen": "2026-10-01T20:54:30+00:00",
+      "original_title": "全球攝影比賽即時情報",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
           ]
         }
       ]
@@ -650,12 +730,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 456 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 455 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-09-30T20:40:28+00:00",
+      "last_seen": "2026-10-01T20:54:25+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1302,12 +1382,12 @@
     }
   ],
   "stats": {
-    "total": 17,
-    "with_deadline": 12,
-    "last_updated": "2026-09-30T20:40:28+00:00"
+    "total": 18,
+    "with_deadline": 13,
+    "last_updated": "2026-10-01T20:54:30+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-09-30T20:41:06+00:00",
+    "started_at": "2026-10-01T20:55:17+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1382,23 +1462,12 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
       {
         "source": "國立臺灣美術館國際駐村",
-        "status": "ok",
-        "candidates": 3,
-        "accepted": 0,
-        "rejected": 3,
-        "fetch_errors": 0,
-        "fallback_fetches": 0,
-        "restricted_candidates": [],
-        "error": ""
-      },
-      {
-        "source": "C-LAB 臺灣當代文化實驗場",
         "status": "ok",
         "candidates": 4,
         "accepted": 0,
@@ -1409,11 +1478,22 @@
         "error": ""
       },
       {
+        "source": "C-LAB 臺灣當代文化實驗場",
+        "status": "ok",
+        "candidates": 3,
+        "accepted": 0,
+        "rejected": 3,
+        "fetch_errors": 0,
+        "fallback_fetches": 0,
+        "restricted_candidates": [],
+        "error": ""
+      },
+      {
         "source": "ARTouch 典藏",
         "status": "ok",
-        "candidates": 9,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 9,
+        "rejected": 10,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1444,30 +1524,15 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 43,
+        "candidates": 40,
         "accepted": 0,
-        "rejected": 43,
-        "fetch_errors": 17,
+        "rejected": 40,
+        "fetch_errors": 12,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117359954293980315",
-            "reason": "hostname could not be resolved"
-          },
-          {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117348347045303756",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117319534062233880",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117355729969159445",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1477,17 +1542,32 @@
           },
           {
             "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117359954293980315",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117234773035809443",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117355729969159445",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117233549722568231",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
             "url": "https://mastodon.world/@iviira9/117353741018450823",
             "reason": "hostname could not be resolved"
           },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117257328276849243",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117251633432245155",
+            "url": "https://mastodon.world/@iviira9/117212408673952761",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -1574,8 +1654,8 @@
         "source": "全球攝影比賽即時情報",
         "status": "ok",
         "candidates": 3,
-        "accepted": 0,
-        "rejected": 3,
+        "accepted": 1,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1599,7 +1679,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1800,7 +1880,7 @@
         "error": ""
       }
     ],
-    "accepted": 3,
+    "accepted": 4,
     "errors": 3
   }
 }
