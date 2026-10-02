@@ -145,7 +145,7 @@
       "deadline_iso": "2026-10-14",
       "fingerprint": "tipobjectlight:https://bsky.app/profile/touringartists.bsky.social/post/3mvhtrf5ys22q",
       "first_seen": "2026-09-15T19:36:45+00:00",
-      "last_seen": "2026-10-01T20:54:21+00:00",
+      "last_seen": "2026-10-02T20:31:55+00:00",
       "original_title": "Tip: OBJECT & LIGHT",
       "categories": [
         "國外駐村"
@@ -197,7 +197,7 @@
       "deadline_iso": "2026-10-27",
       "fingerprint": "全球攝影比賽即時情報:https://chateaugallery.com/call-for-entries",
       "first_seen": "2026-10-01T20:54:30+00:00",
-      "last_seen": "2026-10-01T20:54:30+00:00",
+      "last_seen": "2026-10-02T20:31:58+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -1384,10 +1384,10 @@
   "stats": {
     "total": 18,
     "with_deadline": 13,
-    "last_updated": "2026-10-01T20:54:30+00:00"
+    "last_updated": "2026-10-02T20:31:58+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-10-01T20:55:17+00:00",
+    "started_at": "2026-10-02T20:32:38+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1462,7 +1462,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1503,10 +1503,10 @@
         "source": "非池中藝術網",
         "status": "ok",
         "candidates": 1,
-        "accepted": 1,
-        "rejected": 0,
+        "accepted": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 2,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1524,10 +1524,10 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 40,
+        "candidates": 39,
         "accepted": 0,
-        "rejected": 40,
-        "fetch_errors": 12,
+        "rejected": 39,
+        "fetch_errors": 10,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
@@ -1541,18 +1541,8 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117359954293980315",
-            "reason": "hostname could not be resolved"
-          },
-          {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117234773035809443",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117355729969159445",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1562,12 +1552,22 @@
           },
           {
             "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117353741018450823",
+            "url": "https://mastodon.world/@iviira9/117359954293980315",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117355729969159445",
             "reason": "hostname could not be resolved"
           },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117212408673952761",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117353741018450823",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -1679,7 +1679,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1880,7 +1880,7 @@
         "error": ""
       }
     ],
-    "accepted": 4,
+    "accepted": 3,
     "errors": 3
   }
 }
