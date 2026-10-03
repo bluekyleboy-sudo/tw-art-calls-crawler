@@ -1,58 +1,6 @@
 {
   "opportunities": [
     {
-      "id": 92,
-      "title": "ff8081819e916f41019ef842ac8e006b",
-      "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef842ac8e006b",
-      "application_url": "https://canserrat.org/collective-creation2027_internationalresidency",
-      "source": "文化部藝術進駐網中文版",
-      "category": "國外駐村",
-      "region": "歐美",
-      "notes": "截止日期 | 2026.10.03 | | --- | | 結果公告日期 | 每月月初公告結果 | | 網站 | [甘塞拉國際藝術中心 2027 集體創作實驗室：行走實踐實驗室官網](https://canserrat.org/collective-creation2027_internationalresidency \"前往甘塞拉國際藝術中心 2027 集體創作實",
-      "opening_iso": "",
-      "deadline_iso": "2026-10-03",
-      "fingerprint": "ff8081819e916f41019ef842ac8e006b:https://artres.moc.gov.tw/zh/calls/content/ff8081819e916f41019ef842ac8e006b",
-      "first_seen": "2026-08-11T17:01:22+00:00",
-      "last_seen": "2026-08-23T16:31:06+00:00",
-      "original_title": "ff8081819e916f41019ef842ac8e006b",
-      "categories": [
-        "國外駐村"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "歐美",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜出國駐村交流計畫",
-          "url": "https://www.moc.gov.tw/News.aspx?n=105&sms=10550",
-          "categories": [
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        }
-      ]
-    },
-    {
       "id": 104,
       "title": "New #photo contest added",
       "url": "https://bsky.app/profile/deartline.bsky.social/post/3msx7gy25rl2o",
@@ -133,6 +81,86 @@
       ]
     },
     {
+      "id": 119,
+      "title": "萬吉藝山 x 藝起麟洛・攝影徵件比賽 剩 8 天 請見官網",
+      "url": "https://photocontest.dace.com.tw/contest/16b2d551f56b9bba/",
+      "application_url": "https://forms.gle/86jDk89KKSYCbqXF8",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "臺灣",
+      "notes": "截止日期 2026/10/11 加入行事曆 Google 日曆 報名費用 請見官網 分類 風景 前往官方網站・查看投稿規則 報名與完整規則以官方簡章為準 收藏並設提醒 📧 也想收 Email 截止提醒？ 投稿進度 選擇進度會一併收藏這場比賽 考慮中 準備中 已投稿 已結束 收藏並寫備註 比賽詳情 「萬吉藝山 x 藝起麟洛」攝影徵件比賽，主題圍繞萬吉藝山與屏東麟洛鄉的",
+      "opening_iso": "",
+      "deadline_iso": "2026-10-11",
+      "fingerprint": "萬吉藝山x藝起麟洛攝影徵件比賽剩8天請見官網:https://photocontest.dace.com.tw/contest/16b2d551f56b9bba",
+      "first_seen": "2026-10-03T19:07:03+00:00",
+      "last_seen": "2026-10-03T19:07:03+00:00",
+      "original_title": "萬吉藝山 x 藝起麟洛・攝影徵件比賽 剩 8 天 請見官網",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
       "id": 117,
       "title": "Tip: OBJECT & LIGHT",
       "url": "https://bsky.app/profile/touringartists.bsky.social/post/3mvhtrf5ys22q",
@@ -145,7 +173,7 @@
       "deadline_iso": "2026-10-14",
       "fingerprint": "tipobjectlight:https://bsky.app/profile/touringartists.bsky.social/post/3mvhtrf5ys22q",
       "first_seen": "2026-09-15T19:36:45+00:00",
-      "last_seen": "2026-10-02T20:31:55+00:00",
+      "last_seen": "2026-10-03T19:06:47+00:00",
       "original_title": "Tip: OBJECT & LIGHT",
       "categories": [
         "國外駐村"
@@ -185,6 +213,86 @@
       ]
     },
     {
+      "id": 120,
+      "title": "2026礁溪微電影徵選暨礁溪攝影比賽",
+      "url": "https://photocontest.dace.com.tw/contest/d17a7f98bfbc859c/",
+      "application_url": "https://photocontest.dace.com.tw/guide/",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "臺灣",
+      "notes": "截止日期 2026/10/15 加入行事曆 Google 日曆 報名費用 請見官網 分類 旅遊 紀實 風景 前往官方網站・查看投稿規則 報名與完整規則以官方簡章為準 收藏並設提醒 📧 也想收 Email 截止提醒？ 投稿進度 選擇進度會一併收藏這場比賽 考慮中 準備中 已投稿 已結束 收藏並寫備註 比賽詳情 「2026礁溪微電影徵選暨攝影比賽」以「愛在礁溪」為題，廣",
+      "opening_iso": "",
+      "deadline_iso": "2026-10-15",
+      "fingerprint": "2026礁溪微電影徵選暨礁溪攝影比賽:https://photocontest.dace.com.tw/contest/d17a7f98bfbc859c",
+      "first_seen": "2026-10-03T19:07:03+00:00",
+      "last_seen": "2026-10-03T19:07:03+00:00",
+      "original_title": "2026礁溪微電影徵選暨礁溪攝影比賽",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
       "id": 118,
       "title": "全球攝影比賽即時情報",
       "url": "https://chateaugallery.com/call-for-entries",
@@ -206,6 +314,189 @@
       "opening_inferred": true,
       "display_opening_iso": "",
       "country": "",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "title": "2027 SKM PHOTO 新光三越國際攝影大賽➠徵件募集",
+      "url": "https://photocontest.dace.com.tw/contest/07e047619ad32ee7/",
+      "application_url": "https://culture.skm.com.tw/ActEvent/Cweb/ActiveContent?MenuUUID=c720a573-d130-4321-abca-bdc232b653b0&ActUUID=807a24b9-5380-41f0-96e2-b98636e0267e",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "臺灣",
+      "notes": "截止日期 2026/10/31 加入行事曆 Google 日曆 報名費用 請見官網 分類 綜合 前往官方網站・查看投稿規則 報名與完整規則以官方簡章為準 收藏並設提醒 📧 也想收 Email 截止提醒？ 投稿進度 選擇進度會一併收藏這場比賽 考慮中 準備中 已投稿 已結束 收藏並寫備註 比賽詳情 新光三越國際攝影大賽2027年徵件開跑！本賽事鼓勵全球攝影愛好者透過鏡",
+      "opening_iso": "",
+      "deadline_iso": "2026-10-31",
+      "fingerprint": "2027skmphoto新光三越國際攝影大賽徵件募集:https://photocontest.dace.com.tw/contest/07e047619ad32ee7",
+      "first_seen": "2026-10-03T19:07:03+00:00",
+      "last_seen": "2026-10-03T19:07:03+00:00",
+      "original_title": "2027 SKM PHOTO 新光三越國際攝影大賽➠徵件募集",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "title": "港覺濠臺 IG 圖文徵選",
+      "url": "https://photocontest.dace.com.tw/contest/244998eca2db3c8d/",
+      "application_url": "https://gangjuehaotai2026.com.tw/",
+      "source": "全球攝影比賽即時情報",
+      "category": "競賽獎項",
+      "region": "臺灣",
+      "notes": "截止日期 2026/10/31 加入行事曆 Google 日曆 報名費用 請見官網 分類 綜合 前往官方網站・查看投稿規則 報名與完整規則以官方簡章為準 收藏並設提醒 📧 也想收 Email 截止提醒？ 投稿進度 選擇進度會一併收藏這場比賽 考慮中 準備中 已投稿 已結束 收藏並寫備註 比賽詳情 了讓更多創作者都有機會被看見，無論你投了多少件作品、開了幾個帳號，我們",
+      "opening_iso": "",
+      "deadline_iso": "2026-10-31",
+      "fingerprint": "港覺濠臺ig圖文徵選:https://photocontest.dace.com.tw/contest/244998eca2db3c8d",
+      "first_seen": "2026-10-03T19:07:03+00:00",
+      "last_seen": "2026-10-03T19:07:03+00:00",
+      "original_title": "港覺濠臺 IG 圖文徵選",
+      "categories": [
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": []
+    },
+    {
+      "id": 123,
+      "title": "2027 SKM PHOTO 新光三越類比攝影創作徵選",
+      "url": "https://photocontest.dace.com.tw/contest/b374196c8ef28711/",
+      "application_url": "https://culture.skm.com.tw/ActEvent/Cweb/ActiveContent?MenuUUID=12adce99-6d6f-4c15-8f34-d421e34e98e5&ActUUID=81cf9245-ae45-4bd8-90b3-1ea90a40def7",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "歐美",
+      "notes": "截止日期 2026/11/20 加入行事曆 Google 日曆 報名費用 請見官網 分類 藝術創意 前往官方網站・查看投稿規則 報名與完整規則以官方簡章為準 收藏並設提醒 📧 也想收 Email 截止提醒？ 投稿進度 選擇進度會一併收藏這場比賽 考慮中 準備中 已投稿 已結束 收藏並寫備註 比賽詳情 SKM PHOTO新光三越類比攝影徵選，邀您探索類比攝影工藝，入選",
+      "opening_iso": "",
+      "deadline_iso": "2026-11-20",
+      "fingerprint": "2027skmphoto新光三越類比攝影創作徵選:https://photocontest.dace.com.tw/contest/b374196c8ef28711",
+      "first_seen": "2026-10-03T19:07:03+00:00",
+      "last_seen": "2026-10-03T19:07:03+00:00",
+      "original_title": "2027 SKM PHOTO 新光三越類比攝影創作徵選",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "歐美",
       "suggested_grants": [
         {
           "title": "國家文化藝術基金會｜常態補助",
@@ -323,6 +614,102 @@
             "當代藝術",
             "展覽徵件",
             "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "title": "2026【第十九屆 台北攝影獎】徵件",
+      "url": "https://photocontest.dace.com.tw/contest/67d5e81be3101a8d/",
+      "application_url": "http://www.photo.org.tw/news-1-1.aspx?nid=1661",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "臺灣",
+      "notes": "截止日期 2026/12/15 加入行事曆 Google 日曆 報名費用 NT$500 獎金 金獎 5 萬元 這是最高獎項的金額，其他名次另計",
+      "opening_iso": "",
+      "deadline_iso": "2026-12-15",
+      "fingerprint": "2026第十九屆台北攝影獎徵件:https://photocontest.dace.com.tw/contest/67d5e81be3101a8d",
+      "first_seen": "2026-10-03T19:07:03+00:00",
+      "last_seen": "2026-10-03T19:07:03+00:00",
+      "original_title": "2026【第十九屆 台北攝影獎】徵件",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺北市文化局｜藝文補助",
+          "url": "https://culture.gov.taipei/Content_List.aspx?n=01837068FFCD7798",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ],
+          "regions": [
+            "臺北",
+            "台北",
+            "Taipei"
           ]
         },
         {
@@ -730,12 +1117,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 455 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 453 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-10-01T20:54:25+00:00",
+      "last_seen": "2026-10-03T19:06:51+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1382,12 +1769,12 @@
     }
   ],
   "stats": {
-    "total": 18,
-    "with_deadline": 13,
-    "last_updated": "2026-10-02T20:31:58+00:00"
+    "total": 23,
+    "with_deadline": 18,
+    "last_updated": "2026-10-03T19:07:03+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-10-02T20:32:38+00:00",
+    "started_at": "2026-10-03T19:07:51+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1462,7 +1849,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1503,10 +1890,10 @@
         "source": "非池中藝術網",
         "status": "ok",
         "candidates": 1,
-        "accepted": 0,
-        "rejected": 1,
+        "accepted": 1,
+        "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 2,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1556,13 +1943,13 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117355729969159445",
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117212408673952761",
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117212408673952761",
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117355729969159445",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1653,9 +2040,9 @@
       {
         "source": "全球攝影比賽即時情報",
         "status": "ok",
-        "candidates": 3,
-        "accepted": 1,
-        "rejected": 2,
+        "candidates": 6,
+        "accepted": 6,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1679,7 +2066,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1880,7 +2267,7 @@
         "error": ""
       }
     ],
-    "accepted": 3,
+    "accepted": 9,
     "errors": 3
   }
 }
