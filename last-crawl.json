@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-03T19:07:51+00:00",
+  "started_at": "2026-10-04T19:21:34+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -136,10 +136,10 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 39,
+      "candidates": 38,
       "accepted": 0,
-      "rejected": 39,
-      "fetch_errors": 10,
+      "rejected": 38,
+      "fetch_errors": 8,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -168,11 +168,6 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117212408673952761",
-          "reason": "hostname could not be resolved"
-        },
-        {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
           "url": "https://mastodon.world/@iviira9/117355729969159445",
           "reason": "hostname could not be resolved"
@@ -180,6 +175,11 @@
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117353741018450823",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117331155440850172",
           "reason": "hostname could not be resolved"
         }
       ],
