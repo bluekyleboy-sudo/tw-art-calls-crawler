@@ -1,27 +1,27 @@
 {
   "opportunities": [
     {
-      "id": 104,
-      "title": "New #photo contest added",
-      "url": "https://bsky.app/profile/deartline.bsky.social/post/3msx7gy25rl2o",
-      "application_url": "https://deartline.com/contests/exposure-international-open-call/?utm_campaign&utm_medium=twitter&utm_source=twitter",
-      "source": "Bluesky｜Deartline (@deartline.bsky.social)",
+      "id": 126,
+      "title": "萬吉藝山 x 藝起麟洛・攝影徵件比賽 剩 6 天 請見官網",
+      "url": "https://contest.beyondtime.com.tw/contest/16b2d551f56b9bba/",
+      "application_url": "https://forms.gle/86jDk89KKSYCbqXF8",
+      "source": "全球攝影比賽即時情報",
       "category": "影像",
-      "region": "歐美",
-      "notes": "deadline, with artists notified before the end of that month. Submission deadline October 5, 2026 Notification of",
+      "region": "臺灣",
+      "notes": "截止日期 2026/10/11 加入行事曆 Google 日曆 報名費 請見官網 主題標籤 風景 徵件內容 台灣攝影比賽，徵件主題涵蓋風景建築",
       "opening_iso": "",
-      "deadline_iso": "2026-10-05",
-      "fingerprint": "newphotocontestadded:https://bsky.app/profile/deartline.bsky.social/post/3msx7gy25rl2o",
-      "first_seen": "2026-08-13T17:00:38+00:00",
-      "last_seen": "2026-08-15T16:30:26+00:00",
-      "original_title": "New #photo contest added",
+      "deadline_iso": "2026-10-11",
+      "fingerprint": "萬吉藝山x藝起麟洛攝影徵件比賽剩6天請見官網:https://contest.beyondtime.com.tw/contest/16b2d551f56b9bba",
+      "first_seen": "2026-10-05T22:24:49+00:00",
+      "last_seen": "2026-10-05T22:24:49+00:00",
+      "original_title": "萬吉藝山 x 藝起麟洛・攝影徵件比賽 剩 6 天 請見官網",
       "categories": [
         "影像",
         "競賽獎項"
       ],
       "opening_inferred": true,
       "display_opening_iso": "",
-      "country": "歐美",
+      "country": "臺灣",
       "suggested_grants": [
         {
           "title": "國家文化藝術基金會｜常態補助",
@@ -173,7 +173,7 @@
       "deadline_iso": "2026-10-14",
       "fingerprint": "tipobjectlight:https://bsky.app/profile/touringartists.bsky.social/post/3mvhtrf5ys22q",
       "first_seen": "2026-09-15T19:36:45+00:00",
-      "last_seen": "2026-10-04T19:20:36+00:00",
+      "last_seen": "2026-10-05T22:24:44+00:00",
       "original_title": "Tip: OBJECT & LIGHT",
       "categories": [
         "國外駐村"
@@ -468,12 +468,69 @@
       "last_seen": "2026-10-04T19:20:46+00:00",
       "original_title": "港覺濠臺 IG 圖文徵選",
       "categories": [
+        "影像",
         "競賽獎項"
       ],
       "opening_inferred": true,
       "display_opening_iso": "",
       "country": "臺灣",
-      "suggested_grants": []
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
     },
     {
       "id": 123,
@@ -1117,12 +1174,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 452 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 451 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-10-04T19:20:41+00:00",
+      "last_seen": "2026-10-05T22:24:51+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1771,10 +1828,10 @@
   "stats": {
     "total": 23,
     "with_deadline": 18,
-    "last_updated": "2026-10-04T19:20:46+00:00"
+    "last_updated": "2026-10-05T22:24:51+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-10-04T19:21:34+00:00",
+    "started_at": "2026-10-05T22:25:27+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1881,9 +1938,15 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 1,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "Beyoncé – 16 CARRIAGES Lyrics - Genius",
+            "url": "https://genius.com/Beyonce-16-carriages-lyrics",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
@@ -1900,9 +1963,9 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 34,
+        "candidates": 33,
         "accepted": 1,
-        "rejected": 33,
+        "rejected": 32,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1911,9 +1974,9 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 38,
+        "candidates": 37,
         "accepted": 0,
-        "rejected": 38,
+        "rejected": 37,
         "fetch_errors": 8,
         "fallback_fetches": 0,
         "restricted_candidates": [
@@ -2041,8 +2104,8 @@
         "source": "全球攝影比賽即時情報",
         "status": "ok",
         "candidates": 6,
-        "accepted": 6,
-        "rejected": 0,
+        "accepted": 5,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2267,7 +2330,7 @@
         "error": ""
       }
     ],
-    "accepted": 9,
+    "accepted": 8,
     "errors": 3
   }
 }

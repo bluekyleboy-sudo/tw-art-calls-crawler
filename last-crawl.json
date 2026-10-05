@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-04T19:21:34+00:00",
+  "started_at": "2026-10-05T22:25:27+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -106,9 +106,15 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Beyoncé – 16 CARRIAGES Lyrics - Genius",
+          "url": "https://genius.com/Beyonce-16-carriages-lyrics",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -125,9 +131,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 34,
+      "candidates": 33,
       "accepted": 1,
-      "rejected": 33,
+      "rejected": 32,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,9 +142,9 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 38,
+      "candidates": 37,
       "accepted": 0,
-      "rejected": 38,
+      "rejected": 37,
       "fetch_errors": 8,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -266,8 +272,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 6,
-      "accepted": 6,
-      "rejected": 0,
+      "accepted": 5,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -492,6 +498,6 @@
       "error": ""
     }
   ],
-  "accepted": 9,
+  "accepted": 8,
   "errors": 3
 }
