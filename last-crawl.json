@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-05T22:25:27+00:00",
+  "started_at": "2026-10-06T20:52:56+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -110,9 +110,9 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "Beyoncé – 16 CARRIAGES Lyrics - Genius",
-          "url": "https://genius.com/Beyonce-16-carriages-lyrics",
-          "reason": "HTTP Error 403: Forbidden"
+          "title": "Custom Embroidered Polos No Minimum | Port Authority, Nike, Carhartt",
+          "url": "https://embroideryinc.com/pages/custom-embroidered-polos",
+          "reason": "hostname could not be resolved"
         }
       ],
       "error": ""
@@ -159,6 +159,11 @@
           "reason": "hostname could not be resolved"
         },
         {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117392986278144559",
+          "reason": "hostname could not be resolved"
+        },
+        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117234773035809443",
           "reason": "hostname could not be resolved"
@@ -181,11 +186,6 @@
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117353741018450823",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117331155440850172",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -271,9 +271,9 @@
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 6,
+      "candidates": 5,
       "accepted": 5,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -297,7 +297,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
