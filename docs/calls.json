@@ -13,7 +13,7 @@
       "deadline_iso": "2026-10-11",
       "fingerprint": "萬吉藝山x藝起麟洛攝影徵件比賽剩5天請見官網:https://contest.beyondtime.com.tw/contest/16b2d551f56b9bba",
       "first_seen": "2026-10-06T20:51:45+00:00",
-      "last_seen": "2026-10-06T20:51:45+00:00",
+      "last_seen": "2026-10-07T21:07:37+00:00",
       "original_title": "萬吉藝山 x 藝起麟洛・攝影徵件比賽 剩 5 天 請見官網",
       "categories": [
         "影像",
@@ -1174,12 +1174,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 450 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 449 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-10-06T20:51:43+00:00",
+      "last_seen": "2026-10-07T21:07:28+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1828,10 +1828,10 @@
   "stats": {
     "total": 23,
     "with_deadline": 18,
-    "last_updated": "2026-10-06T20:51:45+00:00"
+    "last_updated": "2026-10-07T21:07:37+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-10-06T20:52:56+00:00",
+    "started_at": "2026-10-07T21:08:23+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1906,7 +1906,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1938,15 +1938,9 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 1,
+        "fetch_errors": 0,
         "fallback_fetches": 0,
-        "restricted_candidates": [
-          {
-            "title": "Custom Embroidered Polos No Minimum | Port Authority, Nike, Carhartt",
-            "url": "https://embroideryinc.com/pages/custom-embroidered-polos",
-            "reason": "hostname could not be resolved"
-          }
-        ],
+        "restricted_candidates": [],
         "error": ""
       },
       {
@@ -1963,9 +1957,9 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 33,
-        "accepted": 1,
-        "rejected": 32,
+        "candidates": 34,
+        "accepted": 0,
+        "rejected": 34,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1974,9 +1968,9 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 37,
+        "candidates": 31,
         "accepted": 0,
-        "rejected": 37,
+        "rejected": 31,
         "fetch_errors": 8,
         "fallback_fetches": 0,
         "restricted_candidates": [
@@ -2129,7 +2123,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2224,9 +2218,9 @@
       {
         "source": "窯座 YÁO Alternative Space",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2330,7 +2324,7 @@
         "error": ""
       }
     ],
-    "accepted": 8,
+    "accepted": 7,
     "errors": 3
   }
 }

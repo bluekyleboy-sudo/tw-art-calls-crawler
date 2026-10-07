@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-06T20:52:56+00:00",
+  "started_at": "2026-10-07T21:08:23+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -106,15 +106,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Custom Embroidered Polos No Minimum | Port Authority, Nike, Carhartt",
-          "url": "https://embroideryinc.com/pages/custom-embroidered-polos",
-          "reason": "hostname could not be resolved"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -131,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 33,
-      "accepted": 1,
-      "rejected": 32,
+      "candidates": 34,
+      "accepted": 0,
+      "rejected": 34,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -142,9 +136,9 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 37,
+      "candidates": 31,
       "accepted": 0,
-      "rejected": 37,
+      "rejected": 31,
       "fetch_errors": 8,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -297,7 +291,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -392,9 +386,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -498,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 8,
+  "accepted": 7,
   "errors": 3
 }
