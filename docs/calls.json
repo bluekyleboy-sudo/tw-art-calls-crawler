@@ -1,8 +1,8 @@
 {
   "opportunities": [
     {
-      "id": 131,
-      "title": "萬吉藝山 x 藝起麟洛・攝影徵件比賽 剩 5 天 請見官網",
+      "id": 132,
+      "title": "萬吉藝山 x 藝起麟洛・攝影徵件比賽 剩 3 天 請見官網",
       "url": "https://contest.beyondtime.com.tw/contest/16b2d551f56b9bba/",
       "application_url": "https://forms.gle/86jDk89KKSYCbqXF8",
       "source": "全球攝影比賽即時情報",
@@ -11,10 +11,10 @@
       "notes": "截止日期 2026/10/11 加入行事曆 Google 日曆 報名費 請見官網 主題標籤 風景 徵件內容 台灣攝影比賽，徵件主題涵蓋風景建築",
       "opening_iso": "",
       "deadline_iso": "2026-10-11",
-      "fingerprint": "萬吉藝山x藝起麟洛攝影徵件比賽剩5天請見官網:https://contest.beyondtime.com.tw/contest/16b2d551f56b9bba",
-      "first_seen": "2026-10-06T20:51:45+00:00",
-      "last_seen": "2026-10-07T21:07:37+00:00",
-      "original_title": "萬吉藝山 x 藝起麟洛・攝影徵件比賽 剩 5 天 請見官網",
+      "fingerprint": "萬吉藝山x藝起麟洛攝影徵件比賽剩3天請見官網:https://contest.beyondtime.com.tw/contest/16b2d551f56b9bba",
+      "first_seen": "2026-10-08T21:11:24+00:00",
+      "last_seen": "2026-10-08T21:11:24+00:00",
+      "original_title": "萬吉藝山 x 藝起麟洛・攝影徵件比賽 剩 3 天 請見官網",
       "categories": [
         "影像",
         "競賽獎項"
@@ -1174,12 +1174,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 449 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 448 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-10-07T21:07:28+00:00",
+      "last_seen": "2026-10-08T21:11:24+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1828,10 +1828,10 @@
   "stats": {
     "total": 23,
     "with_deadline": 18,
-    "last_updated": "2026-10-07T21:07:37+00:00"
+    "last_updated": "2026-10-08T21:11:24+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-10-07T21:08:23+00:00",
+    "started_at": "2026-10-08T21:11:58+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1906,7 +1906,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1957,9 +1957,9 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 34,
+        "candidates": 36,
         "accepted": 0,
-        "rejected": 34,
+        "rejected": 36,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1968,12 +1968,17 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 31,
+        "candidates": 29,
         "accepted": 0,
-        "rejected": 31,
-        "fetch_errors": 8,
+        "rejected": 29,
+        "fetch_errors": 7,
         "fallback_fetches": 0,
         "restricted_candidates": [
+          {
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117404615002698087",
+            "reason": "hostname could not be resolved"
+          },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117348347045303756",
@@ -1987,16 +1992,6 @@
           {
             "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
             "url": "https://mastodon.world/@iviira9/117392986278144559",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117234773035809443",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117233549722568231",
             "reason": "hostname could not be resolved"
           },
           {
@@ -2123,7 +2118,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
