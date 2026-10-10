@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-09T20:42:30+00:00",
+  "started_at": "2026-10-10T19:58:59+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -106,15 +106,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 1,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Search - Microsoft Bing",
-          "url": "https://www.ph.bing.com/",
-          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -131,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 35,
+      "candidates": 33,
       "accepted": 0,
-      "rejected": 35,
+      "rejected": 33,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -149,13 +143,13 @@
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117404615002698087",
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117415673346067933",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117410844830581430",
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117404615002698087",
           "reason": "hostname could not be resolved"
         },
         {
@@ -164,13 +158,18 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117410193084332306",
+          "title": "Thank you very much for choosing my job.#ZariGallery # CallForArtists # ContemporaryArt # London",
+          "url": "https://mastodon.world/@iviira9/117290828370653542",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "Thank you very much for choosing my job.#ZariGallery # CallForArtists # ContemporaryArt # London",
-          "url": "https://mastodon.world/@iviira9/117290828370653542",
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117410844830581430",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117410193084332306",
           "reason": "hostname could not be resolved"
         },
         {
@@ -181,11 +180,6 @@
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117359954293980315",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117355729969159445",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -297,7 +291,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -380,14 +374,14 @@
     },
     {
       "source": "麗寶彩雲藝術空間徵件",
-      "status": "ok",
-      "candidates": 1,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
     },
     {
       "source": "窯座 YÁO Alternative Space",
@@ -403,9 +397,9 @@
     {
       "source": "Pièce 藝術空間",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -499,5 +493,5 @@
     }
   ],
   "accepted": 7,
-  "errors": 3
+  "errors": 4
 }
