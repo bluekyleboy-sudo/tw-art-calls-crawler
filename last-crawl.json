@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-10T19:58:59+00:00",
+  "started_at": "2026-10-11T20:05:02+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -106,9 +106,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "TIP: You can download VFR sectionals and overlay them in Google Earth",
+          "url": "https://www.reddit.com/r/flying/comments/6zstld/tip_you_can_download_vfr_sectionals_and_overlay/",
+          "reason": "HTTP Error 403: Blocked"
+        },
+        {
+          "title": "Google Earth Decoder. Now user-friendly : r/FS2020Creation - Reddit",
+          "url": "https://www.reddit.com/r/FS2020Creation/comments/j3faaj/google_earth_decoder_now_userfriendly/",
+          "reason": "HTTP Error 403: Blocked"
+        }
+      ],
       "error": ""
     },
     {
@@ -266,8 +277,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 5,
-      "accepted": 5,
-      "rejected": 0,
+      "accepted": 4,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -291,7 +302,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -374,14 +385,14 @@
     },
     {
       "source": "麗寶彩雲藝術空間徵件",
-      "status": "error",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      "error": ""
     },
     {
       "source": "窯座 YÁO Alternative Space",
@@ -492,6 +503,6 @@
       "error": ""
     }
   ],
-  "accepted": 7,
-  "errors": 4
+  "accepted": 6,
+  "errors": 3
 }
