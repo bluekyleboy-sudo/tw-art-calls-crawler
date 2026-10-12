@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-11T20:05:02+00:00",
+  "started_at": "2026-10-12T22:49:48+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -106,20 +106,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "TIP: You can download VFR sectionals and overlay them in Google Earth",
-          "url": "https://www.reddit.com/r/flying/comments/6zstld/tip_you_can_download_vfr_sectionals_and_overlay/",
-          "reason": "HTTP Error 403: Blocked"
-        },
-        {
-          "title": "Google Earth Decoder. Now user-friendly : r/FS2020Creation - Reddit",
-          "url": "https://www.reddit.com/r/FS2020Creation/comments/j3faaj/google_earth_decoder_now_userfriendly/",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -150,14 +139,9 @@
       "candidates": 29,
       "accepted": 0,
       "rejected": 29,
-      "fetch_errors": 9,
+      "fetch_errors": 8,
       "fallback_fetches": 0,
       "restricted_candidates": [
-        {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117415673346067933",
-          "reason": "hostname could not be resolved"
-        },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117404615002698087",
@@ -166,6 +150,11 @@
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117348347045303756",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117415673346067933",
           "reason": "hostname could not be resolved"
         },
         {
@@ -302,7 +291,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
