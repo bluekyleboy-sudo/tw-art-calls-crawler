@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-12T22:49:48+00:00",
+  "started_at": "2026-10-13T21:11:13+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -92,9 +92,9 @@
     {
       "source": "C-LAB 臺灣當代文化實驗場",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -125,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 33,
+      "candidates": 34,
       "accepted": 0,
-      "rejected": 33,
+      "rejected": 34,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -139,7 +139,7 @@
       "candidates": 29,
       "accepted": 0,
       "rejected": 29,
-      "fetch_errors": 8,
+      "fetch_errors": 7,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -153,13 +153,13 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117415673346067933",
+          "title": "Thank you very much for choosing my job.#ZariGallery # CallForArtists # ContemporaryArt # London",
+          "url": "https://mastodon.world/@iviira9/117290828370653542",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "Thank you very much for choosing my job.#ZariGallery # CallForArtists # ContemporaryArt # London",
-          "url": "https://mastodon.world/@iviira9/117290828370653542",
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117415673346067933",
           "reason": "hostname could not be resolved"
         },
         {
@@ -175,11 +175,6 @@
         {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
           "url": "https://mastodon.world/@iviira9/117392986278144559",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117359954293980315",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -254,9 +249,9 @@
     {
       "source": "台北攝影學會攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -291,7 +286,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
