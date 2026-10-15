@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-14T20:05:07+00:00",
+  "started_at": "2026-10-15T19:47:36+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -136,12 +136,17 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 29,
+      "candidates": 28,
       "accepted": 0,
-      "rejected": 29,
-      "fetch_errors": 8,
+      "rejected": 28,
+      "fetch_errors": 9,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117444192004337692",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# tate # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # Ope",
           "url": "https://mastodon.world/@iviira9/117438809509342551",
@@ -176,11 +181,6 @@
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117410193084332306",
           "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117392986278144559",
-          "reason": "hostname could not be resolved"
         }
       ],
       "error": ""
@@ -210,9 +210,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -266,8 +266,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 5,
-      "accepted": 4,
-      "rejected": 1,
+      "accepted": 3,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 6,
+  "accepted": 5,
   "errors": 3
 }
