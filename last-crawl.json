@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-15T19:47:36+00:00",
+  "started_at": "2026-10-16T19:29:13+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -126,8 +126,8 @@
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
       "candidates": 36,
-      "accepted": 0,
-      "rejected": 36,
+      "accepted": 1,
+      "rejected": 35,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,12 +136,17 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 28,
+      "candidates": 29,
       "accepted": 0,
-      "rejected": 28,
-      "fetch_errors": 9,
+      "rejected": 29,
+      "fetch_errors": 10,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117452168679950338",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117444192004337692",
@@ -176,11 +181,6 @@
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117410844830581430",
           "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117410193084332306",
-          "reason": "hostname could not be resolved"
         }
       ],
       "error": ""
@@ -210,9 +210,9 @@
     {
       "source": "TAKE a SHOT 攝影徵件",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -254,9 +254,9 @@
     {
       "source": "台北攝影學會攝影徵件",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 5,
+  "accepted": 6,
   "errors": 3
 }
