@@ -1,6 +1,166 @@
 {
   "opportunities": [
     {
+      "id": 132,
+      "title": "Art Square Gallery: Visual Freedom 國際攝影徵件 剩 1 天 請見官網",
+      "url": "https://contest.beyondtime.com.tw/contest/e5e2268297aa0134/",
+      "application_url": "https://artsquareny.com/",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "臺灣",
+      "notes": "截止日期 2026/10/18 加入行事曆 Google 日曆 報名費 請見官網 主題標籤 人像 紀實 風景 徵件內容 國際攝影比賽，徵件主題涵蓋人像時尚、人文紀實、風景建築",
+      "opening_iso": "",
+      "deadline_iso": "2026-10-18",
+      "fingerprint": "artsquaregalleryvisualfreedom國際攝影徵件剩1天請見官網:https://contest.beyondtime.com.tw/contest/e5e2268297aa0134",
+      "first_seen": "2026-10-17T18:18:40+00:00",
+      "last_seen": "2026-10-17T18:18:40+00:00",
+      "original_title": "Art Square Gallery: Visual Freedom 國際攝影徵件 剩 1 天 請見官網",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "title": "Solo Exhibition November 2026｜All‑About‑Photo 國際攝影個展徵件 剩 3 天 請見官網",
+      "url": "https://contest.beyondtime.com.tw/contest/c43b517ddc596a5d/",
+      "application_url": "https://www.all-about-photo.com",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "臺灣",
+      "notes": "截止日期 2026/10/20 加入行事曆 Google 日曆 報名費 請見官網 主題標籤 藝術創意 徵件內容 國際攝影比賽，徵件主題涵蓋藝術創意",
+      "opening_iso": "",
+      "deadline_iso": "2026-10-20",
+      "fingerprint": "soloexhibitionnovember2026allaboutphoto國際攝影個展徵件剩3天請見官網:https://contest.beyondtime.com.tw/contest/c43b517ddc596a5d",
+      "first_seen": "2026-10-17T18:18:40+00:00",
+      "last_seen": "2026-10-17T18:18:40+00:00",
+      "original_title": "Solo Exhibition November 2026｜All‑About‑Photo 國際攝影個展徵件 剩 3 天 請見官網",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
       "id": 118,
       "title": "全球攝影比賽即時情報",
       "url": "https://chateaugallery.com/call-for-entries",
@@ -168,12 +328,12 @@
       "source": "Bluesky｜Graphic Competitions (@graphiccompetitions.com)",
       "category": "當代藝術",
       "region": "歐美",
-      "notes": "Deadline 31 OCT 2026 16 Days left In this article Eligibility ↓ Prize ↓ Print / save ↗ NordArt 2027 is accepting applications from artists worldwide for its international contemporary art",
+      "notes": "Deadline 31 OCT 2026 15 Days left In this article Eligibility ↓ Prize ↓ Print / save ↗ NordArt 2027 is accepting applications from artists worldwide for its international contemporary art",
       "opening_iso": "",
       "deadline_iso": "2026-10-31",
       "fingerprint": "nordart2027internationalcallforartistsfreeglobalartexhibition10000prize:https://bsky.app/profile/graphiccompetitions.com/post/7vp6ql4zhbwl5",
       "first_seen": "2026-10-16T19:27:44+00:00",
-      "last_seen": "2026-10-16T19:27:44+00:00",
+      "last_seen": "2026-10-17T18:18:25+00:00",
       "original_title": "NordArt 2027 International Call for Artists: free global art exhibition. €10,000 prize",
       "categories": [
         "當代藝術",
@@ -910,6 +1070,86 @@
       ]
     },
     {
+      "id": 134,
+      "title": "【2027 SKM PHOTO新光三越國際攝影大賽】．徵件開跑",
+      "url": "https://contest.beyondtime.com.tw/contest/bdb896b160e122d4/",
+      "application_url": "https://is.gd/WjTS8q",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "臺灣",
+      "notes": "截止日期 2027/10/31 加入行事曆 Google 日曆 報名費 請見官網 獎項 1st prize USD 5,000 這是最高獎項的金額，其他名次另計",
+      "opening_iso": "",
+      "deadline_iso": "2027-10-31",
+      "fingerprint": "2027skmphoto新光三越國際攝影大賽徵件開跑:https://contest.beyondtime.com.tw/contest/bdb896b160e122d4",
+      "first_seen": "2026-10-17T18:18:41+00:00",
+      "last_seen": "2026-10-17T18:18:41+00:00",
+      "original_title": "【2027 SKM PHOTO新光三越國際攝影大賽】．徵件開跑",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
       "id": 46,
       "title": "2027年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff019fa2611ef40046",
@@ -1614,12 +1854,12 @@
     }
   ],
   "stats": {
-    "total": 20,
-    "with_deadline": 15,
-    "last_updated": "2026-10-16T19:27:47+00:00"
+    "total": 23,
+    "with_deadline": 18,
+    "last_updated": "2026-10-17T18:18:41+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-10-16T19:29:13+00:00",
+    "started_at": "2026-10-17T18:20:04+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1694,7 +1934,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1735,22 +1975,38 @@
         "source": "非池中藝術網",
         "status": "ok",
         "candidates": 1,
-        "accepted": 1,
-        "rejected": 0,
+        "accepted": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 2,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 36,
+        "candidates": 35,
         "accepted": 1,
-        "rejected": 35,
-        "fetch_errors": 0,
+        "rejected": 34,
+        "fetch_errors": 3,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "Alternating Currents accepting applications for 2027 festival",
+            "url": "https://bsky.app/profile/riconnected.bsky.social/post/3mxz2pexiod2z",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "Alternating Currents accepting applications for 2027 festival",
+            "url": "https://bsky.app/profile/nwilconnected.bsky.social/post/3mxyzxvs4c62v",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "Alternating Currents accepting applications for 2027 festival #QuadCities",
+            "url": "https://bsky.app/profile/ourqc.com/post/3mxyzcmyx6j2s",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
@@ -1759,22 +2015,27 @@
         "candidates": 29,
         "accepted": 0,
         "rejected": 29,
-        "fetch_errors": 10,
+        "fetch_errors": 11,
         "fallback_fetches": 0,
         "restricted_candidates": [
-          {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117452168679950338",
-            "reason": "hostname could not be resolved"
-          },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117444192004337692",
             "reason": "hostname could not be resolved"
           },
           {
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117455131278242386",
+            "reason": "hostname could not be resolved"
+          },
+          {
             "title": "# tate # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # Ope",
             "url": "https://mastodon.world/@iviira9/117438809509342551",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117452168679950338",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1795,11 +2056,6 @@
           {
             "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
             "url": "https://mastodon.world/@iviira9/117415673346067933",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117410844830581430",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -1885,9 +2141,9 @@
       {
         "source": "全球攝影比賽即時情報",
         "status": "ok",
-        "candidates": 5,
-        "accepted": 3,
-        "rejected": 2,
+        "candidates": 6,
+        "accepted": 6,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1911,7 +2167,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2112,7 +2368,7 @@
         "error": ""
       }
     ],
-    "accepted": 6,
+    "accepted": 8,
     "errors": 3
   }
 }
