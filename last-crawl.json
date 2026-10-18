@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-17T18:20:04+00:00",
+  "started_at": "2026-10-18T18:32:18+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -115,47 +115,31 @@
       "source": "非池中藝術網",
       "status": "ok",
       "candidates": 1,
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 2,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 35,
+      "candidates": 33,
       "accepted": 1,
-      "rejected": 34,
-      "fetch_errors": 3,
+      "rejected": 32,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Alternating Currents accepting applications for 2027 festival",
-          "url": "https://bsky.app/profile/riconnected.bsky.social/post/3mxz2pexiod2z",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Alternating Currents accepting applications for 2027 festival",
-          "url": "https://bsky.app/profile/nwilconnected.bsky.social/post/3mxyzxvs4c62v",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Alternating Currents accepting applications for 2027 festival #QuadCities",
-          "url": "https://bsky.app/profile/ourqc.com/post/3mxyzcmyx6j2s",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 29,
+      "candidates": 27,
       "accepted": 0,
-      "rejected": 29,
-      "fetch_errors": 11,
+      "rejected": 27,
+      "fetch_errors": 10,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -164,13 +148,18 @@
           "reason": "hostname could not be resolved"
         },
         {
+          "title": "# tate # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # Ope",
+          "url": "https://mastodon.world/@iviira9/117438809509342551",
+          "reason": "hostname could not be resolved"
+        },
+        {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117455131278242386",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# tate # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # Ope",
-          "url": "https://mastodon.world/@iviira9/117438809509342551",
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117404615002698087",
           "reason": "hostname could not be resolved"
         },
         {
@@ -180,22 +169,17 @@
         },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117404615002698087",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117348347045303756",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "Thank you very much for choosing my job.#ZariGallery # CallForArtists # ContemporaryArt # London",
-          "url": "https://mastodon.world/@iviira9/117290828370653542",
           "reason": "hostname could not be resolved"
         },
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117415673346067933",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117410844830581430",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -282,8 +266,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 6,
-      "accepted": 6,
-      "rejected": 0,
+      "accepted": 5,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
