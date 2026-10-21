@@ -168,12 +168,12 @@
       "source": "Bluesky｜Graphic Competitions (@graphiccompetitions.com)",
       "category": "當代藝術",
       "region": "歐美",
-      "notes": "Deadline 31 OCT 2026 12 Days left In this article Eligibility ↓ Prize ↓ Print / save ↗ NordArt 2027 is accepting applications from artists worldwide for its international contemporary art",
+      "notes": "Deadline 31 OCT 2026 11 Days left In this article Eligibility ↓ Prize ↓ Print / save ↗ NordArt 2027 is accepting applications from artists worldwide for its international contemporary art",
       "opening_iso": "",
       "deadline_iso": "2026-10-31",
       "fingerprint": "nordart2027internationalcallforartistsfreeglobalartexhibition10000prize:https://bsky.app/profile/graphiccompetitions.com/post/7vp6ql4zhbwl5",
       "first_seen": "2026-10-16T19:27:44+00:00",
-      "last_seen": "2026-10-20T19:55:36+00:00",
+      "last_seen": "2026-10-21T19:58:52+00:00",
       "original_title": "NordArt 2027 International Call for Artists: free global art exhibition. €10,000 prize",
       "categories": [
         "當代藝術",
@@ -413,7 +413,7 @@
       "deadline_iso": "2026-11-30",
       "fingerprint": "theunexpectedselfportait:https://bsky.app/profile/artcalls.bsky.social/post/3mybdczo7ek2a",
       "first_seen": "2026-10-20T19:55:36+00:00",
-      "last_seen": "2026-10-20T19:55:36+00:00",
+      "last_seen": "2026-10-21T19:58:52+00:00",
       "original_title": "THE UNEXPECTED SELF-PORTAIT",
       "categories": [
         "競賽獎項"
@@ -945,7 +945,7 @@
       "deadline_iso": "2027-10-31",
       "fingerprint": "2027skmphoto新光三越國際攝影大賽徵件開跑:https://contest.beyondtime.com.tw/contest/bdb896b160e122d4",
       "first_seen": "2026-10-17T18:18:41+00:00",
-      "last_seen": "2026-10-20T19:55:56+00:00",
+      "last_seen": "2026-10-21T19:59:05+00:00",
       "original_title": "【2027 SKM PHOTO新光三越國際攝影大賽】．徵件開跑",
       "categories": [
         "影像",
@@ -1065,12 +1065,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 436 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 435 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-10-20T19:55:49+00:00",
+      "last_seen": "2026-10-21T19:59:04+00:00",
       "original_title": "非池中藝術網",
       "categories": [
         "展覽徵件"
@@ -1719,10 +1719,10 @@
   "stats": {
     "total": 22,
     "with_deadline": 17,
-    "last_updated": "2026-10-20T19:55:56+00:00"
+    "last_updated": "2026-10-21T19:59:05+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-10-20T19:57:15+00:00",
+    "started_at": "2026-10-21T19:59:40+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1771,11 +1771,11 @@
       {
         "source": "Kala Yatra 尼泊爾藝術駐村",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1797,7 +1797,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1848,12 +1848,28 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 33,
+        "candidates": 34,
         "accepted": 3,
-        "rejected": 30,
-        "fetch_errors": 0,
+        "rejected": 31,
+        "fetch_errors": 3,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "Alternating Currents accepting applications for 2027 festival",
+            "url": "https://bsky.app/profile/riconnected.bsky.social/post/3mxz2pexiod2z",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "Alternating Currents accepting applications for 2027 festival",
+            "url": "https://bsky.app/profile/nwilconnected.bsky.social/post/3mxyzxvs4c62v",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "Alternating Currents accepting applications for 2027 festival #QuadCities",
+            "url": "https://bsky.app/profile/ourqc.com/post/3mxyzcmyx6j2s",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
@@ -1862,9 +1878,14 @@
         "candidates": 27,
         "accepted": 0,
         "rejected": 27,
-        "fetch_errors": 9,
+        "fetch_errors": 10,
         "fallback_fetches": 0,
         "restricted_candidates": [
+          {
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117478635725408016",
+            "reason": "hostname could not be resolved"
+          },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117444192004337692",
@@ -1898,11 +1919,6 @@
           {
             "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
             "url": "https://mastodon.world/@iviira9/117415673346067933",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117410844830581430",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -2014,7 +2030,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
