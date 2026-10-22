@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-21T19:59:40+00:00",
+  "started_at": "2026-10-22T19:54:00+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -26,11 +26,11 @@
     {
       "source": "TOKAS 東京藝術與空間",
       "status": "ok",
-      "candidates": 28,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 28,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -48,11 +48,11 @@
     {
       "source": "Kala Yatra 尼泊爾藝術駐村",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -104,11 +104,17 @@
       "source": "ARTouch 典藏",
       "status": "ok",
       "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 0,
-      "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "accepted": 1,
+      "rejected": 9,
+      "fetch_errors": 1,
+      "fallback_fetches": 1,
+      "restricted_candidates": [
+        {
+          "title": "徵件訊息",
+          "url": "https://artist-magazine.com/edcontent.php?tb=5",
+          "reason": "<urlopen error timed out>"
+        }
+      ],
       "error": ""
     },
     {
@@ -125,9 +131,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 34,
+      "candidates": 35,
       "accepted": 3,
-      "rejected": 31,
+      "rejected": 32,
       "fetch_errors": 3,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -152,12 +158,17 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 27,
+      "candidates": 26,
       "accepted": 0,
-      "rejected": 27,
-      "fetch_errors": 10,
+      "rejected": 26,
+      "fetch_errors": 11,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
+          "url": "https://mastodon.world/@iviira9/117484779887707367",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
           "url": "https://mastodon.world/@iviira9/117478635725408016",
@@ -191,11 +202,6 @@
         {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
           "url": "https://mastodon.world/@iviira9/117452168679950338",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117415673346067933",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -281,9 +287,9 @@
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 5,
-      "accepted": 4,
-      "rejected": 1,
+      "candidates": 6,
+      "accepted": 6,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -508,6 +514,6 @@
       "error": ""
     }
   ],
-  "accepted": 9,
+  "accepted": 12,
   "errors": 3
 }
