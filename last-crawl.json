@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-22T19:54:00+00:00",
+  "started_at": "2026-10-23T19:53:26+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -104,17 +104,11 @@
       "source": "ARTouch 典藏",
       "status": "ok",
       "candidates": 10,
-      "accepted": 1,
-      "rejected": 9,
-      "fetch_errors": 1,
-      "fallback_fetches": 1,
-      "restricted_candidates": [
-        {
-          "title": "徵件訊息",
-          "url": "https://artist-magazine.com/edcontent.php?tb=5",
-          "reason": "<urlopen error timed out>"
-        }
-      ],
+      "accepted": 0,
+      "rejected": 10,
+      "fetch_errors": 0,
+      "fallback_fetches": 0,
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -131,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 35,
+      "candidates": 36,
       "accepted": 3,
-      "rejected": 32,
+      "rejected": 33,
       "fetch_errors": 3,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -158,20 +152,20 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 26,
+      "candidates": 27,
       "accepted": 0,
-      "rejected": 26,
+      "rejected": 27,
       "fetch_errors": 11,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
-          "url": "https://mastodon.world/@iviira9/117484779887707367",
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117489378593202314",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117478635725408016",
+          "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
+          "url": "https://mastodon.world/@iviira9/117484779887707367",
           "reason": "hostname could not be resolved"
         },
         {
@@ -190,6 +184,11 @@
           "reason": "hostname could not be resolved"
         },
         {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117478635725408016",
+          "reason": "hostname could not be resolved"
+        },
+        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117348347045303756",
           "reason": "hostname could not be resolved"
@@ -197,11 +196,6 @@
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117455131278242386",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117452168679950338",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -287,8 +281,8 @@
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 6,
-      "accepted": 6,
+      "candidates": 4,
+      "accepted": 4,
       "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
@@ -514,6 +508,6 @@
       "error": ""
     }
   ],
-  "accepted": 12,
+  "accepted": 9,
   "errors": 3
 }
