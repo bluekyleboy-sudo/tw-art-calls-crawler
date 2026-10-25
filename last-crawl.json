@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-24T18:42:23+00:00",
+  "started_at": "2026-10-25T18:49:38+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 5,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 7,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -70,9 +70,9 @@
     {
       "source": "臺北藝術週",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 1,
       "restricted_candidates": [],
@@ -106,35 +106,19 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Iowa Wheelchair Van & Handicap Vans For Sale | Iowa Mobility",
-          "url": "https://www.iowawheelchairvans.com/",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "Wheelchair Equipment - Ramps, Lifts, Hand Controls, Wheelchair Vans",
-          "url": "https://www.iowawheelchairvans.com/mobility-products",
-          "reason": "<urlopen error timed out>"
-        },
-        {
-          "title": "Disabled Persons Equipment Supplies in Oskaloosa, IA",
-          "url": "https://www.yellowpages.com/oskaloosa-ia/disabled-persons-equipment-supplies",
-          "reason": "HTTP Error 404: Not Found"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "非池中藝術網",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 2,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -418,9 +402,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 3,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -524,6 +508,6 @@
       "error": ""
     }
   ],
-  "accepted": 8,
+  "accepted": 7,
   "errors": 3
 }
