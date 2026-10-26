@@ -248,12 +248,12 @@
       "source": "Bluesky｜Graphic Competitions (@graphiccompetitions.com)",
       "category": "當代藝術",
       "region": "歐美",
-      "notes": "Deadline 31 OCT 2026 7 Days left In this article Eligibility ↓ Prize ↓ Print / save ↗ NordArt 2027 is accepting applications from artists worldwide for its international contemporary art e",
+      "notes": "Deadline 31 OCT 2026 6 Days left In this article Eligibility ↓ Prize ↓ Print / save ↗ NordArt 2027 is accepting applications from artists worldwide for its international contemporary art e",
       "opening_iso": "",
       "deadline_iso": "2026-10-31",
       "fingerprint": "nordart2027internationalcallforartistsfreeglobalartexhibition10000prize:https://bsky.app/profile/graphiccompetitions.com/post/7vp6ql4zhbwl5",
       "first_seen": "2026-10-16T19:27:44+00:00",
-      "last_seen": "2026-10-25T18:48:44+00:00",
+      "last_seen": "2026-10-26T20:56:45+00:00",
       "original_title": "NordArt 2027 International Call for Artists: free global art exhibition. €10,000 prize",
       "categories": [
         "當代藝術",
@@ -493,7 +493,7 @@
       "deadline_iso": "2026-11-30",
       "fingerprint": "theunexpectedselfportait:https://bsky.app/profile/artcalls.bsky.social/post/3mybdczo7ek2a",
       "first_seen": "2026-10-20T19:55:36+00:00",
-      "last_seen": "2026-10-25T18:48:45+00:00",
+      "last_seen": "2026-10-26T20:56:45+00:00",
       "original_title": "THE UNEXPECTED SELF-PORTAIT",
       "categories": [
         "競賽獎項"
@@ -1305,12 +1305,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 432 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 430 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-10-24T18:40:05+00:00",
+      "last_seen": "2026-10-26T20:56:50+00:00",
       "original_title": "非池中藝術網 – 全台各類藝文補助徵件，最完整比賽徵選資訊",
       "categories": [
         "展覽徵件",
@@ -1960,10 +1960,10 @@
   "stats": {
     "total": 25,
     "with_deadline": 20,
-    "last_updated": "2026-10-25T18:48:45+00:00"
+    "last_updated": "2026-10-26T20:56:50+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-10-25T18:49:38+00:00",
+    "started_at": "2026-10-26T20:57:44+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1990,11 +1990,11 @@
       {
         "source": "TOKAS 東京藝術與空間",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 28,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 28,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2079,10 +2079,10 @@
         "source": "非池中藝術網",
         "status": "ok",
         "candidates": 1,
-        "accepted": 0,
-        "rejected": 1,
+        "accepted": 1,
+        "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 2,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2092,25 +2092,9 @@
         "candidates": 36,
         "accepted": 3,
         "rejected": 33,
-        "fetch_errors": 3,
+        "fetch_errors": 0,
         "fallback_fetches": 0,
-        "restricted_candidates": [
-          {
-            "title": "Alternating Currents accepting applications for 2027 festival",
-            "url": "https://bsky.app/profile/riconnected.bsky.social/post/3mxz2pexiod2z",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "Alternating Currents accepting applications for 2027 festival",
-            "url": "https://bsky.app/profile/nwilconnected.bsky.social/post/3mxyzxvs4c62v",
-            "reason": "HTTP Error 403: Forbidden"
-          },
-          {
-            "title": "Alternating Currents accepting applications for 2027 festival #QuadCities",
-            "url": "https://bsky.app/profile/ourqc.com/post/3mxyzcmyx6j2s",
-            "reason": "HTTP Error 403: Forbidden"
-          }
-        ],
+        "restricted_candidates": [],
         "error": ""
       },
       {
@@ -2119,22 +2103,32 @@
         "candidates": 27,
         "accepted": 0,
         "rejected": 27,
-        "fetch_errors": 11,
+        "fetch_errors": 12,
         "fallback_fetches": 0,
         "restricted_candidates": [
+          {
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117506673168321072",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117506432471199764",
+            "reason": "hostname could not be resolved"
+          },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117489378593202314",
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117495428530828194",
+            "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
+            "url": "https://mastodon.world/@iviira9/117484779887707367",
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
-            "url": "https://mastodon.world/@iviira9/117484779887707367",
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117495428530828194",
             "reason": "hostname could not be resolved"
           },
           {
@@ -2150,16 +2144,6 @@
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117404615002698087",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117348347045303756",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117478635725408016",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -2366,9 +2350,9 @@
       {
         "source": "窯座 YÁO Alternative Space",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2472,7 +2456,7 @@
         "error": ""
       }
     ],
-    "accepted": 7,
+    "accepted": 8,
     "errors": 3
   }
 }

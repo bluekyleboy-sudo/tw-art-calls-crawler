@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-25T18:49:38+00:00",
+  "started_at": "2026-10-26T20:57:44+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -26,11 +26,11 @@
     {
       "source": "TOKAS 東京藝術與空間",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 28,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 28,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -115,10 +115,10 @@
       "source": "非池中藝術網",
       "status": "ok",
       "candidates": 1,
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 2,
       "restricted_candidates": [],
       "error": ""
     },
@@ -128,25 +128,9 @@
       "candidates": 36,
       "accepted": 3,
       "rejected": 33,
-      "fetch_errors": 3,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Alternating Currents accepting applications for 2027 festival",
-          "url": "https://bsky.app/profile/riconnected.bsky.social/post/3mxz2pexiod2z",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Alternating Currents accepting applications for 2027 festival",
-          "url": "https://bsky.app/profile/nwilconnected.bsky.social/post/3mxyzxvs4c62v",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Alternating Currents accepting applications for 2027 festival #QuadCities",
-          "url": "https://bsky.app/profile/ourqc.com/post/3mxyzcmyx6j2s",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -155,22 +139,32 @@
       "candidates": 27,
       "accepted": 0,
       "rejected": 27,
-      "fetch_errors": 11,
+      "fetch_errors": 12,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117506673168321072",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117506432471199764",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117489378593202314",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117495428530828194",
+          "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
+          "url": "https://mastodon.world/@iviira9/117484779887707367",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
-          "url": "https://mastodon.world/@iviira9/117484779887707367",
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117495428530828194",
           "reason": "hostname could not be resolved"
         },
         {
@@ -186,16 +180,6 @@
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117404615002698087",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117348347045303756",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117478635725408016",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -402,9 +386,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -508,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 7,
+  "accepted": 8,
   "errors": 3
 }
