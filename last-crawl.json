@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-26T20:57:44+00:00",
+  "started_at": "2026-10-27T20:32:11+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -125,12 +125,28 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 36,
+      "candidates": 37,
       "accepted": 3,
-      "rejected": 33,
-      "fetch_errors": 0,
+      "rejected": 34,
+      "fetch_errors": 3,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Alternating Currents accepting applications for 2027 festival",
+          "url": "https://bsky.app/profile/riconnected.bsky.social/post/3mxz2pexiod2z",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Alternating Currents accepting applications for 2027 festival",
+          "url": "https://bsky.app/profile/nwilconnected.bsky.social/post/3mxyzxvs4c62v",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Alternating Currents accepting applications for 2027 festival #QuadCities",
+          "url": "https://bsky.app/profile/ourqc.com/post/3mxyzcmyx6j2s",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
