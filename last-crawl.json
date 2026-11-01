@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-10-31T19:50:02+00:00",
+  "started_at": "2026-11-01T20:22:04+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -282,8 +282,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 5,
-      "accepted": 3,
-      "rejected": 2,
+      "accepted": 2,
+      "rejected": 3,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -508,6 +508,6 @@
       "error": ""
     }
   ],
-  "accepted": 9,
+  "accepted": 8,
   "errors": 3
 }
