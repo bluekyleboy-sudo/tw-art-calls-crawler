@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-03T21:39:06+00:00",
+  "started_at": "2026-11-04T21:47:47+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -106,9 +106,20 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Alaska live results: 2026 Senate election - The Hill",
+          "url": "https://thehill.com/homenews/senate/6140955-alaska-live-results-2026-senate-election/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Alaska U.S. Senate 2026: Live Election Results, Sullivan vs. Peltola",
+          "url": "https://www.nytimes.com/interactive/2026/11/03/us/elections/results-alaska-us-senate.html",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
@@ -125,9 +136,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 42,
+      "candidates": 44,
       "accepted": 4,
-      "rejected": 38,
+      "rejected": 40,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,12 +147,17 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 28,
+      "candidates": 30,
       "accepted": 0,
-      "rejected": 28,
+      "rejected": 30,
       "fetch_errors": 12,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117558860016506300",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117506432471199764",
@@ -175,11 +191,6 @@
         {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
           "url": "https://mastodon.world/@iviira9/117524273759524248",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117518347892219191",
           "reason": "hostname could not be resolved"
         }
       ],
