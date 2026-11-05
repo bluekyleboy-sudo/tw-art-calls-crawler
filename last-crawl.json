@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-04T21:47:47+00:00",
+  "started_at": "2026-11-05T21:51:46+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -106,20 +106,9 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 2,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Alaska live results: 2026 Senate election - The Hill",
-          "url": "https://thehill.com/homenews/senate/6140955-alaska-live-results-2026-senate-election/",
-          "reason": "HTTP Error 403: Forbidden"
-        },
-        {
-          "title": "Alaska U.S. Senate 2026: Live Election Results, Sullivan vs. Peltola",
-          "url": "https://www.nytimes.com/interactive/2026/11/03/us/elections/results-alaska-us-senate.html",
-          "reason": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
@@ -136,8 +125,8 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 44,
-      "accepted": 4,
+      "candidates": 43,
+      "accepted": 3,
       "rejected": 40,
       "fetch_errors": 0,
       "fallback_fetches": 0,
@@ -150,17 +139,22 @@
       "candidates": 30,
       "accepted": 0,
       "rejected": 30,
-      "fetch_errors": 12,
+      "fetch_errors": 13,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117558860016506300",
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117563903085228015",
           "reason": "hostname could not be resolved"
         },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117506432471199764",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117562976242488161",
           "reason": "hostname could not be resolved"
         },
         {
@@ -174,6 +168,11 @@
           "reason": "hostname could not be resolved"
         },
         {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117558860016506300",
+          "reason": "hostname could not be resolved"
+        },
+        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117444192004337692",
           "reason": "hostname could not be resolved"
@@ -181,16 +180,6 @@
         {
           "title": "# tate # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # Ope",
           "url": "https://mastodon.world/@iviira9/117438809509342551",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117404615002698087",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117524273759524248",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -302,7 +291,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -397,9 +386,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -503,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 8,
+  "accepted": 7,
   "errors": 3
 }
