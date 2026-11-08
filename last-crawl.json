@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-07T20:05:01+00:00",
+  "started_at": "2026-11-08T20:19:14+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -70,22 +70,22 @@
     {
       "source": "臺北藝術週",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "國立臺灣美術館國際駐村",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 4,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 4,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -139,7 +139,7 @@
       "candidates": 30,
       "accepted": 0,
       "rejected": 30,
-      "fetch_errors": 10,
+      "fetch_errors": 9,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -287,11 +287,11 @@
     {
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
-      "candidates": 2,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
