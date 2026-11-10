@@ -13,7 +13,7 @@
       "deadline_iso": "2026-11-16",
       "fingerprint": "wildatheartartexhibitonartbook:https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
       "first_seen": "2026-10-30T20:35:37+00:00",
-      "last_seen": "2026-11-08T20:18:06+00:00",
+      "last_seen": "2026-11-10T00:02:15+00:00",
       "original_title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
       "categories": [
         "國外駐村"
@@ -677,7 +677,7 @@
       "deadline_iso": "2027-04-30",
       "fingerprint": "萬家香第三十二屆童言童畫繪畫暨攝影作品徵選比賽剩174天請見官網:https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d",
       "first_seen": "2026-11-07T20:01:43+00:00",
-      "last_seen": "2026-11-08T20:18:17+00:00",
+      "last_seen": "2026-11-10T00:02:22+00:00",
       "original_title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽 剩 174 天 請見官網",
       "categories": [
         "影像",
@@ -1037,12 +1037,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 417 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 416 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-11-08T20:18:14+00:00",
+      "last_seen": "2026-11-10T00:02:21+00:00",
       "original_title": "非池中藝術網 – 全台各類藝文補助徵件，最完整比賽徵選資訊",
       "categories": [
         "展覽徵件",
@@ -1692,10 +1692,10 @@
   "stats": {
     "total": 22,
     "with_deadline": 17,
-    "last_updated": "2026-11-08T20:18:17+00:00"
+    "last_updated": "2026-11-10T00:02:22+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-11-08T20:19:14+00:00",
+    "started_at": "2026-11-10T00:04:52+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1766,11 +1766,11 @@
       {
         "source": "臺北藝術週",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1821,12 +1821,18 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 40,
+        "candidates": 41,
         "accepted": 2,
-        "rejected": 38,
-        "fetch_errors": 0,
+        "rejected": 39,
+        "fetch_errors": 1,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "#OpenCall | Madrid Artist Showcase Open Call – Arrival Gallery - WOOLOO.ORG",
+            "url": "https://bsky.app/profile/artcall.bsky.social/post/3mzqokqsx7e26",
+            "reason": "HTTP Error 403: Blocked"
+          }
+        ],
         "error": ""
       },
       {
@@ -1983,11 +1989,11 @@
       {
         "source": "臺北藝術週｜展覽活動響應",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
