@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-10T21:44:06+00:00",
+  "started_at": "2026-11-11T22:35:00+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -125,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 42,
+      "candidates": 43,
       "accepted": 2,
-      "rejected": 40,
+      "rejected": 41,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,12 +136,17 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 30,
+      "candidates": 29,
       "accepted": 0,
-      "rejected": 30,
-      "fetch_errors": 9,
+      "rejected": 29,
+      "fetch_errors": 10,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117596947864887298",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117568572470381980",
@@ -175,11 +180,6 @@
         {
           "title": "# tate # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # Ope",
           "url": "https://mastodon.world/@iviira9/117438809509342551",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117562976242488161",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -291,7 +291,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -386,9 +386,9 @@
     {
       "source": "窯座 YÁO Alternative Space",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
