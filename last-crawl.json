@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-12T22:10:00+00:00",
+  "started_at": "2026-11-13T21:52:07+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -125,26 +125,20 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 42,
+      "candidates": 41,
       "accepted": 2,
-      "rejected": 40,
-      "fetch_errors": 1,
+      "rejected": 39,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "#OpenCall | Madrid Artist Showcase Open Call – Arrival Gallery - WOOLOO.ORG",
-          "url": "https://bsky.app/profile/artcall.bsky.social/post/3mzqokqsx7e26",
-          "reason": "HTTP Error 403: Blocked"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 29,
+      "candidates": 30,
       "accepted": 0,
-      "rejected": 29,
+      "rejected": 30,
       "fetch_errors": 9,
       "fallback_fetches": 0,
       "restricted_candidates": [
@@ -159,18 +153,23 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117596947864887298",
-          "reason": "hostname could not be resolved"
-        },
-        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117506432471199764",
           "reason": "hostname could not be resolved"
         },
         {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117609232328874561",
+          "reason": "hostname could not be resolved"
+        },
+        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117489378593202314",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117608392909614146",
           "reason": "hostname could not be resolved"
         },
         {
@@ -181,11 +180,6 @@
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117444192004337692",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# tate # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # Ope",
-          "url": "https://mastodon.world/@iviira9/117438809509342551",
           "reason": "hostname could not be resolved"
         }
       ],
