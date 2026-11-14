@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-13T21:52:07+00:00",
+  "started_at": "2026-11-14T20:32:37+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -70,11 +70,11 @@
     {
       "source": "臺北藝術週",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -125,9 +125,9 @@
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 41,
+      "candidates": 40,
       "accepted": 2,
-      "rejected": 39,
+      "rejected": 38,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,12 +136,17 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 30,
+      "candidates": 27,
       "accepted": 0,
-      "rejected": 30,
-      "fetch_errors": 9,
+      "rejected": 27,
+      "fetch_errors": 11,
       "fallback_fetches": 0,
       "restricted_candidates": [
+        {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117614491101123008",
+          "reason": "hostname could not be resolved"
+        },
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117568572470381980",
@@ -175,11 +180,6 @@
         {
           "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
           "url": "https://mastodon.world/@iviira9/117484779887707367",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117444192004337692",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -265,9 +265,9 @@
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
-      "candidates": 4,
-      "accepted": 3,
-      "rejected": 1,
+      "candidates": 9,
+      "accepted": 9,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -287,11 +287,11 @@
     {
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 7,
+  "accepted": 13,
   "errors": 3
 }

@@ -1,6 +1,189 @@
 {
   "opportunities": [
     {
+      "id": 144,
+      "title": "Subjectively Objective",
+      "url": "https://contest.beyondtime.com.tw/contest/7c264bd8bbdd69cd/",
+      "application_url": "https://contest.beyondtime.com.tw/submit/",
+      "source": "全球攝影比賽即時情報",
+      "category": "競賽獎項",
+      "region": "歐美",
+      "notes": "截止日期 2026/11/15 加入行事曆 Google 日曆 報名費 USD 10 約 NT$330 （ 台幣金額以 1 美元約 32.5 元估算，僅供參考",
+      "opening_iso": "",
+      "deadline_iso": "2026-11-15",
+      "fingerprint": "subjectivelyobjective:https://contest.beyondtime.com.tw/contest/7c264bd8bbdd69cd",
+      "first_seen": "2026-11-14T20:31:29+00:00",
+      "last_seen": "2026-11-14T20:31:29+00:00",
+      "original_title": "Subjectively Objective",
+      "categories": [
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "歐美",
+      "suggested_grants": []
+    },
+    {
+      "id": 148,
+      "title": "全球攝影比賽即時情報",
+      "url": "https://subjectivelyobjective.com/product/exhibition-call-for-entries-submission-fee/",
+      "application_url": "https://subjectivelyobjective.com/submit/",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "",
+      "notes": "Deadline is November 15th, 2026 Choose the maximum print size that you’d like to be considered for. You’ll still be considered for smaller sizes too. Size Options – Choose an option Small",
+      "opening_iso": "",
+      "deadline_iso": "2026-11-15",
+      "fingerprint": "全球攝影比賽即時情報:https://subjectivelyobjective.com/product/exhibition-call-for-entries-submission-fee",
+      "first_seen": "2026-11-14T20:31:30+00:00",
+      "last_seen": "2026-11-14T20:31:30+00:00",
+      "original_title": "全球攝影比賽即時情報",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "title": "東南攝影中心 SEC4P",
+      "url": "https://contest.beyondtime.com.tw/contest/16f08e98f2a2b20e/",
+      "application_url": "https://contest.beyondtime.com.tw/submit/",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "臺灣",
+      "notes": "截止日期 2026/11/15 加入行事曆 Google 日曆 報名費 請見官網 主題標籤 人物 參賽資格 開放所有人參加 徵件內容 國際攝影比賽，徵件主題涵蓋人像時尚",
+      "opening_iso": "",
+      "deadline_iso": "2026-11-15",
+      "fingerprint": "東南攝影中心sec4p:https://contest.beyondtime.com.tw/contest/16f08e98f2a2b20e",
+      "first_seen": "2026-11-14T20:31:29+00:00",
+      "last_seen": "2026-11-14T20:31:29+00:00",
+      "original_title": "東南攝影中心 SEC4P",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
       "id": 141,
       "title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
       "url": "https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
@@ -13,7 +196,7 @@
       "deadline_iso": "2026-11-16",
       "fingerprint": "wildatheartartexhibitonartbook:https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
       "first_seen": "2026-10-30T20:35:37+00:00",
-      "last_seen": "2026-11-13T21:50:56+00:00",
+      "last_seen": "2026-11-14T20:31:16+00:00",
       "original_title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
       "categories": [
         "國外駐村"
@@ -51,6 +234,29 @@
           ]
         }
       ]
+    },
+    {
+      "id": 150,
+      "title": "SELF",
+      "url": "https://contest.beyondtime.com.tw/contest/899f4fa21ab4459d/",
+      "application_url": "https://contest.beyondtime.com.tw/submit/",
+      "source": "全球攝影比賽即時情報",
+      "category": "競賽獎項",
+      "region": "臺灣",
+      "notes": "截止日期 2026/11/17 加入行事曆 Google 日曆 報名費 USD 25 約 NT$800 （ 台幣金額以 1 美元約 32.5 元估算，僅供參考",
+      "opening_iso": "",
+      "deadline_iso": "2026-11-17",
+      "fingerprint": "self:https://contest.beyondtime.com.tw/contest/899f4fa21ab4459d",
+      "first_seen": "2026-11-14T20:31:30+00:00",
+      "last_seen": "2026-11-14T20:31:30+00:00",
+      "original_title": "SELF",
+      "categories": [
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": []
     },
     {
       "id": 123,
@@ -561,6 +767,86 @@
       ]
     },
     {
+      "id": 146,
+      "title": "第20屆索尼世界攝影大獎 不限拍攝器材免費徵件中～最高獎金25000美金",
+      "url": "https://contest.beyondtime.com.tw/contest/23304e30bbfaf512/",
+      "application_url": "https://contest.beyondtime.com.tw/submit/",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "臺灣",
+      "notes": "截止日期 2027/01/12 加入行事曆 Google 日曆 報名費 請見官網 獎項 1st prize USD 25,000 這是最高獎項的金額，其他名次另計",
+      "opening_iso": "",
+      "deadline_iso": "2027-01-12",
+      "fingerprint": "第20屆索尼世界攝影大獎不限拍攝器材免費徵件中最高獎金25000美金:https://contest.beyondtime.com.tw/contest/23304e30bbfaf512",
+      "first_seen": "2026-11-14T20:31:29+00:00",
+      "last_seen": "2026-11-14T20:31:29+00:00",
+      "original_title": "第20屆索尼世界攝影大獎 不限拍攝器材免費徵件中～最高獎金25000美金",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "臺灣",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
       "id": 108,
       "title": "ff8081819f3c3aff01a000aa9c45008a",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff8081819f3c3aff01a000aa9c45008a",
@@ -665,8 +951,8 @@
       ]
     },
     {
-      "id": 143,
-      "title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽 剩 174 天 請見官網",
+      "id": 147,
+      "title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽",
       "url": "https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d/",
       "application_url": "https://contest.beyondtime.com.tw/submit/",
       "source": "全球攝影比賽即時情報",
@@ -675,9 +961,9 @@
       "notes": "截止日期 2027/04/30 加入行事曆 Google 日曆 報名費 請見官網 主題標籤 風景 徵件內容 台灣攝影比賽，徵件主題涵蓋風景建築",
       "opening_iso": "",
       "deadline_iso": "2027-04-30",
-      "fingerprint": "萬家香第三十二屆童言童畫繪畫暨攝影作品徵選比賽剩174天請見官網:https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d",
-      "first_seen": "2026-11-07T20:01:43+00:00",
-      "last_seen": "2026-11-13T21:51:07+00:00",
+      "fingerprint": "萬家香第三十二屆童言童畫繪畫暨攝影作品徵選比賽:https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d",
+      "first_seen": "2026-11-14T20:31:29+00:00",
+      "last_seen": "2026-11-14T20:31:29+00:00",
       "original_title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽 剩 174 天 請見官網",
       "categories": [
         "影像",
@@ -1037,12 +1323,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 412 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 411 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-11-13T21:51:08+00:00",
+      "last_seen": "2026-11-14T20:31:27+00:00",
       "original_title": "非池中藝術網 – 全台各類藝文補助徵件，最完整比賽徵選資訊",
       "categories": [
         "展覽徵件",
@@ -1690,12 +1976,12 @@
     }
   ],
   "stats": {
-    "total": 22,
-    "with_deadline": 17,
-    "last_updated": "2026-11-13T21:51:08+00:00"
+    "total": 27,
+    "with_deadline": 22,
+    "last_updated": "2026-11-14T20:31:30+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-11-13T21:52:07+00:00",
+    "started_at": "2026-11-14T20:32:37+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1766,11 +2052,11 @@
       {
         "source": "臺北藝術週",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1821,9 +2107,9 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 41,
+        "candidates": 40,
         "accepted": 2,
-        "rejected": 39,
+        "rejected": 38,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1832,12 +2118,17 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 30,
+        "candidates": 27,
         "accepted": 0,
-        "rejected": 30,
-        "fetch_errors": 9,
+        "rejected": 27,
+        "fetch_errors": 11,
         "fallback_fetches": 0,
         "restricted_candidates": [
+          {
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117614491101123008",
+            "reason": "hostname could not be resolved"
+          },
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117568572470381980",
@@ -1871,11 +2162,6 @@
           {
             "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
             "url": "https://mastodon.world/@iviira9/117484779887707367",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117444192004337692",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -1961,9 +2247,9 @@
       {
         "source": "全球攝影比賽即時情報",
         "status": "ok",
-        "candidates": 4,
-        "accepted": 3,
-        "rejected": 1,
+        "candidates": 9,
+        "accepted": 9,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1983,11 +2269,11 @@
       {
         "source": "臺北藝術週｜展覽活動響應",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2188,7 +2474,7 @@
         "error": ""
       }
     ],
-    "accepted": 7,
+    "accepted": 13,
     "errors": 3
   }
 }
