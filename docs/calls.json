@@ -1,27 +1,100 @@
 {
   "opportunities": [
     {
-      "id": 150,
-      "title": "SELF",
-      "url": "https://contest.beyondtime.com.tw/contest/899f4fa21ab4459d/",
-      "application_url": "https://contest.beyondtime.com.tw/submit/",
-      "source": "全球攝影比賽即時情報",
-      "category": "競賽獎項",
+      "id": 154,
+      "title": "2026國際身障日系列活動「共擁故事，共融臺北」攝影徵件",
+      "url": "https://www.photo.org.tw/news-1-1.aspx?nid=1678",
+      "application_url": "https://forms.gle/3exP2Sx22K1UdBHM6",
+      "source": "台北攝影學會攝影徵件",
+      "category": "影像",
       "region": "臺灣",
-      "notes": "截止日期 2026/11/17 加入行事曆 Google 日曆 報名費 USD 25 約 NT$800 （ 台幣金額以 1 美元約 32.5 元估算，僅供參考",
+      "notes": "收件截止｜2026/9/23（三）23:59 📸 每人最多投稿5件 🖼 得獎作品展出 2026/11/10（二）～11/20（五） 臺北市政府大樓北區1樓廊道樂群展出 ✨ 用影像記錄生活的溫暖、努力與感動， 讓社會看見的，不只是障礙， 而是一個個努力生活、追尋夢想、勇敢前行的人",
       "opening_iso": "",
-      "deadline_iso": "2026-11-17",
-      "fingerprint": "self:https://contest.beyondtime.com.tw/contest/899f4fa21ab4459d",
-      "first_seen": "2026-11-14T20:31:30+00:00",
-      "last_seen": "2026-11-17T00:04:44+00:00",
-      "original_title": "SELF",
+      "deadline_iso": "2026-11-20",
+      "fingerprint": "2026國際身障日系列活動共擁故事共融臺北攝影徵件:https://www.photo.org.tw/news-1-1.aspx?nid=1678",
+      "first_seen": "2026-11-17T23:25:37+00:00",
+      "last_seen": "2026-11-17T23:25:37+00:00",
+      "original_title": "2026國際身障日系列活動「共擁故事，共融臺北」攝影徵件",
       "categories": [
+        "影像",
         "競賽獎項"
       ],
       "opening_inferred": true,
       "display_opening_iso": "",
       "country": "臺灣",
-      "suggested_grants": []
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺北市文化局｜藝文補助",
+          "url": "https://culture.gov.taipei/Content_List.aspx?n=01837068FFCD7798",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ],
+          "regions": [
+            "臺北",
+            "台北",
+            "Taipei"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
     },
     {
       "id": 123,
@@ -116,7 +189,7 @@
       "deadline_iso": "2026-11-21",
       "fingerprint": "全球攝影比賽即時情報:https://subjectivelyobjective.com/product/exhibition-call-for-entries-submission-fee",
       "first_seen": "2026-11-17T00:04:44+00:00",
-      "last_seen": "2026-11-17T00:04:44+00:00",
+      "last_seen": "2026-11-17T23:25:14+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -382,6 +455,58 @@
       ]
     },
     {
+      "id": 152,
+      "title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
+      "url": "https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
+      "application_url": "https://form.jotform.com/untitledspace/women-in-art-volume-1-wild-at-heart",
+      "source": "Bluesky｜Art Calls from ArtDeadline.Com (@artcalls.bsky.social)",
+      "category": "國外駐村",
+      "region": "歐美",
+      "notes": "Deadline: DECEMBER 21, 2026 The Untitled Space announces an international open call for women-identifying artists to be featured in “WOMEN IN ART VOLUME 1: WILD AT HEART,” the first offici",
+      "opening_iso": "",
+      "deadline_iso": "2026-12-21",
+      "fingerprint": "wildatheartartexhibitonartbook:https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
+      "first_seen": "2026-11-17T23:25:06+00:00",
+      "last_seen": "2026-11-17T23:25:06+00:00",
+      "original_title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
+      "categories": [
+        "國外駐村"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "歐美",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜出國駐村交流計畫",
+          "url": "https://www.moc.gov.tw/News.aspx?n=105&sms=10550",
+          "categories": [
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        }
+      ]
+    },
+    {
       "id": 31,
       "title": "2026年 永晝海濱美術館－Space Moor： 展覽銷售 / 駐港創作 Opencall",
       "url": "https://artres.moc.gov.tw/zh/calls/content/ff80818198faf3a2019908590e4f0008",
@@ -624,7 +749,7 @@
       "deadline_iso": "2027-01-12",
       "fingerprint": "第20屆索尼世界攝影大獎不限拍攝器材免費徵件中最高獎金25000美金:https://contest.beyondtime.com.tw/contest/23304e30bbfaf512",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-17T00:04:44+00:00",
+      "last_seen": "2026-11-17T23:25:14+00:00",
       "original_title": "第20屆索尼世界攝影大獎 不限拍攝器材免費徵件中～最高獎金25000美金",
       "categories": [
         "影像",
@@ -808,7 +933,7 @@
       "deadline_iso": "2027-04-30",
       "fingerprint": "萬家香第三十二屆童言童畫繪畫暨攝影作品徵選比賽:https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-17T00:04:44+00:00",
+      "last_seen": "2026-11-17T23:25:14+00:00",
       "original_title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽 剩 174 天 請見官網",
       "categories": [
         "影像",
@@ -1821,12 +1946,12 @@
     }
   ],
   "stats": {
-    "total": 24,
-    "with_deadline": 19,
-    "last_updated": "2026-11-17T00:04:44+00:00"
+    "total": 25,
+    "with_deadline": 20,
+    "last_updated": "2026-11-17T23:25:37+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-11-17T00:05:58+00:00",
+    "started_at": "2026-11-17T23:26:24+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1919,9 +2044,9 @@
       {
         "source": "C-LAB 臺灣當代文化實驗場",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 4,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 4,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1933,28 +2058,39 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 2,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "Apple Chips Recipe",
+            "url": "https://www.allrecipes.com/recipe/233281/apple-chips/",
+            "reason": "HTTP Error 403: Forbidden"
+          },
+          {
+            "title": "Baked Apple Chips Recipe",
+            "url": "https://www.allrecipes.com/recipe/235537/baked-apple-chips/",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
         "error": ""
       },
       {
         "source": "非池中藝術網",
         "status": "ok",
         "candidates": 1,
-        "accepted": 1,
-        "rejected": 0,
+        "accepted": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 2,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 39,
-        "accepted": 0,
-        "rejected": 39,
+        "candidates": 40,
+        "accepted": 2,
+        "rejected": 38,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1963,15 +2099,20 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 28,
+        "candidates": 29,
         "accepted": 0,
-        "rejected": 28,
-        "fetch_errors": 11,
+        "rejected": 29,
+        "fetch_errors": 12,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117620220849080265",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117631406977967751",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1982,11 +2123,6 @@
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117563903085228015",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117625256775025508",
             "reason": "hostname could not be resolved"
           },
           {
@@ -2005,8 +2141,8 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117614491101123008",
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117625256775025508",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -2081,11 +2217,11 @@
       {
         "source": "台北攝影學會攝影徵件",
         "status": "ok",
-        "candidates": 3,
-        "accepted": 0,
+        "candidates": 4,
+        "accepted": 1,
         "rejected": 3,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 2,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2093,8 +2229,8 @@
         "source": "全球攝影比賽即時情報",
         "status": "ok",
         "candidates": 9,
-        "accepted": 6,
-        "rejected": 3,
+        "accepted": 5,
+        "rejected": 4,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2319,7 +2455,7 @@
         "error": ""
       }
     ],
-    "accepted": 8,
+    "accepted": 9,
     "errors": 3
   }
 }

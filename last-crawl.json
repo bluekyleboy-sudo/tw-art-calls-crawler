@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-17T00:05:58+00:00",
+  "started_at": "2026-11-17T23:26:24+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -92,9 +92,9 @@
     {
       "source": "C-LAB 臺灣當代文化實驗場",
       "status": "ok",
-      "candidates": 3,
+      "candidates": 4,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 4,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -106,28 +106,39 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 2,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Apple Chips Recipe",
+          "url": "https://www.allrecipes.com/recipe/233281/apple-chips/",
+          "reason": "HTTP Error 403: Forbidden"
+        },
+        {
+          "title": "Baked Apple Chips Recipe",
+          "url": "https://www.allrecipes.com/recipe/235537/baked-apple-chips/",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
       "error": ""
     },
     {
       "source": "非池中藝術網",
       "status": "ok",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 2,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 39,
-      "accepted": 0,
-      "rejected": 39,
+      "candidates": 40,
+      "accepted": 2,
+      "rejected": 38,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,15 +147,20 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 28,
+      "candidates": 29,
       "accepted": 0,
-      "rejected": 28,
-      "fetch_errors": 11,
+      "rejected": 29,
+      "fetch_errors": 12,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117620220849080265",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117631406977967751",
           "reason": "hostname could not be resolved"
         },
         {
@@ -155,11 +171,6 @@
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117563903085228015",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117625256775025508",
           "reason": "hostname could not be resolved"
         },
         {
@@ -178,8 +189,8 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117614491101123008",
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117625256775025508",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -254,11 +265,11 @@
     {
       "source": "台北攝影學會攝影徵件",
       "status": "ok",
-      "candidates": 3,
-      "accepted": 0,
+      "candidates": 4,
+      "accepted": 1,
       "rejected": 3,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 2,
       "restricted_candidates": [],
       "error": ""
     },
@@ -266,8 +277,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 9,
-      "accepted": 6,
-      "rejected": 3,
+      "accepted": 5,
+      "rejected": 4,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -492,6 +503,6 @@
       "error": ""
     }
   ],
-  "accepted": 8,
+  "accepted": 9,
   "errors": 3
 }
