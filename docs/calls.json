@@ -1,58 +1,6 @@
 {
   "opportunities": [
     {
-      "id": 141,
-      "title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
-      "url": "https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
-      "application_url": "https://form.jotform.com/untitledspace/women-in-art-volume-1-wild-at-heart",
-      "source": "Bluesky｜Art Calls from ArtDeadline.Com (@artcalls.bsky.social)",
-      "category": "國外駐村",
-      "region": "歐美",
-      "notes": "Deadline: NOVEMBER 16, 2026 The Untitled Space announces an international open call for women-identifying artists to be featured in “WOMEN IN ART VOLUME 1: WILD AT HEART,” the first offici",
-      "opening_iso": "",
-      "deadline_iso": "2026-11-16",
-      "fingerprint": "wildatheartartexhibitonartbook:https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
-      "first_seen": "2026-10-30T20:35:37+00:00",
-      "last_seen": "2026-11-15T20:54:37+00:00",
-      "original_title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
-      "categories": [
-        "國外駐村"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "歐美",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜出國駐村交流計畫",
-          "url": "https://www.moc.gov.tw/News.aspx?n=105&sms=10550",
-          "categories": [
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        }
-      ]
-    },
-    {
       "id": 150,
       "title": "SELF",
       "url": "https://contest.beyondtime.com.tw/contest/899f4fa21ab4459d/",
@@ -65,7 +13,7 @@
       "deadline_iso": "2026-11-17",
       "fingerprint": "self:https://contest.beyondtime.com.tw/contest/899f4fa21ab4459d",
       "first_seen": "2026-11-14T20:31:30+00:00",
-      "last_seen": "2026-11-15T20:54:55+00:00",
+      "last_seen": "2026-11-17T00:04:44+00:00",
       "original_title": "SELF",
       "categories": [
         "競賽獎項"
@@ -97,6 +45,86 @@
       "opening_inferred": true,
       "display_opening_iso": "",
       "country": "歐美",
+      "suggested_grants": [
+        {
+          "title": "國家文化藝術基金會｜常態補助",
+          "url": "https://www.ncafroc.org.tw/founding.aspx",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜國際文化交流補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國外駐村"
+          ]
+        },
+        {
+          "title": "文化部｜科技藝術創作發展補助",
+          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "文化部｜扶植青年藝術發展補助",
+          "url": "https://grants.moc.gov.tw/",
+          "categories": [
+            "影像",
+            "當代藝術",
+            "展覽徵件",
+            "國內駐村"
+          ]
+        },
+        {
+          "title": "臺灣美術基金會／藝術銀行",
+          "url": "https://www.tfaf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        },
+        {
+          "title": "王源林文化藝術基金會",
+          "url": "https://wylf.org.tw/",
+          "categories": [
+            "影像",
+            "當代藝術"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "title": "全球攝影比賽即時情報",
+      "url": "https://subjectivelyobjective.com/product/exhibition-call-for-entries-submission-fee/",
+      "application_url": "https://subjectivelyobjective.com/submit/",
+      "source": "全球攝影比賽即時情報",
+      "category": "影像",
+      "region": "",
+      "notes": "Deadline is November 21st, 2026 Choose the maximum print size that you’d like to be considered for. You’ll still be considered for smaller sizes too. Size Options – Choose an option Small",
+      "opening_iso": "",
+      "deadline_iso": "2026-11-21",
+      "fingerprint": "全球攝影比賽即時情報:https://subjectivelyobjective.com/product/exhibition-call-for-entries-submission-fee",
+      "first_seen": "2026-11-17T00:04:44+00:00",
+      "last_seen": "2026-11-17T00:04:44+00:00",
+      "original_title": "全球攝影比賽即時情報",
+      "categories": [
+        "影像",
+        "競賽獎項"
+      ],
+      "opening_inferred": true,
+      "display_opening_iso": "",
+      "country": "",
       "suggested_grants": [
         {
           "title": "國家文化藝術基金會｜常態補助",
@@ -596,7 +624,7 @@
       "deadline_iso": "2027-01-12",
       "fingerprint": "第20屆索尼世界攝影大獎不限拍攝器材免費徵件中最高獎金25000美金:https://contest.beyondtime.com.tw/contest/23304e30bbfaf512",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-15T20:54:55+00:00",
+      "last_seen": "2026-11-17T00:04:44+00:00",
       "original_title": "第20屆索尼世界攝影大獎 不限拍攝器材免費徵件中～最高獎金25000美金",
       "categories": [
         "影像",
@@ -780,7 +808,7 @@
       "deadline_iso": "2027-04-30",
       "fingerprint": "萬家香第三十二屆童言童畫繪畫暨攝影作品徵選比賽:https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-15T20:54:55+00:00",
+      "last_seen": "2026-11-17T00:04:44+00:00",
       "original_title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽 剩 174 天 請見官網",
       "categories": [
         "影像",
@@ -1140,12 +1168,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 410 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 409 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-11-15T20:54:49+00:00",
+      "last_seen": "2026-11-17T00:04:42+00:00",
       "original_title": "非池中藝術網 – 全台各類藝文補助徵件，最完整比賽徵選資訊",
       "categories": [
         "展覽徵件",
@@ -1795,10 +1823,10 @@
   "stats": {
     "total": 24,
     "with_deadline": 19,
-    "last_updated": "2026-11-15T20:54:55+00:00"
+    "last_updated": "2026-11-17T00:04:44+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-11-15T20:55:54+00:00",
+    "started_at": "2026-11-17T00:05:58+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1925,8 +1953,8 @@
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
         "candidates": 39,
-        "accepted": 2,
-        "rejected": 37,
+        "accepted": 0,
+        "rejected": 39,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1935,20 +1963,15 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 26,
+        "candidates": 28,
         "accepted": 0,
-        "rejected": 26,
-        "fetch_errors": 12,
+        "rejected": 28,
+        "fetch_errors": 11,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117620220849080265",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117614491101123008",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1962,13 +1985,13 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117506432471199764",
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117625256775025508",
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117609232328874561",
+            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+            "url": "https://mastodon.world/@iviira9/117506432471199764",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1977,8 +2000,13 @@
             "reason": "hostname could not be resolved"
           },
           {
+            "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
+            "url": "https://mastodon.world/@iviira9/117484779887707367",
+            "reason": "hostname could not be resolved"
+          },
+          {
             "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117608392909614146",
+            "url": "https://mastodon.world/@iviira9/117614491101123008",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -2009,9 +2037,9 @@
       {
         "source": "TAKE a SHOT 攝影徵件",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 1,
         "restricted_candidates": [],
@@ -2065,8 +2093,8 @@
         "source": "全球攝影比賽即時情報",
         "status": "ok",
         "candidates": 9,
-        "accepted": 5,
-        "rejected": 4,
+        "accepted": 6,
+        "rejected": 3,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2262,9 +2290,9 @@
       {
         "source": "Spatial Art TORAM｜Japan Open Calls",
         "status": "ok",
-        "candidates": 3,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2291,7 +2319,7 @@
         "error": ""
       }
     ],
-    "accepted": 9,
+    "accepted": 8,
     "errors": 3
   }
 }
