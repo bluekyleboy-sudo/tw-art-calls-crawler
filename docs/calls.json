@@ -13,7 +13,7 @@
       "deadline_iso": "2026-11-20",
       "fingerprint": "2026國際身障日系列活動共擁故事共融臺北攝影徵件:https://www.photo.org.tw/news-1-1.aspx?nid=1678",
       "first_seen": "2026-11-17T23:25:37+00:00",
-      "last_seen": "2026-11-18T22:54:19+00:00",
+      "last_seen": "2026-11-19T22:58:27+00:00",
       "original_title": "2026國際身障日系列活動「共擁故事，共融臺北」攝影徵件",
       "categories": [
         "影像",
@@ -189,7 +189,7 @@
       "deadline_iso": "2026-11-21",
       "fingerprint": "全球攝影比賽即時情報:https://subjectivelyobjective.com/product/exhibition-call-for-entries-submission-fee",
       "first_seen": "2026-11-17T00:04:44+00:00",
-      "last_seen": "2026-11-18T22:54:00+00:00",
+      "last_seen": "2026-11-19T22:58:02+00:00",
       "original_title": "全球攝影比賽即時情報",
       "categories": [
         "影像",
@@ -467,7 +467,7 @@
       "deadline_iso": "2026-12-21",
       "fingerprint": "wildatheartartexhibitonartbook:https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
       "first_seen": "2026-11-17T23:25:06+00:00",
-      "last_seen": "2026-11-18T22:53:47+00:00",
+      "last_seen": "2026-11-19T22:57:51+00:00",
       "original_title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
       "categories": [
         "國外駐村"
@@ -749,7 +749,7 @@
       "deadline_iso": "2027-01-08",
       "fingerprint": "opencallseasonaldisorderscamembertélectriqueinvitesartistsworldwidetocontributetoa:https://mastodon.social/@camembertelectrique/117639488365783291",
       "first_seen": "2026-11-18T22:53:46+00:00",
-      "last_seen": "2026-11-18T22:53:46+00:00",
+      "last_seen": "2026-11-19T22:57:53+00:00",
       "original_title": "OPEN CALL: SEASONAL DISORDERS Camembert Électrique invites artists worldwide to contribute to a",
       "categories": [
         "當代藝術"
@@ -828,7 +828,7 @@
       "deadline_iso": "2027-01-12",
       "fingerprint": "第20屆索尼世界攝影大獎不限拍攝器材免費徵件中最高獎金25000美金:https://contest.beyondtime.com.tw/contest/23304e30bbfaf512",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-18T22:53:59+00:00",
+      "last_seen": "2026-11-19T22:58:02+00:00",
       "original_title": "第20屆索尼世界攝影大獎 不限拍攝器材免費徵件中～最高獎金25000美金",
       "categories": [
         "影像",
@@ -1012,7 +1012,7 @@
       "deadline_iso": "2027-04-30",
       "fingerprint": "萬家香第三十二屆童言童畫繪畫暨攝影作品徵選比賽:https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-18T22:53:59+00:00",
+      "last_seen": "2026-11-19T22:58:02+00:00",
       "original_title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽 剩 174 天 請見官網",
       "categories": [
         "影像",
@@ -1372,12 +1372,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 407 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 406 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-11-18T22:53:56+00:00",
+      "last_seen": "2026-11-19T22:58:01+00:00",
       "original_title": "非池中藝術網 – 全台各類藝文補助徵件，最完整比賽徵選資訊",
       "categories": [
         "展覽徵件",
@@ -2027,10 +2027,10 @@
   "stats": {
     "total": 26,
     "with_deadline": 21,
-    "last_updated": "2026-11-18T22:54:19+00:00"
+    "last_updated": "2026-11-19T22:58:27+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-11-18T22:59:11+00:00",
+    "started_at": "2026-11-19T22:59:06+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -2137,15 +2137,9 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 1,
+        "fetch_errors": 0,
         "fallback_fetches": 0,
-        "restricted_candidates": [
-          {
-            "title": "Craftsman Grinder - Etsy",
-            "url": "https://www.etsy.com/market/craftsman_grinder",
-            "reason": "HTTP Error 403: Forbidden"
-          }
-        ],
+        "restricted_candidates": [],
         "error": ""
       },
       {
@@ -2162,9 +2156,9 @@
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 41,
+        "candidates": 40,
         "accepted": 2,
-        "rejected": 39,
+        "rejected": 38,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2190,11 +2184,6 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117631406977967751",
-            "reason": "hostname could not be resolved"
-          },
-          {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117563903085228015",
             "reason": "hostname could not be resolved"
@@ -2202,6 +2191,11 @@
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117506432471199764",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117631406977967751",
             "reason": "hostname could not be resolved"
           },
           {
@@ -2444,14 +2438,14 @@
       },
       {
         "source": "立方計劃空間 TheCube Project Space",
-        "status": "error",
-        "candidates": 0,
+        "status": "ok",
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": "The read operation timed out"
+        "error": ""
       },
       {
         "source": "竹圍工作室 Bamboo Curtain Studio",
@@ -2530,6 +2524,6 @@
       }
     ],
     "accepted": 11,
-    "errors": 4
+    "errors": 3
   }
 }
