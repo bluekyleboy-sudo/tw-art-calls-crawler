@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-19T22:59:06+00:00",
+  "started_at": "2026-11-20T22:34:37+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -70,9 +70,9 @@
     {
       "source": "臺北藝術週",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -81,11 +81,11 @@
     {
       "source": "國立臺灣美術館國際駐村",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -163,13 +163,13 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117631406977967751",
+          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
+          "url": "https://mastodon.world/@iviira9/117489378593202314",
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117489378593202314",
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117631406977967751",
           "reason": "hostname could not be resolved"
         },
         {
@@ -255,10 +255,10 @@
       "source": "台北攝影學會攝影徵件",
       "status": "ok",
       "candidates": 4,
-      "accepted": 1,
-      "rejected": 3,
+      "accepted": 0,
+      "rejected": 4,
       "fetch_errors": 0,
-      "fallback_fetches": 2,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -266,8 +266,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 9,
-      "accepted": 5,
-      "rejected": 4,
+      "accepted": 4,
+      "rejected": 5,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -287,9 +287,9 @@
     {
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -492,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 11,
+  "accepted": 9,
   "errors": 3
 }
