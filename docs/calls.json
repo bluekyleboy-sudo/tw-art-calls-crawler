@@ -1,109 +1,6 @@
 {
   "opportunities": [
     {
-      "id": 156,
-      "title": "Boutographies",
-      "url": "https://contest.beyondtime.com.tw/contest/31901d25bc79c8cb/",
-      "application_url": "https://contest.beyondtime.com.tw/submit/",
-      "source": "全球攝影比賽即時情報",
-      "category": "影像",
-      "region": "歐美",
-      "notes": "截止日期 2026/11/22 加入行事曆 Google 日曆 報名費 請見官網 主題標籤 藝術 徵件內容 國際攝影比賽，徵件主題涵蓋藝術創意",
-      "opening_iso": "",
-      "deadline_iso": "2026-11-22",
-      "fingerprint": "boutographies:https://contest.beyondtime.com.tw/contest/31901d25bc79c8cb",
-      "first_seen": "2026-11-21T21:31:15+00:00",
-      "last_seen": "2026-11-21T21:31:15+00:00",
-      "original_title": "Boutographies",
-      "categories": [
-        "影像",
-        "競賽獎項"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "歐美",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜科技藝術創作發展補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        },
-        {
-          "title": "臺灣美術基金會／藝術銀行",
-          "url": "https://www.tfaf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "王源林文化藝術基金會",
-          "url": "https://wylf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 157,
-      "title": "NYC4PA",
-      "url": "https://contest.beyondtime.com.tw/contest/ecac0c2ccd4c6373/",
-      "application_url": "https://contest.beyondtime.com.tw/submit/",
-      "source": "全球攝影比賽即時情報",
-      "category": "競賽獎項",
-      "region": "臺灣",
-      "notes": "截止日期 2026/11/22 加入行事曆 Google 日曆 報名費 USD 40 約 NT$1,300 （ 台幣金額以 1 美元約 32.5 元估算，僅供參考",
-      "opening_iso": "",
-      "deadline_iso": "2026-11-22",
-      "fingerprint": "nyc4pa:https://contest.beyondtime.com.tw/contest/ecac0c2ccd4c6373",
-      "first_seen": "2026-11-21T21:31:15+00:00",
-      "last_seen": "2026-11-21T21:31:15+00:00",
-      "original_title": "NYC4PA",
-      "categories": [
-        "競賽獎項"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "臺灣",
-      "suggested_grants": []
-    },
-    {
       "id": 158,
       "title": "AUTOPORTRAIT 2026 Portrait Prize‑PLAY｜KLPA 自攝像國際人像攝影徵件",
       "url": "https://contest.beyondtime.com.tw/contest/56e7a2dfce289bad/",
@@ -116,7 +13,7 @@
       "deadline_iso": "2026-11-24",
       "fingerprint": "autoportrait2026portraitprizeplayklpa自攝像國際人像攝影徵件:https://contest.beyondtime.com.tw/contest/56e7a2dfce289bad",
       "first_seen": "2026-11-21T21:31:15+00:00",
-      "last_seen": "2026-11-21T21:31:15+00:00",
+      "last_seen": "2026-11-22T21:38:28+00:00",
       "original_title": "AUTOPORTRAIT 2026 Portrait Prize‑PLAY｜KLPA 自攝像國際人像攝影徵件",
       "categories": [
         "影像",
@@ -196,7 +93,7 @@
       "deadline_iso": "2026-11-25",
       "fingerprint": "duskgallery:https://contest.beyondtime.com.tw/contest/96e5f93d69918eed",
       "first_seen": "2026-11-21T21:31:15+00:00",
-      "last_seen": "2026-11-21T21:31:15+00:00",
+      "last_seen": "2026-11-22T21:38:28+00:00",
       "original_title": "Dusk Gallery",
       "categories": [
         "影像",
@@ -474,7 +371,7 @@
       "deadline_iso": "2026-12-21",
       "fingerprint": "wildatheartartexhibitonartbook:https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
       "first_seen": "2026-11-17T23:25:06+00:00",
-      "last_seen": "2026-11-21T21:31:05+00:00",
+      "last_seen": "2026-11-22T21:38:11+00:00",
       "original_title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
       "categories": [
         "國外駐村"
@@ -756,7 +653,7 @@
       "deadline_iso": "2027-01-08",
       "fingerprint": "opencallseasonaldisorderscamembertélectriqueinvitesartistsworldwidetocontributetoa:https://mastodon.social/@camembertelectrique/117639488365783291",
       "first_seen": "2026-11-18T22:53:46+00:00",
-      "last_seen": "2026-11-21T21:31:05+00:00",
+      "last_seen": "2026-11-22T21:38:16+00:00",
       "original_title": "OPEN CALL: SEASONAL DISORDERS Camembert Électrique invites artists worldwide to contribute to a",
       "categories": [
         "當代藝術"
@@ -835,7 +732,7 @@
       "deadline_iso": "2027-01-12",
       "fingerprint": "第20屆索尼世界攝影大獎不限拍攝器材免費徵件中最高獎金25000美金:https://contest.beyondtime.com.tw/contest/23304e30bbfaf512",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-21T21:31:15+00:00",
+      "last_seen": "2026-11-22T21:38:28+00:00",
       "original_title": "第20屆索尼世界攝影大獎 不限拍攝器材免費徵件中～最高獎金25000美金",
       "categories": [
         "影像",
@@ -1019,7 +916,7 @@
       "deadline_iso": "2027-04-30",
       "fingerprint": "萬家香第三十二屆童言童畫繪畫暨攝影作品徵選比賽:https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-21T21:31:15+00:00",
+      "last_seen": "2026-11-22T21:38:28+00:00",
       "original_title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽 剩 174 天 請見官網",
       "categories": [
         "影像",
@@ -2032,23 +1929,23 @@
     }
   ],
   "stats": {
-    "total": 27,
-    "with_deadline": 22,
-    "last_updated": "2026-11-21T21:31:15+00:00"
+    "total": 25,
+    "with_deadline": 20,
+    "last_updated": "2026-11-22T21:38:28+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-11-21T21:32:24+00:00",
+    "started_at": "2026-11-22T21:39:10+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
-        "status": "ok",
+        "status": "error",
         "candidates": 0,
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "HTTP Error 403: Forbidden"
       },
       {
         "source": "獎金獵人：藝術與攝影徵件",
@@ -2100,19 +1997,25 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 1,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "Apply Now",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSdt_xzVzR99UsoqzJSrQkmKH3lmrSoYMyoqR953XFsvMTgPUg/viewform",
+            "reason": "HTTP Error 401: Unauthorized"
+          }
+        ],
         "error": ""
       },
       {
         "source": "臺北藝術週",
         "status": "ok",
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2151,33 +2054,45 @@
       },
       {
         "source": "非池中藝術網",
-        "status": "ok",
+        "status": "error",
         "candidates": 1,
-        "accepted": 1,
-        "rejected": 0,
-        "fetch_errors": 0,
-        "fallback_fetches": 2,
-        "restricted_candidates": [],
-        "error": ""
+        "accepted": 0,
+        "rejected": 1,
+        "fetch_errors": 1,
+        "fallback_fetches": 0,
+        "restricted_candidates": [
+          {
+            "title": "Anyone use Vantage West CU? - myFICO® Forums - 5156709",
+            "url": "https://ficoforums.myfico.com/t5/Credit-Card-Applications/Anyone-use-Vantage-West-CU/td-p/5156709",
+            "reason": "HTTP Error 403: Forbidden"
+          }
+        ],
+        "error": "most candidate detail fetches failed"
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 39,
+        "candidates": 38,
         "accepted": 2,
-        "rejected": 37,
-        "fetch_errors": 0,
+        "rejected": 36,
+        "fetch_errors": 1,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "#OpenCall | Madrid Artist Showcase Open Call – Arrival Gallery - WOOLOO.ORG",
+            "url": "https://bsky.app/profile/artcall.bsky.social/post/3mzqokqsx7e26",
+            "reason": "HTTP Error 403: Blocked"
+          }
+        ],
         "error": ""
       },
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 28,
+        "candidates": 27,
         "accepted": 1,
-        "rejected": 27,
-        "fetch_errors": 10,
+        "rejected": 26,
+        "fetch_errors": 9,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
@@ -2201,11 +2116,6 @@
             "reason": "hostname could not be resolved"
           },
           {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117489378593202314",
-            "reason": "hostname could not be resolved"
-          },
-          {
             "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
             "url": "https://mastodon.world/@iviira9/117631406977967751",
             "reason": "hostname could not be resolved"
@@ -2218,6 +2128,11 @@
           {
             "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
             "url": "https://mastodon.world/@iviira9/117614491101123008",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+            "url": "https://mastodon.world/@iviira9/117609232328874561",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -2247,14 +2162,14 @@
       },
       {
         "source": "TAKE a SHOT 攝影徵件",
-        "status": "ok",
-        "candidates": 2,
+        "status": "error",
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "HTTP Error 404: Not Found"
       },
       {
         "source": "高雄國際機場攝影徵選",
@@ -2291,21 +2206,21 @@
       },
       {
         "source": "台北攝影學會攝影徵件",
-        "status": "ok",
-        "candidates": 4,
+        "status": "error",
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 4,
+        "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>"
       },
       {
         "source": "全球攝影比賽即時情報",
         "status": "ok",
         "candidates": 7,
-        "accepted": 7,
-        "rejected": 0,
+        "accepted": 5,
+        "rejected": 2,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2325,24 +2240,50 @@
       {
         "source": "臺北藝術週｜展覽活動響應",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
       {
         "source": "臺南市美術館 TAM+ 展覽計畫",
-        "status": "ok",
+        "status": "error",
         "candidates": 6,
         "accepted": 0,
         "rejected": 6,
-        "fetch_errors": 0,
+        "fetch_errors": 5,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
-        "error": ""
+        "restricted_candidates": [
+          {
+            "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
+            "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
+            "reason": "HTTP Error 500: Internal Server Error"
+          },
+          {
+            "title": "租借服務 Application Service",
+            "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
+            "reason": "HTTP Error 500: Internal Server Error"
+          },
+          {
+            "title": "申請流程 Application Procedure",
+            "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
+            "reason": "HTTP Error 500: Internal Server Error"
+          },
+          {
+            "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
+            "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
+            "reason": "HTTP Error 500: Internal Server Error"
+          },
+          {
+            "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
+            "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
+            "reason": "HTTP Error 500: Internal Server Error"
+          }
+        ],
+        "error": "most candidate detail fetches failed"
       },
       {
         "source": "臺北市立美術館公開徵件",
@@ -2368,14 +2309,14 @@
       },
       {
         "source": "臺中市立美術館公開徵件",
-        "status": "ok",
-        "candidates": 3,
+        "status": "error",
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "HTTP Error 404: Page Not Found"
       },
       {
         "source": "金車文藝中心展覽徵件",
@@ -2390,14 +2331,14 @@
       },
       {
         "source": "241藝術空間展覽徵件",
-        "status": "ok",
+        "status": "error",
         "candidates": 0,
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "HTTP Error 403: Forbidden"
       },
       {
         "source": "洪建全基金會雨棚計畫",
@@ -2511,14 +2452,14 @@
       },
       {
         "source": "Seoul Museum of Art｜Open Calls",
-        "status": "ok",
+        "status": "error",
         "candidates": 0,
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "HTTP Error 500: Internal Server Error"
       },
       {
         "source": "攝影專題人工查證庫",
@@ -2530,7 +2471,7 @@
         "error": ""
       }
     ],
-    "accepted": 12,
-    "errors": 3
+    "accepted": 9,
+    "errors": 11
   }
 }

@@ -1,16 +1,16 @@
 {
-  "started_at": "2026-11-21T21:32:24+00:00",
+  "started_at": "2026-11-22T21:39:10+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
-      "status": "ok",
+      "status": "error",
       "candidates": 0,
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "獎金獵人：藝術與攝影徵件",
@@ -62,19 +62,25 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Apply Now",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSdt_xzVzR99UsoqzJSrQkmKH3lmrSoYMyoqR953XFsvMTgPUg/viewform",
+          "reason": "HTTP Error 401: Unauthorized"
+        }
+      ],
       "error": ""
     },
     {
       "source": "臺北藝術週",
       "status": "ok",
-      "candidates": 0,
+      "candidates": 1,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -113,33 +119,45 @@
     },
     {
       "source": "非池中藝術網",
-      "status": "ok",
+      "status": "error",
       "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
-      "fetch_errors": 0,
-      "fallback_fetches": 2,
-      "restricted_candidates": [],
-      "error": ""
+      "accepted": 0,
+      "rejected": 1,
+      "fetch_errors": 1,
+      "fallback_fetches": 0,
+      "restricted_candidates": [
+        {
+          "title": "Anyone use Vantage West CU? - myFICO® Forums - 5156709",
+          "url": "https://ficoforums.myfico.com/t5/Credit-Card-Applications/Anyone-use-Vantage-West-CU/td-p/5156709",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "error": "most candidate detail fetches failed"
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 39,
+      "candidates": 38,
       "accepted": 2,
-      "rejected": 37,
-      "fetch_errors": 0,
+      "rejected": 36,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "#OpenCall | Madrid Artist Showcase Open Call – Arrival Gallery - WOOLOO.ORG",
+          "url": "https://bsky.app/profile/artcall.bsky.social/post/3mzqokqsx7e26",
+          "reason": "HTTP Error 403: Blocked"
+        }
+      ],
       "error": ""
     },
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 28,
+      "candidates": 27,
       "accepted": 1,
-      "rejected": 27,
-      "fetch_errors": 10,
+      "rejected": 26,
+      "fetch_errors": 9,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -163,11 +181,6 @@
           "reason": "hostname could not be resolved"
         },
         {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117489378593202314",
-          "reason": "hostname could not be resolved"
-        },
-        {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117631406977967751",
           "reason": "hostname could not be resolved"
@@ -180,6 +193,11 @@
         {
           "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
           "url": "https://mastodon.world/@iviira9/117614491101123008",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
+          "url": "https://mastodon.world/@iviira9/117609232328874561",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -209,14 +227,14 @@
     },
     {
       "source": "TAKE a SHOT 攝影徵件",
-      "status": "ok",
-      "candidates": 2,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "高雄國際機場攝影徵選",
@@ -253,21 +271,21 @@
     },
     {
       "source": "台北攝影學會攝影徵件",
-      "status": "ok",
-      "candidates": 4,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>"
     },
     {
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 7,
-      "accepted": 7,
-      "rejected": 0,
+      "accepted": 5,
+      "rejected": 2,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -287,24 +305,50 @@
     {
       "source": "臺北藝術週｜展覽活動響應",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 2,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 2,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "臺南市美術館 TAM+ 展覽計畫",
-      "status": "ok",
+      "status": "error",
       "candidates": 6,
       "accepted": 0,
       "rejected": 6,
-      "fetch_errors": 0,
+      "fetch_errors": 5,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
-      "error": ""
+      "restricted_candidates": [
+        {
+          "title": "TAM+展覽計畫 TAM+CALL FOR EXHIBITIONS",
+          "url": "https://www.tnam.museum/exhibition/exhibition/exhibition-application",
+          "reason": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "title": "租借服務 Application Service",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/introduction",
+          "reason": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "title": "申請流程 Application Procedure",
+          "url": "https://www.tnam.museum/exhibition/application-service/application-place/procedure",
+          "reason": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "title": "商業攝影/入館攝影（付費申請） Commercial Photography",
+          "url": "https://www.tnam.museum/exhibition/application-service/commercial-photography",
+          "reason": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "title": "戶外非商業攝影（免費申請） Outdoor Non-Commercial Photography",
+          "url": "https://www.tnam.museum/exhibition/application-service/outdoor-non-commercial-photography",
+          "reason": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "error": "most candidate detail fetches failed"
     },
     {
       "source": "臺北市立美術館公開徵件",
@@ -330,14 +374,14 @@
     },
     {
       "source": "臺中市立美術館公開徵件",
-      "status": "ok",
-      "candidates": 3,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 404: Page Not Found"
     },
     {
       "source": "金車文藝中心展覽徵件",
@@ -352,14 +396,14 @@
     },
     {
       "source": "241藝術空間展覽徵件",
-      "status": "ok",
+      "status": "error",
       "candidates": 0,
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "洪建全基金會雨棚計畫",
@@ -473,14 +517,14 @@
     },
     {
       "source": "Seoul Museum of Art｜Open Calls",
-      "status": "ok",
+      "status": "error",
       "candidates": 0,
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "攝影專題人工查證庫",
@@ -492,6 +536,6 @@
       "error": ""
     }
   ],
-  "accepted": 12,
-  "errors": 3
+  "accepted": 9,
+  "errors": 11
 }
