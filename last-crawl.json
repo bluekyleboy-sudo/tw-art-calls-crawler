@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-25T00:29:49+00:00",
+  "started_at": "2026-11-26T00:05:33+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -74,7 +74,7 @@
       "accepted": 0,
       "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -106,28 +106,34 @@
       "candidates": 10,
       "accepted": 0,
       "rejected": 10,
-      "fetch_errors": 0,
+      "fetch_errors": 1,
       "fallback_fetches": 0,
-      "restricted_candidates": [],
+      "restricted_candidates": [
+        {
+          "title": "Outlook.com",
+          "url": "https://olmoauth.outlook.com/api/googleoauthredir/com.microsoft.office.outlook:/mac/google/oauth2redirect",
+          "reason": "HTTP Error 302: Found - Redirection to url 'com.microsoft.office.outlook:/mac/go"
+        }
+      ],
       "error": ""
     },
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 1,
-      "accepted": 1,
-      "rejected": 0,
+      "candidates": 10,
+      "accepted": 0,
+      "rejected": 10,
       "fetch_errors": 0,
-      "fallback_fetches": 2,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 38,
+      "candidates": 37,
       "accepted": 2,
-      "rejected": 36,
+      "rejected": 35,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -136,10 +142,10 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 28,
+      "candidates": 27,
       "accepted": 1,
-      "rejected": 27,
-      "fetch_errors": 9,
+      "rejected": 26,
+      "fetch_errors": 7,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
@@ -160,11 +166,6 @@
         {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117563903085228015",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-          "url": "https://mastodon.world/@iviira9/117506432471199764",
           "reason": "hostname could not be resolved"
         },
         {
@@ -266,8 +267,8 @@
       "source": "全球攝影比賽即時情報",
       "status": "ok",
       "candidates": 7,
-      "accepted": 4,
-      "rejected": 3,
+      "accepted": 3,
+      "rejected": 4,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -291,7 +292,7 @@
       "accepted": 0,
       "rejected": 1,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 0,
       "restricted_candidates": [],
       "error": ""
     },
@@ -418,14 +419,14 @@
     },
     {
       "source": "竹圍工作室 Bamboo Curtain Studio",
-      "status": "ok",
-      "candidates": 15,
+      "status": "error",
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 15,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": ""
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bambooculture.com'. (_ssl.c:1011)>"
     },
     {
       "source": "ss space space",
@@ -492,6 +493,6 @@
       "error": ""
     }
   ],
-  "accepted": 9,
-  "errors": 3
+  "accepted": 7,
+  "errors": 4
 }

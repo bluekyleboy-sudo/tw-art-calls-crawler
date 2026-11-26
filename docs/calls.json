@@ -1,86 +1,6 @@
 {
   "opportunities": [
     {
-      "id": 159,
-      "title": "Dusk Gallery",
-      "url": "https://contest.beyondtime.com.tw/contest/96e5f93d69918eed/",
-      "application_url": "https://contest.beyondtime.com.tw/submit/",
-      "source": "全球攝影比賽即時情報",
-      "category": "影像",
-      "region": "臺灣",
-      "notes": "截止日期 2026/11/25 加入行事曆 Google 日曆 報名費 請見官網 主題標籤 綜合 徵件內容 國際攝影比賽",
-      "opening_iso": "",
-      "deadline_iso": "2026-11-25",
-      "fingerprint": "duskgallery:https://contest.beyondtime.com.tw/contest/96e5f93d69918eed",
-      "first_seen": "2026-11-21T21:31:15+00:00",
-      "last_seen": "2026-11-25T00:28:35+00:00",
-      "original_title": "Dusk Gallery",
-      "categories": [
-        "影像",
-        "競賽獎項"
-      ],
-      "opening_inferred": true,
-      "display_opening_iso": "",
-      "country": "臺灣",
-      "suggested_grants": [
-        {
-          "title": "國家文化藝術基金會｜常態補助",
-          "url": "https://www.ncafroc.org.tw/founding.aspx",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜國際文化交流補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=FL047451",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國外駐村"
-          ]
-        },
-        {
-          "title": "文化部｜科技藝術創作發展補助",
-          "url": "https://law.moc.gov.tw/LawContent.aspx?id=GL001286",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "文化部｜扶植青年藝術發展補助",
-          "url": "https://grants.moc.gov.tw/",
-          "categories": [
-            "影像",
-            "當代藝術",
-            "展覽徵件",
-            "國內駐村"
-          ]
-        },
-        {
-          "title": "臺灣美術基金會／藝術銀行",
-          "url": "https://www.tfaf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        },
-        {
-          "title": "王源林文化藝術基金會",
-          "url": "https://wylf.org.tw/",
-          "categories": [
-            "影像",
-            "當代藝術"
-          ]
-        }
-      ]
-    },
-    {
       "id": 136,
       "title": "THE UNEXPECTED SELF-PORTAIT",
       "url": "https://bsky.app/profile/artcalls.bsky.social/post/3mybdczo7ek2a",
@@ -291,7 +211,7 @@
       "deadline_iso": "2026-12-21",
       "fingerprint": "wildatheartartexhibitonartbook:https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
       "first_seen": "2026-11-17T23:25:06+00:00",
-      "last_seen": "2026-11-25T00:28:23+00:00",
+      "last_seen": "2026-11-26T00:04:20+00:00",
       "original_title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
       "categories": [
         "國外駐村"
@@ -573,7 +493,7 @@
       "deadline_iso": "2027-01-08",
       "fingerprint": "opencallseasonaldisorderscamembertélectriqueinvitesartistsworldwidetocontributetoa:https://mastodon.social/@camembertelectrique/117639488365783291",
       "first_seen": "2026-11-18T22:53:46+00:00",
-      "last_seen": "2026-11-25T00:28:30+00:00",
+      "last_seen": "2026-11-26T00:04:22+00:00",
       "original_title": "OPEN CALL: SEASONAL DISORDERS Camembert Électrique invites artists worldwide to contribute to a",
       "categories": [
         "當代藝術"
@@ -652,7 +572,7 @@
       "deadline_iso": "2027-01-12",
       "fingerprint": "第20屆索尼世界攝影大獎不限拍攝器材免費徵件中最高獎金25000美金:https://contest.beyondtime.com.tw/contest/23304e30bbfaf512",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-25T00:28:35+00:00",
+      "last_seen": "2026-11-26T00:04:32+00:00",
       "original_title": "第20屆索尼世界攝影大獎 不限拍攝器材免費徵件中～最高獎金25000美金",
       "categories": [
         "影像",
@@ -836,7 +756,7 @@
       "deadline_iso": "2027-04-30",
       "fingerprint": "萬家香第三十二屆童言童畫繪畫暨攝影作品徵選比賽:https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-25T00:28:35+00:00",
+      "last_seen": "2026-11-26T00:04:32+00:00",
       "original_title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽 剩 174 天 請見官網",
       "categories": [
         "影像",
@@ -1849,12 +1769,12 @@
     }
   ],
   "stats": {
-    "total": 24,
-    "with_deadline": 19,
-    "last_updated": "2026-11-25T00:28:35+00:00"
+    "total": 23,
+    "with_deadline": 18,
+    "last_updated": "2026-11-26T00:04:32+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-11-25T00:29:49+00:00",
+    "started_at": "2026-11-26T00:05:33+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1929,7 +1849,7 @@
         "accepted": 0,
         "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1961,28 +1881,34 @@
         "candidates": 10,
         "accepted": 0,
         "rejected": 10,
-        "fetch_errors": 0,
+        "fetch_errors": 1,
         "fallback_fetches": 0,
-        "restricted_candidates": [],
+        "restricted_candidates": [
+          {
+            "title": "Outlook.com",
+            "url": "https://olmoauth.outlook.com/api/googleoauthredir/com.microsoft.office.outlook:/mac/google/oauth2redirect",
+            "reason": "HTTP Error 302: Found - Redirection to url 'com.microsoft.office.outlook:/mac/go"
+          }
+        ],
         "error": ""
       },
       {
         "source": "非池中藝術網",
         "status": "ok",
-        "candidates": 1,
-        "accepted": 1,
-        "rejected": 0,
+        "candidates": 10,
+        "accepted": 0,
+        "rejected": 10,
         "fetch_errors": 0,
-        "fallback_fetches": 2,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 38,
+        "candidates": 37,
         "accepted": 2,
-        "rejected": 36,
+        "rejected": 35,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1991,10 +1917,10 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 28,
+        "candidates": 27,
         "accepted": 1,
-        "rejected": 27,
-        "fetch_errors": 9,
+        "rejected": 26,
+        "fetch_errors": 7,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
@@ -2015,11 +1941,6 @@
           {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117563903085228015",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
-            "url": "https://mastodon.world/@iviira9/117506432471199764",
             "reason": "hostname could not be resolved"
           },
           {
@@ -2121,8 +2042,8 @@
         "source": "全球攝影比賽即時情報",
         "status": "ok",
         "candidates": 7,
-        "accepted": 4,
-        "rejected": 3,
+        "accepted": 3,
+        "rejected": 4,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2146,7 +2067,7 @@
         "accepted": 0,
         "rejected": 1,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 0,
         "restricted_candidates": [],
         "error": ""
       },
@@ -2273,14 +2194,14 @@
       },
       {
         "source": "竹圍工作室 Bamboo Curtain Studio",
-        "status": "ok",
-        "candidates": 15,
+        "status": "error",
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 15,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": ""
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bambooculture.com'. (_ssl.c:1011)>"
       },
       {
         "source": "ss space space",
@@ -2347,7 +2268,7 @@
         "error": ""
       }
     ],
-    "accepted": 9,
-    "errors": 3
+    "accepted": 7,
+    "errors": 4
   }
 }
