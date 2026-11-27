@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-11-26T00:05:33+00:00",
+  "started_at": "2026-11-27T00:27:42+00:00",
   "sources": [
     {
       "source": "文化部藝術進駐網中文版",
@@ -37,11 +37,11 @@
     {
       "source": "Rimbun Dahan",
       "status": "ok",
-      "candidates": 7,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 5,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -59,11 +59,11 @@
     {
       "source": "鴻梅國際藝術村",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 6,
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 6,
       "fetch_errors": 0,
-      "fallback_fetches": 0,
+      "fallback_fetches": 1,
       "restricted_candidates": [],
       "error": ""
     },
@@ -81,9 +81,9 @@
     {
       "source": "國立臺灣美術館國際駐村",
       "status": "ok",
-      "candidates": 4,
+      "candidates": 5,
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 5,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -103,37 +103,31 @@
     {
       "source": "ARTouch 典藏",
       "status": "ok",
-      "candidates": 10,
+      "candidates": 7,
       "accepted": 0,
-      "rejected": 10,
-      "fetch_errors": 1,
+      "rejected": 7,
+      "fetch_errors": 0,
       "fallback_fetches": 0,
-      "restricted_candidates": [
-        {
-          "title": "Outlook.com",
-          "url": "https://olmoauth.outlook.com/api/googleoauthredir/com.microsoft.office.outlook:/mac/google/oauth2redirect",
-          "reason": "HTTP Error 302: Found - Redirection to url 'com.microsoft.office.outlook:/mac/go"
-        }
-      ],
+      "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "非池中藝術網",
       "status": "ok",
-      "candidates": 10,
-      "accepted": 0,
-      "rejected": 10,
+      "candidates": 1,
+      "accepted": 1,
+      "rejected": 0,
       "fetch_errors": 0,
-      "fallback_fetches": 1,
+      "fallback_fetches": 2,
       "restricted_candidates": [],
       "error": ""
     },
     {
       "source": "Bluesky｜每日關鍵字搜尋",
       "status": "ok",
-      "candidates": 37,
+      "candidates": 36,
       "accepted": 2,
-      "rejected": 35,
+      "rejected": 34,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -142,15 +136,30 @@
     {
       "source": "Mastodon｜每日 hashtag 搜尋",
       "status": "ok",
-      "candidates": 27,
+      "candidates": 28,
       "accepted": 1,
-      "rejected": 26,
-      "fetch_errors": 7,
+      "rejected": 27,
+      "fetch_errors": 9,
       "fallback_fetches": 0,
       "restricted_candidates": [
         {
+          "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
+          "url": "https://mastodon.world/@iviira9/117683169010464784",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117682489656531213",
+          "reason": "hostname could not be resolved"
+        },
+        {
           "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
           "url": "https://mastodon.world/@iviira9/117671242251993201",
+          "reason": "hostname could not be resolved"
+        },
+        {
+          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+          "url": "https://mastodon.world/@iviira9/117682450099032026",
           "reason": "hostname could not be resolved"
         },
         {
@@ -171,16 +180,6 @@
         {
           "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
           "url": "https://mastodon.world/@iviira9/117631406977967751",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-          "url": "https://mastodon.world/@iviira9/117625256775025508",
-          "reason": "hostname could not be resolved"
-        },
-        {
-          "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-          "url": "https://mastodon.world/@iviira9/117614491101123008",
           "reason": "hostname could not be resolved"
         }
       ],
@@ -409,9 +408,9 @@
     {
       "source": "立方計劃空間 TheCube Project Space",
       "status": "ok",
-      "candidates": 1,
+      "candidates": 0,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
@@ -419,14 +418,14 @@
     },
     {
       "source": "竹圍工作室 Bamboo Curtain Studio",
-      "status": "error",
-      "candidates": 0,
+      "status": "ok",
+      "candidates": 15,
       "accepted": 0,
-      "rejected": 0,
+      "rejected": 15,
       "fetch_errors": 0,
       "fallback_fetches": 0,
       "restricted_candidates": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bambooculture.com'. (_ssl.c:1011)>"
+      "error": ""
     },
     {
       "source": "ss space space",
@@ -493,6 +492,6 @@
       "error": ""
     }
   ],
-  "accepted": 7,
-  "errors": 4
+  "accepted": 8,
+  "errors": 3
 }

@@ -211,7 +211,7 @@
       "deadline_iso": "2026-12-21",
       "fingerprint": "wildatheartartexhibitonartbook:https://bsky.app/profile/artcalls.bsky.social/post/3mz4hgceqw22k",
       "first_seen": "2026-11-17T23:25:06+00:00",
-      "last_seen": "2026-11-26T00:04:20+00:00",
+      "last_seen": "2026-11-27T00:26:16+00:00",
       "original_title": "WILD AT HEART' ART EXHIBITON & ART BOOK",
       "categories": [
         "國外駐村"
@@ -493,7 +493,7 @@
       "deadline_iso": "2027-01-08",
       "fingerprint": "opencallseasonaldisorderscamembertélectriqueinvitesartistsworldwidetocontributetoa:https://mastodon.social/@camembertelectrique/117639488365783291",
       "first_seen": "2026-11-18T22:53:46+00:00",
-      "last_seen": "2026-11-26T00:04:22+00:00",
+      "last_seen": "2026-11-27T00:26:25+00:00",
       "original_title": "OPEN CALL: SEASONAL DISORDERS Camembert Électrique invites artists worldwide to contribute to a",
       "categories": [
         "當代藝術"
@@ -572,7 +572,7 @@
       "deadline_iso": "2027-01-12",
       "fingerprint": "第20屆索尼世界攝影大獎不限拍攝器材免費徵件中最高獎金25000美金:https://contest.beyondtime.com.tw/contest/23304e30bbfaf512",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-26T00:04:32+00:00",
+      "last_seen": "2026-11-27T00:26:24+00:00",
       "original_title": "第20屆索尼世界攝影大獎 不限拍攝器材免費徵件中～最高獎金25000美金",
       "categories": [
         "影像",
@@ -756,7 +756,7 @@
       "deadline_iso": "2027-04-30",
       "fingerprint": "萬家香第三十二屆童言童畫繪畫暨攝影作品徵選比賽:https://contest.beyondtime.com.tw/contest/f72aa9a7c03f6d0d",
       "first_seen": "2026-11-14T20:31:29+00:00",
-      "last_seen": "2026-11-26T00:04:32+00:00",
+      "last_seen": "2026-11-27T00:26:24+00:00",
       "original_title": "萬家香第三十二屆童言童畫 繪畫暨攝影作品徵選比賽 剩 174 天 請見官網",
       "categories": [
         "影像",
@@ -1116,12 +1116,12 @@
       "source": "非池中藝術網",
       "category": "展覽徵件",
       "region": "臺灣",
-      "notes": "截止日期：2027-12-31 401 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
+      "notes": "截止日期：2027-12-31 399 days left [](https://artemperor.tw/resources/953) ### [徵件補助](https://artemperor.tw/resources/953)## [天成文旅 華山町：【【日夜流動的藝術場域 天成文旅-華山町藝術展覽徵件計畫】】](https://artemperor.tw/",
       "opening_iso": "",
       "deadline_iso": "2027-12-31",
       "fingerprint": "非池中藝術網:https://artemperor.tw/resources",
       "first_seen": "2026-08-09T16:35:31+00:00",
-      "last_seen": "2026-11-25T00:28:30+00:00",
+      "last_seen": "2026-11-27T00:26:15+00:00",
       "original_title": "非池中藝術網 – 全台各類藝文補助徵件，最完整比賽徵選資訊",
       "categories": [
         "展覽徵件",
@@ -1771,10 +1771,10 @@
   "stats": {
     "total": 23,
     "with_deadline": 18,
-    "last_updated": "2026-11-26T00:04:32+00:00"
+    "last_updated": "2026-11-27T00:26:25+00:00"
   },
   "crawl_report": {
-    "started_at": "2026-11-26T00:05:33+00:00",
+    "started_at": "2026-11-27T00:27:42+00:00",
     "sources": [
       {
         "source": "文化部藝術進駐網中文版",
@@ -1812,11 +1812,11 @@
       {
         "source": "Rimbun Dahan",
         "status": "ok",
-        "candidates": 7,
+        "candidates": 5,
         "accepted": 0,
-        "rejected": 7,
+        "rejected": 5,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1834,11 +1834,11 @@
       {
         "source": "鴻梅國際藝術村",
         "status": "ok",
-        "candidates": 10,
+        "candidates": 6,
         "accepted": 0,
-        "rejected": 10,
+        "rejected": 6,
         "fetch_errors": 0,
-        "fallback_fetches": 0,
+        "fallback_fetches": 1,
         "restricted_candidates": [],
         "error": ""
       },
@@ -1856,9 +1856,9 @@
       {
         "source": "國立臺灣美術館國際駐村",
         "status": "ok",
-        "candidates": 4,
+        "candidates": 5,
         "accepted": 0,
-        "rejected": 4,
+        "rejected": 5,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1878,37 +1878,31 @@
       {
         "source": "ARTouch 典藏",
         "status": "ok",
-        "candidates": 10,
+        "candidates": 7,
         "accepted": 0,
-        "rejected": 10,
-        "fetch_errors": 1,
+        "rejected": 7,
+        "fetch_errors": 0,
         "fallback_fetches": 0,
-        "restricted_candidates": [
-          {
-            "title": "Outlook.com",
-            "url": "https://olmoauth.outlook.com/api/googleoauthredir/com.microsoft.office.outlook:/mac/google/oauth2redirect",
-            "reason": "HTTP Error 302: Found - Redirection to url 'com.microsoft.office.outlook:/mac/go"
-          }
-        ],
+        "restricted_candidates": [],
         "error": ""
       },
       {
         "source": "非池中藝術網",
         "status": "ok",
-        "candidates": 10,
-        "accepted": 0,
-        "rejected": 10,
+        "candidates": 1,
+        "accepted": 1,
+        "rejected": 0,
         "fetch_errors": 0,
-        "fallback_fetches": 1,
+        "fallback_fetches": 2,
         "restricted_candidates": [],
         "error": ""
       },
       {
         "source": "Bluesky｜每日關鍵字搜尋",
         "status": "ok",
-        "candidates": 37,
+        "candidates": 36,
         "accepted": 2,
-        "rejected": 35,
+        "rejected": 34,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -1917,15 +1911,30 @@
       {
         "source": "Mastodon｜每日 hashtag 搜尋",
         "status": "ok",
-        "candidates": 27,
+        "candidates": 28,
         "accepted": 1,
-        "rejected": 26,
-        "fetch_errors": 7,
+        "rejected": 27,
+        "fetch_errors": 9,
         "fallback_fetches": 0,
         "restricted_candidates": [
           {
+            "title": "# CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunity # OpenCall #",
+            "url": "https://mastodon.world/@iviira9/117683169010464784",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117682489656531213",
+            "reason": "hostname could not be resolved"
+          },
+          {
             "title": "# ZariGallery # CallForArtists # ContemporaryArt # LondonArt # ArtExhibition # ArtistsOpportunit",
             "url": "https://mastodon.world/@iviira9/117671242251993201",
+            "reason": "hostname could not be resolved"
+          },
+          {
+            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
+            "url": "https://mastodon.world/@iviira9/117682450099032026",
             "reason": "hostname could not be resolved"
           },
           {
@@ -1946,16 +1955,6 @@
           {
             "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
             "url": "https://mastodon.world/@iviira9/117631406977967751",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# CuratoryMag # OpenCall # ArtOpportunity # Submit Your Art # Contemporary Art # ArtistOpportuni",
-            "url": "https://mastodon.world/@iviira9/117625256775025508",
-            "reason": "hostname could not be resolved"
-          },
-          {
-            "title": "# OpenCall # OpenCallForArtists # ContemporaryArt # ArtFair # ArtistOpportunity # InternationalA",
-            "url": "https://mastodon.world/@iviira9/117614491101123008",
             "reason": "hostname could not be resolved"
           }
         ],
@@ -2184,9 +2183,9 @@
       {
         "source": "立方計劃空間 TheCube Project Space",
         "status": "ok",
-        "candidates": 1,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 0,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
@@ -2194,14 +2193,14 @@
       },
       {
         "source": "竹圍工作室 Bamboo Curtain Studio",
-        "status": "error",
-        "candidates": 0,
+        "status": "ok",
+        "candidates": 15,
         "accepted": 0,
-        "rejected": 0,
+        "rejected": 15,
         "fetch_errors": 0,
         "fallback_fetches": 0,
         "restricted_candidates": [],
-        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bambooculture.com'. (_ssl.c:1011)>"
+        "error": ""
       },
       {
         "source": "ss space space",
@@ -2268,7 +2267,7 @@
         "error": ""
       }
     ],
-    "accepted": 7,
-    "errors": 4
+    "accepted": 8,
+    "errors": 3
   }
 }
